@@ -1,0 +1,4 @@
+gradio==6.28.0
+opencv-python==4.11.0.86
+google-genai==2.24.0
+python-dotenv==1.0.1

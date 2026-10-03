@@ -1,0 +1,96 @@
+2026-10-02 11:59:51,702 [INFO] Log file created: logs/run_20261002_115951.log
+2026-10-02 11:59:51,708 [INFO] Model: gemini-2.5-flash-lite | Commentary interval: 5s
+2026-10-02 11:59:51,710 [INFO] Launching Gradio demo
+2026-10-02 11:59:52,044 [INFO] HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-10-02 11:59:52,307 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-10-02 11:59:54,217 [INFO] HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-10-02 11:59:54,595 [INFO] HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-10-02 11:59:55,011 [INFO] HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2026-10-02 11:59:55,791 [INFO] HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-10-02 12:00:58,779 [INFO] Starting live commentary. Source: C:\Users\jzhang\AppData\Local\Temp\gradio\0225dcbf26780d5a5598fc1810be2b02796517933511fa02dd52d7865c335b07\warriors_vs_rockets_2025wcr1_mute_1080p (2).mp4
+2026-10-02 12:00:58,783 [INFO] Opening video source: C:\Users\jzhang\AppData\Local\Temp\gradio\0225dcbf26780d5a5598fc1810be2b02796517933511fa02dd52d7865c335b07\warriors_vs_rockets_2025wcr1_mute_1080p (2).mp4
+2026-10-02 12:00:58,784 [INFO] Capture thread started
+2026-10-02 12:00:58,878 [INFO] Commentary loop started. Context window: 30s (6 entries max)
+2026-10-02 12:00:58,879 [INFO] Commentary thread started
+2026-10-02 12:00:59,042 [INFO] Video file detected. FPS: 59.9, Total frames: 1979, looping enabled
+2026-10-02 12:01:03,910 [INFO] --- Commentary round 1 ---
+2026-10-02 12:01:04,372 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-02 12:01:04,379 [WARNING] Direct use of automatic function calling (AFC) in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream. Similarly, direct use of AFC in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message.
+2026-10-02 12:01:04,644 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 404 Not Found"
+2026-10-02 12:01:04,650 [ERROR] Round 1: Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}
+Traceback (most recent call last):
+  File "c:\Users\jzhang\Downloads\GeminiLiveCommentary\GeminiLiveCommentary\LiveMain.py", line 161, in call_gemini
+    for chunk in response:
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\google\genai\models.py", line 6458, in generate_content_stream
+    for chunk in response:
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\google\genai\models.py", line 4814, in _generate_content_stream
+    for response in self._api_client.request_streamed(
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\google\genai\_api_client.py", line 1774, in request_streamed
+    session_response = self._request(http_request, http_options, stream=True)
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\google\genai\_api_client.py", line 1544, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 371, in iter
+    result = action(retry_state)
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 439, in result
+    return self.__get_result()
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 391, in __get_result
+    raise self._exception
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\google\genai\_api_client.py", line 1521, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\google\genai\errors.py", line 173, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\google\genai\errors.py", line 202, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}
+2026-10-02 12:01:04,744 [INFO] Round 1: displayed (362 chars, similarity 0.00)
+2026-10-02 12:01:09,275 [INFO] --- Commentary round 2 ---
+2026-10-02 12:01:09,474 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-02 12:01:09,619 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 404 Not Found"
+2026-10-02 12:01:09,659 [ERROR] Round 2: Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}
+Traceback (most recent call last):
+  File "c:\Users\jzhang\Downloads\GeminiLiveCommentary\GeminiLiveCommentary\LiveMain.py", line 161, in call_gemini
+    for chunk in response:
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\google\genai\models.py", line 6458, in generate_content_stream
+    for chunk in response:
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\google\genai\models.py", line 4814, in _generate_content_stream
+    for response in self._api_client.request_streamed(
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\google\genai\_api_client.py", line 1774, in request_streamed
+    session_response = self._request(http_request, http_options, stream=True)
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\google\genai\_api_client.py", line 1544, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 371, in iter
+    result = action(retry_state)
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 439, in result
+    return self.__get_result()
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 391, in __get_result
+    raise self._exception
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\google\genai\_api_client.py", line 1521, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\google\genai\errors.py", line 173, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\site-packages\google\genai\errors.py", line 202, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}
+2026-10-02 12:01:09,831 [INFO] Round 2: suppressed (similarity 1.00 >= 0.85)
+2026-10-02 12:01:10,267 [INFO] Stop requested by user
+2026-10-02 12:01:10,271 [INFO] is_running set to False — threads will exit on next cycle
+2026-10-02 12:01:10,368 [INFO] Video capture stopped. Total frames captured: 189
+2026-10-02 12:01:11,016 [INFO] Writer loop exited
+2026-10-02 12:01:14,490 [INFO] Commentary loop ended after 2 rounds
+2026-10-02 12:01:19,233 [INFO] Gradio demo exited
