@@ -1,0 +1,41 @@
+[
+  {
+    "id": "synthetic_train",
+    "source": "synthetic_train.avi",
+    "sport": "basketball",
+    "group_id": "synthetic_match_0",
+    "split": "train",
+    "scoreboard_roi": [
+      0,
+      0,
+      0.4,
+      0.3
+    ]
+  },
+  {
+    "id": "synthetic_val",
+    "source": "synthetic_val.avi",
+    "sport": "basketball",
+    "group_id": "synthetic_match_1",
+    "split": "val",
+    "scoreboard_roi": [
+      0,
+      0,
+      0.4,
+      0.3
+    ]
+  },
+  {
+    "id": "synthetic_test",
+    "source": "synthetic_test.avi",
+    "sport": "basketball",
+    "group_id": "synthetic_match_2",
+    "split": "test",
+    "scoreboard_roi": [
+      0,
+      0,
+      0.4,
+      0.3
+    ]
+  }
+]

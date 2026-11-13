@@ -1,0 +1,1383 @@
+{
+  "selected_indices": [
+    0,
+    1,
+    16,
+    18,
+    19,
+    21,
+    25,
+    26,
+    27,
+    29,
+    34,
+    36,
+    37,
+    38,
+    40,
+    43,
+    44,
+    53,
+    55,
+    56,
+    58,
+    59,
+    61,
+    64,
+    65,
+    67,
+    68
+  ],
+  "event_sequences": [
+    [
+      16,
+      18
+    ],
+    [
+      19,
+      21
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      27,
+      29
+    ],
+    [
+      34,
+      36,
+      37
+    ],
+    [
+      38,
+      40
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      53,
+      55,
+      56
+    ],
+    [
+      58,
+      59,
+      61
+    ],
+    [
+      64,
+      65
+    ]
+  ],
+  "boundary_context": [
+    [
+      0,
+      1
+    ],
+    [
+      67,
+      68
+    ]
+  ],
+  "forced_indices": [
+    0,
+    1,
+    67,
+    68
+  ],
+  "budget": 27,
+  "agreement": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.2,
+    0.7,
+    0.8,
+    0.3,
+    0.8,
+    0.9,
+    0.2,
+    0.8,
+    0.7,
+    0.7,
+    0.2,
+    1.0,
+    1.0,
+    1.0,
+    0.6,
+    1.0,
+    0.1,
+    0.7,
+    0.0,
+    0.1,
+    1.0,
+    0.6,
+    1.0,
+    0.8,
+    1.0,
+    0.4,
+    1.0,
+    0.3,
+    0.5,
+    1.0,
+    0.8,
+    0.6,
+    0.5,
+    0.4,
+    0.7,
+    0.4,
+    0.0,
+    0.4,
+    0.1,
+    1.0,
+    0.5,
+    0.8,
+    0.9,
+    0.0,
+    1.0,
+    0.9,
+    0.3333333333333333,
+    0.875,
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    0.3333333333333333,
+    1.0,
+    1.0
+  ],
+  "support": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+  ],
+  "unsupported_interior": [],
+  "window_positives": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  ],
+  "clip_id": "second_rybakina_rally",
+  "event_sequence_frames": [
+    [
+      {
+        "index": 16,
+        "source_frame": 45,
+        "timestamp": 1.8,
+        "image": "frames/00000016.jpg",
+        "scoreboard": "scoreboards/00000016.jpg",
+        "broadcast_timestamp": 909.8
+      },
+      {
+        "index": 18,
+        "source_frame": 51,
+        "timestamp": 2.04,
+        "image": "frames/00000018.jpg",
+        "scoreboard": "scoreboards/00000018.jpg",
+        "broadcast_timestamp": 910.04
+      }
+    ],
+    [
+      {
+        "index": 19,
+        "source_frame": 54,
+        "timestamp": 2.16,
+        "image": "frames/00000019.jpg",
+        "scoreboard": "scoreboards/00000019.jpg",
+        "broadcast_timestamp": 910.16
+      },
+      {
+        "index": 21,
+        "source_frame": 60,
+        "timestamp": 2.4,
+        "image": "frames/00000021.jpg",
+        "scoreboard": "scoreboards/00000021.jpg",
+        "broadcast_timestamp": 910.4
+      }
+    ],
+    [
+      {
+        "index": 25,
+        "source_frame": 72,
+        "timestamp": 2.88,
+        "image": "frames/00000025.jpg",
+        "scoreboard": "scoreboards/00000025.jpg",
+        "broadcast_timestamp": 910.88
+      },
+      {
+        "index": 26,
+        "source_frame": 75,
+        "timestamp": 3.0,
+        "image": "frames/00000026.jpg",
+        "scoreboard": "scoreboards/00000026.jpg",
+        "broadcast_timestamp": 911.0
+      }
+    ],
+    [
+      {
+        "index": 27,
+        "source_frame": 78,
+        "timestamp": 3.12,
+        "image": "frames/00000027.jpg",
+        "scoreboard": "scoreboards/00000027.jpg",
+        "broadcast_timestamp": 911.12
+      },
+      {
+        "index": 29,
+        "source_frame": 84,
+        "timestamp": 3.36,
+        "image": "frames/00000029.jpg",
+        "scoreboard": "scoreboards/00000029.jpg",
+        "broadcast_timestamp": 911.36
+      }
+    ],
+    [
+      {
+        "index": 34,
+        "source_frame": 99,
+        "timestamp": 3.96,
+        "image": "frames/00000034.jpg",
+        "scoreboard": "scoreboards/00000034.jpg",
+        "broadcast_timestamp": 911.96
+      },
+      {
+        "index": 36,
+        "source_frame": 105,
+        "timestamp": 4.2,
+        "image": "frames/00000036.jpg",
+        "scoreboard": "scoreboards/00000036.jpg",
+        "broadcast_timestamp": 912.2
+      },
+      {
+        "index": 37,
+        "source_frame": 108,
+        "timestamp": 4.32,
+        "image": "frames/00000037.jpg",
+        "scoreboard": "scoreboards/00000037.jpg",
+        "broadcast_timestamp": 912.32
+      }
+    ],
+    [
+      {
+        "index": 38,
+        "source_frame": 111,
+        "timestamp": 4.44,
+        "image": "frames/00000038.jpg",
+        "scoreboard": "scoreboards/00000038.jpg",
+        "broadcast_timestamp": 912.44
+      },
+      {
+        "index": 40,
+        "source_frame": 117,
+        "timestamp": 4.68,
+        "image": "frames/00000040.jpg",
+        "scoreboard": "scoreboards/00000040.jpg",
+        "broadcast_timestamp": 912.68
+      }
+    ],
+    [
+      {
+        "index": 43,
+        "source_frame": 126,
+        "timestamp": 5.04,
+        "image": "frames/00000043.jpg",
+        "scoreboard": "scoreboards/00000043.jpg",
+        "broadcast_timestamp": 913.04
+      },
+      {
+        "index": 44,
+        "source_frame": 129,
+        "timestamp": 5.16,
+        "image": "frames/00000044.jpg",
+        "scoreboard": "scoreboards/00000044.jpg",
+        "broadcast_timestamp": 913.16
+      }
+    ],
+    [
+      {
+        "index": 53,
+        "source_frame": 156,
+        "timestamp": 6.24,
+        "image": "frames/00000053.jpg",
+        "scoreboard": "scoreboards/00000053.jpg",
+        "broadcast_timestamp": 914.24
+      },
+      {
+        "index": 55,
+        "source_frame": 162,
+        "timestamp": 6.48,
+        "image": "frames/00000055.jpg",
+        "scoreboard": "scoreboards/00000055.jpg",
+        "broadcast_timestamp": 914.48
+      },
+      {
+        "index": 56,
+        "source_frame": 165,
+        "timestamp": 6.6000000000000005,
+        "image": "frames/00000056.jpg",
+        "scoreboard": "scoreboards/00000056.jpg",
+        "broadcast_timestamp": 914.6
+      }
+    ],
+    [
+      {
+        "index": 58,
+        "source_frame": 171,
+        "timestamp": 6.84,
+        "image": "frames/00000058.jpg",
+        "scoreboard": "scoreboards/00000058.jpg",
+        "broadcast_timestamp": 914.84
+      },
+      {
+        "index": 59,
+        "source_frame": 174,
+        "timestamp": 6.96,
+        "image": "frames/00000059.jpg",
+        "scoreboard": "scoreboards/00000059.jpg",
+        "broadcast_timestamp": 914.96
+      },
+      {
+        "index": 61,
+        "source_frame": 180,
+        "timestamp": 7.2,
+        "image": "frames/00000061.jpg",
+        "scoreboard": "scoreboards/00000061.jpg",
+        "broadcast_timestamp": 915.2
+      }
+    ],
+    [
+      {
+        "index": 64,
+        "source_frame": 189,
+        "timestamp": 7.5600000000000005,
+        "image": "frames/00000064.jpg",
+        "scoreboard": "scoreboards/00000064.jpg",
+        "broadcast_timestamp": 915.56
+      },
+      {
+        "index": 65,
+        "source_frame": 192,
+        "timestamp": 7.68,
+        "image": "frames/00000065.jpg",
+        "scoreboard": "scoreboards/00000065.jpg",
+        "broadcast_timestamp": 915.68
+      }
+    ]
+  ],
+  "selected_frames": [
+    {
+      "index": 0,
+      "source_frame": 0,
+      "timestamp": 0.0,
+      "image": "frames/00000000.jpg",
+      "scoreboard": "scoreboards/00000000.jpg",
+      "broadcast_timestamp": 908.0
+    },
+    {
+      "index": 1,
+      "source_frame": 1,
+      "timestamp": 0.04,
+      "image": "frames/00000001.jpg",
+      "scoreboard": "scoreboards/00000001.jpg",
+      "broadcast_timestamp": 908.04
+    },
+    {
+      "index": 16,
+      "source_frame": 45,
+      "timestamp": 1.8,
+      "image": "frames/00000016.jpg",
+      "scoreboard": "scoreboards/00000016.jpg",
+      "broadcast_timestamp": 909.8
+    },
+    {
+      "index": 18,
+      "source_frame": 51,
+      "timestamp": 2.04,
+      "image": "frames/00000018.jpg",
+      "scoreboard": "scoreboards/00000018.jpg",
+      "broadcast_timestamp": 910.04
+    },
+    {
+      "index": 19,
+      "source_frame": 54,
+      "timestamp": 2.16,
+      "image": "frames/00000019.jpg",
+      "scoreboard": "scoreboards/00000019.jpg",
+      "broadcast_timestamp": 910.16
+    },
+    {
+      "index": 21,
+      "source_frame": 60,
+      "timestamp": 2.4,
+      "image": "frames/00000021.jpg",
+      "scoreboard": "scoreboards/00000021.jpg",
+      "broadcast_timestamp": 910.4
+    },
+    {
+      "index": 25,
+      "source_frame": 72,
+      "timestamp": 2.88,
+      "image": "frames/00000025.jpg",
+      "scoreboard": "scoreboards/00000025.jpg",
+      "broadcast_timestamp": 910.88
+    },
+    {
+      "index": 26,
+      "source_frame": 75,
+      "timestamp": 3.0,
+      "image": "frames/00000026.jpg",
+      "scoreboard": "scoreboards/00000026.jpg",
+      "broadcast_timestamp": 911.0
+    },
+    {
+      "index": 27,
+      "source_frame": 78,
+      "timestamp": 3.12,
+      "image": "frames/00000027.jpg",
+      "scoreboard": "scoreboards/00000027.jpg",
+      "broadcast_timestamp": 911.12
+    },
+    {
+      "index": 29,
+      "source_frame": 84,
+      "timestamp": 3.36,
+      "image": "frames/00000029.jpg",
+      "scoreboard": "scoreboards/00000029.jpg",
+      "broadcast_timestamp": 911.36
+    },
+    {
+      "index": 34,
+      "source_frame": 99,
+      "timestamp": 3.96,
+      "image": "frames/00000034.jpg",
+      "scoreboard": "scoreboards/00000034.jpg",
+      "broadcast_timestamp": 911.96
+    },
+    {
+      "index": 36,
+      "source_frame": 105,
+      "timestamp": 4.2,
+      "image": "frames/00000036.jpg",
+      "scoreboard": "scoreboards/00000036.jpg",
+      "broadcast_timestamp": 912.2
+    },
+    {
+      "index": 37,
+      "source_frame": 108,
+      "timestamp": 4.32,
+      "image": "frames/00000037.jpg",
+      "scoreboard": "scoreboards/00000037.jpg",
+      "broadcast_timestamp": 912.32
+    },
+    {
+      "index": 38,
+      "source_frame": 111,
+      "timestamp": 4.44,
+      "image": "frames/00000038.jpg",
+      "scoreboard": "scoreboards/00000038.jpg",
+      "broadcast_timestamp": 912.44
+    },
+    {
+      "index": 40,
+      "source_frame": 117,
+      "timestamp": 4.68,
+      "image": "frames/00000040.jpg",
+      "scoreboard": "scoreboards/00000040.jpg",
+      "broadcast_timestamp": 912.68
+    },
+    {
+      "index": 43,
+      "source_frame": 126,
+      "timestamp": 5.04,
+      "image": "frames/00000043.jpg",
+      "scoreboard": "scoreboards/00000043.jpg",
+      "broadcast_timestamp": 913.04
+    },
+    {
+      "index": 44,
+      "source_frame": 129,
+      "timestamp": 5.16,
+      "image": "frames/00000044.jpg",
+      "scoreboard": "scoreboards/00000044.jpg",
+      "broadcast_timestamp": 913.16
+    },
+    {
+      "index": 53,
+      "source_frame": 156,
+      "timestamp": 6.24,
+      "image": "frames/00000053.jpg",
+      "scoreboard": "scoreboards/00000053.jpg",
+      "broadcast_timestamp": 914.24
+    },
+    {
+      "index": 55,
+      "source_frame": 162,
+      "timestamp": 6.48,
+      "image": "frames/00000055.jpg",
+      "scoreboard": "scoreboards/00000055.jpg",
+      "broadcast_timestamp": 914.48
+    },
+    {
+      "index": 56,
+      "source_frame": 165,
+      "timestamp": 6.6000000000000005,
+      "image": "frames/00000056.jpg",
+      "scoreboard": "scoreboards/00000056.jpg",
+      "broadcast_timestamp": 914.6
+    },
+    {
+      "index": 58,
+      "source_frame": 171,
+      "timestamp": 6.84,
+      "image": "frames/00000058.jpg",
+      "scoreboard": "scoreboards/00000058.jpg",
+      "broadcast_timestamp": 914.84
+    },
+    {
+      "index": 59,
+      "source_frame": 174,
+      "timestamp": 6.96,
+      "image": "frames/00000059.jpg",
+      "scoreboard": "scoreboards/00000059.jpg",
+      "broadcast_timestamp": 914.96
+    },
+    {
+      "index": 61,
+      "source_frame": 180,
+      "timestamp": 7.2,
+      "image": "frames/00000061.jpg",
+      "scoreboard": "scoreboards/00000061.jpg",
+      "broadcast_timestamp": 915.2
+    },
+    {
+      "index": 64,
+      "source_frame": 189,
+      "timestamp": 7.5600000000000005,
+      "image": "frames/00000064.jpg",
+      "scoreboard": "scoreboards/00000064.jpg",
+      "broadcast_timestamp": 915.56
+    },
+    {
+      "index": 65,
+      "source_frame": 192,
+      "timestamp": 7.68,
+      "image": "frames/00000065.jpg",
+      "scoreboard": "scoreboards/00000065.jpg",
+      "broadcast_timestamp": 915.68
+    },
+    {
+      "index": 67,
+      "source_frame": 198,
+      "timestamp": 7.92,
+      "image": "frames/00000067.jpg",
+      "scoreboard": "scoreboards/00000067.jpg",
+      "broadcast_timestamp": 915.92
+    },
+    {
+      "index": 68,
+      "source_frame": 199,
+      "timestamp": 7.96,
+      "image": "frames/00000068.jpg",
+      "scoreboard": "scoreboards/00000068.jpg",
+      "broadcast_timestamp": 915.96
+    }
+  ]
+}

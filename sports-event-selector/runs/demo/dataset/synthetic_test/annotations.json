@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "reviewed": true,
+  "provenance": {
+    "provider": "synthetic fixture; not VLM or human sports labels"
+  },
+  "events": [
+    {
+      "frame_indices": [
+        10,
+        11,
+        12
+      ],
+      "label": "Synthetic moving circle near score change",
+      "confidence": 1.0
+    }
+  ]
+}

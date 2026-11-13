@@ -1,0 +1,11 @@
+{
+  "threshold": 0.4,
+  "consensus": 0.65,
+  "matched": 8,
+  "predicted": 11,
+  "truth": 45,
+  "precision": 0.7272727272727273,
+  "recall": 0.17777777777777778,
+  "f1": 0.2857142857142857,
+  "epoch": 4
+}

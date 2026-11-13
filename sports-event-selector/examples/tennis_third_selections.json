@@ -1,0 +1,7 @@
+[
+ {"id":"third_rybakina_rally","video_id":"iA_Ff1-AqWM","start_seconds":1817,"duration_seconds":8,"scoreboard_roi":[0.04,0.84,0.30,0.97]},
+ {"id":"third_rybakina_context","video_id":"iA_Ff1-AqWM","start_seconds":1800,"duration_seconds":4,"scoreboard_roi":[0.04,0.84,0.30,0.97]},
+ {"id":"third_gauff_rally","video_id":"F8AxEv0FKyQ","start_seconds":1827,"duration_seconds":8,"scoreboard_roi":[0.04,0.84,0.30,0.97]},
+ {"id":"third_gauff_context","video_id":"F8AxEv0FKyQ","start_seconds":1813,"duration_seconds":4,"scoreboard_roi":[0.04,0.84,0.30,0.97]},
+ {"id":"third_gauff_waiting","video_id":"F8AxEv0FKyQ","start_seconds":1820,"duration_seconds":4,"scoreboard_roi":[0.04,0.84,0.30,0.97]}
+]

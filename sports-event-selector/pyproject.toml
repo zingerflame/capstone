@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sports-event-selector"
+version = "0.1.0"
+description = "VLM-supervised, scoreboard-aware sports event frame selection"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "torch>=2.2", "opencv-python-headless>=4.9"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+golfdb = ["scipy>=1.12"]
+broadcasts = ["yt-dlp>=2026.10.26", "imageio-ffmpeg>=0.6"]
+diagrams = ["Pillow>=10"]
+
+[project.scripts]
+sports-events = "sports_events.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

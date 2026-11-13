@@ -1,0 +1,547 @@
+{
+  "selected_indices": [
+    0,
+    1,
+    4,
+    6,
+    19,
+    21,
+    34,
+    35
+  ],
+  "event_sequences": [
+    [
+      4,
+      6
+    ],
+    [
+      19,
+      21
+    ]
+  ],
+  "boundary_context": [
+    [
+      0,
+      1
+    ],
+    [
+      34,
+      35
+    ]
+  ],
+  "forced_indices": [
+    0,
+    1,
+    34,
+    35
+  ],
+  "budget": 8,
+  "agreement": [
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.375,
+    0.0,
+    0.4,
+    0.0,
+    0.8,
+    0.3,
+    0.0,
+    0.7,
+    0.5,
+    0.9,
+    0.9,
+    0.8,
+    1.0,
+    0.8,
+    1.0,
+    0.8,
+    0.8,
+    0.8,
+    0.5,
+    0.5,
+    0.2222222222222222,
+    0.125,
+    0.42857142857142855,
+    0.8333333333333334,
+    0.8,
+    0.5,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "support": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+  ],
+  "unsupported_interior": [],
+  "window_positives": [
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  ],
+  "clip_id": "third_gauff_waiting",
+  "event_sequence_frames": [
+    [
+      {
+        "index": 4,
+        "source_frame": 10,
+        "timestamp": 0.4,
+        "image": "frames/00000004.jpg",
+        "scoreboard": "scoreboards/00000004.jpg",
+        "broadcast_timestamp": 1820.4
+      },
+      {
+        "index": 6,
+        "source_frame": 16,
+        "timestamp": 0.64,
+        "image": "frames/00000006.jpg",
+        "scoreboard": "scoreboards/00000006.jpg",
+        "broadcast_timestamp": 1820.64
+      }
+    ],
+    [
+      {
+        "index": 19,
+        "source_frame": 55,
+        "timestamp": 2.2,
+        "image": "frames/00000019.jpg",
+        "scoreboard": "scoreboards/00000019.jpg",
+        "broadcast_timestamp": 1822.2
+      },
+      {
+        "index": 21,
+        "source_frame": 61,
+        "timestamp": 2.44,
+        "image": "frames/00000021.jpg",
+        "scoreboard": "scoreboards/00000021.jpg",
+        "broadcast_timestamp": 1822.44
+      }
+    ]
+  ],
+  "selected_frames": [
+    {
+      "index": 0,
+      "source_frame": 0,
+      "timestamp": 0.0,
+      "image": "frames/00000000.jpg",
+      "scoreboard": "scoreboards/00000000.jpg",
+      "broadcast_timestamp": 1820.0
+    },
+    {
+      "index": 1,
+      "source_frame": 1,
+      "timestamp": 0.04,
+      "image": "frames/00000001.jpg",
+      "scoreboard": "scoreboards/00000001.jpg",
+      "broadcast_timestamp": 1820.04
+    },
+    {
+      "index": 4,
+      "source_frame": 10,
+      "timestamp": 0.4,
+      "image": "frames/00000004.jpg",
+      "scoreboard": "scoreboards/00000004.jpg",
+      "broadcast_timestamp": 1820.4
+    },
+    {
+      "index": 6,
+      "source_frame": 16,
+      "timestamp": 0.64,
+      "image": "frames/00000006.jpg",
+      "scoreboard": "scoreboards/00000006.jpg",
+      "broadcast_timestamp": 1820.64
+    },
+    {
+      "index": 19,
+      "source_frame": 55,
+      "timestamp": 2.2,
+      "image": "frames/00000019.jpg",
+      "scoreboard": "scoreboards/00000019.jpg",
+      "broadcast_timestamp": 1822.2
+    },
+    {
+      "index": 21,
+      "source_frame": 61,
+      "timestamp": 2.44,
+      "image": "frames/00000021.jpg",
+      "scoreboard": "scoreboards/00000021.jpg",
+      "broadcast_timestamp": 1822.44
+    },
+    {
+      "index": 34,
+      "source_frame": 98,
+      "timestamp": 3.92,
+      "image": "frames/00000034.jpg",
+      "scoreboard": "scoreboards/00000034.jpg",
+      "broadcast_timestamp": 1823.92
+    },
+    {
+      "index": 35,
+      "source_frame": 99,
+      "timestamp": 3.96,
+      "image": "frames/00000035.jpg",
+      "scoreboard": "scoreboards/00000035.jpg",
+      "broadcast_timestamp": 1823.96
+    }
+  ]
+}

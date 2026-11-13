@@ -1,0 +1,456 @@
+{
+  "validation_selections": {
+    "v1": {
+      "threshold": 0.2,
+      "consensus": 0.65,
+      "matched": 5,
+      "predicted": 13,
+      "truth": 45,
+      "precision": 0.38461538461538464,
+      "recall": 0.1111111111111111,
+      "f1": 0.1724137931034483,
+      "epoch": 5
+    },
+    "v2": {
+      "threshold": 0.4,
+      "consensus": 0.65,
+      "matched": 8,
+      "predicted": 11,
+      "truth": 45,
+      "precision": 0.7272727272727273,
+      "recall": 0.17777777777777778,
+      "f1": 0.2857142857142857,
+      "epoch": 4
+    }
+  },
+  "fresh_test": {
+    "original": {
+      "model": {
+        "0": {
+          "matched": 2,
+          "predicted": 11,
+          "truth": 30,
+          "precision": 0.18181818181818182,
+          "recall": 0.06666666666666667,
+          "f1": 0.0975609756097561
+        },
+        "1": {
+          "matched": 3,
+          "predicted": 11,
+          "truth": 30,
+          "precision": 0.2727272727272727,
+          "recall": 0.1,
+          "f1": 0.14634146341463414
+        },
+        "2": {
+          "matched": 3,
+          "predicted": 11,
+          "truth": 30,
+          "precision": 0.2727272727272727,
+          "recall": 0.1,
+          "f1": 0.14634146341463414
+        },
+        "3": {
+          "matched": 3,
+          "predicted": 11,
+          "truth": 30,
+          "precision": 0.2727272727272727,
+          "recall": 0.1,
+          "f1": 0.14634146341463414
+        }
+      },
+      "periodic_baseline": {
+        "0": {
+          "matched": 2,
+          "predicted": 25,
+          "truth": 30,
+          "precision": 0.08,
+          "recall": 0.06666666666666667,
+          "f1": 0.07272727272727272
+        },
+        "1": {
+          "matched": 3,
+          "predicted": 25,
+          "truth": 30,
+          "precision": 0.12,
+          "recall": 0.1,
+          "f1": 0.10909090909090909
+        },
+        "2": {
+          "matched": 3,
+          "predicted": 25,
+          "truth": 30,
+          "precision": 0.12,
+          "recall": 0.1,
+          "f1": 0.10909090909090909
+        },
+        "3": {
+          "matched": 4,
+          "predicted": 25,
+          "truth": 30,
+          "precision": 0.16,
+          "recall": 0.13333333333333333,
+          "f1": 0.14545454545454545
+        }
+      },
+      "retained_fraction": 0.1220472440944882
+    },
+    "control": {
+      "model": {
+        "0": {
+          "matched": 2,
+          "predicted": 11,
+          "truth": 30,
+          "precision": 0.18181818181818182,
+          "recall": 0.06666666666666667,
+          "f1": 0.0975609756097561
+        },
+        "1": {
+          "matched": 3,
+          "predicted": 11,
+          "truth": 30,
+          "precision": 0.2727272727272727,
+          "recall": 0.1,
+          "f1": 0.14634146341463414
+        },
+        "2": {
+          "matched": 3,
+          "predicted": 11,
+          "truth": 30,
+          "precision": 0.2727272727272727,
+          "recall": 0.1,
+          "f1": 0.14634146341463414
+        },
+        "3": {
+          "matched": 3,
+          "predicted": 11,
+          "truth": 30,
+          "precision": 0.2727272727272727,
+          "recall": 0.1,
+          "f1": 0.14634146341463414
+        }
+      },
+      "periodic_baseline": {
+        "0": {
+          "matched": 2,
+          "predicted": 25,
+          "truth": 30,
+          "precision": 0.08,
+          "recall": 0.06666666666666667,
+          "f1": 0.07272727272727272
+        },
+        "1": {
+          "matched": 3,
+          "predicted": 25,
+          "truth": 30,
+          "precision": 0.12,
+          "recall": 0.1,
+          "f1": 0.10909090909090909
+        },
+        "2": {
+          "matched": 3,
+          "predicted": 25,
+          "truth": 30,
+          "precision": 0.12,
+          "recall": 0.1,
+          "f1": 0.10909090909090909
+        },
+        "3": {
+          "matched": 4,
+          "predicted": 25,
+          "truth": 30,
+          "precision": 0.16,
+          "recall": 0.13333333333333333,
+          "f1": 0.14545454545454545
+        }
+      },
+      "retained_fraction": 0.1220472440944882
+    },
+    "revised": {
+      "model": {
+        "0": {
+          "matched": 1,
+          "predicted": 9,
+          "truth": 30,
+          "precision": 0.1111111111111111,
+          "recall": 0.03333333333333333,
+          "f1": 0.05128205128205128
+        },
+        "1": {
+          "matched": 2,
+          "predicted": 9,
+          "truth": 30,
+          "precision": 0.2222222222222222,
+          "recall": 0.06666666666666667,
+          "f1": 0.10256410256410256
+        },
+        "2": {
+          "matched": 4,
+          "predicted": 9,
+          "truth": 30,
+          "precision": 0.4444444444444444,
+          "recall": 0.13333333333333333,
+          "f1": 0.20512820512820512
+        },
+        "3": {
+          "matched": 5,
+          "predicted": 9,
+          "truth": 30,
+          "precision": 0.5555555555555556,
+          "recall": 0.16666666666666666,
+          "f1": 0.2564102564102564
+        }
+      },
+      "periodic_baseline": {
+        "0": {
+          "matched": 2,
+          "predicted": 25,
+          "truth": 30,
+          "precision": 0.08,
+          "recall": 0.06666666666666667,
+          "f1": 0.07272727272727272
+        },
+        "1": {
+          "matched": 3,
+          "predicted": 25,
+          "truth": 30,
+          "precision": 0.12,
+          "recall": 0.1,
+          "f1": 0.10909090909090909
+        },
+        "2": {
+          "matched": 3,
+          "predicted": 25,
+          "truth": 30,
+          "precision": 0.12,
+          "recall": 0.1,
+          "f1": 0.10909090909090909
+        },
+        "3": {
+          "matched": 4,
+          "predicted": 25,
+          "truth": 30,
+          "precision": 0.16,
+          "recall": 0.13333333333333333,
+          "f1": 0.14545454545454545
+        }
+      },
+      "retained_fraction": 0.1141732283464567
+    }
+  },
+  "old_test_regression": {
+    "original": {
+      "model": {
+        "0": {
+          "matched": 0,
+          "predicted": 10,
+          "truth": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "1": {
+          "matched": 0,
+          "predicted": 10,
+          "truth": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "2": {
+          "matched": 0,
+          "predicted": 10,
+          "truth": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "3": {
+          "matched": 0,
+          "predicted": 10,
+          "truth": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "periodic_baseline": {
+        "0": {
+          "matched": 1,
+          "predicted": 26,
+          "truth": 15,
+          "precision": 0.038461538461538464,
+          "recall": 0.06666666666666667,
+          "f1": 0.04878048780487805
+        },
+        "1": {
+          "matched": 2,
+          "predicted": 26,
+          "truth": 15,
+          "precision": 0.07692307692307693,
+          "recall": 0.13333333333333333,
+          "f1": 0.0975609756097561
+        },
+        "2": {
+          "matched": 3,
+          "predicted": 26,
+          "truth": 15,
+          "precision": 0.11538461538461539,
+          "recall": 0.2,
+          "f1": 0.14634146341463414
+        },
+        "3": {
+          "matched": 3,
+          "predicted": 26,
+          "truth": 15,
+          "precision": 0.11538461538461539,
+          "recall": 0.2,
+          "f1": 0.14634146341463414
+        }
+      },
+      "retained_fraction": 0.10452961672473868
+    },
+    "control": {
+      "model": {
+        "0": {
+          "matched": 0,
+          "predicted": 17,
+          "truth": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "1": {
+          "matched": 0,
+          "predicted": 17,
+          "truth": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "2": {
+          "matched": 0,
+          "predicted": 17,
+          "truth": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "3": {
+          "matched": 0,
+          "predicted": 17,
+          "truth": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "periodic_baseline": {
+        "0": {
+          "matched": 1,
+          "predicted": 26,
+          "truth": 15,
+          "precision": 0.038461538461538464,
+          "recall": 0.06666666666666667,
+          "f1": 0.04878048780487805
+        },
+        "1": {
+          "matched": 2,
+          "predicted": 26,
+          "truth": 15,
+          "precision": 0.07692307692307693,
+          "recall": 0.13333333333333333,
+          "f1": 0.0975609756097561
+        },
+        "2": {
+          "matched": 3,
+          "predicted": 26,
+          "truth": 15,
+          "precision": 0.11538461538461539,
+          "recall": 0.2,
+          "f1": 0.14634146341463414
+        },
+        "3": {
+          "matched": 3,
+          "predicted": 26,
+          "truth": 15,
+          "precision": 0.11538461538461539,
+          "recall": 0.2,
+          "f1": 0.14634146341463414
+        }
+      },
+      "retained_fraction": 0.1289198606271777
+    },
+    "revised": {
+      "model": {
+        "0": {
+          "matched": 2,
+          "predicted": 7,
+          "truth": 15,
+          "precision": 0.2857142857142857,
+          "recall": 0.13333333333333333,
+          "f1": 0.18181818181818182
+        },
+        "1": {
+          "matched": 4,
+          "predicted": 7,
+          "truth": 15,
+          "precision": 0.5714285714285714,
+          "recall": 0.26666666666666666,
+          "f1": 0.36363636363636365
+        },
+        "2": {
+          "matched": 4,
+          "predicted": 7,
+          "truth": 15,
+          "precision": 0.5714285714285714,
+          "recall": 0.26666666666666666,
+          "f1": 0.36363636363636365
+        },
+        "3": {
+          "matched": 4,
+          "predicted": 7,
+          "truth": 15,
+          "precision": 0.5714285714285714,
+          "recall": 0.26666666666666666,
+          "f1": 0.36363636363636365
+        }
+      },
+      "periodic_baseline": {
+        "0": {
+          "matched": 1,
+          "predicted": 26,
+          "truth": 15,
+          "precision": 0.038461538461538464,
+          "recall": 0.06666666666666667,
+          "f1": 0.04878048780487805
+        },
+        "1": {
+          "matched": 2,
+          "predicted": 26,
+          "truth": 15,
+          "precision": 0.07692307692307693,
+          "recall": 0.13333333333333333,
+          "f1": 0.0975609756097561
+        },
+        "2": {
+          "matched": 3,
+          "predicted": 26,
+          "truth": 15,
+          "precision": 0.11538461538461539,
+          "recall": 0.2,
+          "f1": 0.14634146341463414
+        },
+        "3": {
+          "matched": 3,
+          "predicted": 26,
+          "truth": 15,
+          "precision": 0.11538461538461539,
+          "recall": 0.2,
+          "f1": 0.14634146341463414
+        }
+      },
+      "retained_fraction": 0.09407665505226481
+    }
+  }
+}

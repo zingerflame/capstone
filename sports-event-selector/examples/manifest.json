@@ -1,0 +1,27 @@
+[
+  {
+    "id": "example_train",
+    "source": "REPLACE_WITH_TRAIN_VIDEO.mp4",
+    "sport": "basketball",
+    "group_id": "match_001",
+    "split": "train",
+    "scoreboard_roi": [0.02, 0.02, 0.4, 0.15],
+    "sampling": {"min_fps": 10, "max_fps": 20, "delta": 0.035}
+  },
+  {
+    "id": "example_val",
+    "source": "REPLACE_WITH_VAL_VIDEO.mp4",
+    "sport": "basketball",
+    "group_id": "match_002",
+    "split": "val",
+    "scoreboard_roi": null
+  },
+  {
+    "id": "example_test",
+    "source": "REPLACE_WITH_TEST_VIDEO.mp4",
+    "sport": "basketball",
+    "group_id": "match_003",
+    "split": "test",
+    "scoreboard_roi": null
+  }
+]

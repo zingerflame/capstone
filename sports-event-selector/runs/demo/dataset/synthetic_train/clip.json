@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "id": "synthetic_train",
+  "sport": "basketball",
+  "group_id": "synthetic_match_0",
+  "split": "train",
+  "scoreboard_roi": [
+    0,
+    0,
+    0.4,
+    0.3
+  ],
+  "source_fps": 60.0,
+  "source_frame_count": 120,
+  "sampling": {
+    "min_fps": 10.0,
+    "max_fps": 20.0,
+    "delta": 0.035
+  },
+  "frames": [
+    {
+      "index": 0,
+      "source_frame": 0,
+      "timestamp": 0.0,
+      "image": "frames/00000000.jpg",
+      "scoreboard": "scoreboards/00000000.jpg"
+    },
+    {
+      "index": 1,
+      "source_frame": 1,
+      "timestamp": 0.016666666666666666,
+      "image": "frames/00000001.jpg",
+      "scoreboard": "scoreboards/00000001.jpg"
+    },
+    {
+      "index": 2,
+      "source_frame": 7,
+      "timestamp": 0.11666666666666667,
+      "image": "frames/00000002.jpg",
+      "scoreboard": "scoreboards/00000002.jpg"
+    },
+    {
+      "index": 3,
+      "source_frame": 13,
+      "timestamp": 0.21666666666666667,
+      "image": "frames/00000003.jpg",
+      "scoreboard": "scoreboards/00000003.jpg"
+    },
+    {
+      "index": 4,
+      "source_frame": 19,
+      "timestamp": 0.31666666666666665,
+      "image": "frames/00000004.jpg",
+      "scoreboard": "scoreboards/00000004.jpg"
+    },
+    {
+      "index": 5,
+      "source_frame": 25,
+      "timestamp": 0.4166666666666667,
+      "image": "frames/00000005.jpg",
+      "scoreboard": "scoreboards/00000005.jpg"
+    },
+    {
+      "index": 6,
+      "source_frame": 31,
+      "timestamp": 0.5166666666666666,
+      "image": "frames/00000006.jpg",
+      "scoreboard": "scoreboards/00000006.jpg"
+    },
+    {
+      "index": 7,
+      "source_frame": 37,
+      "timestamp": 0.6166666666666667,
+      "image": "frames/00000007.jpg",
+      "scoreboard": "scoreboards/00000007.jpg"
+    },
+    {
+      "index": 8,
+      "source_frame": 43,
+      "timestamp": 0.7166666666666667,
+      "image": "frames/00000008.jpg",
+      "scoreboard": "scoreboards/00000008.jpg"
+    },
+    {
+      "index": 9,
+      "source_frame": 49,
+      "timestamp": 0.8166666666666667,
+      "image": "frames/00000009.jpg",
+      "scoreboard": "scoreboards/00000009.jpg"
+    },
+    {
+      "index": 10,
+      "source_frame": 55,
+      "timestamp": 0.9166666666666666,
+      "image": "frames/00000010.jpg",
+      "scoreboard": "scoreboards/00000010.jpg"
+    },
+    {
+      "index": 11,
+      "source_frame": 61,
+      "timestamp": 1.0166666666666666,
+      "image": "frames/00000011.jpg",
+      "scoreboard": "scoreboards/00000011.jpg"
+    },
+    {
+      "index": 12,
+      "source_frame": 67,
+      "timestamp": 1.1166666666666667,
+      "image": "frames/00000012.jpg",
+      "scoreboard": "scoreboards/00000012.jpg"
+    },
+    {
+      "index": 13,
+      "source_frame": 73,
+      "timestamp": 1.2166666666666666,
+      "image": "frames/00000013.jpg",
+      "scoreboard": "scoreboards/00000013.jpg"
+    },
+    {
+      "index": 14,
+      "source_frame": 79,
+      "timestamp": 1.3166666666666667,
+      "image": "frames/00000014.jpg",
+      "scoreboard": "scoreboards/00000014.jpg"
+    },
+    {
+      "index": 15,
+      "source_frame": 85,
+      "timestamp": 1.4166666666666667,
+      "image": "frames/00000015.jpg",
+      "scoreboard": "scoreboards/00000015.jpg"
+    },
+    {
+      "index": 16,
+      "source_frame": 91,
+      "timestamp": 1.5166666666666666,
+      "image": "frames/00000016.jpg",
+      "scoreboard": "scoreboards/00000016.jpg"
+    },
+    {
+      "index": 17,
+      "source_frame": 97,
+      "timestamp": 1.6166666666666667,
+      "image": "frames/00000017.jpg",
+      "scoreboard": "scoreboards/00000017.jpg"
+    },
+    {
+      "index": 18,
+      "source_frame": 103,
+      "timestamp": 1.7166666666666666,
+      "image": "frames/00000018.jpg",
+      "scoreboard": "scoreboards/00000018.jpg"
+    },
+    {
+      "index": 19,
+      "source_frame": 109,
+      "timestamp": 1.8166666666666667,
+      "image": "frames/00000019.jpg",
+      "scoreboard": "scoreboards/00000019.jpg"
+    },
+    {
+      "index": 20,
+      "source_frame": 115,
+      "timestamp": 1.9166666666666667,
+      "image": "frames/00000020.jpg",
+      "scoreboard": "scoreboards/00000020.jpg"
+    },
+    {
+      "index": 21,
+      "source_frame": 118,
+      "timestamp": 1.9666666666666666,
+      "image": "frames/00000021.jpg",
+      "scoreboard": "scoreboards/00000021.jpg"
+    },
+    {
+      "index": 22,
+      "source_frame": 119,
+      "timestamp": 1.9833333333333334,
+      "image": "frames/00000022.jpg",
+      "scoreboard": "scoreboards/00000022.jpg"
+    }
+  ]
+}

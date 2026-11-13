@@ -1,0 +1,324 @@
+{
+  "ideal_target_diagnostic": [
+    {
+      "clip": "barty_collins_action",
+      "positive_frames": 6,
+      "soft_target_mass": 9.5,
+      "v1": {
+        "loss": 0.17138288915157318,
+        "relevance": 0.05346608906984329,
+        "excess": 0.09000006318092346,
+        "coverage": 1.0629495363900787e-06,
+        "duplicate": 0.7291654944419861,
+        "decoded_count": 13,
+        "budget": 10
+      },
+      "v2": {
+        "loss": 0.16948574781417847,
+        "relevance": 0.15148553252220154,
+        "excess": 0.09000006318092346,
+        "coverage": 1.0629495363900787e-06,
+        "duplicate": 0.0,
+        "decoded_count": 13,
+        "budget": 10
+      }
+    },
+    {
+      "clip": "osaka_garcia_action",
+      "positive_frames": 12,
+      "soft_target_mass": 25.75,
+      "v1": {
+        "loss": 0.7000517845153809,
+        "relevance": 0.20174448192119598,
+        "excess": 0.66015625,
+        "coverage": 1.0728836059570312e-06,
+        "duplicate": 1.6822892427444458,
+        "decoded_count": 29,
+        "budget": 16
+      },
+      "v2": {
+        "loss": 0.3280118405818939,
+        "relevance": 0.19598038494586945,
+        "excess": 0.66015625,
+        "coverage": 1.0728836059570312e-06,
+        "duplicate": 0.0,
+        "decoded_count": 29,
+        "budget": 16
+      }
+    },
+    {
+      "clip": "raducanu_gauff_action",
+      "positive_frames": 12,
+      "soft_target_mass": 29.25,
+      "v1": {
+        "loss": 1.1239595413208008,
+        "relevance": 0.25520962476730347,
+        "excess": 1.265625,
+        "coverage": 1.0728836059570312e-06,
+        "duplicate": 2.35937237739563,
+        "decoded_count": 34,
+        "budget": 16
+      },
+      "v2": {
+        "loss": 0.4647626578807831,
+        "relevance": 0.21163742244243622,
+        "excess": 1.265625,
+        "coverage": 1.0728836059570312e-06,
+        "duplicate": 0.0,
+        "decoded_count": 34,
+        "budget": 16
+      }
+    },
+    {
+      "clip": "radwanska_azarenka_action",
+      "positive_frames": 18,
+      "soft_target_mass": 43.25,
+      "v1": {
+        "loss": 1.2567704916000366,
+        "relevance": 0.37326186895370483,
+        "excess": 1.2913228273391724,
+        "coverage": 1.056326709658606e-06,
+        "duplicate": 2.378469705581665,
+        "decoded_count": 47,
+        "budget": 22
+      },
+      "v2": {
+        "loss": 0.4715576767921448,
+        "relevance": 0.2132928967475891,
+        "excess": 1.2913228273391724,
+        "coverage": 1.056326709658606e-06,
+        "duplicate": 0.0,
+        "decoded_count": 47,
+        "budget": 22
+      }
+    },
+    {
+      "clip": "sabalenka_badosa_action",
+      "positive_frames": 6,
+      "soft_target_mass": 12.75,
+      "v1": {
+        "loss": 0.48810699582099915,
+        "relevance": 0.08373212814331055,
+        "excess": 0.4899997413158417,
+        "coverage": 1.0728836059570312e-06,
+        "duplicate": 1.5937477350234985,
+        "decoded_count": 17,
+        "budget": 10
+      },
+      "v2": {
+        "loss": 0.28762757778167725,
+        "relevance": 0.18962742388248444,
+        "excess": 0.4899997413158417,
+        "coverage": 1.0728836059570312e-06,
+        "duplicate": 0.0,
+        "decoded_count": 17,
+        "budget": 10
+      }
+    },
+    {
+      "clip": "zheng_sabalenka_action",
+      "positive_frames": 21,
+      "soft_target_mass": 48.0,
+      "v1": {
+        "loss": 0.9038434028625488,
+        "relevance": 0.38205772638320923,
+        "excess": 0.64000004529953,
+        "coverage": 1.0700453003664734e-06,
+        "duplicate": 2.017854690551758,
+        "decoded_count": 45,
+        "budget": 25
+      },
+      "v2": {
+        "loss": 0.33060702681541443,
+        "relevance": 0.20260679721832275,
+        "excess": 0.64000004529953,
+        "coverage": 1.0700453003664734e-06,
+        "duplicate": 0.0,
+        "decoded_count": 45,
+        "budget": 25
+      }
+    }
+  ],
+  "original_loss_history": [
+    {
+      "epoch": 1,
+      "loss": 5.1943196300417185,
+      "relevance": 0.6997851375490427,
+      "excess": 8.82104313373566,
+      "coverage": 0.35826295614242554,
+      "duplicate": 0.12360384066899617,
+      "weighted_excess": 4.41052156686783
+    },
+    {
+      "epoch": 2,
+      "loss": 0.7345999566217264,
+      "relevance": 0.6396702167888483,
+      "excess": 3.552713678800501e-15,
+      "coverage": 0.47464871903260547,
+      "duplicate": 0.0,
+      "weighted_excess": 1.7763568394002505e-15
+    },
+    {
+      "epoch": 3,
+      "loss": 0.702521757222712,
+      "relevance": 0.60867412481457,
+      "excess": 3.552713678800501e-15,
+      "coverage": 0.4692381868759791,
+      "duplicate": 0.0,
+      "weighted_excess": 1.7763568394002505e-15
+    },
+    {
+      "epoch": 4,
+      "loss": 0.651015198789537,
+      "relevance": 0.559979711038371,
+      "excess": 3.552713678800501e-15,
+      "coverage": 0.4551774263381958,
+      "duplicate": 0.0,
+      "weighted_excess": 1.7763568394002505e-15
+    },
+    {
+      "epoch": 5,
+      "loss": 0.517531092899541,
+      "relevance": 0.43821338657289743,
+      "excess": 3.552713678800501e-15,
+      "coverage": 0.39541226128737134,
+      "duplicate": 0.0023524732484171786,
+      "weighted_excess": 1.7763568394002505e-15
+    },
+    {
+      "epoch": 6,
+      "loss": 0.5682488905731589,
+      "relevance": 0.4825067398293565,
+      "excess": 3.552713678800501e-15,
+      "coverage": 0.42865459620952606,
+      "duplicate": 0.00011228568231066068,
+      "weighted_excess": 1.7763568394002505e-15
+    },
+    {
+      "epoch": 7,
+      "loss": 0.5299586523712302,
+      "relevance": 0.4474689755976821,
+      "excess": 3.552713678800501e-15,
+      "coverage": 0.4120963116486867,
+      "duplicate": 0.0007041744344557325,
+      "weighted_excess": 1.7763568394002505e-15
+    },
+    {
+      "epoch": 8,
+      "loss": 1.5848088329657912,
+      "relevance": 0.36889965490748483,
+      "excess": 2.244983981053038,
+      "coverage": 0.2609971563021342,
+      "duplicate": 0.41217810546125594,
+      "weighted_excess": 1.122491990526519
+    },
+    {
+      "epoch": 9,
+      "loss": 0.4587903330102563,
+      "relevance": 0.3835998435194294,
+      "excess": 3.552713678800501e-15,
+      "coverage": 0.3556068738301595,
+      "duplicate": 0.04069114772573812,
+      "weighted_excess": 1.7763568394002505e-15
+    },
+    {
+      "epoch": 10,
+      "loss": 0.4381246629539722,
+      "relevance": 0.3647042128626102,
+      "excess": 3.552713678800501e-15,
+      "coverage": 0.36129490037759143,
+      "duplicate": 0.011614677299645952,
+      "weighted_excess": 1.7763568394002505e-15
+    },
+    {
+      "epoch": 11,
+      "loss": 0.5997928783569174,
+      "relevance": 0.3542739928040343,
+      "excess": 0.3381380240122513,
+      "coverage": 0.3029472157359123,
+      "duplicate": 0.1586043426747589,
+      "weighted_excess": 0.16906901200612565
+    },
+    {
+      "epoch": 12,
+      "loss": 0.5192533362618027,
+      "relevance": 0.4380296571762301,
+      "excess": 3.552713678800501e-15,
+      "coverage": 0.4054370919863383,
+      "duplicate": 0.0013625998302207638,
+      "weighted_excess": 1.7763568394002505e-15
+    },
+    {
+      "epoch": 13,
+      "loss": 0.40065084926754935,
+      "relevance": 0.32908756069809897,
+      "excess": 3.552713678800501e-15,
+      "coverage": 0.30394214888413745,
+      "duplicate": 0.10774857054154079,
+      "weighted_excess": 1.7763568394002505e-15
+    },
+    {
+      "epoch": 14,
+      "loss": 0.38092177892637363,
+      "relevance": 0.3090968532851548,
+      "excess": 3.552713678800501e-15,
+      "coverage": 0.31142672896385193,
+      "duplicate": 0.09539584419690073,
+      "weighted_excess": 1.7763568394002505e-15
+    },
+    {
+      "epoch": 15,
+      "loss": 0.5063672833542417,
+      "relevance": 0.30868812877937063,
+      "excess": 0.22853334744771678,
+      "coverage": 0.307463842133681,
+      "duplicate": 0.21919707550356785,
+      "weighted_excess": 0.11426667372385839
+    },
+    {
+      "epoch": 16,
+      "loss": 0.4139245233236579,
+      "relevance": 0.337910632918162,
+      "excess": 3.552713678800501e-15,
+      "coverage": 0.3713751286268234,
+      "duplicate": 0.017388614961722244,
+      "weighted_excess": 1.7763568394002505e-15
+    },
+    {
+      "epoch": 17,
+      "loss": 0.8139143332288464,
+      "relevance": 0.5883297989215256,
+      "excess": 0.2659289439519282,
+      "coverage": 0.3780929247538249,
+      "duplicate": 0.17001457440589243,
+      "weighted_excess": 0.1329644719759641
+    },
+    {
+      "epoch": 18,
+      "loss": 0.7541242497864005,
+      "relevance": 0.6635892051162955,
+      "excess": 3.552713678800501e-15,
+      "coverage": 0.44884006182352704,
+      "duplicate": 0.007670465235908826,
+      "weighted_excess": 1.7763568394002505e-15
+    },
+    {
+      "epoch": 19,
+      "loss": 0.8413992636681845,
+      "relevance": 0.3528546058417608,
+      "excess": 0.8252083460489944,
+      "coverage": 0.2681955471634865,
+      "duplicate": 0.22301379591226578,
+      "weighted_excess": 0.4126041730244972
+    },
+    {
+      "epoch": 20,
+      "loss": 0.39074722267105244,
+      "relevance": 0.32002129740430973,
+      "excess": 3.552713678800501e-15,
+      "coverage": 0.3171611577272415,
+      "duplicate": 0.07293701637536287,
+      "weighted_excess": 1.7763568394002505e-15
+    }
+  ]
+}

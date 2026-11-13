@@ -1,0 +1,170 @@
+[
+  {
+    "clip": "barty_collins_action",
+    "split": "train",
+    "group": "ao2022_barty_collins_final",
+    "frames": 68,
+    "truth_frames": 6,
+    "clip_fingerprint": "bc8cea9329040114b6866d30ba63fc66d292b75d3bd4f6892959d9f581a8820c"
+  },
+  {
+    "clip": "barty_collins_context",
+    "split": "train",
+    "group": "ao2022_barty_collins_final",
+    "frames": 51,
+    "truth_frames": 0,
+    "clip_fingerprint": "bcf646cb6514952dcc9acfdc519c74e196ee6c273d0ba1c401237fae228e2e8f"
+  },
+  {
+    "clip": "gauff_danilovic_action",
+    "split": "test",
+    "group": "ao2026_gauff_danilovic_r2",
+    "frames": 68,
+    "truth_frames": 9,
+    "clip_fingerprint": "4688d5deeaa9e52ee37e57fe2deeb163fa00ecd7a2ec9d0933c5800c8f086acb"
+  },
+  {
+    "clip": "gauff_danilovic_context",
+    "split": "test",
+    "group": "ao2026_gauff_danilovic_r2",
+    "frames": 43,
+    "truth_frames": 0,
+    "clip_fingerprint": "193432ead8146ed6ac9b08285d67fbd6ffaf6be0ede9d34e4bf6a9747298a351"
+  },
+  {
+    "clip": "osaka_garcia_action",
+    "split": "train",
+    "group": "ao2025_osaka_garcia_r1",
+    "frames": 68,
+    "truth_frames": 12,
+    "clip_fingerprint": "f45b1709b0dcad9e07c32de880e9505be7ec41e75e320fb16433b748335a7c30"
+  },
+  {
+    "clip": "osaka_garcia_context",
+    "split": "train",
+    "group": "ao2025_osaka_garcia_r1",
+    "frames": 47,
+    "truth_frames": 0,
+    "clip_fingerprint": "a21fbc866bf16c3f762db4f0306ce3266c076e6d002d34083ba227cfb2f5dc0e"
+  },
+  {
+    "clip": "raducanu_gauff_action",
+    "split": "train",
+    "group": "ao2023_raducanu_gauff_r2",
+    "frames": 68,
+    "truth_frames": 12,
+    "clip_fingerprint": "a33174fb9381082dd0cf55c829f77e3cc86069a85c23cf7cac5074bbfd535667"
+  },
+  {
+    "clip": "raducanu_gauff_context",
+    "split": "train",
+    "group": "ao2023_raducanu_gauff_r2",
+    "frames": 42,
+    "truth_frames": 0,
+    "clip_fingerprint": "47ff054a849d8c2083947fefae80f2f14a9e4f9570b88451f85a9108cd518624"
+  },
+  {
+    "clip": "raducanu_swiatek_action",
+    "split": "val",
+    "group": "ao2025_raducanu_swiatek_r3",
+    "frames": 68,
+    "truth_frames": 18,
+    "clip_fingerprint": "1f5fafd2040ea1f589726ee4d60dbbe7feef1e2ceab1b5358e4a47ce57b0d950"
+  },
+  {
+    "clip": "raducanu_swiatek_context",
+    "split": "val",
+    "group": "ao2025_raducanu_swiatek_r3",
+    "frames": 38,
+    "truth_frames": 0,
+    "clip_fingerprint": "87306b7d156ab4b210ff1798ec2a6d6ed75a95e7d592786c6d7efa23d1404af0"
+  },
+  {
+    "clip": "radwanska_azarenka_action",
+    "split": "train",
+    "group": "ao2014_radwanska_azarenka_qf",
+    "frames": 72,
+    "truth_frames": 18,
+    "clip_fingerprint": "3be64afc703af627623cb543af63800f0419a885fb364c74f230fe55a6a1f345"
+  },
+  {
+    "clip": "radwanska_azarenka_context",
+    "split": "train",
+    "group": "ao2014_radwanska_azarenka_qf",
+    "frames": 42,
+    "truth_frames": 0,
+    "clip_fingerprint": "b66d73f946710adb724ac9739941f46e64cd2d230098a0c12407aeb3d7e326a4"
+  },
+  {
+    "clip": "rybakina_mertens_action",
+    "split": "test",
+    "group": "ao2026_rybakina_mertens_r4",
+    "frames": 68,
+    "truth_frames": 0,
+    "clip_fingerprint": "f2a537dc2a182c68f927cbda9926d2402aa137860648f399b379862953710e33"
+  },
+  {
+    "clip": "rybakina_mertens_context",
+    "split": "test",
+    "group": "ao2026_rybakina_mertens_r4",
+    "frames": 40,
+    "truth_frames": 0,
+    "clip_fingerprint": "861755dc04a985ec268ad0f959028bb38473d8ff5a325ffff10f96b8e1a6c121"
+  },
+  {
+    "clip": "rybakina_mertens_rally",
+    "split": "test",
+    "group": "ao2026_rybakina_mertens_r4",
+    "frames": 68,
+    "truth_frames": 6,
+    "clip_fingerprint": "01ec2202e7bc217eb99c0dc43d676ecc65033e0a5a89696df89589311281ce76"
+  },
+  {
+    "clip": "sabalenka_badosa_action",
+    "split": "train",
+    "group": "ao2025_sabalenka_badosa_sf",
+    "frames": 77,
+    "truth_frames": 6,
+    "clip_fingerprint": "9e0fbdc3adaa7268943dd1f9149c9d1feef6c25369e61aeb36ef615f26840400"
+  },
+  {
+    "clip": "sabalenka_badosa_context",
+    "split": "train",
+    "group": "ao2025_sabalenka_badosa_sf",
+    "frames": 43,
+    "truth_frames": 0,
+    "clip_fingerprint": "5c0f1ae6b3739f352be4775ed0cbfd7c0f09ce8be52c10883ac4602f3b48abbc"
+  },
+  {
+    "clip": "sabalenka_svitolina_action",
+    "split": "val",
+    "group": "ao2026_sabalenka_svitolina_sf",
+    "frames": 68,
+    "truth_frames": 27,
+    "clip_fingerprint": "89d24f16baf520de49ec5766e81fa8ef9da55fc80aab15e1e9001ca7de67a87a"
+  },
+  {
+    "clip": "sabalenka_svitolina_context",
+    "split": "val",
+    "group": "ao2026_sabalenka_svitolina_sf",
+    "frames": 50,
+    "truth_frames": 0,
+    "clip_fingerprint": "d7a53144e48d18606b52dfc664799d41e1eaf657e42229e96ff74573d0564505"
+  },
+  {
+    "clip": "zheng_sabalenka_action",
+    "split": "train",
+    "group": "ao2024_zheng_sabalenka_final",
+    "frames": 70,
+    "truth_frames": 21,
+    "clip_fingerprint": "3dbbe78f0a47811a1fb45374d861f1badf1cfd6e5611ccda8e8aacc2236417d0"
+  },
+  {
+    "clip": "zheng_sabalenka_context",
+    "split": "train",
+    "group": "ao2024_zheng_sabalenka_final",
+    "frames": 43,
+    "truth_frames": 0,
+    "clip_fingerprint": "87f1110abcf14e00fc50f99867626e2fea5dd076a7347f16320a2c31cc568779"
+  }
+]

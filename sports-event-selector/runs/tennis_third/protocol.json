@@ -1,0 +1,330 @@
+{
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "epochs": 20,
+  "thresholds": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7
+  ],
+  "consensus": [
+    0.5,
+    0.65,
+    0.8
+  ],
+  "budget_factors": [
+    1.0,
+    2.0,
+    3.0
+  ],
+  "training_seconds": 72,
+  "validation_seconds": 24,
+  "fresh_test_seconds": 28,
+  "architecture_arms": [
+    "appearance",
+    "motion"
+  ],
+  "budget_arms": [
+    "fixed",
+    "expanded"
+  ],
+  "primary_selection": "Highest mean validation F1 across all three seeds. Seed 17 is the fixed representative checkpoint, never selected on test.",
+  "weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "teacher_fingerprint": "16f0cb48adba3203d101674945d469393e049df7865d04823977e68118750d7b",
+  "trainval_snapshot": [
+    {
+      "id": "barty_collins_action",
+      "split": "train",
+      "clip_hash": "bc8cea9329040114b6866d30ba63fc66d292b75d3bd4f6892959d9f581a8820c",
+      "truth": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "barty_collins_context",
+      "split": "train",
+      "clip_hash": "bcf646cb6514952dcc9acfdc519c74e196ee6c273d0ba1c401237fae228e2e8f",
+      "truth": []
+    },
+    {
+      "id": "osaka_garcia_action",
+      "split": "train",
+      "clip_hash": "f45b1709b0dcad9e07c32de880e9505be7ec41e75e320fb16433b748335a7c30",
+      "truth": [
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        44,
+        45,
+        46,
+        52,
+        54,
+        56
+      ]
+    },
+    {
+      "id": "osaka_garcia_context",
+      "split": "train",
+      "clip_hash": "a21fbc866bf16c3f762db4f0306ce3266c076e6d002d34083ba227cfb2f5dc0e",
+      "truth": []
+    },
+    {
+      "id": "raducanu_gauff_action",
+      "split": "train",
+      "clip_hash": "a33174fb9381082dd0cf55c829f77e3cc86069a85c23cf7cac5074bbfd535667",
+      "truth": [
+        24,
+        26,
+        28,
+        34,
+        36,
+        38,
+        44,
+        46,
+        48,
+        54,
+        56,
+        58
+      ]
+    },
+    {
+      "id": "raducanu_gauff_context",
+      "split": "train",
+      "clip_hash": "47ff054a849d8c2083947fefae80f2f14a9e4f9570b88451f85a9108cd518624",
+      "truth": []
+    },
+    {
+      "id": "raducanu_swiatek_action",
+      "split": "val",
+      "clip_hash": "1f5fafd2040ea1f589726ee4d60dbbe7feef1e2ceab1b5358e4a47ce57b0d950",
+      "truth": [
+        11,
+        13,
+        15,
+        20,
+        22,
+        24,
+        34,
+        36,
+        38,
+        48,
+        50,
+        52,
+        58,
+        60,
+        62,
+        65,
+        66,
+        67
+      ]
+    },
+    {
+      "id": "raducanu_swiatek_context",
+      "split": "val",
+      "clip_hash": "87306b7d156ab4b210ff1798ec2a6d6ed75a95e7d592786c6d7efa23d1404af0",
+      "truth": []
+    },
+    {
+      "id": "radwanska_azarenka_action",
+      "split": "train",
+      "clip_hash": "3be64afc703af627623cb543af63800f0419a885fb364c74f230fe55a6a1f345",
+      "truth": [
+        5,
+        6,
+        7,
+        14,
+        16,
+        18,
+        26,
+        28,
+        30,
+        37,
+        39,
+        41,
+        52,
+        54,
+        56,
+        62,
+        64,
+        66
+      ]
+    },
+    {
+      "id": "radwanska_azarenka_context",
+      "split": "train",
+      "clip_hash": "b66d73f946710adb724ac9739941f46e64cd2d230098a0c12407aeb3d7e326a4",
+      "truth": []
+    },
+    {
+      "id": "sabalenka_badosa_action",
+      "split": "train",
+      "clip_hash": "9e0fbdc3adaa7268943dd1f9149c9d1feef6c25369e61aeb36ef615f26840400",
+      "truth": [
+        44,
+        46,
+        48,
+        50,
+        52,
+        54
+      ]
+    },
+    {
+      "id": "sabalenka_badosa_context",
+      "split": "train",
+      "clip_hash": "5c0f1ae6b3739f352be4775ed0cbfd7c0f09ce8be52c10883ac4602f3b48abbc",
+      "truth": []
+    },
+    {
+      "id": "sabalenka_svitolina_action",
+      "split": "val",
+      "clip_hash": "89d24f16baf520de49ec5766e81fa8ef9da55fc80aab15e1e9001ca7de67a87a",
+      "truth": [
+        14,
+        16,
+        18,
+        21,
+        22,
+        23,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33,
+        37,
+        38,
+        39,
+        41,
+        42,
+        43,
+        48,
+        49,
+        50,
+        56,
+        57,
+        58,
+        64,
+        65,
+        66
+      ]
+    },
+    {
+      "id": "sabalenka_svitolina_context",
+      "split": "val",
+      "clip_hash": "d7a53144e48d18606b52dfc664799d41e1eaf657e42229e96ff74573d0564505",
+      "truth": []
+    },
+    {
+      "id": "zheng_sabalenka_action",
+      "split": "train",
+      "clip_hash": "3dbbe78f0a47811a1fb45374d861f1badf1cfd6e5611ccda8e8aacc2236417d0",
+      "truth": [
+        6,
+        8,
+        10,
+        17,
+        19,
+        21,
+        28,
+        30,
+        32,
+        36,
+        38,
+        40,
+        46,
+        47,
+        48,
+        56,
+        58,
+        60,
+        63,
+        65,
+        67
+      ]
+    },
+    {
+      "id": "zheng_sabalenka_context",
+      "split": "train",
+      "clip_hash": "87f1110abcf14e00fc50f99867626e2fea5dd076a7347f16320a2c31cc568779",
+      "truth": []
+    }
+  ],
+  "fresh_intervals": [
+    {
+      "id": "third_rybakina_rally",
+      "video_id": "iA_Ff1-AqWM",
+      "start_seconds": 1817,
+      "duration_seconds": 8,
+      "scoreboard_roi": [
+        0.04,
+        0.84,
+        0.3,
+        0.97
+      ]
+    },
+    {
+      "id": "third_rybakina_context",
+      "video_id": "iA_Ff1-AqWM",
+      "start_seconds": 1800,
+      "duration_seconds": 4,
+      "scoreboard_roi": [
+        0.04,
+        0.84,
+        0.3,
+        0.97
+      ]
+    },
+    {
+      "id": "third_gauff_rally",
+      "video_id": "F8AxEv0FKyQ",
+      "start_seconds": 1827,
+      "duration_seconds": 8,
+      "scoreboard_roi": [
+        0.04,
+        0.84,
+        0.3,
+        0.97
+      ]
+    },
+    {
+      "id": "third_gauff_context",
+      "video_id": "F8AxEv0FKyQ",
+      "start_seconds": 1813,
+      "duration_seconds": 4,
+      "scoreboard_roi": [
+        0.04,
+        0.84,
+        0.3,
+        0.97
+      ]
+    },
+    {
+      "id": "third_gauff_waiting",
+      "video_id": "F8AxEv0FKyQ",
+      "start_seconds": 1820,
+      "duration_seconds": 4,
+      "scoreboard_roi": [
+        0.04,
+        0.84,
+        0.3,
+        0.97
+      ]
+    }
+  ],
+  "limitations": "Tiny pseudo-labeled data; new intervals in the same previously inspected held-out matches."
+}

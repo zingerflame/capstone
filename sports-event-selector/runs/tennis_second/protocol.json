@@ -1,0 +1,49 @@
+{
+  "epochs": 20,
+  "seed": 17,
+  "threads": 4,
+  "thresholds": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7
+  ],
+  "consensus": [
+    0.5,
+    0.65,
+    0.8
+  ],
+  "unchanged": "architecture, training data, sampling, budget, optimizer, window rules",
+  "control": "v1 loss, calibrate all epochs on validation micro F1",
+  "revised": "v2 loss, same epoch calibration; balanced regions, target-consistent duplicate mass, count warmup and gentler normalization",
+  "fresh_test": "New intervals in the same two test matches; not new independent matches",
+  "teacher_registry_fingerprint": "2d1ad465ee25374de48d5a18d49cbc836c0f9a4753a74106e22e999470092fe9",
+  "trainval_clips": [
+    "barty_collins_action",
+    "barty_collins_context",
+    "osaka_garcia_action",
+    "osaka_garcia_context",
+    "raducanu_gauff_action",
+    "raducanu_gauff_context",
+    "raducanu_swiatek_action",
+    "raducanu_swiatek_context",
+    "radwanska_azarenka_action",
+    "radwanska_azarenka_context",
+    "sabalenka_badosa_action",
+    "sabalenka_badosa_context",
+    "sabalenka_svitolina_action",
+    "sabalenka_svitolina_context",
+    "zheng_sabalenka_action",
+    "zheng_sabalenka_context"
+  ],
+  "fresh_clips": [
+    "second_gauff_context",
+    "second_gauff_rally",
+    "second_gauff_waiting",
+    "second_rybakina_context",
+    "second_rybakina_rally"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+ "teacher":"ChatGPT visual inspection in this conversation",
+ "independent_human_review":false,
+ "scope":"All retained frames in these five later test clips reviewed before training or inspecting model predictions. Approximate timing, not verified contact points.",
+ "clip_notes":{"third_gauff_waiting":"Scout name retained for traceability. Review of preceding context shows an AO replay transition at 1816 seconds; this region contains replay/preparation and is excluded as a new live event."},
+ "clips":{
+  "third_rybakina_rally":[
+   {"frame_indices":[12,14,16],"label":"Far-court player serves","confidence":0.7},
+   {"frame_indices":[19,21,23],"label":"Near-court player returns serve","confidence":0.65},
+   {"frame_indices":[25,27,29],"label":"Far-court player reaches wide for a groundstroke","confidence":0.7},
+   {"frame_indices":[30,32,34],"label":"Near-court player hits a groundstroke","confidence":0.75}
+  ],
+  "third_gauff_rally":[
+   {"frame_indices":[49,51,53],"label":"Far-court player serves","confidence":0.75},
+   {"frame_indices":[61,62,63],"label":"Near-court player swings to return serve","confidence":0.75}
+  ],
+  "third_rybakina_context":[],"third_gauff_context":[],"third_gauff_waiting":[]
+ }
+}

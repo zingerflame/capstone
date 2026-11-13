@@ -1,0 +1,234 @@
+{
+  "summary": {
+    "0": {
+      "matched": 0,
+      "predicted": 17,
+      "truth": 18,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "1": {
+      "matched": 1,
+      "predicted": 17,
+      "truth": 18,
+      "precision": 0.058823529411764705,
+      "recall": 0.05555555555555555,
+      "f1": 0.05714285714285714
+    },
+    "2": {
+      "matched": 1,
+      "predicted": 17,
+      "truth": 18,
+      "precision": 0.058823529411764705,
+      "recall": 0.05555555555555555,
+      "f1": 0.05714285714285714
+    },
+    "3": {
+      "matched": 2,
+      "predicted": 17,
+      "truth": 18,
+      "precision": 0.11764705882352941,
+      "recall": 0.1111111111111111,
+      "f1": 0.11428571428571428
+    },
+    "retained_fraction": 0.14015151515151514
+  },
+  "clips": [
+    {
+      "clip": "third_gauff_context",
+      "frames": 36,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "third_gauff_rally",
+      "frames": 75,
+      "selected": 11,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 7,
+          "truth": 6
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 7,
+          "truth": 6
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 7,
+          "truth": 6
+        },
+        "3": {
+          "precision": 0.14285714285714285,
+          "recall": 0.16666666666666666,
+          "f1": 0.15384615384615383,
+          "matched": 1,
+          "predicted": 7,
+          "truth": 6
+        }
+      }
+    },
+    {
+      "clip": "third_gauff_waiting",
+      "frames": 36,
+      "selected": 8,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 4,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 4,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 4,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 4,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "third_rybakina_context",
+      "frames": 47,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "third_rybakina_rally",
+      "frames": 70,
+      "selected": 10,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 6,
+          "truth": 12
+        },
+        "1": {
+          "precision": 0.16666666666666666,
+          "recall": 0.08333333333333333,
+          "f1": 0.1111111111111111,
+          "matched": 1,
+          "predicted": 6,
+          "truth": 12
+        },
+        "2": {
+          "precision": 0.16666666666666666,
+          "recall": 0.08333333333333333,
+          "f1": 0.1111111111111111,
+          "matched": 1,
+          "predicted": 6,
+          "truth": 12
+        },
+        "3": {
+          "precision": 0.16666666666666666,
+          "recall": 0.08333333333333333,
+          "f1": 0.1111111111111111,
+          "matched": 1,
+          "predicted": 6,
+          "truth": 12
+        }
+      }
+    }
+  ]
+}

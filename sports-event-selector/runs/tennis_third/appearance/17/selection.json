@@ -1,0 +1,26 @@
+{
+  "fixed": {
+    "budget_factor": 1.0,
+    "threshold": 0.2,
+    "consensus": 0.8,
+    "matched": 12,
+    "predicted": 14,
+    "truth": 45,
+    "precision": 0.8571428571428571,
+    "recall": 0.26666666666666666,
+    "f1": 0.4067796610169492,
+    "epoch": 16
+  },
+  "expanded": {
+    "budget_factor": 3.0,
+    "threshold": 0.2,
+    "consensus": 0.8,
+    "matched": 32,
+    "predicted": 42,
+    "truth": 45,
+    "precision": 0.7619047619047619,
+    "recall": 0.7111111111111111,
+    "f1": 0.735632183908046,
+    "epoch": 10
+  }
+}

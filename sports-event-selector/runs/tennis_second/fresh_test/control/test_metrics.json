@@ -1,0 +1,440 @@
+{
+  "summary": {
+    "model": {
+      "0": {
+        "matched": 2,
+        "predicted": 11,
+        "truth": 30,
+        "precision": 0.18181818181818182,
+        "recall": 0.06666666666666667,
+        "f1": 0.0975609756097561
+      },
+      "1": {
+        "matched": 3,
+        "predicted": 11,
+        "truth": 30,
+        "precision": 0.2727272727272727,
+        "recall": 0.1,
+        "f1": 0.14634146341463414
+      },
+      "2": {
+        "matched": 3,
+        "predicted": 11,
+        "truth": 30,
+        "precision": 0.2727272727272727,
+        "recall": 0.1,
+        "f1": 0.14634146341463414
+      },
+      "3": {
+        "matched": 3,
+        "predicted": 11,
+        "truth": 30,
+        "precision": 0.2727272727272727,
+        "recall": 0.1,
+        "f1": 0.14634146341463414
+      }
+    },
+    "periodic_baseline": {
+      "0": {
+        "matched": 2,
+        "predicted": 25,
+        "truth": 30,
+        "precision": 0.08,
+        "recall": 0.06666666666666667,
+        "f1": 0.07272727272727272
+      },
+      "1": {
+        "matched": 3,
+        "predicted": 25,
+        "truth": 30,
+        "precision": 0.12,
+        "recall": 0.1,
+        "f1": 0.10909090909090909
+      },
+      "2": {
+        "matched": 3,
+        "predicted": 25,
+        "truth": 30,
+        "precision": 0.12,
+        "recall": 0.1,
+        "f1": 0.10909090909090909
+      },
+      "3": {
+        "matched": 4,
+        "predicted": 25,
+        "truth": 30,
+        "precision": 0.16,
+        "recall": 0.13333333333333333,
+        "f1": 0.14545454545454545
+      }
+    },
+    "retained_fraction": 0.1220472440944882
+  },
+  "clips": [
+    {
+      "clip": "second_gauff_context",
+      "frames": 45,
+      "selected": 4,
+      "model": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      },
+      "periodic_baseline": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 5,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 5,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 5,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 5,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "second_gauff_rally",
+      "frames": 68,
+      "selected": 11,
+      "model": {
+        "0": {
+          "precision": 0.2857142857142857,
+          "recall": 0.1111111111111111,
+          "f1": 0.16,
+          "matched": 2,
+          "predicted": 7,
+          "truth": 18
+        },
+        "1": {
+          "precision": 0.42857142857142855,
+          "recall": 0.16666666666666666,
+          "f1": 0.24,
+          "matched": 3,
+          "predicted": 7,
+          "truth": 18
+        },
+        "2": {
+          "precision": 0.42857142857142855,
+          "recall": 0.16666666666666666,
+          "f1": 0.24,
+          "matched": 3,
+          "predicted": 7,
+          "truth": 18
+        },
+        "3": {
+          "precision": 0.42857142857142855,
+          "recall": 0.16666666666666666,
+          "f1": 0.24,
+          "matched": 3,
+          "predicted": 7,
+          "truth": 18
+        }
+      },
+      "periodic_baseline": {
+        "0": {
+          "precision": 0.3333333333333333,
+          "recall": 0.1111111111111111,
+          "f1": 0.16666666666666666,
+          "matched": 2,
+          "predicted": 6,
+          "truth": 18
+        },
+        "1": {
+          "precision": 0.5,
+          "recall": 0.16666666666666666,
+          "f1": 0.25,
+          "matched": 3,
+          "predicted": 6,
+          "truth": 18
+        },
+        "2": {
+          "precision": 0.5,
+          "recall": 0.16666666666666666,
+          "f1": 0.25,
+          "matched": 3,
+          "predicted": 6,
+          "truth": 18
+        },
+        "3": {
+          "precision": 0.6666666666666666,
+          "recall": 0.2222222222222222,
+          "f1": 0.3333333333333333,
+          "matched": 4,
+          "predicted": 6,
+          "truth": 18
+        }
+      }
+    },
+    {
+      "clip": "second_gauff_waiting",
+      "frames": 36,
+      "selected": 8,
+      "model": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 4,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 4,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 4,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 4,
+          "truth": 0
+        }
+      },
+      "periodic_baseline": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 3,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 3,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 3,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 3,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "second_rybakina_context",
+      "frames": 36,
+      "selected": 4,
+      "model": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      },
+      "periodic_baseline": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 3,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 3,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 3,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 3,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "second_rybakina_rally",
+      "frames": 69,
+      "selected": 4,
+      "model": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 12
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 12
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 12
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 12
+        }
+      },
+      "periodic_baseline": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 8,
+          "truth": 12
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 8,
+          "truth": 12
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 8,
+          "truth": 12
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 8,
+          "truth": 12
+        }
+      }
+    }
+  ]
+}

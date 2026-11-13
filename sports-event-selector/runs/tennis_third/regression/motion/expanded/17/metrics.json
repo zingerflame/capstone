@@ -1,0 +1,429 @@
+{
+  "summary": {
+    "0": {
+      "matched": 13,
+      "predicted": 100,
+      "truth": 45,
+      "precision": 0.13,
+      "recall": 0.28888888888888886,
+      "f1": 0.1793103448275862
+    },
+    "1": {
+      "matched": 18,
+      "predicted": 100,
+      "truth": 45,
+      "precision": 0.18,
+      "recall": 0.4,
+      "f1": 0.2482758620689655
+    },
+    "2": {
+      "matched": 28,
+      "predicted": 100,
+      "truth": 45,
+      "precision": 0.28,
+      "recall": 0.6222222222222222,
+      "f1": 0.38620689655172413
+    },
+    "3": {
+      "matched": 32,
+      "predicted": 100,
+      "truth": 45,
+      "precision": 0.32,
+      "recall": 0.7111111111111111,
+      "f1": 0.4413793103448276
+    },
+    "retained_fraction": 0.2587800369685767
+  },
+  "clips": [
+    {
+      "clip": "second_gauff_context",
+      "frames": 45,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "second_gauff_rally",
+      "frames": 68,
+      "selected": 25,
+      "metrics": {
+        "0": {
+          "precision": 0.2857142857142857,
+          "recall": 0.3333333333333333,
+          "f1": 0.30769230769230765,
+          "matched": 6,
+          "predicted": 21,
+          "truth": 18
+        },
+        "1": {
+          "precision": 0.2857142857142857,
+          "recall": 0.3333333333333333,
+          "f1": 0.30769230769230765,
+          "matched": 6,
+          "predicted": 21,
+          "truth": 18
+        },
+        "2": {
+          "precision": 0.5238095238095238,
+          "recall": 0.6111111111111112,
+          "f1": 0.5641025641025642,
+          "matched": 11,
+          "predicted": 21,
+          "truth": 18
+        },
+        "3": {
+          "precision": 0.6666666666666666,
+          "recall": 0.7777777777777778,
+          "f1": 0.717948717948718,
+          "matched": 14,
+          "predicted": 21,
+          "truth": 18
+        }
+      }
+    },
+    {
+      "clip": "second_gauff_waiting",
+      "frames": 36,
+      "selected": 15,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 11,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 11,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 11,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 11,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "second_rybakina_context",
+      "frames": 36,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "second_rybakina_rally",
+      "frames": 69,
+      "selected": 27,
+      "metrics": {
+        "0": {
+          "precision": 0.2608695652173913,
+          "recall": 0.5,
+          "f1": 0.3428571428571428,
+          "matched": 6,
+          "predicted": 23,
+          "truth": 12
+        },
+        "1": {
+          "precision": 0.34782608695652173,
+          "recall": 0.6666666666666666,
+          "f1": 0.4571428571428571,
+          "matched": 8,
+          "predicted": 23,
+          "truth": 12
+        },
+        "2": {
+          "precision": 0.43478260869565216,
+          "recall": 0.8333333333333334,
+          "f1": 0.5714285714285714,
+          "matched": 10,
+          "predicted": 23,
+          "truth": 12
+        },
+        "3": {
+          "precision": 0.43478260869565216,
+          "recall": 0.8333333333333334,
+          "f1": 0.5714285714285714,
+          "matched": 10,
+          "predicted": 23,
+          "truth": 12
+        }
+      }
+    },
+    {
+      "clip": "gauff_danilovic_action",
+      "frames": 68,
+      "selected": 7,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 3,
+          "truth": 9
+        },
+        "1": {
+          "precision": 0.6666666666666666,
+          "recall": 0.2222222222222222,
+          "f1": 0.3333333333333333,
+          "matched": 2,
+          "predicted": 3,
+          "truth": 9
+        },
+        "2": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1": 0.5,
+          "matched": 3,
+          "predicted": 3,
+          "truth": 9
+        },
+        "3": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1": 0.5,
+          "matched": 3,
+          "predicted": 3,
+          "truth": 9
+        }
+      }
+    },
+    {
+      "clip": "gauff_danilovic_context",
+      "frames": 43,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "rybakina_mertens_action",
+      "frames": 68,
+      "selected": 25,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 21,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 21,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 21,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 21,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "rybakina_mertens_context",
+      "frames": 40,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "rybakina_mertens_rally",
+      "frames": 68,
+      "selected": 25,
+      "metrics": {
+        "0": {
+          "precision": 0.047619047619047616,
+          "recall": 0.16666666666666666,
+          "f1": 0.07407407407407407,
+          "matched": 1,
+          "predicted": 21,
+          "truth": 6
+        },
+        "1": {
+          "precision": 0.09523809523809523,
+          "recall": 0.3333333333333333,
+          "f1": 0.14814814814814814,
+          "matched": 2,
+          "predicted": 21,
+          "truth": 6
+        },
+        "2": {
+          "precision": 0.19047619047619047,
+          "recall": 0.6666666666666666,
+          "f1": 0.2962962962962963,
+          "matched": 4,
+          "predicted": 21,
+          "truth": 6
+        },
+        "3": {
+          "precision": 0.23809523809523808,
+          "recall": 0.8333333333333334,
+          "f1": 0.37037037037037035,
+          "matched": 5,
+          "predicted": 21,
+          "truth": 6
+        }
+      }
+    }
+  ]
+}

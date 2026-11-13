@@ -1,0 +1,222 @@
+[
+  {
+    "id": "xqYKxmGc1Ys",
+    "title": "Ashleigh Barty v Danielle Collins \u2014 Australian Open 2022 Final",
+    "source": "https://www.youtube.com/watch?v=xqYKxmGc1Ys",
+    "channel": "Australian Open",
+    "sport": "tennis",
+    "group_id": "ao2022_barty_collins_final",
+    "split": "train",
+    "status": "downloaded",
+    "verified_title": "Ashleigh Barty v Danielle Collins Full Match (Final) | Australian Open 2022",
+    "channel_id": "UCeTKJSW1NTAkf27nNmjWt5A",
+    "duration_seconds": 7910,
+    "decoded_duration_seconds": 7909.76,
+    "fps": 25.0,
+    "frames": 197744,
+    "resolution": [
+      854,
+      480
+    ],
+    "bytes": 382175811,
+    "sha256": "e2e90139f5bb7a5490ea8f0ee3d7b3b6974912f0a8531fa81d880776d3503be6"
+  },
+  {
+    "id": "8EShbWpBm_0",
+    "title": "Qinwen Zheng v Aryna Sabalenka \u2014 Australian Open 2024 Final",
+    "source": "https://www.youtube.com/watch?v=8EShbWpBm_0",
+    "channel": "Australian Open",
+    "sport": "tennis",
+    "group_id": "ao2024_zheng_sabalenka_final",
+    "split": "train",
+    "status": "downloaded",
+    "verified_title": "Qinwen Zheng v Aryna Sabalenka Full Match | Australian Open 2024 Final",
+    "channel_id": "UCeTKJSW1NTAkf27nNmjWt5A",
+    "duration_seconds": 6202,
+    "decoded_duration_seconds": 6201.92,
+    "fps": 25.0,
+    "frames": 155048,
+    "resolution": [
+      854,
+      480
+    ],
+    "bytes": 343530982,
+    "sha256": "d13cd5c5b44d7870aa6f2385640635a18652e1ad2352e1111bed37fb35f41fb1"
+  },
+  {
+    "id": "2EPvYcN9WHY",
+    "title": "Agnieszka Radwanska v Victoria Azarenka \u2014 Australian Open 2014 Quarterfinal",
+    "source": "https://www.youtube.com/watch?v=2EPvYcN9WHY",
+    "channel": "Australian Open",
+    "sport": "tennis",
+    "group_id": "ao2014_radwanska_azarenka_qf",
+    "split": "train",
+    "status": "downloaded",
+    "verified_title": "Agnieszka Radwanska v Victoria Azarenka Full Match | Australian Open 2014 Quarterfinal",
+    "channel_id": "UCeTKJSW1NTAkf27nNmjWt5A",
+    "duration_seconds": 5920,
+    "decoded_duration_seconds": 5920.04,
+    "fps": 25.0,
+    "frames": 148001,
+    "resolution": [
+      640,
+      360
+    ],
+    "bytes": 266095601,
+    "sha256": "1a22cbcbbd4094d829bc7c2b4b45be070be58c6f907bad71fe9c901ee590d3e5"
+  },
+  {
+    "id": "qNsz4jh02AY",
+    "title": "Naomi Osaka v Caroline Garcia \u2014 Australian Open 2025 First Round",
+    "source": "https://www.youtube.com/watch?v=qNsz4jh02AY",
+    "channel": "Australian Open",
+    "sport": "tennis",
+    "group_id": "ao2025_osaka_garcia_r1",
+    "split": "train",
+    "status": "downloaded",
+    "verified_title": "Naomi Osaka v Caroline Garcia Full Match | Australian Open 2025 First Round",
+    "channel_id": "UCeTKJSW1NTAkf27nNmjWt5A",
+    "duration_seconds": 6494,
+    "decoded_duration_seconds": 6494.08,
+    "fps": 25.0,
+    "frames": 162352,
+    "resolution": [
+      640,
+      360
+    ],
+    "bytes": 153309954,
+    "sha256": "f482510ac19713b2d9685de03a02a82dc6e37837e2b0cd03aa2130d0651f0556"
+  },
+  {
+    "id": "FMYm0jfUNd0",
+    "title": "Aryna Sabalenka v Paula Badosa \u2014 Australian Open 2025 Semifinal",
+    "source": "https://www.youtube.com/watch?v=FMYm0jfUNd0",
+    "channel": "Australian Open",
+    "sport": "tennis",
+    "group_id": "ao2025_sabalenka_badosa_sf",
+    "split": "train",
+    "status": "downloaded",
+    "verified_title": "Aryna Sabalenka v Paula Badosa Full Match | Australian Open 2025 Semifinal",
+    "channel_id": "UCeTKJSW1NTAkf27nNmjWt5A",
+    "duration_seconds": 4270,
+    "decoded_duration_seconds": 4270.2,
+    "fps": 25.0,
+    "frames": 106755,
+    "resolution": [
+      854,
+      480
+    ],
+    "bytes": 184723681,
+    "sha256": "c118b61c60994a32d08d377174df031034f82a56edfeaea9c7341643abdbd781"
+  },
+  {
+    "id": "PC1cCXFOG4w",
+    "title": "Emma Raducanu v Coco Gauff \u2014 Australian Open 2023 Second Round",
+    "source": "https://www.youtube.com/watch?v=PC1cCXFOG4w",
+    "channel": "Australian Open",
+    "sport": "tennis",
+    "group_id": "ao2023_raducanu_gauff_r2",
+    "split": "train",
+    "status": "downloaded",
+    "verified_title": "Emma Raducanu v Coco Gauff Full Match | Australian Open 2023 Second Round",
+    "channel_id": "UCeTKJSW1NTAkf27nNmjWt5A",
+    "duration_seconds": 5256,
+    "decoded_duration_seconds": 5256.0,
+    "fps": 25.0,
+    "frames": 131400,
+    "resolution": [
+      640,
+      360
+    ],
+    "bytes": 96953113,
+    "sha256": "4266752bf61dfae2ce4308b6f8a292ae3d456c31d1f3657ab36c987683764f61"
+  },
+  {
+    "id": "4YZwF-d36PM",
+    "title": "Emma Raducanu v Iga Swiatek \u2014 Australian Open 2025 Third Round",
+    "source": "https://www.youtube.com/watch?v=4YZwF-d36PM",
+    "channel": "Australian Open",
+    "sport": "tennis",
+    "group_id": "ao2025_raducanu_swiatek_r3",
+    "split": "val",
+    "status": "downloaded",
+    "verified_title": "Emma Raducanu v Iga Swiatek Full Match | Australian Open 2025 Third Round",
+    "channel_id": "UCeTKJSW1NTAkf27nNmjWt5A",
+    "duration_seconds": 3986,
+    "decoded_duration_seconds": 3986.08,
+    "fps": 25.0,
+    "frames": 99652,
+    "resolution": [
+      640,
+      360
+    ],
+    "bytes": 88858068,
+    "sha256": "aca511f0c36015fb13ce1acaa2a7f8b092bbaa36cbf6c1903f037a976f9fd59a"
+  },
+  {
+    "id": "ohD0yDeqYAU",
+    "title": "Aryna Sabalenka v Elina Svitolina \u2014 Australian Open 2026 Semifinal",
+    "source": "https://www.youtube.com/watch?v=ohD0yDeqYAU",
+    "channel": "Australian Open",
+    "sport": "tennis",
+    "group_id": "ao2026_sabalenka_svitolina_sf",
+    "split": "val",
+    "status": "downloaded",
+    "verified_title": "Aryna Sabalenka v Elina Svitolina Full Match | Australian Open 2026 Semifinal",
+    "channel_id": "UCeTKJSW1NTAkf27nNmjWt5A",
+    "duration_seconds": 4530,
+    "decoded_duration_seconds": 4530.12,
+    "fps": 25.0,
+    "frames": 113253,
+    "resolution": [
+      854,
+      480
+    ],
+    "bytes": 196846529,
+    "sha256": "8d19ef1d3018fe1e79a4fcf378ca93a475791661a4af1bea33bff88679697a61"
+  },
+  {
+    "id": "iA_Ff1-AqWM",
+    "title": "Elena Rybakina v Elise Mertens \u2014 Australian Open 2026 Fourth Round",
+    "source": "https://www.youtube.com/watch?v=iA_Ff1-AqWM",
+    "channel": "Australian Open",
+    "sport": "tennis",
+    "group_id": "ao2026_rybakina_mertens_r4",
+    "split": "test",
+    "status": "downloaded",
+    "verified_title": "Elena Rybakina v Elise Mertens Full Match | Australian Open 2026 Fourth Round",
+    "channel_id": "UCeTKJSW1NTAkf27nNmjWt5A",
+    "duration_seconds": 4470,
+    "decoded_duration_seconds": 4470.12,
+    "fps": 25.0,
+    "frames": 111753,
+    "resolution": [
+      854,
+      480
+    ],
+    "bytes": 208813444,
+    "sha256": "4c0f25503a66958c65f5d68227c9c6f86a63a2b1e749c462e201c488f8eb8fad"
+  },
+  {
+    "id": "F8AxEv0FKyQ",
+    "title": "Coco Gauff v Olga Danilovic \u2014 Australian Open 2026 Second Round",
+    "source": "https://www.youtube.com/watch?v=F8AxEv0FKyQ",
+    "channel": "Australian Open",
+    "sport": "tennis",
+    "group_id": "ao2026_gauff_danilovic_r2",
+    "split": "test",
+    "status": "downloaded",
+    "verified_title": "Coco Gauff v Olga Danilovic Full Match | Australian Open 2026 Second Round",
+    "channel_id": "UCeTKJSW1NTAkf27nNmjWt5A",
+    "duration_seconds": 4770,
+    "decoded_duration_seconds": 4770.12,
+    "fps": 25.0,
+    "frames": 119253,
+    "resolution": [
+      854,
+      480
+    ],
+    "bytes": 226343439,
+    "sha256": "cfce77303871511f8939ccd42aeffd3bc26ae56a2b79f7046ba0ec70df0747fe"
+  }
+]

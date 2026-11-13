@@ -1,0 +1,254 @@
+[
+  {
+    "id": "barty_collins_action",
+    "video_id": "xqYKxmGc1Ys",
+    "start_seconds": 216,
+    "duration_seconds": 8,
+    "scoreboard_roi": [
+      0.04,
+      0.84,
+      0.3,
+      0.97
+    ]
+  },
+  {
+    "id": "barty_collins_context",
+    "video_id": "xqYKxmGc1Ys",
+    "start_seconds": 330,
+    "duration_seconds": 4,
+    "scoreboard_roi": [
+      0.04,
+      0.84,
+      0.3,
+      0.97
+    ]
+  },
+  {
+    "id": "zheng_sabalenka_action",
+    "video_id": "8EShbWpBm_0",
+    "start_seconds": 207,
+    "duration_seconds": 8,
+    "scoreboard_roi": [
+      0.04,
+      0.84,
+      0.32,
+      0.97
+    ]
+  },
+  {
+    "id": "zheng_sabalenka_context",
+    "video_id": "8EShbWpBm_0",
+    "start_seconds": 307,
+    "duration_seconds": 4,
+    "scoreboard_roi": [
+      0.04,
+      0.84,
+      0.32,
+      0.97
+    ]
+  },
+  {
+    "id": "radwanska_azarenka_action",
+    "video_id": "2EPvYcN9WHY",
+    "start_seconds": 268,
+    "duration_seconds": 8,
+    "scoreboard_roi": [
+      0.17,
+      0.84,
+      0.32,
+      0.97
+    ]
+  },
+  {
+    "id": "radwanska_azarenka_context",
+    "video_id": "2EPvYcN9WHY",
+    "start_seconds": 210,
+    "duration_seconds": 4,
+    "scoreboard_roi": [
+      0.17,
+      0.84,
+      0.32,
+      0.97
+    ]
+  },
+  {
+    "id": "osaka_garcia_action",
+    "video_id": "qNsz4jh02AY",
+    "start_seconds": 194,
+    "duration_seconds": 8,
+    "scoreboard_roi": [
+      0.04,
+      0.84,
+      0.28,
+      0.97
+    ]
+  },
+  {
+    "id": "osaka_garcia_context",
+    "video_id": "qNsz4jh02AY",
+    "start_seconds": 329,
+    "duration_seconds": 4,
+    "scoreboard_roi": [
+      0.04,
+      0.84,
+      0.28,
+      0.97
+    ]
+  },
+  {
+    "id": "sabalenka_badosa_action",
+    "video_id": "FMYm0jfUNd0",
+    "start_seconds": 226,
+    "duration_seconds": 8,
+    "scoreboard_roi": [
+      0.04,
+      0.84,
+      0.29,
+      0.97
+    ]
+  },
+  {
+    "id": "sabalenka_badosa_context",
+    "video_id": "FMYm0jfUNd0",
+    "start_seconds": 196,
+    "duration_seconds": 4,
+    "scoreboard_roi": [
+      0.04,
+      0.84,
+      0.29,
+      0.97
+    ]
+  },
+  {
+    "id": "raducanu_gauff_action",
+    "video_id": "PC1cCXFOG4w",
+    "start_seconds": 296,
+    "duration_seconds": 8,
+    "scoreboard_roi": [
+      0.04,
+      0.84,
+      0.32,
+      0.97
+    ]
+  },
+  {
+    "id": "raducanu_gauff_context",
+    "video_id": "PC1cCXFOG4w",
+    "start_seconds": 408,
+    "duration_seconds": 4,
+    "scoreboard_roi": [
+      0.04,
+      0.84,
+      0.32,
+      0.97
+    ]
+  },
+  {
+    "id": "raducanu_swiatek_action",
+    "video_id": "4YZwF-d36PM",
+    "start_seconds": 236,
+    "duration_seconds": 8,
+    "scoreboard_roi": [
+      0.04,
+      0.84,
+      0.3,
+      0.97
+    ]
+  },
+  {
+    "id": "raducanu_swiatek_context",
+    "video_id": "4YZwF-d36PM",
+    "start_seconds": 386,
+    "duration_seconds": 4,
+    "scoreboard_roi": [
+      0.04,
+      0.84,
+      0.3,
+      0.97
+    ]
+  },
+  {
+    "id": "sabalenka_svitolina_action",
+    "video_id": "ohD0yDeqYAU",
+    "start_seconds": 244,
+    "duration_seconds": 8,
+    "scoreboard_roi": [
+      0.04,
+      0.84,
+      0.3,
+      0.97
+    ]
+  },
+  {
+    "id": "sabalenka_svitolina_context",
+    "video_id": "ohD0yDeqYAU",
+    "start_seconds": 280,
+    "duration_seconds": 4,
+    "scoreboard_roi": [
+      0.04,
+      0.84,
+      0.3,
+      0.97
+    ]
+  },
+  {
+    "id": "rybakina_mertens_action",
+    "video_id": "iA_Ff1-AqWM",
+    "start_seconds": 436,
+    "duration_seconds": 8,
+    "scoreboard_roi": [
+      0.04,
+      0.84,
+      0.3,
+      0.97
+    ]
+  },
+  {
+    "id": "rybakina_mertens_context",
+    "video_id": "iA_Ff1-AqWM",
+    "start_seconds": 290,
+    "duration_seconds": 4,
+    "scoreboard_roi": [
+      0.04,
+      0.84,
+      0.3,
+      0.97
+    ]
+  },
+  {
+    "id": "gauff_danilovic_action",
+    "video_id": "F8AxEv0FKyQ",
+    "start_seconds": 293,
+    "duration_seconds": 8,
+    "scoreboard_roi": [
+      0.04,
+      0.84,
+      0.3,
+      0.97
+    ]
+  },
+  {
+    "id": "gauff_danilovic_context",
+    "video_id": "F8AxEv0FKyQ",
+    "start_seconds": 196,
+    "duration_seconds": 4,
+    "scoreboard_roi": [
+      0.04,
+      0.84,
+      0.3,
+      0.97
+    ]
+  },
+  {
+    "id": "rybakina_mertens_rally",
+    "video_id": "iA_Ff1-AqWM",
+    "start_seconds": 445,
+    "duration_seconds": 8,
+    "scoreboard_roi": [
+      0.04,
+      0.84,
+      0.3,
+      0.97
+    ]
+  }
+]

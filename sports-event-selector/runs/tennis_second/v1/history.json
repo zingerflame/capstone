@@ -1,0 +1,7202 @@
+[
+  {
+    "epoch": 1,
+    "count_weight": 0.5,
+    "training": [
+      {
+        "clip": "zheng_sabalenka_action",
+        "gradient_norm_before_clip": 7.330163955688477,
+        "loss": 0.9432947039604187,
+        "relevance": 0.7944733500480652,
+        "excess": 0.0,
+        "coverage": 0.6037224531173706,
+        "duplicate": 0.2807689905166626,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "gradient_norm_before_clip": 526.2283325195312,
+        "loss": 39.267578125,
+        "relevance": 0.9863213300704956,
+        "excess": 76.56251525878906,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 39,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_action",
+        "gradient_norm_before_clip": 190.80010986328125,
+        "loss": 12.575055122375488,
+        "relevance": 0.9279596209526062,
+        "excess": 23.040000915527344,
+        "coverage": 0.3673830032348633,
+        "duplicate": 0.5361818671226501,
+        "decoded_count": 58,
+        "budget": 10
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "gradient_norm_before_clip": 65.18035125732422,
+        "loss": 3.9951934814453125,
+        "relevance": 0.7100710272789001,
+        "excess": 6.250001430511475,
+        "coverage": 0.46746134757995605,
+        "duplicate": 0.6662952303886414,
+        "decoded_count": 56,
+        "budget": 16
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "gradient_norm_before_clip": 5.936854362487793,
+        "loss": 0.43926939368247986,
+        "relevance": 0.43926939368247986,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "gradient_norm_before_clip": 4.685408115386963,
+        "loss": 0.33914604783058167,
+        "relevance": 0.33914604783058167,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_context",
+        "gradient_norm_before_clip": 3.2152299880981445,
+        "loss": 0.2131841629743576,
+        "relevance": 0.2131841629743576,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "gradient_norm_before_clip": 1.9673023223876953,
+        "loss": 0.13590949773788452,
+        "relevance": 0.13590949773788452,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "gradient_norm_before_clip": 1.233091950416565,
+        "loss": 0.08218444138765335,
+        "relevance": 0.08218444138765335,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "gradient_norm_before_clip": 6.264115333557129,
+        "loss": 1.4775238037109375,
+        "relevance": 1.2887135744094849,
+        "excess": 0.0,
+        "coverage": 0.9440508484840393,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "gradient_norm_before_clip": 8.898624420166016,
+        "loss": 2.101566791534424,
+        "relevance": 1.9102709293365479,
+        "excess": 0.0,
+        "coverage": 0.9564793109893799,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "gradient_norm_before_clip": 2.085151195526123,
+        "loss": 0.761929988861084,
+        "relevance": 0.5699182748794556,
+        "excess": 0.0,
+        "coverage": 0.9600585103034973,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      }
+    ],
+    "validation_winner": {
+      "threshold": 0.7,
+      "consensus": 0.8,
+      "matched": 0,
+      "predicted": 0,
+      "truth": 45,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "validation_candidates": [
+      {
+        "threshold": 0.1,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  {
+    "epoch": 2,
+    "count_weight": 0.5,
+    "training": [
+      {
+        "clip": "sabalenka_badosa_action",
+        "gradient_norm_before_clip": 2.0686230659484863,
+        "loss": 0.7553645968437195,
+        "relevance": 0.5637302398681641,
+        "excess": 0.0,
+        "coverage": 0.9581716656684875,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "barty_collins_action",
+        "gradient_norm_before_clip": 1.6264387369155884,
+        "loss": 0.6672134399414062,
+        "relevance": 0.47613632678985596,
+        "excess": 0.0,
+        "coverage": 0.9553853869438171,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "gradient_norm_before_clip": 5.228786945343018,
+        "loss": 1.3446874618530273,
+        "relevance": 1.155178189277649,
+        "excess": 0.0,
+        "coverage": 0.947546660900116,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "barty_collins_context",
+        "gradient_norm_before_clip": 0.953857958316803,
+        "loss": 0.06591850519180298,
+        "relevance": 0.06591850519180298,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "gradient_norm_before_clip": 1.0055527687072754,
+        "loss": 0.0709618330001831,
+        "relevance": 0.0709618330001831,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "gradient_norm_before_clip": 0.9859315752983093,
+        "loss": 0.0698523223400116,
+        "relevance": 0.0698523223400116,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "gradient_norm_before_clip": 0.9773595929145813,
+        "loss": 0.06862644106149673,
+        "relevance": 0.06862644106149673,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "gradient_norm_before_clip": 0.9411395788192749,
+        "loss": 0.0653412714600563,
+        "relevance": 0.0653412714600563,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "gradient_norm_before_clip": 5.888110637664795,
+        "loss": 1.4657658338546753,
+        "relevance": 1.2771416902542114,
+        "excess": 0.0,
+        "coverage": 0.943120539188385,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "gradient_norm_before_clip": 9.8389892578125,
+        "loss": 2.212369918823242,
+        "relevance": 2.023405075073242,
+        "excess": 0.0,
+        "coverage": 0.9448245763778687,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "gradient_norm_before_clip": 8.547843933105469,
+        "loss": 1.975075602531433,
+        "relevance": 1.7857284545898438,
+        "excess": 0.0,
+        "coverage": 0.9467357993125916,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "gradient_norm_before_clip": 0.7760682702064514,
+        "loss": 0.054022252559661865,
+        "relevance": 0.054022252559661865,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      }
+    ],
+    "validation_winner": {
+      "threshold": 0.7,
+      "consensus": 0.8,
+      "matched": 0,
+      "predicted": 0,
+      "truth": 45,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "validation_candidates": [
+      {
+        "threshold": 0.1,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  {
+    "epoch": 3,
+    "count_weight": 0.5,
+    "training": [
+      {
+        "clip": "radwanska_azarenka_context",
+        "gradient_norm_before_clip": 0.758107602596283,
+        "loss": 0.0526585690677166,
+        "relevance": 0.0526585690677166,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "gradient_norm_before_clip": 8.549803733825684,
+        "loss": 1.9527685642242432,
+        "relevance": 1.7639565467834473,
+        "excess": 0.0,
+        "coverage": 0.9440600275993347,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "barty_collins_context",
+        "gradient_norm_before_clip": 0.81356281042099,
+        "loss": 0.055663879960775375,
+        "relevance": 0.055663879960775375,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "gradient_norm_before_clip": 0.7786421775817871,
+        "loss": 0.05273178592324257,
+        "relevance": 0.05273178592324257,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_action",
+        "gradient_norm_before_clip": 1.4899590015411377,
+        "loss": 0.6528117060661316,
+        "relevance": 0.4634188413619995,
+        "excess": 0.0,
+        "coverage": 0.9469642043113708,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "gradient_norm_before_clip": 5.96640682220459,
+        "loss": 1.4626460075378418,
+        "relevance": 1.274149775505066,
+        "excess": 0.0,
+        "coverage": 0.9424813389778137,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "gradient_norm_before_clip": 0.7032434344291687,
+        "loss": 0.048192817717790604,
+        "relevance": 0.048192817717790604,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "gradient_norm_before_clip": 9.830212593078613,
+        "loss": 2.1266181468963623,
+        "relevance": 1.939052939414978,
+        "excess": 0.0,
+        "coverage": 0.9378265142440796,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "gradient_norm_before_clip": 1.7967816591262817,
+        "loss": 0.6987043619155884,
+        "relevance": 0.5113688111305237,
+        "excess": 0.0,
+        "coverage": 0.9366776943206787,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "gradient_norm_before_clip": 0.8195424675941467,
+        "loss": 0.05618292838335037,
+        "relevance": 0.05618292838335037,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "gradient_norm_before_clip": 0.9062141180038452,
+        "loss": 0.06166458502411842,
+        "relevance": 0.06166458502411842,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "gradient_norm_before_clip": 5.063072681427002,
+        "loss": 1.2096177339553833,
+        "relevance": 1.025048017501831,
+        "excess": 0.0,
+        "coverage": 0.9228484630584717,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      }
+    ],
+    "validation_winner": {
+      "threshold": 0.7,
+      "consensus": 0.8,
+      "matched": 0,
+      "predicted": 0,
+      "truth": 45,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "validation_candidates": [
+      {
+        "threshold": 0.1,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  {
+    "epoch": 4,
+    "count_weight": 0.5,
+    "training": [
+      {
+        "clip": "osaka_garcia_context",
+        "gradient_norm_before_clip": 0.9588503241539001,
+        "loss": 0.06482485681772232,
+        "relevance": 0.06482485681772232,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "gradient_norm_before_clip": 1.0954022407531738,
+        "loss": 0.06992433965206146,
+        "relevance": 0.06992433965206146,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "gradient_norm_before_clip": 0.8255232572555542,
+        "loss": 0.05527032911777496,
+        "relevance": 0.05527032911777496,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_action",
+        "gradient_norm_before_clip": 1.249116063117981,
+        "loss": 0.6137468218803406,
+        "relevance": 0.42942339181900024,
+        "excess": 0.0,
+        "coverage": 0.9216172099113464,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "gradient_norm_before_clip": 9.939480781555176,
+        "loss": 1.9823389053344727,
+        "relevance": 1.7974003553390503,
+        "excess": 0.0,
+        "coverage": 0.9246924519538879,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "gradient_norm_before_clip": 6.068814754486084,
+        "loss": 1.3268647193908691,
+        "relevance": 1.1428238153457642,
+        "excess": 0.0,
+        "coverage": 0.9202044010162354,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "gradient_norm_before_clip": 0.7447998523712158,
+        "loss": 0.047653310000896454,
+        "relevance": 0.047653310000896454,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "gradient_norm_before_clip": 9.688517570495605,
+        "loss": 1.727250337600708,
+        "relevance": 1.543729305267334,
+        "excess": 0.0,
+        "coverage": 0.9176049828529358,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "gradient_norm_before_clip": 5.399042129516602,
+        "loss": 1.1337971687316895,
+        "relevance": 0.9529727697372437,
+        "excess": 0.0,
+        "coverage": 0.9041222929954529,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "gradient_norm_before_clip": 0.9807118773460388,
+        "loss": 0.06106535717844963,
+        "relevance": 0.06106535717844963,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "gradient_norm_before_clip": 1.1503294706344604,
+        "loss": 0.6240556240081787,
+        "relevance": 0.4492780864238739,
+        "excess": 0.0,
+        "coverage": 0.8738877773284912,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "barty_collins_context",
+        "gradient_norm_before_clip": 1.8123234510421753,
+        "loss": 0.10539061576128006,
+        "relevance": 0.10539061576128006,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      }
+    ],
+    "validation_winner": {
+      "threshold": 0.7,
+      "consensus": 0.8,
+      "matched": 0,
+      "predicted": 0,
+      "truth": 45,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "validation_candidates": [
+      {
+        "threshold": 0.1,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 14,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 14,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 10,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  {
+    "epoch": 5,
+    "count_weight": 0.5,
+    "training": [
+      {
+        "clip": "barty_collins_context",
+        "gradient_norm_before_clip": 1.9454416036605835,
+        "loss": 0.11016838997602463,
+        "relevance": 0.11016838997602463,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "gradient_norm_before_clip": 8.840916633605957,
+        "loss": 1.3869049549102783,
+        "relevance": 1.2166237831115723,
+        "excess": 0.0,
+        "coverage": 0.8514060974121094,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "gradient_norm_before_clip": 1.2087076902389526,
+        "loss": 0.06672857701778412,
+        "relevance": 0.06672857701778412,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "gradient_norm_before_clip": 1.3832682371139526,
+        "loss": 0.0756392776966095,
+        "relevance": 0.0756392776966095,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "gradient_norm_before_clip": 0.8924128413200378,
+        "loss": 0.5969140529632568,
+        "relevance": 0.43029800057411194,
+        "excess": 0.0,
+        "coverage": 0.8330802917480469,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "gradient_norm_before_clip": 5.0477190017700195,
+        "loss": 1.0223298072814941,
+        "relevance": 0.8585324883460999,
+        "excess": 0.0,
+        "coverage": 0.8189864158630371,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "gradient_norm_before_clip": 5.451812267303467,
+        "loss": 0.9380817413330078,
+        "relevance": 0.7750287055969238,
+        "excess": 0.0,
+        "coverage": 0.8152649998664856,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "gradient_norm_before_clip": 0.9949555993080139,
+        "loss": 0.053855232894420624,
+        "relevance": 0.053855232894420624,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "gradient_norm_before_clip": 8.208357810974121,
+        "loss": 1.1726950407028198,
+        "relevance": 1.023011565208435,
+        "excess": 0.0,
+        "coverage": 0.7404034733772278,
+        "duplicate": 0.01602759025990963,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "gradient_norm_before_clip": 3.7985851764678955,
+        "loss": 0.11271710693836212,
+        "relevance": 0.11271710693836212,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_action",
+        "gradient_norm_before_clip": 2.731171131134033,
+        "loss": 0.6311327219009399,
+        "relevance": 0.4927513003349304,
+        "excess": 0.0,
+        "coverage": 0.6858058571815491,
+        "duplicate": 0.012202088721096516,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "gradient_norm_before_clip": 0.8193445801734924,
+        "loss": 0.04320621117949486,
+        "relevance": 0.04320621117949486,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      }
+    ],
+    "validation_winner": {
+      "threshold": 0.2,
+      "consensus": 0.65,
+      "matched": 5,
+      "predicted": 13,
+      "truth": 45,
+      "precision": 0.38461538461538464,
+      "recall": 0.1111111111111111,
+      "f1": 0.1724137931034483
+    },
+    "validation_candidates": [
+      {
+        "threshold": 0.1,
+        "consensus": 0.5,
+        "matched": 5,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.38461538461538464,
+        "recall": 0.1111111111111111,
+        "f1": 0.1724137931034483
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.65,
+        "matched": 5,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.38461538461538464,
+        "recall": 0.1111111111111111,
+        "f1": 0.1724137931034483
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.8,
+        "matched": 3,
+        "predicted": 9,
+        "truth": 45,
+        "precision": 0.3333333333333333,
+        "recall": 0.06666666666666667,
+        "f1": 0.1111111111111111
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.5,
+        "matched": 5,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.38461538461538464,
+        "recall": 0.1111111111111111,
+        "f1": 0.1724137931034483
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.65,
+        "matched": 5,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.38461538461538464,
+        "recall": 0.1111111111111111,
+        "f1": 0.1724137931034483
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.8,
+        "matched": 3,
+        "predicted": 9,
+        "truth": 45,
+        "precision": 0.3333333333333333,
+        "recall": 0.06666666666666667,
+        "f1": 0.1111111111111111
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.5,
+        "matched": 2,
+        "predicted": 7,
+        "truth": 45,
+        "precision": 0.2857142857142857,
+        "recall": 0.044444444444444446,
+        "f1": 0.07692307692307693
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.65,
+        "matched": 2,
+        "predicted": 7,
+        "truth": 45,
+        "precision": 0.2857142857142857,
+        "recall": 0.044444444444444446,
+        "f1": 0.07692307692307693
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 3,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  {
+    "epoch": 6,
+    "count_weight": 0.5,
+    "training": [
+      {
+        "clip": "barty_collins_context",
+        "gradient_norm_before_clip": 3.343280553817749,
+        "loss": 0.10065081715583801,
+        "relevance": 0.10065081715583801,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "gradient_norm_before_clip": 0.4954788088798523,
+        "loss": 0.031542517244815826,
+        "relevance": 0.031542517244815826,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "gradient_norm_before_clip": 10.480050086975098,
+        "loss": 0.9378538131713867,
+        "relevance": 0.7857393622398376,
+        "excess": 0.0,
+        "coverage": 0.7598984837532043,
+        "duplicate": 0.0013474281877279282,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "gradient_norm_before_clip": 0.3728756606578827,
+        "loss": 0.024919716641306877,
+        "relevance": 0.024919716641306877,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "gradient_norm_before_clip": 42.91507339477539,
+        "loss": 1.7951105833053589,
+        "relevance": 1.6101305484771729,
+        "excess": 0.0,
+        "coverage": 0.9249001741409302,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "gradient_norm_before_clip": 33.036766052246094,
+        "loss": 1.166428565979004,
+        "relevance": 0.9841611385345459,
+        "excess": 0.0,
+        "coverage": 0.9113370776176453,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "barty_collins_action",
+        "gradient_norm_before_clip": 1.1715198755264282,
+        "loss": 0.582744300365448,
+        "relevance": 0.4216417372226715,
+        "excess": 0.0,
+        "coverage": 0.8055127263069153,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "gradient_norm_before_clip": 0.6565094590187073,
+        "loss": 0.02235577441751957,
+        "relevance": 0.02235577441751957,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "gradient_norm_before_clip": 0.2325667142868042,
+        "loss": 0.015551389195024967,
+        "relevance": 0.015551389195024967,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "gradient_norm_before_clip": 30.145465850830078,
+        "loss": 1.4668121337890625,
+        "relevance": 1.2996970415115356,
+        "excess": 0.0,
+        "coverage": 0.8355754613876343,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "gradient_norm_before_clip": 0.22109216451644897,
+        "loss": 0.013819413259625435,
+        "relevance": 0.013819413259625435,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "gradient_norm_before_clip": 9.8624906539917,
+        "loss": 0.6611976623535156,
+        "relevance": 0.4798714220523834,
+        "excess": 0.0,
+        "coverage": 0.9066312313079834,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      }
+    ],
+    "validation_winner": {
+      "threshold": 0.2,
+      "consensus": 0.65,
+      "matched": 2,
+      "predicted": 7,
+      "truth": 45,
+      "precision": 0.2857142857142857,
+      "recall": 0.044444444444444446,
+      "f1": 0.07692307692307693
+    },
+    "validation_candidates": [
+      {
+        "threshold": 0.1,
+        "consensus": 0.5,
+        "matched": 2,
+        "predicted": 7,
+        "truth": 45,
+        "precision": 0.2857142857142857,
+        "recall": 0.044444444444444446,
+        "f1": 0.07692307692307693
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.65,
+        "matched": 2,
+        "predicted": 7,
+        "truth": 45,
+        "precision": 0.2857142857142857,
+        "recall": 0.044444444444444446,
+        "f1": 0.07692307692307693
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 4,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.5,
+        "matched": 2,
+        "predicted": 7,
+        "truth": 45,
+        "precision": 0.2857142857142857,
+        "recall": 0.044444444444444446,
+        "f1": 0.07692307692307693
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.65,
+        "matched": 2,
+        "predicted": 7,
+        "truth": 45,
+        "precision": 0.2857142857142857,
+        "recall": 0.044444444444444446,
+        "f1": 0.07692307692307693
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 4,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  {
+    "epoch": 7,
+    "count_weight": 0.5,
+    "training": [
+      {
+        "clip": "osaka_garcia_context",
+        "gradient_norm_before_clip": 0.19898509979248047,
+        "loss": 0.012158923782408237,
+        "relevance": 0.012158923782408237,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "gradient_norm_before_clip": 0.14437584578990936,
+        "loss": 0.009544097818434238,
+        "relevance": 0.009544097818434238,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "gradient_norm_before_clip": 52.098453521728516,
+        "loss": 1.9013444185256958,
+        "relevance": 1.7139534950256348,
+        "excess": 0.0,
+        "coverage": 0.9369546175003052,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "gradient_norm_before_clip": 0.13664670288562775,
+        "loss": 0.008668254129588604,
+        "relevance": 0.008668254129588604,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_action",
+        "gradient_norm_before_clip": 0.8697783350944519,
+        "loss": 0.5792226791381836,
+        "relevance": 0.42164185643196106,
+        "excess": 0.0,
+        "coverage": 0.7879042625427246,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "gradient_norm_before_clip": 15.076805114746094,
+        "loss": 0.9921850562095642,
+        "relevance": 0.8220981359481812,
+        "excess": 0.0,
+        "coverage": 0.8504346013069153,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "barty_collins_context",
+        "gradient_norm_before_clip": 1.2799665927886963,
+        "loss": 0.028351692482829094,
+        "relevance": 0.028351692482829094,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "gradient_norm_before_clip": 2.690678834915161,
+        "loss": 0.5841265916824341,
+        "relevance": 0.4182911515235901,
+        "excess": 0.0,
+        "coverage": 0.82917720079422,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "gradient_norm_before_clip": 1.034561276435852,
+        "loss": 0.01746559515595436,
+        "relevance": 0.01746559515595436,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "gradient_norm_before_clip": 0.10254022479057312,
+        "loss": 0.0058186291716992855,
+        "relevance": 0.0058186291716992855,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "gradient_norm_before_clip": 13.393715858459473,
+        "loss": 1.28288996219635,
+        "relevance": 1.1262290477752686,
+        "excess": 0.0,
+        "coverage": 0.7822617888450623,
+        "duplicate": 0.002085350453853607,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "gradient_norm_before_clip": 5.746793746948242,
+        "loss": 0.9377279281616211,
+        "relevance": 0.7854068279266357,
+        "excess": 0.0,
+        "coverage": 0.7584232687950134,
+        "duplicate": 0.006364742759615183,
+        "decoded_count": 4,
+        "budget": 16
+      }
+    ],
+    "validation_winner": {
+      "threshold": 0.2,
+      "consensus": 0.65,
+      "matched": 2,
+      "predicted": 13,
+      "truth": 45,
+      "precision": 0.15384615384615385,
+      "recall": 0.044444444444444446,
+      "f1": 0.06896551724137931
+    },
+    "validation_candidates": [
+      {
+        "threshold": 0.1,
+        "consensus": 0.5,
+        "matched": 2,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.15384615384615385,
+        "recall": 0.044444444444444446,
+        "f1": 0.06896551724137931
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.65,
+        "matched": 2,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.15384615384615385,
+        "recall": 0.044444444444444446,
+        "f1": 0.06896551724137931
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 7,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.5,
+        "matched": 2,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.15384615384615385,
+        "recall": 0.044444444444444446,
+        "f1": 0.06896551724137931
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.65,
+        "matched": 2,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.15384615384615385,
+        "recall": 0.044444444444444446,
+        "f1": 0.06896551724137931
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 7,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 5,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  {
+    "epoch": 8,
+    "count_weight": 0.5,
+    "training": [
+      {
+        "clip": "sabalenka_badosa_action",
+        "gradient_norm_before_clip": 0.9737459421157837,
+        "loss": 0.5607757568359375,
+        "relevance": 0.4122866988182068,
+        "excess": 0.0,
+        "coverage": 0.7410674691200256,
+        "duplicate": 0.0027556431014090776,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "gradient_norm_before_clip": 1.7464066743850708,
+        "loss": 0.80785071849823,
+        "relevance": 0.6676680445671082,
+        "excess": 0.0,
+        "coverage": 0.6648573875427246,
+        "duplicate": 0.07211219519376755,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "gradient_norm_before_clip": 5.714199066162109,
+        "loss": 0.9380255937576294,
+        "relevance": 0.7816441655158997,
+        "excess": 0.0,
+        "coverage": 0.6249768733978271,
+        "duplicate": 0.3138609528541565,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "barty_collins_context",
+        "gradient_norm_before_clip": 6.888739109039307,
+        "loss": 0.15715953707695007,
+        "relevance": 0.15715953707695007,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "gradient_norm_before_clip": 0.47411948442459106,
+        "loss": 0.008794844150543213,
+        "relevance": 0.008794844150543213,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "gradient_norm_before_clip": 18.43465232849121,
+        "loss": 1.6940269470214844,
+        "relevance": 0.6140665411949158,
+        "excess": 1.6383999586105347,
+        "coverage": 0.32155442237854004,
+        "duplicate": 1.9644949436187744,
+        "decoded_count": 57,
+        "budget": 25
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "gradient_norm_before_clip": 2.2749252319335938,
+        "loss": 0.028566516935825348,
+        "relevance": 0.028566516935825348,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "gradient_norm_before_clip": 53.29981994628906,
+        "loss": 4.111375331878662,
+        "relevance": 0.8463131189346313,
+        "excess": 5.941407203674316,
+        "coverage": 0.3190566599369049,
+        "duplicate": 2.305474042892456,
+        "decoded_count": 55,
+        "budget": 16
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "gradient_norm_before_clip": 0.6138156056404114,
+        "loss": 0.009669942781329155,
+        "relevance": 0.009669942781329155,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "gradient_norm_before_clip": 0.38996830582618713,
+        "loss": 0.008351415395736694,
+        "relevance": 0.008351415395736694,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "gradient_norm_before_clip": 12.495949745178223,
+        "loss": 0.15092936158180237,
+        "relevance": 0.15092936158180237,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_action",
+        "gradient_norm_before_clip": 172.0660858154297,
+        "loss": 10.542180061340332,
+        "relevance": 0.7413458228111267,
+        "excess": 19.360000610351562,
+        "coverage": 0.460453063249588,
+        "duplicate": 0.28743913769721985,
+        "decoded_count": 54,
+        "budget": 10
+      }
+    ],
+    "validation_winner": {
+      "threshold": 0.4,
+      "consensus": 0.65,
+      "matched": 5,
+      "predicted": 14,
+      "truth": 45,
+      "precision": 0.35714285714285715,
+      "recall": 0.1111111111111111,
+      "f1": 0.1694915254237288
+    },
+    "validation_candidates": [
+      {
+        "threshold": 0.1,
+        "consensus": 0.5,
+        "matched": 5,
+        "predicted": 14,
+        "truth": 45,
+        "precision": 0.35714285714285715,
+        "recall": 0.1111111111111111,
+        "f1": 0.1694915254237288
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.65,
+        "matched": 5,
+        "predicted": 14,
+        "truth": 45,
+        "precision": 0.35714285714285715,
+        "recall": 0.1111111111111111,
+        "f1": 0.1694915254237288
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 4,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.5,
+        "matched": 5,
+        "predicted": 14,
+        "truth": 45,
+        "precision": 0.35714285714285715,
+        "recall": 0.1111111111111111,
+        "f1": 0.1694915254237288
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.65,
+        "matched": 5,
+        "predicted": 14,
+        "truth": 45,
+        "precision": 0.35714285714285715,
+        "recall": 0.1111111111111111,
+        "f1": 0.1694915254237288
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 4,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.5,
+        "matched": 5,
+        "predicted": 14,
+        "truth": 45,
+        "precision": 0.35714285714285715,
+        "recall": 0.1111111111111111,
+        "f1": 0.1694915254237288
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.65,
+        "matched": 5,
+        "predicted": 14,
+        "truth": 45,
+        "precision": 0.35714285714285715,
+        "recall": 0.1111111111111111,
+        "f1": 0.1694915254237288
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 4,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.5,
+        "matched": 5,
+        "predicted": 14,
+        "truth": 45,
+        "precision": 0.35714285714285715,
+        "recall": 0.1111111111111111,
+        "f1": 0.1694915254237288
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.65,
+        "matched": 5,
+        "predicted": 14,
+        "truth": 45,
+        "precision": 0.35714285714285715,
+        "recall": 0.1111111111111111,
+        "f1": 0.1694915254237288
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 4,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.5,
+        "matched": 3,
+        "predicted": 7,
+        "truth": 45,
+        "precision": 0.42857142857142855,
+        "recall": 0.06666666666666667,
+        "f1": 0.11538461538461539
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.65,
+        "matched": 3,
+        "predicted": 7,
+        "truth": 45,
+        "precision": 0.42857142857142855,
+        "recall": 0.06666666666666667,
+        "f1": 0.11538461538461539
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 2,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  {
+    "epoch": 9,
+    "count_weight": 0.5,
+    "training": [
+      {
+        "clip": "zheng_sabalenka_context",
+        "gradient_norm_before_clip": 0.10869786143302917,
+        "loss": 0.004387148655951023,
+        "relevance": 0.004387148655951023,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "gradient_norm_before_clip": 4.798213958740234,
+        "loss": 0.8951444029808044,
+        "relevance": 0.7452939748764038,
+        "excess": 0.0,
+        "coverage": 0.5716716051101685,
+        "duplicate": 0.3551609516143799,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "gradient_norm_before_clip": 0.055599749088287354,
+        "loss": 0.003143229056149721,
+        "relevance": 0.003143229056149721,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "gradient_norm_before_clip": 0.7038347721099854,
+        "loss": 0.00806736946105957,
+        "relevance": 0.00806736946105957,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "gradient_norm_before_clip": 4.598097801208496,
+        "loss": 0.8740600347518921,
+        "relevance": 0.7308916449546814,
+        "excess": 0.0,
+        "coverage": 0.673683226108551,
+        "duplicate": 0.08431729674339294,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "gradient_norm_before_clip": 85.27083587646484,
+        "loss": 1.605682373046875,
+        "relevance": 1.4272087812423706,
+        "excess": 0.0,
+        "coverage": 0.8923678994178772,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "gradient_norm_before_clip": 0.05676554515957832,
+        "loss": 0.0028638741932809353,
+        "relevance": 0.0028638741932809353,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "gradient_norm_before_clip": 23.89991569519043,
+        "loss": 0.9068109393119812,
+        "relevance": 0.7479673624038696,
+        "excess": 0.0,
+        "coverage": 0.7940532565116882,
+        "duplicate": 0.0003292705223429948,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "gradient_norm_before_clip": 0.7750396132469177,
+        "loss": 0.5201384425163269,
+        "relevance": 0.38138869404792786,
+        "excess": 0.0,
+        "coverage": 0.6813623309135437,
+        "duplicate": 0.02477310597896576,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "barty_collins_action",
+        "gradient_norm_before_clip": 3.847667932510376,
+        "loss": 0.6502063274383545,
+        "relevance": 0.5170062184333801,
+        "excess": 0.0,
+        "coverage": 0.6541438698768616,
+        "duplicate": 0.023713352158665657,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "gradient_norm_before_clip": 0.03944903984665871,
+        "loss": 0.0021982109174132347,
+        "relevance": 0.0021982109174132347,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_context",
+        "gradient_norm_before_clip": 2.387321949005127,
+        "loss": 0.03278132528066635,
+        "relevance": 0.03278132528066635,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      }
+    ],
+    "validation_winner": {
+      "threshold": 0.7,
+      "consensus": 0.8,
+      "matched": 0,
+      "predicted": 0,
+      "truth": 45,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "validation_candidates": [
+      {
+        "threshold": 0.1,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 5,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 5,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 5,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  {
+    "epoch": 10,
+    "count_weight": 0.5,
+    "training": [
+      {
+        "clip": "sabalenka_badosa_action",
+        "gradient_norm_before_clip": 0.6598633527755737,
+        "loss": 0.5047239065170288,
+        "relevance": 0.3620942234992981,
+        "excess": 0.0,
+        "coverage": 0.7050936222076416,
+        "duplicate": 0.01610940508544445,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "gradient_norm_before_clip": 0.033066969364881516,
+        "loss": 0.0018323803087696433,
+        "relevance": 0.0018323803087696433,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "gradient_norm_before_clip": 0.02764669992029667,
+        "loss": 0.0015542564215138555,
+        "relevance": 0.0015542564215138555,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "gradient_norm_before_clip": 0.5325112342834473,
+        "loss": 0.00513179088011384,
+        "relevance": 0.00513179088011384,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "gradient_norm_before_clip": 10.062092781066895,
+        "loss": 1.1286382675170898,
+        "relevance": 0.9810267686843872,
+        "excess": 0.0,
+        "coverage": 0.7239419221878052,
+        "duplicate": 0.028231306001544,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "gradient_norm_before_clip": 0.02637123130261898,
+        "loss": 0.0014270809479057789,
+        "relevance": 0.0014270809479057789,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "gradient_norm_before_clip": 35.27464294433594,
+        "loss": 1.2597676515579224,
+        "relevance": 1.0972291231155396,
+        "excess": 0.0,
+        "coverage": 0.8126925826072693,
+        "duplicate": 4.37012204201892e-10,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "barty_collins_action",
+        "gradient_norm_before_clip": 2.881460189819336,
+        "loss": 0.620516300201416,
+        "relevance": 0.4813680052757263,
+        "excess": 0.0,
+        "coverage": 0.690662682056427,
+        "duplicate": 0.010157842189073563,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "gradient_norm_before_clip": 0.03712945431470871,
+        "loss": 0.0015090862289071083,
+        "relevance": 0.0015090862289071083,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_context",
+        "gradient_norm_before_clip": 2.012197256088257,
+        "loss": 0.029352618381381035,
+        "relevance": 0.029352618381381035,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "gradient_norm_before_clip": 4.122836589813232,
+        "loss": 0.8363785743713379,
+        "relevance": 0.6910288333892822,
+        "excess": 0.0,
+        "coverage": 0.7175262570381165,
+        "duplicate": 0.01844489574432373,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "gradient_norm_before_clip": 2.5009989738464355,
+        "loss": 0.8666638135910034,
+        "relevance": 0.7228962182998657,
+        "excess": 0.0,
+        "coverage": 0.6856215596199036,
+        "duplicate": 0.0664328783750534,
+        "decoded_count": 4,
+        "budget": 16
+      }
+    ],
+    "validation_winner": {
+      "threshold": 0.3,
+      "consensus": 0.65,
+      "matched": 2,
+      "predicted": 14,
+      "truth": 45,
+      "precision": 0.14285714285714285,
+      "recall": 0.044444444444444446,
+      "f1": 0.06779661016949153
+    },
+    "validation_candidates": [
+      {
+        "threshold": 0.1,
+        "consensus": 0.5,
+        "matched": 2,
+        "predicted": 14,
+        "truth": 45,
+        "precision": 0.14285714285714285,
+        "recall": 0.044444444444444446,
+        "f1": 0.06779661016949153
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.65,
+        "matched": 2,
+        "predicted": 14,
+        "truth": 45,
+        "precision": 0.14285714285714285,
+        "recall": 0.044444444444444446,
+        "f1": 0.06779661016949153
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 5,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.5,
+        "matched": 2,
+        "predicted": 14,
+        "truth": 45,
+        "precision": 0.14285714285714285,
+        "recall": 0.044444444444444446,
+        "f1": 0.06779661016949153
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.65,
+        "matched": 2,
+        "predicted": 14,
+        "truth": 45,
+        "precision": 0.14285714285714285,
+        "recall": 0.044444444444444446,
+        "f1": 0.06779661016949153
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 5,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.5,
+        "matched": 2,
+        "predicted": 14,
+        "truth": 45,
+        "precision": 0.14285714285714285,
+        "recall": 0.044444444444444446,
+        "f1": 0.06779661016949153
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.65,
+        "matched": 2,
+        "predicted": 14,
+        "truth": 45,
+        "precision": 0.14285714285714285,
+        "recall": 0.044444444444444446,
+        "f1": 0.06779661016949153
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 5,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  {
+    "epoch": 11,
+    "count_weight": 0.5,
+    "training": [
+      {
+        "clip": "sabalenka_badosa_context",
+        "gradient_norm_before_clip": 0.01999630406498909,
+        "loss": 0.0010714498348534107,
+        "relevance": 0.0010714498348534107,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "gradient_norm_before_clip": 0.02133788913488388,
+        "loss": 0.001120961969718337,
+        "relevance": 0.001120961969718337,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "gradient_norm_before_clip": 0.022825749590992928,
+        "loss": 0.0011034681228920817,
+        "relevance": 0.0011034681228920817,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_action",
+        "gradient_norm_before_clip": 5.0089874267578125,
+        "loss": 0.7152023911476135,
+        "relevance": 0.5902332067489624,
+        "excess": 0.0,
+        "coverage": 0.5721883177757263,
+        "duplicate": 0.1053154245018959,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "gradient_norm_before_clip": 2.860722064971924,
+        "loss": 0.8579958081245422,
+        "relevance": 0.699357807636261,
+        "excess": 0.0,
+        "coverage": 0.5291597843170166,
+        "duplicate": 0.5280600786209106,
+        "decoded_count": 6,
+        "budget": 25
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "gradient_norm_before_clip": 0.04454603046178818,
+        "loss": 0.0013297699624672532,
+        "relevance": 0.0013297699624672532,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "gradient_norm_before_clip": 2.082836151123047,
+        "loss": 0.010749886743724346,
+        "relevance": 0.010749886743724346,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "gradient_norm_before_clip": 27.519664764404297,
+        "loss": 1.1601873636245728,
+        "relevance": 0.41123566031455994,
+        "excess": 1.2100000381469727,
+        "coverage": 0.4664769470691681,
+        "duplicate": 0.5065633058547974,
+        "decoded_count": 21,
+        "budget": 10
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "gradient_norm_before_clip": 47.74262237548828,
+        "loss": 2.295977830886841,
+        "relevance": 0.6977672576904297,
+        "excess": 2.84765625,
+        "coverage": 0.4950316846370697,
+        "duplicate": 0.7537608742713928,
+        "decoded_count": 43,
+        "budget": 16
+      },
+      {
+        "clip": "barty_collins_context",
+        "gradient_norm_before_clip": 3.021336078643799,
+        "loss": 0.02130100503563881,
+        "relevance": 0.02130100503563881,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "gradient_norm_before_clip": 82.41368865966797,
+        "loss": 1.250414252281189,
+        "relevance": 1.0902546644210815,
+        "excess": 0.0,
+        "coverage": 0.7967734932899475,
+        "duplicate": 0.008049539290368557,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "gradient_norm_before_clip": 30.157936096191406,
+        "loss": 0.8810604810714722,
+        "relevance": 0.7257629036903381,
+        "excess": 0.0,
+        "coverage": 0.7757361531257629,
+        "duplicate": 0.0015035209944471717,
+        "decoded_count": 4,
+        "budget": 16
+      }
+    ],
+    "validation_winner": {
+      "threshold": 0.3,
+      "consensus": 0.8,
+      "matched": 3,
+      "predicted": 8,
+      "truth": 45,
+      "precision": 0.375,
+      "recall": 0.06666666666666667,
+      "f1": 0.11320754716981132
+    },
+    "validation_candidates": [
+      {
+        "threshold": 0.1,
+        "consensus": 0.5,
+        "matched": 3,
+        "predicted": 12,
+        "truth": 45,
+        "precision": 0.25,
+        "recall": 0.06666666666666667,
+        "f1": 0.10526315789473684
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.65,
+        "matched": 3,
+        "predicted": 12,
+        "truth": 45,
+        "precision": 0.25,
+        "recall": 0.06666666666666667,
+        "f1": 0.10526315789473684
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.8,
+        "matched": 3,
+        "predicted": 8,
+        "truth": 45,
+        "precision": 0.375,
+        "recall": 0.06666666666666667,
+        "f1": 0.11320754716981132
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.5,
+        "matched": 3,
+        "predicted": 12,
+        "truth": 45,
+        "precision": 0.25,
+        "recall": 0.06666666666666667,
+        "f1": 0.10526315789473684
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.65,
+        "matched": 3,
+        "predicted": 12,
+        "truth": 45,
+        "precision": 0.25,
+        "recall": 0.06666666666666667,
+        "f1": 0.10526315789473684
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.8,
+        "matched": 3,
+        "predicted": 8,
+        "truth": 45,
+        "precision": 0.375,
+        "recall": 0.06666666666666667,
+        "f1": 0.11320754716981132
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.5,
+        "matched": 3,
+        "predicted": 14,
+        "truth": 45,
+        "precision": 0.21428571428571427,
+        "recall": 0.06666666666666667,
+        "f1": 0.1016949152542373
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.65,
+        "matched": 3,
+        "predicted": 14,
+        "truth": 45,
+        "precision": 0.21428571428571427,
+        "recall": 0.06666666666666667,
+        "f1": 0.1016949152542373
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.8,
+        "matched": 3,
+        "predicted": 8,
+        "truth": 45,
+        "precision": 0.375,
+        "recall": 0.06666666666666667,
+        "f1": 0.11320754716981132
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  {
+    "epoch": 12,
+    "count_weight": 0.5,
+    "training": [
+      {
+        "clip": "zheng_sabalenka_context",
+        "gradient_norm_before_clip": 0.012576342560350895,
+        "loss": 0.0006562756607308984,
+        "relevance": 0.0006562756607308984,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "gradient_norm_before_clip": 0.04122865945100784,
+        "loss": 0.0008444855338893831,
+        "relevance": 0.0008444855338893831,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "gradient_norm_before_clip": 152.7421417236328,
+        "loss": 1.9383033514022827,
+        "relevance": 1.751750111579895,
+        "excess": 0.0,
+        "coverage": 0.9327663779258728,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "barty_collins_action",
+        "gradient_norm_before_clip": 1.7877007722854614,
+        "loss": 0.5728830099105835,
+        "relevance": 0.4189864695072174,
+        "excess": 0.0,
+        "coverage": 0.7694826126098633,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "gradient_norm_before_clip": 49.6922721862793,
+        "loss": 1.023495078086853,
+        "relevance": 0.8512697815895081,
+        "excess": 0.0,
+        "coverage": 0.8611266016960144,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "barty_collins_context",
+        "gradient_norm_before_clip": 0.371905654668808,
+        "loss": 0.0025995022151619196,
+        "relevance": 0.0025995022151619196,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "gradient_norm_before_clip": 0.01124678272753954,
+        "loss": 0.0005798967904411256,
+        "relevance": 0.0005798967904411256,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "gradient_norm_before_clip": 11.322672843933105,
+        "loss": 1.0181231498718262,
+        "relevance": 0.8543995022773743,
+        "excess": 0.0,
+        "coverage": 0.8186180591583252,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "gradient_norm_before_clip": 0.00988616794347763,
+        "loss": 0.0005162116722203791,
+        "relevance": 0.0005162116722203791,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "gradient_norm_before_clip": 0.011485449969768524,
+        "loss": 0.0005327034159563482,
+        "relevance": 0.0005327034159563482,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "gradient_norm_before_clip": 11.141169548034668,
+        "loss": 1.1910974979400635,
+        "relevance": 1.0406439304351807,
+        "excess": 0.0,
+        "coverage": 0.7449072599411011,
+        "duplicate": 0.014720656909048557,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "gradient_norm_before_clip": 1.8617680072784424,
+        "loss": 0.4814097583293915,
+        "relevance": 0.33357781171798706,
+        "excess": 0.0,
+        "coverage": 0.7383444309234619,
+        "duplicate": 0.001630558050237596,
+        "decoded_count": 4,
+        "budget": 10
+      }
+    ],
+    "validation_winner": {
+      "threshold": 0.3,
+      "consensus": 0.65,
+      "matched": 2,
+      "predicted": 13,
+      "truth": 45,
+      "precision": 0.15384615384615385,
+      "recall": 0.044444444444444446,
+      "f1": 0.06896551724137931
+    },
+    "validation_candidates": [
+      {
+        "threshold": 0.1,
+        "consensus": 0.5,
+        "matched": 2,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.15384615384615385,
+        "recall": 0.044444444444444446,
+        "f1": 0.06896551724137931
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.65,
+        "matched": 2,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.15384615384615385,
+        "recall": 0.044444444444444446,
+        "f1": 0.06896551724137931
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 5,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.5,
+        "matched": 2,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.15384615384615385,
+        "recall": 0.044444444444444446,
+        "f1": 0.06896551724137931
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.65,
+        "matched": 2,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.15384615384615385,
+        "recall": 0.044444444444444446,
+        "f1": 0.06896551724137931
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 5,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.5,
+        "matched": 2,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.15384615384615385,
+        "recall": 0.044444444444444446,
+        "f1": 0.06896551724137931
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.65,
+        "matched": 2,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.15384615384615385,
+        "recall": 0.044444444444444446,
+        "f1": 0.06896551724137931
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 5,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  {
+    "epoch": 13,
+    "count_weight": 0.5,
+    "training": [
+      {
+        "clip": "osaka_garcia_action",
+        "gradient_norm_before_clip": 2.689253091812134,
+        "loss": 0.8236410617828369,
+        "relevance": 0.6803468465805054,
+        "excess": 0.0,
+        "coverage": 0.7003116607666016,
+        "duplicate": 0.032318975776433945,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "gradient_norm_before_clip": 0.012925621122121811,
+        "loss": 0.0006020635482855141,
+        "relevance": 0.0006020635482855141,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_context",
+        "gradient_norm_before_clip": 2.4255359172821045,
+        "loss": 0.0486878976225853,
+        "relevance": 0.0486878976225853,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_action",
+        "gradient_norm_before_clip": 3.878005027770996,
+        "loss": 0.680060088634491,
+        "relevance": 0.554375171661377,
+        "excess": 0.0,
+        "coverage": 0.6007176041603088,
+        "duplicate": 0.055413633584976196,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "gradient_norm_before_clip": 2.9298646450042725,
+        "loss": 0.5029879212379456,
+        "relevance": 0.36289629340171814,
+        "excess": 0.0,
+        "coverage": 0.5224140286445618,
+        "duplicate": 0.3560880124568939,
+        "decoded_count": 7,
+        "budget": 10
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "gradient_norm_before_clip": 3.621997594833374,
+        "loss": 0.019922669976949692,
+        "relevance": 0.019922669976949692,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "gradient_norm_before_clip": 0.8734414577484131,
+        "loss": 0.8479747772216797,
+        "relevance": 0.6959410309791565,
+        "excess": 0.0,
+        "coverage": 0.5797043442726135,
+        "duplicate": 0.3609286844730377,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "gradient_norm_before_clip": 3.5300934314727783,
+        "loss": 0.8873389363288879,
+        "relevance": 0.7367213368415833,
+        "excess": 0.0,
+        "coverage": 0.5637649297714233,
+        "duplicate": 0.37864619493484497,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "gradient_norm_before_clip": 0.02148940972983837,
+        "loss": 0.0006757013034075499,
+        "relevance": 0.0006757013034075499,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "gradient_norm_before_clip": 0.010888049378991127,
+        "loss": 0.0005230322713032365,
+        "relevance": 0.0005230322713032365,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "gradient_norm_before_clip": 12.541499137878418,
+        "loss": 0.9949710965156555,
+        "relevance": 0.8479336500167847,
+        "excess": 0.0,
+        "coverage": 0.6803935170173645,
+        "duplicate": 0.10958710312843323,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "gradient_norm_before_clip": 0.008485878817737103,
+        "loss": 0.0004249447665642947,
+        "relevance": 0.0004249447665642947,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      }
+    ],
+    "validation_winner": {
+      "threshold": 0.7,
+      "consensus": 0.8,
+      "matched": 0,
+      "predicted": 0,
+      "truth": 45,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "validation_candidates": [
+      {
+        "threshold": 0.1,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 5,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 5,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 5,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 5,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  {
+    "epoch": 14,
+    "count_weight": 0.5,
+    "training": [
+      {
+        "clip": "osaka_garcia_action",
+        "gradient_norm_before_clip": 0.33754855394363403,
+        "loss": 0.8095162510871887,
+        "relevance": 0.6688080430030823,
+        "excess": 0.0,
+        "coverage": 0.6159511208534241,
+        "duplicate": 0.17517997324466705,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "barty_collins_context",
+        "gradient_norm_before_clip": 1.5589137077331543,
+        "loss": 0.013162616640329361,
+        "relevance": 0.013162616640329361,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "gradient_norm_before_clip": 3.8826394081115723,
+        "loss": 0.8769057989120483,
+        "relevance": 0.7250598073005676,
+        "excess": 0.0,
+        "coverage": 0.5576204657554626,
+        "duplicate": 0.40321898460388184,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "gradient_norm_before_clip": 0.7790868282318115,
+        "loss": 0.4337654113769531,
+        "relevance": 0.2991415560245514,
+        "excess": 0.0,
+        "coverage": 0.6042879223823547,
+        "duplicate": 0.13766270875930786,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "gradient_norm_before_clip": 24.034324645996094,
+        "loss": 0.9906026124954224,
+        "relevance": 0.8408895134925842,
+        "excess": 0.0,
+        "coverage": 0.6745336055755615,
+        "duplicate": 0.14806385338306427,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "barty_collins_action",
+        "gradient_norm_before_clip": 4.392629146575928,
+        "loss": 0.6047049164772034,
+        "relevance": 0.46738865971565247,
+        "excess": 0.0,
+        "coverage": 0.6816257834434509,
+        "duplicate": 0.00991078931838274,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "gradient_norm_before_clip": 1.020268440246582,
+        "loss": 0.840677797794342,
+        "relevance": 0.692986011505127,
+        "excess": 0.0,
+        "coverage": 0.6031023263931274,
+        "duplicate": 0.27071285247802734,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "gradient_norm_before_clip": 0.006694346200674772,
+        "loss": 0.0003296881332062185,
+        "relevance": 0.0003296881332062185,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "gradient_norm_before_clip": 0.007458691485226154,
+        "loss": 0.0003606107784435153,
+        "relevance": 0.0003606107784435153,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "gradient_norm_before_clip": 0.016249913722276688,
+        "loss": 0.0003782308485824615,
+        "relevance": 0.0003782308485824615,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "gradient_norm_before_clip": 0.007930172607302666,
+        "loss": 0.0003598025650717318,
+        "relevance": 0.0003598025650717318,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "gradient_norm_before_clip": 0.00641003018245101,
+        "loss": 0.00029780116165056825,
+        "relevance": 0.00029780116165056825,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      }
+    ],
+    "validation_winner": {
+      "threshold": 0.2,
+      "consensus": 0.8,
+      "matched": 3,
+      "predicted": 6,
+      "truth": 45,
+      "precision": 0.5,
+      "recall": 0.06666666666666667,
+      "f1": 0.11764705882352941
+    },
+    "validation_candidates": [
+      {
+        "threshold": 0.1,
+        "consensus": 0.5,
+        "matched": 3,
+        "predicted": 9,
+        "truth": 45,
+        "precision": 0.3333333333333333,
+        "recall": 0.06666666666666667,
+        "f1": 0.1111111111111111
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.65,
+        "matched": 3,
+        "predicted": 9,
+        "truth": 45,
+        "precision": 0.3333333333333333,
+        "recall": 0.06666666666666667,
+        "f1": 0.1111111111111111
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.8,
+        "matched": 3,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.5,
+        "recall": 0.06666666666666667,
+        "f1": 0.11764705882352941
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.5,
+        "matched": 3,
+        "predicted": 9,
+        "truth": 45,
+        "precision": 0.3333333333333333,
+        "recall": 0.06666666666666667,
+        "f1": 0.1111111111111111
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.65,
+        "matched": 3,
+        "predicted": 9,
+        "truth": 45,
+        "precision": 0.3333333333333333,
+        "recall": 0.06666666666666667,
+        "f1": 0.1111111111111111
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.8,
+        "matched": 3,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.5,
+        "recall": 0.06666666666666667,
+        "f1": 0.11764705882352941
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 3,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 3,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  {
+    "epoch": 15,
+    "count_weight": 0.5,
+    "training": [
+      {
+        "clip": "barty_collins_action",
+        "gradient_norm_before_clip": 9.823773384094238,
+        "loss": 0.5987357497215271,
+        "relevance": 0.41458263993263245,
+        "excess": 0.0,
+        "coverage": 0.9207654595375061,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "gradient_norm_before_clip": 0.006445468869060278,
+        "loss": 0.00030508945928886533,
+        "relevance": 0.00030508945928886533,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "gradient_norm_before_clip": 8.018970489501953,
+        "loss": 0.8199697136878967,
+        "relevance": 0.6774231791496277,
+        "excess": 0.0,
+        "coverage": 0.6576088070869446,
+        "duplicate": 0.11024782806634903,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "gradient_norm_before_clip": 112.83224487304688,
+        "loss": 1.1851361989974976,
+        "relevance": 1.0286595821380615,
+        "excess": 0.0,
+        "coverage": 0.7557308077812195,
+        "duplicate": 0.05330471321940422,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "gradient_norm_before_clip": 0.01000906527042389,
+        "loss": 0.00042832863982766867,
+        "relevance": 0.00042832863982766867,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_context",
+        "gradient_norm_before_clip": 0.4585990905761719,
+        "loss": 0.0025489076506346464,
+        "relevance": 0.0025489076506346464,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "gradient_norm_before_clip": 19.81584358215332,
+        "loss": 1.6964384317398071,
+        "relevance": 0.5885944962501526,
+        "excess": 1.7424001693725586,
+        "coverage": 0.3497791886329651,
+        "duplicate": 1.6668808460235596,
+        "decoded_count": 58,
+        "budget": 25
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "gradient_norm_before_clip": 0.09501241147518158,
+        "loss": 0.0008784177480265498,
+        "relevance": 0.0008784177480265498,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "gradient_norm_before_clip": 0.014236915856599808,
+        "loss": 0.00043499775347299874,
+        "relevance": 0.00043499775347299874,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "gradient_norm_before_clip": 24.09131622314453,
+        "loss": 0.933627188205719,
+        "relevance": 0.30156975984573364,
+        "excess": 1.0,
+        "coverage": 0.4842446744441986,
+        "duplicate": 0.3520853817462921,
+        "decoded_count": 20,
+        "budget": 10
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "gradient_norm_before_clip": 3.357665777206421,
+        "loss": 0.8376280069351196,
+        "relevance": 0.6885555982589722,
+        "excess": 0.0,
+        "coverage": 0.5214324593544006,
+        "duplicate": 0.4478592872619629,
+        "decoded_count": 7,
+        "budget": 16
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "gradient_norm_before_clip": 0.005958179943263531,
+        "loss": 0.0002735224552452564,
+        "relevance": 0.0002735224552452564,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      }
+    ],
+    "validation_winner": {
+      "threshold": 0.7,
+      "consensus": 0.8,
+      "matched": 0,
+      "predicted": 0,
+      "truth": 45,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "validation_candidates": [
+      {
+        "threshold": 0.1,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 12,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 12,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 12,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 12,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 12,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 12,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  {
+    "epoch": 16,
+    "count_weight": 0.5,
+    "training": [
+      {
+        "clip": "raducanu_gauff_context",
+        "gradient_norm_before_clip": 0.04858221113681793,
+        "loss": 0.0005645791534334421,
+        "relevance": 0.0005645791534334421,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "gradient_norm_before_clip": 7.470606327056885,
+        "loss": 0.8530911803245544,
+        "relevance": 0.703514575958252,
+        "excess": 0.0,
+        "coverage": 0.74448162317276,
+        "duplicate": 0.006802600342780352,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "gradient_norm_before_clip": 0.007677765097469091,
+        "loss": 0.0002940483973361552,
+        "relevance": 0.0002940483973361552,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "gradient_norm_before_clip": 33.15806579589844,
+        "loss": 1.1671501398086548,
+        "relevance": 1.010826587677002,
+        "excess": 0.0,
+        "coverage": 0.7784252166748047,
+        "duplicate": 0.006384486798197031,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "gradient_norm_before_clip": 0.005952104460448027,
+        "loss": 0.00027019818662665784,
+        "relevance": 0.00027019818662665784,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_action",
+        "gradient_norm_before_clip": 2.4247539043426514,
+        "loss": 0.5773065686225891,
+        "relevance": 0.3992745876312256,
+        "excess": 0.0,
+        "coverage": 0.8901597857475281,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "gradient_norm_before_clip": 4.3963704109191895,
+        "loss": 0.8990702629089355,
+        "relevance": 0.7497414350509644,
+        "excess": 0.0,
+        "coverage": 0.7455989718437195,
+        "duplicate": 0.002090282505378127,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "gradient_norm_before_clip": 6.254004955291748,
+        "loss": 0.9910163879394531,
+        "relevance": 0.8471337556838989,
+        "excess": 0.0,
+        "coverage": 0.6519649028778076,
+        "duplicate": 0.13489672541618347,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "gradient_norm_before_clip": 2.1995742321014404,
+        "loss": 0.44105228781700134,
+        "relevance": 0.3060293197631836,
+        "excess": 0.0,
+        "coverage": 0.645869255065918,
+        "duplicate": 0.05849096551537514,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "barty_collins_context",
+        "gradient_norm_before_clip": 2.2697832584381104,
+        "loss": 0.036421921104192734,
+        "relevance": 0.036421921104192734,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "gradient_norm_before_clip": 0.008665421046316624,
+        "loss": 0.000337180303176865,
+        "relevance": 0.000337180303176865,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "gradient_norm_before_clip": 0.01576378010213375,
+        "loss": 0.0005178861902095377,
+        "relevance": 0.0005178861902095377,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      }
+    ],
+    "validation_winner": {
+      "threshold": 0.5,
+      "consensus": 0.65,
+      "matched": 1,
+      "predicted": 13,
+      "truth": 45,
+      "precision": 0.07692307692307693,
+      "recall": 0.022222222222222223,
+      "f1": 0.034482758620689655
+    },
+    "validation_candidates": [
+      {
+        "threshold": 0.1,
+        "consensus": 0.5,
+        "matched": 1,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.07692307692307693,
+        "recall": 0.022222222222222223,
+        "f1": 0.034482758620689655
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.65,
+        "matched": 1,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.07692307692307693,
+        "recall": 0.022222222222222223,
+        "f1": 0.034482758620689655
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.5,
+        "matched": 1,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.07692307692307693,
+        "recall": 0.022222222222222223,
+        "f1": 0.034482758620689655
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.65,
+        "matched": 1,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.07692307692307693,
+        "recall": 0.022222222222222223,
+        "f1": 0.034482758620689655
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.5,
+        "matched": 1,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.07692307692307693,
+        "recall": 0.022222222222222223,
+        "f1": 0.034482758620689655
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.65,
+        "matched": 1,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.07692307692307693,
+        "recall": 0.022222222222222223,
+        "f1": 0.034482758620689655
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.5,
+        "matched": 1,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.07692307692307693,
+        "recall": 0.022222222222222223,
+        "f1": 0.034482758620689655
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.65,
+        "matched": 1,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.07692307692307693,
+        "recall": 0.022222222222222223,
+        "f1": 0.034482758620689655
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.5,
+        "matched": 1,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.07692307692307693,
+        "recall": 0.022222222222222223,
+        "f1": 0.034482758620689655
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.65,
+        "matched": 1,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.07692307692307693,
+        "recall": 0.022222222222222223,
+        "f1": 0.034482758620689655
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  {
+    "epoch": 17,
+    "count_weight": 0.5,
+    "training": [
+      {
+        "clip": "barty_collins_context",
+        "gradient_norm_before_clip": 2.7856605052948,
+        "loss": 0.05613536760210991,
+        "relevance": 0.05613536760210991,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "gradient_norm_before_clip": 30.492366790771484,
+        "loss": 2.1677377223968506,
+        "relevance": 0.6800461411476135,
+        "excess": 2.5309910774230957,
+        "coverage": 0.44777706265449524,
+        "duplicate": 1.3264058828353882,
+        "decoded_count": 57,
+        "budget": 22
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "gradient_norm_before_clip": 1.272568941116333,
+        "loss": 0.005015380214899778,
+        "relevance": 0.005015380214899778,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "gradient_norm_before_clip": 17.487333297729492,
+        "loss": 1.18277108669281,
+        "relevance": 0.6807129383087158,
+        "excess": 0.66015625,
+        "coverage": 0.5046613216400146,
+        "duplicate": 0.7104780673980713,
+        "decoded_count": 29,
+        "budget": 16
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "gradient_norm_before_clip": 0.00527971051633358,
+        "loss": 0.00024202362692449242,
+        "relevance": 0.00024202362692449242,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_action",
+        "gradient_norm_before_clip": 4.530500888824463,
+        "loss": 0.588114857673645,
+        "relevance": 0.4454904794692993,
+        "excess": 0.0,
+        "coverage": 0.7114711403846741,
+        "duplicate": 0.00330169009976089,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "gradient_norm_before_clip": 0.005148487165570259,
+        "loss": 0.00022846997308079153,
+        "relevance": 0.00022846997308079153,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "gradient_norm_before_clip": 0.005298012401908636,
+        "loss": 0.00024489479255862534,
+        "relevance": 0.00024489479255862534,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "gradient_norm_before_clip": 90.13278198242188,
+        "loss": 1.7176092863082886,
+        "relevance": 1.5420434474945068,
+        "excess": 0.0,
+        "coverage": 0.8778292536735535,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "gradient_norm_before_clip": 92.34788513183594,
+        "loss": 2.9003257751464844,
+        "relevance": 2.700500965118408,
+        "excess": 0.0,
+        "coverage": 0.9991236329078674,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "gradient_norm_before_clip": 39.630043029785156,
+        "loss": 1.1483345031738281,
+        "relevance": 0.9490842223167419,
+        "excess": 0.0,
+        "coverage": 0.9962513446807861,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "gradient_norm_before_clip": 0.00486422423273325,
+        "loss": 0.00022246759908739477,
+        "relevance": 0.00022246759908739477,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      }
+    ],
+    "validation_winner": {
+      "threshold": 0.7,
+      "consensus": 0.8,
+      "matched": 0,
+      "predicted": 0,
+      "truth": 45,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "validation_candidates": [
+      {
+        "threshold": 0.1,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  {
+    "epoch": 18,
+    "count_weight": 0.5,
+    "training": [
+      {
+        "clip": "barty_collins_context",
+        "gradient_norm_before_clip": 0.013414653018116951,
+        "loss": 0.0002729417465161532,
+        "relevance": 0.0002729417465161532,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "gradient_norm_before_clip": 116.95829772949219,
+        "loss": 3.8774890899658203,
+        "relevance": 3.677985668182373,
+        "excess": 0.0,
+        "coverage": 0.9975177049636841,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "gradient_norm_before_clip": 24.16320037841797,
+        "loss": 0.902093768119812,
+        "relevance": 0.7054710984230042,
+        "excess": 0.0,
+        "coverage": 0.9831132292747498,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "gradient_norm_before_clip": 0.005046209320425987,
+        "loss": 0.00024158174346666783,
+        "relevance": 0.00024158174346666783,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "gradient_norm_before_clip": 24.076499938964844,
+        "loss": 1.4720277786254883,
+        "relevance": 1.283647894859314,
+        "excess": 0.0,
+        "coverage": 0.9418994784355164,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "gradient_norm_before_clip": 0.006783139426261187,
+        "loss": 0.0003123860224150121,
+        "relevance": 0.0003123860224150121,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "gradient_norm_before_clip": 16.689990997314453,
+        "loss": 1.1276003122329712,
+        "relevance": 0.947641909122467,
+        "excess": 0.0,
+        "coverage": 0.8997918963432312,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "barty_collins_action",
+        "gradient_norm_before_clip": 1.7848559617996216,
+        "loss": 0.580376923084259,
+        "relevance": 0.4020311236381531,
+        "excess": 0.0,
+        "coverage": 0.891728937625885,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "gradient_norm_before_clip": 0.03756051883101463,
+        "loss": 0.0007380322203971446,
+        "relevance": 0.0007380322203971446,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "gradient_norm_before_clip": 5.64085578918457,
+        "loss": 1.0310219526290894,
+        "relevance": 0.8874112963676453,
+        "excess": 0.0,
+        "coverage": 0.6720303297042847,
+        "duplicate": 0.0920460894703865,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "gradient_norm_before_clip": 5.603617191314697,
+        "loss": 0.05621373653411865,
+        "relevance": 0.05621373653411865,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "gradient_norm_before_clip": 0.06296072900295258,
+        "loss": 0.0011109557235613465,
+        "relevance": 0.0011109557235613465,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      }
+    ],
+    "validation_winner": {
+      "threshold": 0.4,
+      "consensus": 0.65,
+      "matched": 1,
+      "predicted": 13,
+      "truth": 45,
+      "precision": 0.07692307692307693,
+      "recall": 0.022222222222222223,
+      "f1": 0.034482758620689655
+    },
+    "validation_candidates": [
+      {
+        "threshold": 0.1,
+        "consensus": 0.5,
+        "matched": 1,
+        "predicted": 17,
+        "truth": 45,
+        "precision": 0.058823529411764705,
+        "recall": 0.022222222222222223,
+        "f1": 0.03225806451612903
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.65,
+        "matched": 1,
+        "predicted": 17,
+        "truth": 45,
+        "precision": 0.058823529411764705,
+        "recall": 0.022222222222222223,
+        "f1": 0.03225806451612903
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 10,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.5,
+        "matched": 1,
+        "predicted": 18,
+        "truth": 45,
+        "precision": 0.05555555555555555,
+        "recall": 0.022222222222222223,
+        "f1": 0.031746031746031744
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.65,
+        "matched": 1,
+        "predicted": 18,
+        "truth": 45,
+        "precision": 0.05555555555555555,
+        "recall": 0.022222222222222223,
+        "f1": 0.031746031746031744
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.5,
+        "matched": 1,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.07692307692307693,
+        "recall": 0.022222222222222223,
+        "f1": 0.034482758620689655
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.65,
+        "matched": 1,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.07692307692307693,
+        "recall": 0.022222222222222223,
+        "f1": 0.034482758620689655
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.5,
+        "matched": 1,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.07692307692307693,
+        "recall": 0.022222222222222223,
+        "f1": 0.034482758620689655
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.65,
+        "matched": 1,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.07692307692307693,
+        "recall": 0.022222222222222223,
+        "f1": 0.034482758620689655
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  {
+    "epoch": 19,
+    "count_weight": 0.5,
+    "training": [
+      {
+        "clip": "zheng_sabalenka_action",
+        "gradient_norm_before_clip": 2.651958465576172,
+        "loss": 0.8834410309791565,
+        "relevance": 0.7310361862182617,
+        "excess": 0.0,
+        "coverage": 0.5488817095756531,
+        "duplicate": 0.4262854754924774,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "gradient_norm_before_clip": 11.14016056060791,
+        "loss": 0.17665517330169678,
+        "relevance": 0.17665517330169678,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "gradient_norm_before_clip": 45.117156982421875,
+        "loss": 3.388380289077759,
+        "relevance": 0.700828492641449,
+        "excess": 5.0625,
+        "coverage": 0.4897483289241791,
+        "duplicate": 0.5835207104682922,
+        "decoded_count": 52,
+        "budget": 16
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "gradient_norm_before_clip": 0.13664717972278595,
+        "loss": 0.0017810926074162126,
+        "relevance": 0.0017810926074162126,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "gradient_norm_before_clip": 60.43708038330078,
+        "loss": 3.061167001724243,
+        "relevance": 0.49440497159957886,
+        "excess": 4.840000152587891,
+        "coverage": 0.4785773456096649,
+        "duplicate": 0.5104644894599915,
+        "decoded_count": 32,
+        "budget": 10
+      },
+      {
+        "clip": "barty_collins_action",
+        "gradient_norm_before_clip": 4.217349529266357,
+        "loss": 0.7560636401176453,
+        "relevance": 0.6329959034919739,
+        "excess": 0.0,
+        "coverage": 0.544677197933197,
+        "duplicate": 0.1413230001926422,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "gradient_norm_before_clip": 0.09327228367328644,
+        "loss": 0.8880884051322937,
+        "relevance": 0.6990633010864258,
+        "excess": 0.0,
+        "coverage": 0.5122593641281128,
+        "duplicate": 0.8657324314117432,
+        "decoded_count": 19,
+        "budget": 22
+      },
+      {
+        "clip": "barty_collins_context",
+        "gradient_norm_before_clip": 6.3943891525268555,
+        "loss": 0.0982857346534729,
+        "relevance": 0.0982857346534729,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "gradient_norm_before_clip": 0.14625275135040283,
+        "loss": 0.001924185547977686,
+        "relevance": 0.001924185547977686,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "gradient_norm_before_clip": 0.01327759213745594,
+        "loss": 0.0005538458935916424,
+        "relevance": 0.0005538458935916424,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "gradient_norm_before_clip": 0.9146330952644348,
+        "loss": 0.8397582769393921,
+        "relevance": 0.6960315704345703,
+        "excess": 0.0,
+        "coverage": 0.6441916823387146,
+        "duplicate": 0.14888359606266022,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "gradient_norm_before_clip": 0.015394269488751888,
+        "loss": 0.0006923512555658817,
+        "relevance": 0.0006923512555658817,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      }
+    ],
+    "validation_winner": {
+      "threshold": 0.3,
+      "consensus": 0.65,
+      "matched": 1,
+      "predicted": 13,
+      "truth": 45,
+      "precision": 0.07692307692307693,
+      "recall": 0.022222222222222223,
+      "f1": 0.034482758620689655
+    },
+    "validation_candidates": [
+      {
+        "threshold": 0.1,
+        "consensus": 0.5,
+        "matched": 1,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.07692307692307693,
+        "recall": 0.022222222222222223,
+        "f1": 0.034482758620689655
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.65,
+        "matched": 1,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.07692307692307693,
+        "recall": 0.022222222222222223,
+        "f1": 0.034482758620689655
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.5,
+        "matched": 1,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.07692307692307693,
+        "recall": 0.022222222222222223,
+        "f1": 0.034482758620689655
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.65,
+        "matched": 1,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.07692307692307693,
+        "recall": 0.022222222222222223,
+        "f1": 0.034482758620689655
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.5,
+        "matched": 1,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.07692307692307693,
+        "recall": 0.022222222222222223,
+        "f1": 0.034482758620689655
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.65,
+        "matched": 1,
+        "predicted": 13,
+        "truth": 45,
+        "precision": 0.07692307692307693,
+        "recall": 0.022222222222222223,
+        "f1": 0.034482758620689655
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  {
+    "epoch": 20,
+    "count_weight": 0.5,
+    "training": [
+      {
+        "clip": "radwanska_azarenka_context",
+        "gradient_norm_before_clip": 0.014063010923564434,
+        "loss": 0.0006490818341262639,
+        "relevance": 0.0006490818341262639,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "gradient_norm_before_clip": 0.020072463899850845,
+        "loss": 0.0006667174166068435,
+        "relevance": 0.0006667174166068435,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "gradient_norm_before_clip": 0.008828015998005867,
+        "loss": 0.0004388257802929729,
+        "relevance": 0.0004388257802929729,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "gradient_norm_before_clip": 0.15489798784255981,
+        "loss": 0.0013067012187093496,
+        "relevance": 0.0013067012187093496,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "gradient_norm_before_clip": 3.321786880493164,
+        "loss": 0.8189663290977478,
+        "relevance": 0.6758685111999512,
+        "excess": 0.0,
+        "coverage": 0.6960359215736389,
+        "duplicate": 0.03890612721443176,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "gradient_norm_before_clip": 1.454687476158142,
+        "loss": 0.8345232605934143,
+        "relevance": 0.6917657852172852,
+        "excess": 0.0,
+        "coverage": 0.6625117659568787,
+        "duplicate": 0.10255125164985657,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "gradient_norm_before_clip": 4.153745651245117,
+        "loss": 0.9125418066978455,
+        "relevance": 0.7656241655349731,
+        "excess": 0.0,
+        "coverage": 0.5925644636154175,
+        "duplicate": 0.28404760360717773,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "gradient_norm_before_clip": 1.769754409790039,
+        "loss": 0.4874582290649414,
+        "relevance": 0.35337162017822266,
+        "excess": 0.0,
+        "coverage": 0.6238021850585938,
+        "duplicate": 0.09326157718896866,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "barty_collins_action",
+        "gradient_norm_before_clip": 3.4140570163726807,
+        "loss": 0.6786417365074158,
+        "relevance": 0.5515452027320862,
+        "excess": 0.0,
+        "coverage": 0.6067009568214417,
+        "duplicate": 0.0575631707906723,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "gradient_norm_before_clip": 0.00932745449244976,
+        "loss": 0.00044009258272126317,
+        "relevance": 0.00044009258272126317,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_context",
+        "gradient_norm_before_clip": 2.6504151821136475,
+        "loss": 0.015876829624176025,
+        "relevance": 0.015876829624176025,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "gradient_norm_before_clip": 10.54238510131836,
+        "loss": 0.9374451637268066,
+        "relevance": 0.7826864719390869,
+        "excess": 0.0,
+        "coverage": 0.624339759349823,
+        "duplicate": 0.2989072799682617,
+        "decoded_count": 4,
+        "budget": 22
+      }
+    ],
+    "validation_winner": {
+      "threshold": 0.7,
+      "consensus": 0.8,
+      "matched": 0,
+      "predicted": 0,
+      "truth": 45,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "validation_candidates": [
+      {
+        "threshold": 0.1,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.1,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 11,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.5,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.65,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "consensus": 0.8,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  }
+]

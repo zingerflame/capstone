@@ -1,0 +1,449 @@
+{
+  "teacher": "ChatGPT visual inspection in this conversation",
+  "annotation_date": "2026-11-04",
+  "independent_human_review": false,
+  "scope": "Only all frames of the explicitly listed short review clips; other broadcast time is unlabeled, not negative.",
+  "notes": "Approximate stroke timing from contact sheets; labels describe visible actions without inferring winners, fault calls or exact racket-ball contact. Match titles supply identity metadata but labels use near/far player.",
+  "clips": {
+    "barty_collins_action": [
+      {
+        "frame_indices": [
+          2,
+          3,
+          4
+        ],
+        "label": "Near-court player completes a serve and follows through",
+        "confidence": 0.8
+      },
+      {
+        "frame_indices": [
+          6,
+          7,
+          8
+        ],
+        "label": "Far-court player swings to return the serve",
+        "confidence": 0.65
+      }
+    ],
+    "barty_collins_context": [],
+    "zheng_sabalenka_action": [
+      {
+        "frame_indices": [
+          6,
+          8,
+          10
+        ],
+        "label": "Far-court player serves",
+        "confidence": 0.8
+      },
+      {
+        "frame_indices": [
+          17,
+          19,
+          21
+        ],
+        "label": "Near-court player stretches to return serve",
+        "confidence": 0.85
+      },
+      {
+        "frame_indices": [
+          28,
+          30,
+          32
+        ],
+        "label": "Far-court player hits a groundstroke",
+        "confidence": 0.7
+      },
+      {
+        "frame_indices": [
+          36,
+          38,
+          40
+        ],
+        "label": "Near-court player hits a groundstroke from the right side",
+        "confidence": 0.85
+      },
+      {
+        "frame_indices": [
+          46,
+          47,
+          48
+        ],
+        "label": "Far-court player returns the ball",
+        "confidence": 0.7
+      },
+      {
+        "frame_indices": [
+          56,
+          58,
+          60
+        ],
+        "label": "Near-court player hits a running groundstroke toward the left side",
+        "confidence": 0.8
+      },
+      {
+        "frame_indices": [
+          63,
+          65,
+          67
+        ],
+        "label": "Far-court player hits the next groundstroke",
+        "confidence": 0.6
+      }
+    ],
+    "zheng_sabalenka_context": [],
+    "radwanska_azarenka_action": [
+      {
+        "frame_indices": [
+          5,
+          6,
+          7
+        ],
+        "label": "Far-court player hits a groundstroke",
+        "confidence": 0.65
+      },
+      {
+        "frame_indices": [
+          14,
+          16,
+          18
+        ],
+        "label": "Near-court player hits a running groundstroke",
+        "confidence": 0.8
+      },
+      {
+        "frame_indices": [
+          26,
+          28,
+          30
+        ],
+        "label": "Far-court player returns a groundstroke",
+        "confidence": 0.65
+      },
+      {
+        "frame_indices": [
+          37,
+          39,
+          41
+        ],
+        "label": "Near-court player stretches wide to hit the ball",
+        "confidence": 0.85
+      },
+      {
+        "frame_indices": [
+          52,
+          54,
+          56
+        ],
+        "label": "Far-court player hits from the left side of the baseline",
+        "confidence": 0.65
+      },
+      {
+        "frame_indices": [
+          62,
+          64,
+          66
+        ],
+        "label": "Near-court player hits another groundstroke",
+        "confidence": 0.7
+      }
+    ],
+    "radwanska_azarenka_context": [],
+    "osaka_garcia_action": [
+      {
+        "frame_indices": [
+          28,
+          30,
+          32
+        ],
+        "label": "Far-court player serves",
+        "confidence": 0.7
+      },
+      {
+        "frame_indices": [
+          34,
+          36,
+          38
+        ],
+        "label": "Near-court player returns serve",
+        "confidence": 0.75
+      },
+      {
+        "frame_indices": [
+          44,
+          45,
+          46
+        ],
+        "label": "Far-court player hits a groundstroke",
+        "confidence": 0.65
+      },
+      {
+        "frame_indices": [
+          52,
+          54,
+          56
+        ],
+        "label": "Near-court player advances and hits a groundstroke",
+        "confidence": 0.75
+      }
+    ],
+    "osaka_garcia_context": [],
+    "sabalenka_badosa_action": [
+      {
+        "frame_indices": [
+          44,
+          46,
+          48
+        ],
+        "label": "Far-court player serves",
+        "confidence": 0.75
+      },
+      {
+        "frame_indices": [
+          50,
+          52,
+          54
+        ],
+        "label": "Near-court player swings at the serve",
+        "confidence": 0.65
+      }
+    ],
+    "sabalenka_badosa_context": [],
+    "raducanu_gauff_action": [
+      {
+        "frame_indices": [
+          24,
+          26,
+          28
+        ],
+        "label": "Far-court player serves following the toss",
+        "confidence": 0.8
+      },
+      {
+        "frame_indices": [
+          34,
+          36,
+          38
+        ],
+        "label": "Near-court player stretches to return serve",
+        "confidence": 0.8
+      },
+      {
+        "frame_indices": [
+          44,
+          46,
+          48
+        ],
+        "label": "Far-court player hits a groundstroke",
+        "confidence": 0.65
+      },
+      {
+        "frame_indices": [
+          54,
+          56,
+          58
+        ],
+        "label": "Near-court player stretches wide to hit a groundstroke",
+        "confidence": 0.85
+      }
+    ],
+    "raducanu_gauff_context": [],
+    "raducanu_swiatek_action": [
+      {
+        "frame_indices": [
+          11,
+          13,
+          15
+        ],
+        "label": "Far-court player serves",
+        "confidence": 0.7
+      },
+      {
+        "frame_indices": [
+          20,
+          22,
+          24
+        ],
+        "label": "Near-court player returns serve",
+        "confidence": 0.8
+      },
+      {
+        "frame_indices": [
+          34,
+          36,
+          38
+        ],
+        "label": "Far-court player hits a groundstroke",
+        "confidence": 0.7
+      },
+      {
+        "frame_indices": [
+          48,
+          50,
+          52
+        ],
+        "label": "Near-court player hits a groundstroke",
+        "confidence": 0.8
+      },
+      {
+        "frame_indices": [
+          58,
+          60,
+          62
+        ],
+        "label": "Far-court player hits the next groundstroke",
+        "confidence": 0.65
+      },
+      {
+        "frame_indices": [
+          65,
+          66,
+          67
+        ],
+        "label": "Near-court player lunges to hit a groundstroke",
+        "confidence": 0.8
+      }
+    ],
+    "raducanu_swiatek_context": [],
+    "sabalenka_svitolina_action": [
+      {
+        "frame_indices": [
+          14,
+          16,
+          18
+        ],
+        "label": "Far-court player serves",
+        "confidence": 0.7
+      },
+      {
+        "frame_indices": [
+          21,
+          22,
+          23
+        ],
+        "label": "Near-court player returns serve",
+        "confidence": 0.7
+      },
+      {
+        "frame_indices": [
+          27,
+          28,
+          29
+        ],
+        "label": "Far-court player hits a groundstroke",
+        "confidence": 0.65
+      },
+      {
+        "frame_indices": [
+          31,
+          32,
+          33
+        ],
+        "label": "Near-court player hits a groundstroke",
+        "confidence": 0.8
+      },
+      {
+        "frame_indices": [
+          37,
+          38,
+          39
+        ],
+        "label": "Far-court player stretches wide to hit",
+        "confidence": 0.7
+      },
+      {
+        "frame_indices": [
+          41,
+          42,
+          43
+        ],
+        "label": "Near-court player hits a groundstroke",
+        "confidence": 0.75
+      },
+      {
+        "frame_indices": [
+          48,
+          49,
+          50
+        ],
+        "label": "Far-court player hits a groundstroke",
+        "confidence": 0.65
+      },
+      {
+        "frame_indices": [
+          56,
+          57,
+          58
+        ],
+        "label": "Near-court player hits a groundstroke",
+        "confidence": 0.75
+      },
+      {
+        "frame_indices": [
+          64,
+          65,
+          66
+        ],
+        "label": "Far-court player swings at the next ball",
+        "confidence": 0.6
+      }
+    ],
+    "sabalenka_svitolina_context": [],
+    "rybakina_mertens_action": [],
+    "rybakina_mertens_context": [],
+    "rybakina_mertens_rally": [
+      {
+        "frame_indices": [
+          38,
+          40,
+          42
+        ],
+        "label": "Near-court player serves",
+        "confidence": 0.85
+      },
+      {
+        "frame_indices": [
+          44,
+          45,
+          46
+        ],
+        "label": "Far-court player swings to return serve",
+        "confidence": 0.6
+      }
+    ],
+    "gauff_danilovic_action": [
+      {
+        "frame_indices": [
+          51,
+          53,
+          55
+        ],
+        "label": "Near-court player serves",
+        "confidence": 0.85
+      },
+      {
+        "frame_indices": [
+          58,
+          60,
+          62
+        ],
+        "label": "Far-court player swings to return serve",
+        "confidence": 0.65
+      },
+      {
+        "frame_indices": [
+          64,
+          65,
+          66
+        ],
+        "label": "Near-court player hits the next ball",
+        "confidence": 0.7
+      }
+    ],
+    "gauff_danilovic_context": []
+  },
+  "clip_notes": {
+    "sabalenka_badosa_action": "Frames 0-39 contain replay footage and a replay transition; excluded as repeated, non-live action.",
+    "rybakina_mertens_action": "Scout suggested action but exhaustive review found only between-point preparation; retained as a hard negative. Additional later serve clip reviewed before training."
+  }
+}

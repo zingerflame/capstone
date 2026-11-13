@@ -1,0 +1,3202 @@
+[
+  {
+    "epoch": 1,
+    "training": [
+      {
+        "clip": "zheng_sabalenka_action",
+        "loss": 0.9432947039604187,
+        "relevance": 0.7944733500480652,
+        "excess": 0.0,
+        "coverage": 0.6037224531173706,
+        "duplicate": 0.2807689905166626,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "loss": 39.267578125,
+        "relevance": 0.9863213300704956,
+        "excess": 76.56251525878906,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 39,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_action",
+        "loss": 12.575055122375488,
+        "relevance": 0.9279596209526062,
+        "excess": 23.040000915527344,
+        "coverage": 0.3673830032348633,
+        "duplicate": 0.5361818671226501,
+        "decoded_count": 58,
+        "budget": 10
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "loss": 3.9951934814453125,
+        "relevance": 0.7100710272789001,
+        "excess": 6.250001430511475,
+        "coverage": 0.46746134757995605,
+        "duplicate": 0.6662952303886414,
+        "decoded_count": 56,
+        "budget": 16
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "loss": 0.43926939368247986,
+        "relevance": 0.43926939368247986,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "loss": 0.33914604783058167,
+        "relevance": 0.33914604783058167,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_context",
+        "loss": 0.2131841629743576,
+        "relevance": 0.2131841629743576,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "loss": 0.13590949773788452,
+        "relevance": 0.13590949773788452,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "loss": 0.08218444138765335,
+        "relevance": 0.08218444138765335,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "loss": 1.4775238037109375,
+        "relevance": 1.2887135744094849,
+        "excess": 0.0,
+        "coverage": 0.9440508484840393,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "loss": 2.101566791534424,
+        "relevance": 1.9102709293365479,
+        "excess": 0.0,
+        "coverage": 0.9564793109893799,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "loss": 0.761929988861084,
+        "relevance": 0.5699182748794556,
+        "excess": 0.0,
+        "coverage": 0.9600585103034973,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      }
+    ],
+    "validation": [
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 18
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 27
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      }
+    ],
+    "val_f1": 0.0
+  },
+  {
+    "epoch": 2,
+    "training": [
+      {
+        "clip": "sabalenka_badosa_action",
+        "loss": 0.7553645968437195,
+        "relevance": 0.5637302398681641,
+        "excess": 0.0,
+        "coverage": 0.9581716656684875,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "barty_collins_action",
+        "loss": 0.6672134399414062,
+        "relevance": 0.47613632678985596,
+        "excess": 0.0,
+        "coverage": 0.9553853869438171,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "loss": 1.3446874618530273,
+        "relevance": 1.155178189277649,
+        "excess": 0.0,
+        "coverage": 0.947546660900116,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "barty_collins_context",
+        "loss": 0.06591850519180298,
+        "relevance": 0.06591850519180298,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "loss": 0.0709618330001831,
+        "relevance": 0.0709618330001831,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "loss": 0.0698523223400116,
+        "relevance": 0.0698523223400116,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "loss": 0.06862644106149673,
+        "relevance": 0.06862644106149673,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "loss": 0.0653412714600563,
+        "relevance": 0.0653412714600563,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "loss": 1.4657658338546753,
+        "relevance": 1.2771416902542114,
+        "excess": 0.0,
+        "coverage": 0.943120539188385,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "loss": 2.212369918823242,
+        "relevance": 2.023405075073242,
+        "excess": 0.0,
+        "coverage": 0.9448245763778687,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "loss": 1.975075602531433,
+        "relevance": 1.7857284545898438,
+        "excess": 0.0,
+        "coverage": 0.9467357993125916,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "loss": 0.054022252559661865,
+        "relevance": 0.054022252559661865,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      }
+    ],
+    "validation": [
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 18
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 27
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      }
+    ],
+    "val_f1": 0.0
+  },
+  {
+    "epoch": 3,
+    "training": [
+      {
+        "clip": "radwanska_azarenka_context",
+        "loss": 0.0526585690677166,
+        "relevance": 0.0526585690677166,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "loss": 1.9527685642242432,
+        "relevance": 1.7639565467834473,
+        "excess": 0.0,
+        "coverage": 0.9440600275993347,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "barty_collins_context",
+        "loss": 0.055663879960775375,
+        "relevance": 0.055663879960775375,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "loss": 0.05273178592324257,
+        "relevance": 0.05273178592324257,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_action",
+        "loss": 0.6528117060661316,
+        "relevance": 0.4634188413619995,
+        "excess": 0.0,
+        "coverage": 0.9469642043113708,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "loss": 1.4626460075378418,
+        "relevance": 1.274149775505066,
+        "excess": 0.0,
+        "coverage": 0.9424813389778137,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "loss": 0.048192817717790604,
+        "relevance": 0.048192817717790604,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "loss": 2.1266181468963623,
+        "relevance": 1.939052939414978,
+        "excess": 0.0,
+        "coverage": 0.9378265142440796,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "loss": 0.6987043619155884,
+        "relevance": 0.5113688111305237,
+        "excess": 0.0,
+        "coverage": 0.9366776943206787,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "loss": 0.05618292838335037,
+        "relevance": 0.05618292838335037,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "loss": 0.06166458502411842,
+        "relevance": 0.06166458502411842,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "loss": 1.2096177339553833,
+        "relevance": 1.025048017501831,
+        "excess": 0.0,
+        "coverage": 0.9228484630584717,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      }
+    ],
+    "validation": [
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 18
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 27
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      }
+    ],
+    "val_f1": 0.0
+  },
+  {
+    "epoch": 4,
+    "training": [
+      {
+        "clip": "osaka_garcia_context",
+        "loss": 0.06482485681772232,
+        "relevance": 0.06482485681772232,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "loss": 0.06992433965206146,
+        "relevance": 0.06992433965206146,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "loss": 0.05527032911777496,
+        "relevance": 0.05527032911777496,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_action",
+        "loss": 0.6137468218803406,
+        "relevance": 0.42942339181900024,
+        "excess": 0.0,
+        "coverage": 0.9216172099113464,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "loss": 1.9823389053344727,
+        "relevance": 1.7974003553390503,
+        "excess": 0.0,
+        "coverage": 0.9246924519538879,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "loss": 1.3268647193908691,
+        "relevance": 1.1428238153457642,
+        "excess": 0.0,
+        "coverage": 0.9202044010162354,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "loss": 0.047653310000896454,
+        "relevance": 0.047653310000896454,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "loss": 1.727250337600708,
+        "relevance": 1.543729305267334,
+        "excess": 0.0,
+        "coverage": 0.9176049828529358,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "loss": 1.1337971687316895,
+        "relevance": 0.9529727697372437,
+        "excess": 0.0,
+        "coverage": 0.9041222929954529,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "loss": 0.06106535717844963,
+        "relevance": 0.06106535717844963,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "loss": 0.6240556240081787,
+        "relevance": 0.4492780864238739,
+        "excess": 0.0,
+        "coverage": 0.8738877773284912,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "barty_collins_context",
+        "loss": 0.10539061576128006,
+        "relevance": 0.10539061576128006,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      }
+    ],
+    "validation": [
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 18
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 27
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      }
+    ],
+    "val_f1": 0.0
+  },
+  {
+    "epoch": 5,
+    "training": [
+      {
+        "clip": "barty_collins_context",
+        "loss": 0.11016838997602463,
+        "relevance": 0.11016838997602463,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "loss": 1.3869049549102783,
+        "relevance": 1.2166237831115723,
+        "excess": 0.0,
+        "coverage": 0.8514060974121094,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "loss": 0.06672857701778412,
+        "relevance": 0.06672857701778412,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "loss": 0.0756392776966095,
+        "relevance": 0.0756392776966095,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "loss": 0.5969140529632568,
+        "relevance": 0.43029800057411194,
+        "excess": 0.0,
+        "coverage": 0.8330802917480469,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "loss": 1.0223298072814941,
+        "relevance": 0.8585324883460999,
+        "excess": 0.0,
+        "coverage": 0.8189864158630371,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "loss": 0.9380817413330078,
+        "relevance": 0.7750287055969238,
+        "excess": 0.0,
+        "coverage": 0.8152649998664856,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "loss": 0.053855232894420624,
+        "relevance": 0.053855232894420624,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "loss": 1.1726950407028198,
+        "relevance": 1.023011565208435,
+        "excess": 0.0,
+        "coverage": 0.7404034733772278,
+        "duplicate": 0.01602759025990963,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "loss": 0.11271710693836212,
+        "relevance": 0.11271710693836212,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_action",
+        "loss": 0.6311327219009399,
+        "relevance": 0.4927513003349304,
+        "excess": 0.0,
+        "coverage": 0.6858058571815491,
+        "duplicate": 0.012202088721096516,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "loss": 0.04320621117949486,
+        "relevance": 0.04320621117949486,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      }
+    ],
+    "validation": [
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 18
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 27
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      }
+    ],
+    "val_f1": 0.0
+  },
+  {
+    "epoch": 6,
+    "training": [
+      {
+        "clip": "barty_collins_context",
+        "loss": 0.10065081715583801,
+        "relevance": 0.10065081715583801,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "loss": 0.031542517244815826,
+        "relevance": 0.031542517244815826,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "loss": 0.9378538131713867,
+        "relevance": 0.7857393622398376,
+        "excess": 0.0,
+        "coverage": 0.7598984837532043,
+        "duplicate": 0.0013474281877279282,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "loss": 0.024919716641306877,
+        "relevance": 0.024919716641306877,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "loss": 1.7951105833053589,
+        "relevance": 1.6101305484771729,
+        "excess": 0.0,
+        "coverage": 0.9249001741409302,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "loss": 1.166428565979004,
+        "relevance": 0.9841611385345459,
+        "excess": 0.0,
+        "coverage": 0.9113370776176453,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "barty_collins_action",
+        "loss": 0.582744300365448,
+        "relevance": 0.4216417372226715,
+        "excess": 0.0,
+        "coverage": 0.8055127263069153,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "loss": 0.02235577441751957,
+        "relevance": 0.02235577441751957,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "loss": 0.015551389195024967,
+        "relevance": 0.015551389195024967,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "loss": 1.4668121337890625,
+        "relevance": 1.2996970415115356,
+        "excess": 0.0,
+        "coverage": 0.8355754613876343,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "loss": 0.013819413259625435,
+        "relevance": 0.013819413259625435,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "loss": 0.6611976623535156,
+        "relevance": 0.4798714220523834,
+        "excess": 0.0,
+        "coverage": 0.9066312313079834,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      }
+    ],
+    "validation": [
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 18
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 27
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      }
+    ],
+    "val_f1": 0.0
+  },
+  {
+    "epoch": 7,
+    "training": [
+      {
+        "clip": "osaka_garcia_context",
+        "loss": 0.012158923782408237,
+        "relevance": 0.012158923782408237,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "loss": 0.009544097818434238,
+        "relevance": 0.009544097818434238,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "loss": 1.9013444185256958,
+        "relevance": 1.7139534950256348,
+        "excess": 0.0,
+        "coverage": 0.9369546175003052,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "loss": 0.008668254129588604,
+        "relevance": 0.008668254129588604,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_action",
+        "loss": 0.5792226791381836,
+        "relevance": 0.42164185643196106,
+        "excess": 0.0,
+        "coverage": 0.7879042625427246,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "loss": 0.9921850562095642,
+        "relevance": 0.8220981359481812,
+        "excess": 0.0,
+        "coverage": 0.8504346013069153,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "barty_collins_context",
+        "loss": 0.028351692482829094,
+        "relevance": 0.028351692482829094,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "loss": 0.5841265916824341,
+        "relevance": 0.4182911515235901,
+        "excess": 0.0,
+        "coverage": 0.82917720079422,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "loss": 0.01746559515595436,
+        "relevance": 0.01746559515595436,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "loss": 0.0058186291716992855,
+        "relevance": 0.0058186291716992855,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "loss": 1.28288996219635,
+        "relevance": 1.1262290477752686,
+        "excess": 0.0,
+        "coverage": 0.7822617888450623,
+        "duplicate": 0.002085350453853607,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "loss": 0.9377279281616211,
+        "relevance": 0.7854068279266357,
+        "excess": 0.0,
+        "coverage": 0.7584232687950134,
+        "duplicate": 0.006364742759615183,
+        "decoded_count": 4,
+        "budget": 16
+      }
+    ],
+    "validation": [
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 18
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 27
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      }
+    ],
+    "val_f1": 0.0
+  },
+  {
+    "epoch": 8,
+    "training": [
+      {
+        "clip": "sabalenka_badosa_action",
+        "loss": 0.5607757568359375,
+        "relevance": 0.4122866988182068,
+        "excess": 0.0,
+        "coverage": 0.7410674691200256,
+        "duplicate": 0.0027556431014090776,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "loss": 0.80785071849823,
+        "relevance": 0.6676680445671082,
+        "excess": 0.0,
+        "coverage": 0.6648573875427246,
+        "duplicate": 0.07211218774318695,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "loss": 0.9380255937576294,
+        "relevance": 0.7816441655158997,
+        "excess": 0.0,
+        "coverage": 0.6249768733978271,
+        "duplicate": 0.31386101245880127,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "barty_collins_context",
+        "loss": 0.15715952217578888,
+        "relevance": 0.15715952217578888,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "loss": 0.008794845081865788,
+        "relevance": 0.008794845081865788,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "loss": 1.6940269470214844,
+        "relevance": 0.6140665411949158,
+        "excess": 1.6383999586105347,
+        "coverage": 0.32155442237854004,
+        "duplicate": 1.9644951820373535,
+        "decoded_count": 57,
+        "budget": 25
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "loss": 0.02856651321053505,
+        "relevance": 0.02856651321053505,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "loss": 4.111375331878662,
+        "relevance": 0.8463131189346313,
+        "excess": 5.941407203674316,
+        "coverage": 0.3190566599369049,
+        "duplicate": 2.305474042892456,
+        "decoded_count": 55,
+        "budget": 16
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "loss": 0.00966994371265173,
+        "relevance": 0.00966994371265173,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "loss": 0.008351415395736694,
+        "relevance": 0.008351415395736694,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "loss": 0.15092934668064117,
+        "relevance": 0.15092934668064117,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_action",
+        "loss": 10.542180061340332,
+        "relevance": 0.7413457036018372,
+        "excess": 19.360000610351562,
+        "coverage": 0.460453063249588,
+        "duplicate": 0.2874391973018646,
+        "decoded_count": 54,
+        "budget": 10
+      }
+    ],
+    "validation": [
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 18
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      },
+      {
+        "precision": 0.42857142857142855,
+        "recall": 0.1111111111111111,
+        "f1": 0.17647058823529413,
+        "matched": 3,
+        "predicted": 7,
+        "truth": 27
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      }
+    ],
+    "val_f1": 0.04411764705882353
+  },
+  {
+    "epoch": 9,
+    "training": [
+      {
+        "clip": "zheng_sabalenka_context",
+        "loss": 0.0043871477246284485,
+        "relevance": 0.0043871477246284485,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "loss": 0.8951444029808044,
+        "relevance": 0.7452939748764038,
+        "excess": 0.0,
+        "coverage": 0.5716716051101685,
+        "duplicate": 0.35516080260276794,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "loss": 0.003143229056149721,
+        "relevance": 0.003143229056149721,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "loss": 0.008067368529736996,
+        "relevance": 0.008067368529736996,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "loss": 0.8740600347518921,
+        "relevance": 0.7308916449546814,
+        "excess": 0.0,
+        "coverage": 0.673683226108551,
+        "duplicate": 0.08431725949048996,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "loss": 1.605682611465454,
+        "relevance": 1.4272090196609497,
+        "excess": 0.0,
+        "coverage": 0.8923678994178772,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "loss": 0.0028638741932809353,
+        "relevance": 0.0028638741932809353,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "loss": 0.906810998916626,
+        "relevance": 0.7479674220085144,
+        "excess": 0.0,
+        "coverage": 0.7940533757209778,
+        "duplicate": 0.00032926551648415625,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "loss": 0.5201385021209717,
+        "relevance": 0.38138872385025024,
+        "excess": 0.0,
+        "coverage": 0.6813624501228333,
+        "duplicate": 0.024773092940449715,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "barty_collins_action",
+        "loss": 0.6502062678337097,
+        "relevance": 0.5170061588287354,
+        "excess": 0.0,
+        "coverage": 0.6541439294815063,
+        "duplicate": 0.023713352158665657,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "loss": 0.0021982109174132347,
+        "relevance": 0.0021982109174132347,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_context",
+        "loss": 0.03278134763240814,
+        "relevance": 0.03278134763240814,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      }
+    ],
+    "validation": [
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 18
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 27
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      }
+    ],
+    "val_f1": 0.0
+  },
+  {
+    "epoch": 10,
+    "training": [
+      {
+        "clip": "sabalenka_badosa_action",
+        "loss": 0.5047239065170288,
+        "relevance": 0.3620942234992981,
+        "excess": 0.0,
+        "coverage": 0.7050936222076416,
+        "duplicate": 0.016109419986605644,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "loss": 0.0018323803087696433,
+        "relevance": 0.0018323803087696433,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "loss": 0.0015542564215138555,
+        "relevance": 0.0015542564215138555,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "loss": 0.005131793208420277,
+        "relevance": 0.005131793208420277,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "loss": 1.1286382675170898,
+        "relevance": 0.9810267686843872,
+        "excess": 0.0,
+        "coverage": 0.7239419221878052,
+        "duplicate": 0.028231272473931313,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "loss": 0.0014270799001678824,
+        "relevance": 0.0014270799001678824,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "loss": 1.259767770767212,
+        "relevance": 1.097229242324829,
+        "excess": 0.0,
+        "coverage": 0.8126926422119141,
+        "duplicate": 4.346658311060736e-10,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "barty_collins_action",
+        "loss": 0.6205163598060608,
+        "relevance": 0.4813680052757263,
+        "excess": 0.0,
+        "coverage": 0.6906628012657166,
+        "duplicate": 0.01015781331807375,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "loss": 0.0015090862289071083,
+        "relevance": 0.0015090862289071083,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_context",
+        "loss": 0.02935260720551014,
+        "relevance": 0.02935260720551014,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "loss": 0.8363785743713379,
+        "relevance": 0.6910288333892822,
+        "excess": 0.0,
+        "coverage": 0.7175262570381165,
+        "duplicate": 0.018444862216711044,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "loss": 0.8666638731956482,
+        "relevance": 0.7228962779045105,
+        "excess": 0.0,
+        "coverage": 0.6856215596199036,
+        "duplicate": 0.06643275916576385,
+        "decoded_count": 4,
+        "budget": 16
+      }
+    ],
+    "validation": [
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 18
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 27
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      }
+    ],
+    "val_f1": 0.0
+  },
+  {
+    "epoch": 11,
+    "training": [
+      {
+        "clip": "sabalenka_badosa_context",
+        "loss": 0.0010714498348534107,
+        "relevance": 0.0010714498348534107,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "loss": 0.001120961969718337,
+        "relevance": 0.001120961969718337,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "loss": 0.0011034681228920817,
+        "relevance": 0.0011034681228920817,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_action",
+        "loss": 0.715202271938324,
+        "relevance": 0.5902330875396729,
+        "excess": 0.0,
+        "coverage": 0.5721883177757263,
+        "duplicate": 0.10531532764434814,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "loss": 0.8579957485198975,
+        "relevance": 0.699357807636261,
+        "excess": 0.0,
+        "coverage": 0.5291597843170166,
+        "duplicate": 0.528059720993042,
+        "decoded_count": 6,
+        "budget": 25
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "loss": 0.0013297699624672532,
+        "relevance": 0.0013297699624672532,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "loss": 0.01074987929314375,
+        "relevance": 0.01074987929314375,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "loss": 1.1601873636245728,
+        "relevance": 0.41123560070991516,
+        "excess": 1.2100000381469727,
+        "coverage": 0.46647700667381287,
+        "duplicate": 0.5065632462501526,
+        "decoded_count": 21,
+        "budget": 10
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "loss": 2.295977830886841,
+        "relevance": 0.6977672576904297,
+        "excess": 2.84765625,
+        "coverage": 0.49503183364868164,
+        "duplicate": 0.7537607550621033,
+        "decoded_count": 43,
+        "budget": 16
+      },
+      {
+        "clip": "barty_collins_context",
+        "loss": 0.02130100317299366,
+        "relevance": 0.02130100317299366,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "loss": 1.250414252281189,
+        "relevance": 1.0902546644210815,
+        "excess": 0.0,
+        "coverage": 0.7967734932899475,
+        "duplicate": 0.008049538359045982,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "loss": 0.8810605406761169,
+        "relevance": 0.7257629632949829,
+        "excess": 0.0,
+        "coverage": 0.7757361531257629,
+        "duplicate": 0.0015035237884148955,
+        "decoded_count": 4,
+        "budget": 16
+      }
+    ],
+    "validation": [
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 18
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 27
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      }
+    ],
+    "val_f1": 0.0
+  },
+  {
+    "epoch": 12,
+    "training": [
+      {
+        "clip": "zheng_sabalenka_context",
+        "loss": 0.0006562756607308984,
+        "relevance": 0.0006562756607308984,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "loss": 0.0008444855338893831,
+        "relevance": 0.0008444855338893831,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "loss": 1.938302755355835,
+        "relevance": 1.7517495155334473,
+        "excess": 0.0,
+        "coverage": 0.9327662587165833,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "barty_collins_action",
+        "loss": 0.5728829503059387,
+        "relevance": 0.418986439704895,
+        "excess": 0.0,
+        "coverage": 0.7694826126098633,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "loss": 1.0234947204589844,
+        "relevance": 0.8512694835662842,
+        "excess": 0.0,
+        "coverage": 0.8611264824867249,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "barty_collins_context",
+        "loss": 0.0025995117612183094,
+        "relevance": 0.0025995117612183094,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "loss": 0.0005798956262879074,
+        "relevance": 0.0005798956262879074,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "loss": 1.0181232690811157,
+        "relevance": 0.8543996214866638,
+        "excess": 0.0,
+        "coverage": 0.8186180591583252,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "loss": 0.0005162116722203791,
+        "relevance": 0.0005162116722203791,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "loss": 0.0005327034159563482,
+        "relevance": 0.0005327034159563482,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "loss": 1.1910974979400635,
+        "relevance": 1.0406439304351807,
+        "excess": 0.0,
+        "coverage": 0.7449072599411011,
+        "duplicate": 0.014720643870532513,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "loss": 0.4814097583293915,
+        "relevance": 0.33357781171798706,
+        "excess": 0.0,
+        "coverage": 0.7383444309234619,
+        "duplicate": 0.001630554092116654,
+        "decoded_count": 4,
+        "budget": 10
+      }
+    ],
+    "validation": [
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 18
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 27
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      }
+    ],
+    "val_f1": 0.0
+  },
+  {
+    "epoch": 13,
+    "training": [
+      {
+        "clip": "osaka_garcia_action",
+        "loss": 0.8236410021781921,
+        "relevance": 0.6803467869758606,
+        "excess": 0.0,
+        "coverage": 0.7003116011619568,
+        "duplicate": 0.03231899067759514,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "loss": 0.0006020635482855141,
+        "relevance": 0.0006020635482855141,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_context",
+        "loss": 0.0486878976225853,
+        "relevance": 0.0486878976225853,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_action",
+        "loss": 0.680060088634491,
+        "relevance": 0.554375171661377,
+        "excess": 0.0,
+        "coverage": 0.6007175445556641,
+        "duplicate": 0.055413659662008286,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "loss": 0.5029879212379456,
+        "relevance": 0.3628963232040405,
+        "excess": 0.0,
+        "coverage": 0.5224139094352722,
+        "duplicate": 0.3560880720615387,
+        "decoded_count": 7,
+        "budget": 10
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "loss": 0.019922669976949692,
+        "relevance": 0.019922669976949692,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "loss": 0.8479747772216797,
+        "relevance": 0.6959410309791565,
+        "excess": 0.0,
+        "coverage": 0.579704225063324,
+        "duplicate": 0.36092886328697205,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "loss": 0.8873389363288879,
+        "relevance": 0.7367213368415833,
+        "excess": 0.0,
+        "coverage": 0.5637648701667786,
+        "duplicate": 0.3786463141441345,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "loss": 0.0006757013034075499,
+        "relevance": 0.0006757013034075499,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "loss": 0.0005230322713032365,
+        "relevance": 0.0005230322713032365,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "loss": 0.9949711561203003,
+        "relevance": 0.8479337692260742,
+        "excess": 0.0,
+        "coverage": 0.680393636226654,
+        "duplicate": 0.10958694666624069,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "loss": 0.0004249447665642947,
+        "relevance": 0.0004249447665642947,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      }
+    ],
+    "validation": [
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 18
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 27
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      }
+    ],
+    "val_f1": 0.0
+  },
+  {
+    "epoch": 14,
+    "training": [
+      {
+        "clip": "osaka_garcia_action",
+        "loss": 0.8095163106918335,
+        "relevance": 0.668808102607727,
+        "excess": 0.0,
+        "coverage": 0.6159512400627136,
+        "duplicate": 0.17517970502376556,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "barty_collins_context",
+        "loss": 0.013162605464458466,
+        "relevance": 0.013162605464458466,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "loss": 0.8769057989120483,
+        "relevance": 0.7250598073005676,
+        "excess": 0.0,
+        "coverage": 0.5576204061508179,
+        "duplicate": 0.4032190442085266,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "loss": 0.4337654113769531,
+        "relevance": 0.2991415560245514,
+        "excess": 0.0,
+        "coverage": 0.60428786277771,
+        "duplicate": 0.1376628875732422,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "loss": 0.9906023144721985,
+        "relevance": 0.8408892154693604,
+        "excess": 0.0,
+        "coverage": 0.6745333075523376,
+        "duplicate": 0.14806455373764038,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "barty_collins_action",
+        "loss": 0.6047050356864929,
+        "relevance": 0.4673888087272644,
+        "excess": 0.0,
+        "coverage": 0.6816256642341614,
+        "duplicate": 0.009910819120705128,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "loss": 0.8406777381896973,
+        "relevance": 0.692986011505127,
+        "excess": 0.0,
+        "coverage": 0.6031022667884827,
+        "duplicate": 0.27071312069892883,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "loss": 0.0003296881332062185,
+        "relevance": 0.0003296881332062185,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "loss": 0.0003606107784435153,
+        "relevance": 0.0003606107784435153,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "loss": 0.0003782308485824615,
+        "relevance": 0.0003782308485824615,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "loss": 0.00035980140091851354,
+        "relevance": 0.00035980140091851354,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "loss": 0.00029780116165056825,
+        "relevance": 0.00029780116165056825,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      }
+    ],
+    "validation": [
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 18
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 27
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      }
+    ],
+    "val_f1": 0.0
+  },
+  {
+    "epoch": 15,
+    "training": [
+      {
+        "clip": "barty_collins_action",
+        "loss": 0.5987362265586853,
+        "relevance": 0.4145830273628235,
+        "excess": 0.0,
+        "coverage": 0.9207659363746643,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "loss": 0.00030508945928886533,
+        "relevance": 0.00030508945928886533,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "loss": 0.819970428943634,
+        "relevance": 0.677423894405365,
+        "excess": 0.0,
+        "coverage": 0.6576099991798401,
+        "duplicate": 0.11024534702301025,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "loss": 1.1851388216018677,
+        "relevance": 1.028662085533142,
+        "excess": 0.0,
+        "coverage": 0.755731999874115,
+        "duplicate": 0.05330292508006096,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "loss": 0.00042832581675611436,
+        "relevance": 0.00042832581675611436,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_context",
+        "loss": 0.0025488967075943947,
+        "relevance": 0.0025488967075943947,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "loss": 1.6964383125305176,
+        "relevance": 0.5885946154594421,
+        "excess": 1.7424001693725586,
+        "coverage": 0.3497796654701233,
+        "duplicate": 1.6668764352798462,
+        "decoded_count": 58,
+        "budget": 25
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "loss": 0.0008784177480265498,
+        "relevance": 0.0008784177480265498,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "loss": 0.00043499775347299874,
+        "relevance": 0.00043499775347299874,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "loss": 0.9336267709732056,
+        "relevance": 0.3015693724155426,
+        "excess": 1.0,
+        "coverage": 0.4842453896999359,
+        "duplicate": 0.352083295583725,
+        "decoded_count": 20,
+        "budget": 10
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "loss": 0.8376275897026062,
+        "relevance": 0.6885553002357483,
+        "excess": 0.0,
+        "coverage": 0.5214331150054932,
+        "duplicate": 0.4478569030761719,
+        "decoded_count": 7,
+        "budget": 16
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "loss": 0.0002735224552452564,
+        "relevance": 0.0002735224552452564,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      }
+    ],
+    "validation": [
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 18
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 27
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      }
+    ],
+    "val_f1": 0.0
+  },
+  {
+    "epoch": 16,
+    "training": [
+      {
+        "clip": "raducanu_gauff_context",
+        "loss": 0.0005645791534334421,
+        "relevance": 0.0005645791534334421,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "loss": 0.8530915379524231,
+        "relevance": 0.7035148739814758,
+        "excess": 0.0,
+        "coverage": 0.7444820404052734,
+        "duplicate": 0.006802464369684458,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "loss": 0.0002940483973361552,
+        "relevance": 0.0002940483973361552,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "loss": 1.1671494245529175,
+        "relevance": 1.0108259916305542,
+        "excess": 0.0,
+        "coverage": 0.7784249782562256,
+        "duplicate": 0.006384531036019325,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "loss": 0.00027019818662665784,
+        "relevance": 0.00027019818662665784,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_action",
+        "loss": 0.5773066282272339,
+        "relevance": 0.39927467703819275,
+        "excess": 0.0,
+        "coverage": 0.8901598453521729,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "loss": 0.8990710377693176,
+        "relevance": 0.7497420907020569,
+        "excess": 0.0,
+        "coverage": 0.7455994486808777,
+        "duplicate": 0.0020901833195239305,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "loss": 0.99101722240448,
+        "relevance": 0.847134530544281,
+        "excess": 0.0,
+        "coverage": 0.6519654393196106,
+        "duplicate": 0.13489577174186707,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "loss": 0.4410526156425476,
+        "relevance": 0.30602961778640747,
+        "excess": 0.0,
+        "coverage": 0.645869791507721,
+        "duplicate": 0.05849042907357216,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "barty_collins_context",
+        "loss": 0.036421921104192734,
+        "relevance": 0.036421921104192734,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "loss": 0.000337180303176865,
+        "relevance": 0.000337180303176865,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "loss": 0.0005178861902095377,
+        "relevance": 0.0005178861902095377,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      }
+    ],
+    "validation": [
+      {
+        "precision": 0.14285714285714285,
+        "recall": 0.05555555555555555,
+        "f1": 0.08,
+        "matched": 1,
+        "predicted": 7,
+        "truth": 18
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 6,
+        "truth": 27
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      }
+    ],
+    "val_f1": 0.02
+  },
+  {
+    "epoch": 17,
+    "training": [
+      {
+        "clip": "barty_collins_context",
+        "loss": 0.05613527074456215,
+        "relevance": 0.05613527074456215,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "loss": 2.1677374839782715,
+        "relevance": 0.6800462007522583,
+        "excess": 2.5309910774230957,
+        "coverage": 0.44777774810791016,
+        "duplicate": 1.3264002799987793,
+        "decoded_count": 57,
+        "budget": 22
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "loss": 0.0050154137425124645,
+        "relevance": 0.0050154137425124645,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "loss": 1.182770848274231,
+        "relevance": 0.6807129383087158,
+        "excess": 0.66015625,
+        "coverage": 0.504662275314331,
+        "duplicate": 0.7104730010032654,
+        "decoded_count": 29,
+        "budget": 16
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "loss": 0.00024202362692449242,
+        "relevance": 0.00024202362692449242,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_action",
+        "loss": 0.5881146192550659,
+        "relevance": 0.44549015164375305,
+        "excess": 0.0,
+        "coverage": 0.7114716172218323,
+        "duplicate": 0.0033016118686646223,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "loss": 0.0002284720103489235,
+        "relevance": 0.0002284720103489235,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "loss": 0.00024489479255862534,
+        "relevance": 0.00024489479255862534,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "loss": 1.7176060676574707,
+        "relevance": 1.5420403480529785,
+        "excess": 0.0,
+        "coverage": 0.8778284788131714,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "loss": 2.9003217220306396,
+        "relevance": 2.7004969120025635,
+        "excess": 0.0,
+        "coverage": 0.9991236329078674,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "loss": 1.1483327150344849,
+        "relevance": 0.9490824937820435,
+        "excess": 0.0,
+        "coverage": 0.9962513446807861,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "loss": 0.00022246759908739477,
+        "relevance": 0.00022246759908739477,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      }
+    ],
+    "validation": [
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 18
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 27
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      }
+    ],
+    "val_f1": 0.0
+  },
+  {
+    "epoch": 18,
+    "training": [
+      {
+        "clip": "barty_collins_context",
+        "loss": 0.0002729417465161532,
+        "relevance": 0.0002729417465161532,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "loss": 3.8774847984313965,
+        "relevance": 3.677981376647949,
+        "excess": 0.0,
+        "coverage": 0.9975177049636841,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 22
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "loss": 0.9020925164222717,
+        "relevance": 0.7054699063301086,
+        "excess": 0.0,
+        "coverage": 0.9831131100654602,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "loss": 0.00024158174346666783,
+        "relevance": 0.00024158174346666783,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "loss": 1.4720261096954346,
+        "relevance": 1.2836462259292603,
+        "excess": 0.0,
+        "coverage": 0.9418992400169373,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "loss": 0.0003123882634099573,
+        "relevance": 0.0003123882634099573,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "loss": 1.1275986433029175,
+        "relevance": 0.9476403594017029,
+        "excess": 0.0,
+        "coverage": 0.899791419506073,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "barty_collins_action",
+        "loss": 0.5803768038749695,
+        "relevance": 0.4020310640335083,
+        "excess": 0.0,
+        "coverage": 0.8917286396026611,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "loss": 0.000738031230866909,
+        "relevance": 0.000738031230866909,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "loss": 1.0310224294662476,
+        "relevance": 0.8874118328094482,
+        "excess": 0.0,
+        "coverage": 0.6720306277275085,
+        "duplicate": 0.09204558283090591,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "loss": 0.056213803589344025,
+        "relevance": 0.056213803589344025,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "loss": 0.0011109496699646115,
+        "relevance": 0.0011109496699646115,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      }
+    ],
+    "validation": [
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 18
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 27
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      }
+    ],
+    "val_f1": 0.0
+  },
+  {
+    "epoch": 19,
+    "training": [
+      {
+        "clip": "zheng_sabalenka_action",
+        "loss": 0.8834417462348938,
+        "relevance": 0.7310370206832886,
+        "excess": 0.0,
+        "coverage": 0.5488824248313904,
+        "duplicate": 0.4262823760509491,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "loss": 0.176654651761055,
+        "relevance": 0.176654651761055,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "loss": 3.3883793354034424,
+        "relevance": 0.7008278965950012,
+        "excess": 5.0625,
+        "coverage": 0.4897491931915283,
+        "duplicate": 0.5835167169570923,
+        "decoded_count": 52,
+        "budget": 16
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "loss": 0.0017810957506299019,
+        "relevance": 0.0017810957506299019,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "loss": 3.0611653327941895,
+        "relevance": 0.49440377950668335,
+        "excess": 4.840000152587891,
+        "coverage": 0.4785785973072052,
+        "duplicate": 0.5104575157165527,
+        "decoded_count": 32,
+        "budget": 10
+      },
+      {
+        "clip": "barty_collins_action",
+        "loss": 0.7560601830482483,
+        "relevance": 0.6329922676086426,
+        "excess": 0.0,
+        "coverage": 0.5446801781654358,
+        "duplicate": 0.14131911098957062,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "loss": 0.8880885243415833,
+        "relevance": 0.6990649700164795,
+        "excess": 0.0,
+        "coverage": 0.5122628808021545,
+        "duplicate": 0.8657096028327942,
+        "decoded_count": 19,
+        "budget": 22
+      },
+      {
+        "clip": "barty_collins_context",
+        "loss": 0.09829013794660568,
+        "relevance": 0.09829013794660568,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "loss": 0.001924378564581275,
+        "relevance": 0.001924378564581275,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "loss": 0.0005538624827750027,
+        "relevance": 0.0005538624827750027,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "loss": 0.8397595286369324,
+        "relevance": 0.6960328221321106,
+        "excess": 0.0,
+        "coverage": 0.6441932916641235,
+        "duplicate": 0.1488802284002304,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "radwanska_azarenka_context",
+        "loss": 0.0006923870532773435,
+        "relevance": 0.0006923870532773435,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      }
+    ],
+    "validation": [
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 18
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 27
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      }
+    ],
+    "val_f1": 0.0
+  },
+  {
+    "epoch": 20,
+    "training": [
+      {
+        "clip": "radwanska_azarenka_context",
+        "loss": 0.000649104593321681,
+        "relevance": 0.000649104593321681,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_context",
+        "loss": 0.000666755368001759,
+        "relevance": 0.000666755368001759,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "sabalenka_badosa_context",
+        "loss": 0.00043882906902581453,
+        "relevance": 0.00043882906902581453,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "raducanu_gauff_context",
+        "loss": 0.0013070332352072,
+        "relevance": 0.0013070332352072,
+        "excess": 0.0,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "osaka_garcia_action",
+        "loss": 0.8189627528190613,
+        "relevance": 0.6758659482002258,
+        "excess": 0.0,
+        "coverage": 0.6960261464118958,
+        "duplicate": 0.03891616687178612,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "raducanu_gauff_action",
+        "loss": 0.8345221877098083,
+        "relevance": 0.6917645931243896,
+        "excess": 0.0,
+        "coverage": 0.6625067591667175,
+        "duplicate": 0.10256203263998032,
+        "decoded_count": 4,
+        "budget": 16
+      },
+      {
+        "clip": "zheng_sabalenka_action",
+        "loss": 0.9125332832336426,
+        "relevance": 0.7656145691871643,
+        "excess": 0.0,
+        "coverage": 0.5925576090812683,
+        "duplicate": 0.28407207131385803,
+        "decoded_count": 4,
+        "budget": 25
+      },
+      {
+        "clip": "sabalenka_badosa_action",
+        "loss": 0.48745977878570557,
+        "relevance": 0.35337385535240173,
+        "excess": 0.0,
+        "coverage": 0.6237924098968506,
+        "duplicate": 0.09327437728643417,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "barty_collins_action",
+        "loss": 0.6786507368087769,
+        "relevance": 0.5515552759170532,
+        "excess": 0.0,
+        "coverage": 0.6066904664039612,
+        "duplicate": 0.057574108242988586,
+        "decoded_count": 4,
+        "budget": 10
+      },
+      {
+        "clip": "zheng_sabalenka_context",
+        "loss": 0.0004400926409289241,
+        "relevance": 0.0004400926409289241,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "barty_collins_context",
+        "loss": 0.015870390459895134,
+        "relevance": 0.015870390459895134,
+        "excess": 1.4210854715202004e-14,
+        "coverage": 0.0,
+        "duplicate": 0.0,
+        "decoded_count": 4,
+        "budget": 4
+      },
+      {
+        "clip": "radwanska_azarenka_action",
+        "loss": 0.9374657273292542,
+        "relevance": 0.7827091217041016,
+        "excess": 0.0,
+        "coverage": 0.6243605017662048,
+        "duplicate": 0.29884544014930725,
+        "decoded_count": 4,
+        "budget": 22
+      }
+    ],
+    "validation": [
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 18
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 27
+      },
+      {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 0,
+        "truth": 0
+      }
+    ],
+    "val_f1": 0.0
+  }
+]
