@@ -2,6 +2,15 @@
 
 A local research repository for learning to select 2–3-frame sports-event proposals from broadcast video. It includes sequential video acquisition, frame-delta sampling, scoreboard crops, VLM taxonomy generation and annotation, PyTorch training, overlap voting, inference, evaluation, and an incremental frame-feed API.
 
+**TenniSet ground-truth import:** see [exact-frame conversion and training](docs/tenniset-ground-truth.md).
+The new `sports_events.tenniset` adapter preserves every publisher annotation and
+exports lossless source-frame PNGs with absolute paths and zero-based original-video
+indices to `data/sequence-frames/sequences.json`. Only Serve/Hit annotations become
+action targets; their representative frame triplets are derived from human intervals.
+`sports_events.tenniset_train` prepares surrounding footage and runs a match-disjoint
+pretrained-model pilot without a VLM teacher. Check the conversion and run reports
+for completion; these commands do not change the historical results below.
+
 **Status:** a real tennis pilot has now been trained, but it failed the small held-out evaluation. Ten full Australian Open broadcasts (14.95 hours) are downloaded locally. ChatGPT visually annotated 128 seconds across those matches; the student trained for 20 epochs on 72 seconds from six matches. Test frame F1 was 0, versus 0.146 for a periodic baseline at ±3 frames. This is not a working sports detector. See [the tennis experiment report, sources and reproduction steps](docs/tennis-pilot.md).
 
 **Second experiment:** a controlled loss revision improved F1 from 0.146 to 0.256 on 28 seconds of fresh test intervals; recall is still only 16.7%. See the [detailed diagnosis and results](docs/second-experiment.md) and [four-diagram visual guide](docs/second-experiment.html). The original run remains preserved.
