@@ -1,5 +1,10 @@
 # TenniSet: exact frames and converted events
 
+**Current training:** follow the [filter-first correction](tenniset-filtering-correction.md).
+The original export below is preserved, but the fixed-stride training instructions
+describe the historical baseline. Corrected targets are in
+`data/tenniset_delta/sequence-frames/sequences.json` after applying the real filter.
+
 Source: [HaydenFaulkner/Tennis](https://github.com/HaydenFaulkner/Tennis),
 Faulkner and Dick, *TenniSet: A Dataset for Dense Fine-Grained Event Recognition,
 Localisation and Description*, DICTA 2017. Download locations are the publisher's

@@ -47,6 +47,49 @@ def crop_scoreboard(frame, roi):
     return cv2.resize(frame[y0:y1, x0:x1], (96, 32))
 
 
+def filtered_frames(capture, min_fps=10.0, max_fps=20.0, delta=0.035):
+    """Shared, label-independent full-feed filter. Yield image, source index, PTS.
+
+    Caller owns capture. Endpoint exceptions retain the first/last two originals.
+    Read failure before the decoder's advertised frame count is an error.
+    """
+    if not (0 < min_fps <= max_fps) or not 0 <= delta <= 1:
+        raise ValueError("Invalid sampling rates or delta")
+    fps = capture.get(cv2.CAP_PROP_FPS)
+    if not capture.isOpened() or not math.isfinite(fps) or fps <= 0:
+        raise ValueError('Cannot decode video / invalid FPS')
+    previous, last_time, tail = None, -1e9, []
+    index = 0
+    while True:
+        ok, frame = capture.read()
+        if not ok:
+            break
+        timestamp = capture.get(cv2.CAP_PROP_POS_MSEC) / 1000
+        if not math.isfinite(timestamp) or timestamp < 0:
+            timestamp = tail[-1][2] + 1/fps if tail else 0.0
+        if index and timestamp <= tail[-1][2]:
+            timestamp = tail[-1][2] + 1/fps
+        gray = cv2.resize(cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY), (64,36)).astype(float)/255
+        elapsed = timestamp-last_time
+        changed = previous is None or np.abs(gray-previous).mean() >= delta
+        chosen = index < 2 or elapsed+1e-9 >= 1/min_fps or (elapsed+1e-9 >= 1/max_fps and changed)
+        if chosen:
+            previous, last_time = gray, timestamp
+        # Delay emission by two originals so a previously skipped penultimate
+        # frame can be emitted BEFORE an already-selected final frame.
+        tail.append((frame,index,timestamp,chosen))
+        if len(tail)>2:
+            old_frame,old_index,old_time,old_chosen=tail.pop(0)
+            if old_chosen:yield old_frame,old_index,old_time
+        index += 1
+    expected = int(capture.get(cv2.CAP_PROP_FRAME_COUNT))
+    if expected > 0 and index < expected:
+        raise ValueError(f'Decode ended early: {index}/{expected} frames')
+    if not tail: raise ValueError('Empty video')
+    for frame, source_index, timestamp, _ in tail:
+        yield frame, source_index, timestamp
+
+
 def sample_video(source, output, row, min_fps=10.0, max_fps=20.0, delta=0.035):
     if not (0 < min_fps <= max_fps) or not 0 <= delta <= 1:
         raise ValueError("Invalid sampling rates or delta")
@@ -58,7 +101,7 @@ def sample_video(source, output, row, min_fps=10.0, max_fps=20.0, delta=0.035):
     if not capture.isOpened() or not math.isfinite(fps) or fps <= 0:
         capture.release()
         raise ValueError(f"Cannot decode video / invalid FPS: {source}")
-    records, previous, last_time, tail = [], None, -1e9, []
+    records = []
     frame_index = 0
     roi = row.get("scoreboard_roi")
 
@@ -72,30 +115,13 @@ def sample_video(source, output, row, min_fps=10.0, max_fps=20.0, delta=0.035):
                         "image": image, "scoreboard": board})
 
     try:
-        while True:
-            ok, frame = capture.read()
-            if not ok:
-                break
-            # Decoder PTS supports variable-rate sources; nominal FPS is the fallback.
-            timestamp = capture.get(cv2.CAP_PROP_POS_MSEC) / 1000
-            if frame_index and (not math.isfinite(timestamp) or timestamp <= tail[-1][2]):
-                timestamp = tail[-1][2] + 1 / fps
-            gray = cv2.resize(cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY), (64, 36)).astype(float) / 255
-            elapsed = timestamp - last_time
-            changed = previous is None or np.abs(gray - previous).mean() >= delta
-            # First two and last two original frames are retained as endpoint exceptions.
-            if frame_index < 2 or elapsed + 1e-9 >= 1/min_fps or (elapsed + 1e-9 >= 1/max_fps and changed):
-                save(frame, frame_index, timestamp)
-                previous, last_time = gray, timestamp
-            tail = (tail + [(frame.copy(), frame_index, timestamp)])[-2:]
-            frame_index += 1
+        for frame, index, timestamp in filtered_frames(capture, min_fps, max_fps, delta):
+            save(frame, index, timestamp)
+            frame_index = index + 1
     finally:
         capture.release()
     if not records:
         raise ValueError("Empty video")
-    for frame, index, timestamp in tail:
-        if index > records[-1]["source_frame"]:
-            save(frame, index, timestamp)
     clip = {"schema_version": 1, "id": row["id"], "sport": sport_name(row["sport"]),
             "group_id": row.get("group_id", row["id"]), "split": row.get("split", "train"),
             "scoreboard_roi": roi, "source_fps": fps, "source_frame_count": frame_index,

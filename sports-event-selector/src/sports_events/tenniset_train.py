@@ -1,6 +1,7 @@
-"""A bounded, match-disjoint pilot trained from completed TenniSet sequences.
+"""Reusable TenniSet pilot training, without VLM calls or match split leakage.
 
-Fixed sampling is independent of labels. No VLM calls or publisher split leakage.
+Use sports_events.tenniset_filtered for current delta-filtered preparation.
+The prepare command here preserves the historical fixed-stride baseline only.
 """
 import argparse
 import hashlib
@@ -117,7 +118,10 @@ def train(dataset, output, weights, cache, epochs=20, seed=17):
     if {c['split'] for _,c,_ in records} != {'train','val','test'}: raise ValueError('Three splits required')
     write_json(output/'protocol.json',{'dataset':str(Path(dataset).resolve()),'epochs':epochs,'seed':seed,
         'model':'frozen_resnet18_transformer','motion':True,'loss':'v2',
-        'split_groups':SPLITS,'selection':'validation only, before test extraction/prediction',
+        'split_groups':SPLITS,'selection':'validation only; freeze before test feature extraction and predictions',
+        'dataset_preparation':read_json(Path(dataset)/'preparation.json'),
+        'dataset_projection_report':read_json(Path(dataset).parent/'sequence-frames/conversion-report.json')
+            if (Path(dataset).parent/'sequence-frames/conversion-report.json').exists() else None,
         'records':[{'clip':c['id'],'split':c['split'],'clip_hash':fingerprint(c),'truth':t} for _,c,t in records]})
     encoder=load_encoder(weights)
     trainval=[]
@@ -139,7 +143,7 @@ def train(dataset, output, weights, cache, epochs=20, seed=17):
 
 def main():
     p=argparse.ArgumentParser(description=__doc__);sub=p.add_subparsers(dest='command',required=True)
-    q=sub.add_parser('prepare');q.add_argument('--sequences',default='data/sequence-frames/sequences.json')
+    q=sub.add_parser('prepare',help='Legacy fixed-stride reproduction; use sports_events.tenniset_filtered for delta-filtered training');q.add_argument('--sequences',default='data/sequence-frames/sequences.json')
     q.add_argument('--output',default='data/tenniset_pilot/clips');q.add_argument('--clips-per-video',type=int,default=12)
     q.add_argument('--seconds',type=float,default=8);q.add_argument('--stride',type=int,default=2)
     q=sub.add_parser('train');q.add_argument('--dataset',default='data/tenniset_pilot/clips')

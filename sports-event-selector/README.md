@@ -3,6 +3,9 @@
 A local research repository for learning to select 2–3-frame sports-event proposals from broadcast video. It includes sequential video acquisition, frame-delta sampling, scoreboard crops, VLM taxonomy generation and annotation, PyTorch training, overlap voting, inference, evaluation, and an incremental frame-feed API.
 
 **TenniSet ground-truth import:** see [exact-frame conversion and training](docs/tenniset-ground-truth.md).
+For current training, use the [filter-first correction](docs/tenniset-filtering-correction.md):
+`python -m sports_events.tenniset_filtered` applies the actual full-video delta
+filter before projecting and augmenting targets to nearby retained frames.
 The new `sports_events.tenniset` adapter preserves every publisher annotation and
 exports lossless source-frame PNGs with absolute paths and zero-based original-video
 indices to `data/sequence-frames/sequences.json`. Only Serve/Hit annotations become
