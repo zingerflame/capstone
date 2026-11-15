@@ -122,3 +122,36 @@ the selector also needs the surrounding frame stream and negative examples.
 - `data/tenniset_pilot/clips/preparation.json`: actual selected intervals/counts.
 - `runs/tenniset_pilot/protocol.json`, `frozen_selection.json`, `results.json`:
   actual experiment evidence when the run completes.
+
+## Completed local export and pilot (15 November 2026)
+
+The completed index contains 4,468 records referencing 13,197 distinct verified
+PNGs (about 16.16 GB). There are 3,568 action records. All source annotations were
+compared against the converted records and preserved exactly. The implementation
+test suite passes 48 tests, including real video decoding on synthetic fixtures.
+
+The 24-clips-per-video pilot completed 20 epochs, seed 17:
+
+| Split | Matches | Clips | Seconds | Sampled frames | Action events | Negative clips |
+|---|---|---:|---:|---:|---:|---:|
+| Train | V006–V008 | 72 | 576 | 7,200 | 68 | 46 |
+| Validation | V009 | 24 | 192 | 2,400 | 4 | 22 |
+| Test | V010 | 24 | 192 | 2,400 | 24 | 17 |
+
+Validation selected the expanded-budget checkpoint from epoch 19, with factor 2,
+probability threshold 0.1 and consensus 0.65. Validation F1 was 0.4: two matched
+anchor frames out of eight ground-truth anchors, from only four events. That very
+small validation set is a material limitation, not strong evidence of quality.
+
+On the untouched test match's selected intervals, the model predicted three event
+anchors and matched **zero of 48** ground-truth anchors at every evaluated tolerance
+(0–3 sampled frames). Precision, recall and F1 were all zero. Retention was 4.125%,
+including 96 mandatory boundary frames and three predicted event frames.
+Checkpoint: `runs/tenniset_pilot/model/expanded.pt`.
+
+This is a completed but unsuccessful model integration pilot. It does not invalidate
+the verified source-frame mapping, and it is not a full TenniSet benchmark. The
+pilot trained on 68 action events, not all 3,568 exported actions. A next experiment
+should expand training and validation coverage, audit representative interval
+targets against contact timing, and compare budget/recall operating points on
+validation. Do not tune against this test result and then call the same test fresh.

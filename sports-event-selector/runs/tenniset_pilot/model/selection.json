@@ -1,0 +1,26 @@
+{
+  "fixed": {
+    "budget_factor": 1.0,
+    "threshold": 0.7,
+    "consensus": 0.8,
+    "matched": 0,
+    "predicted": 0,
+    "truth": 8,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "epoch": 1
+  },
+  "expanded": {
+    "budget_factor": 2.0,
+    "threshold": 0.1,
+    "consensus": 0.65,
+    "matched": 2,
+    "predicted": 2,
+    "truth": 8,
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1": 0.4,
+    "epoch": 19
+  }
+}
