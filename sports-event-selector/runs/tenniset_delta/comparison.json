@@ -1,0 +1,73 @@
+{
+  "previous_model_on_corrected_targets": {
+    "0": {
+      "matched": 0,
+      "predicted": 2,
+      "truth": 72,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "1": {
+      "matched": 0,
+      "predicted": 2,
+      "truth": 72,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "2": {
+      "matched": 0,
+      "predicted": 2,
+      "truth": 72,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "3": {
+      "matched": 0,
+      "predicted": 2,
+      "truth": 72,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "retained_fraction": 0.050515463917525774
+  },
+  "retrained_model_on_corrected_targets": {
+    "0": {
+      "matched": 5,
+      "predicted": 15,
+      "truth": 72,
+      "precision": 0.3333333333333333,
+      "recall": 0.06944444444444445,
+      "f1": 0.11494252873563218
+    },
+    "1": {
+      "matched": 7,
+      "predicted": 15,
+      "truth": 72,
+      "precision": 0.4666666666666667,
+      "recall": 0.09722222222222222,
+      "f1": 0.16091954022988506
+    },
+    "2": {
+      "matched": 9,
+      "predicted": 15,
+      "truth": 72,
+      "precision": 0.6,
+      "recall": 0.125,
+      "f1": 0.20689655172413793
+    },
+    "3": {
+      "matched": 10,
+      "predicted": 15,
+      "truth": 72,
+      "precision": 0.6666666666666666,
+      "recall": 0.1388888888888889,
+      "f1": 0.22988505747126436
+    },
+    "retained_fraction": 0.05721649484536082
+  },
+  "note": "Same corrected test inputs/labels; old checkpoint frozen before this correction. Regression test, not fresh holdout."
+}

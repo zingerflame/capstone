@@ -1,0 +1,42 @@
+{
+  "complete": true,
+  "records": 4468,
+  "mapped": 4468,
+  "mapped_actions": 3568,
+  "augmented_actions": 3568,
+  "collapsed_to_one_before_augmentation": 1044,
+  "unmappable_action_ids": [],
+  "excluded_clips": [
+    "tenniset_V006_011",
+    "tenniset_V007_003"
+  ],
+  "sampling": {
+    "min_fps": 10,
+    "max_fps": 20,
+    "delta": 0.035
+  },
+  "max_gap_seconds": 0.16,
+  "videos": {
+    "V006": {
+      "original": 123875,
+      "retained": 49495
+    },
+    "V007": {
+      "original": 136795,
+      "retained": 54663
+    },
+    "V008": {
+      "original": 80995,
+      "retained": 32140
+    },
+    "V009": {
+      "original": 406952,
+      "retained": 164040
+    },
+    "V010": {
+      "original": 109890,
+      "retained": 43559
+    }
+  },
+  "comparison_note": "Same match split and original clip intervals as the earlier pilot. Reused test is a regression evaluation."
+}

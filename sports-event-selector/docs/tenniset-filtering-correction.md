@@ -89,3 +89,51 @@ The rest of the pipeline, including existing stream/batch tests, also passes.
 Filtering remains quantized by source timestamps: nominal 10fps can become
 8.33fps on 25fps input. This change deliberately preserves those timing decisions;
 it addresses label alignment rather than retuning the sampler.
+
+## Completed corrected pilot
+
+All five videos were filtered: 858,507 original frames became 343,897 retained
+frames (40.06%). All 4,468 annotation records mapped successfully, including
+3,568 action records. Of those actions, 1,044 collapsed to one unique nearest
+frame before augmentation; all 3,568 required at least one additional bounded
+retained frame to construct their final sequences.
+
+Two training clips were excluded because their mapped actions crossed a clip
+boundary. The final pilot uses 70 training clips / 5,584 frames / 60 events,
+24 validation clips / 2,061 frames / 4 events, and 24 test clips / 1,940 frames /
+24 events. Conversion covers the full dataset; training still uses this small
+pilot subset. The anchors remain derived representatives within human intervals,
+not human-verified ball-contact timestamps.
+
+The 20-epoch run selected epoch 11 using validation only (threshold 0.1,
+consensus 0.8, budget factor 3). Both checkpoints below were evaluated on the
+same corrected test inputs and targets, without retuning the old checkpoint.
+
+| Model / matching tolerance | Precision | Recall | F1 |
+| --- | ---: | ---: | ---: |
+| Previous checkpoint, exact or ±3 filtered frames | 0.0% | 0.0% | 0.0% |
+| Corrected retraining, exact frame | 33.3% | 6.9% | 11.5% |
+| Corrected retraining, ±3 filtered frames | 66.7% | 13.9% | 23.0% |
+
+At ±3, 10 of 15 predicted event-frame anchors matched 72 target anchors using
+one-to-one matching. These are frame-anchor precision/recall, not event accuracy.
+The model retained 111/1,940 input frames (5.72%), including 96 mandatory boundary
+frames. Mandatory boundary frames are not included as event predictions in the
+metrics above. Low retention is not a successful compression claim when recall
+is this low.
+
+The alignment correction improves this regression result, but recall remains
+poor. Four validation events are insufficient for robust threshold selection.
+Next experiments should expand event-rich training/validation coverage, examine
+the selection budget and false negatives on validation, and reserve new matches
+for a fresh test. Sampling, targets, and two excluded training clips changed
+together, so this comparison does not identify a single causal improvement.
+
+Verification: 51 automated tests passed. The completed data audit preserved all
+4,468 original annotations, verified 12,727 unique target PNG hashes and bounded
+index mappings, and checked pixel correspondence for all 264 target frames across
+the train/validation/test pilot. Evidence is saved in
+`runs/tenniset_delta/{results,comparison,verification,conversion-report}.json`.
+The full corrected export remains in
+`data/tenniset_delta/sequence-frames/sequences.json`; data and images are excluded
+from the capstone Git copy.

@@ -1,0 +1,2405 @@
+{
+  "dataset": "C:\\Users\\miala\\Documents\\Codex\\2026-10-24\\i-w\\outputs\\sports-event-selector\\data\\tenniset_delta\\clips",
+  "epochs": 20,
+  "seed": 17,
+  "model": "frozen_resnet18_transformer",
+  "motion": true,
+  "loss": "v2",
+  "split_groups": {
+    "V006": "train",
+    "V007": "train",
+    "V008": "train",
+    "V009": "val",
+    "V010": "test"
+  },
+  "selection": "validation only; freeze before test feature extraction and predictions",
+  "dataset_preparation": {
+    "splits": {
+      "V006": "train",
+      "V007": "train",
+      "V008": "train",
+      "V009": "val",
+      "V010": "test"
+    },
+    "clips": [
+      {
+        "id": "tenniset_V006_000",
+        "split": "train",
+        "frames": 67,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 25481,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V006_001",
+        "split": "train",
+        "frames": 66,
+        "events": 1,
+        "partial_sequences_excluded": [],
+        "start": 29599,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V006_002",
+        "split": "train",
+        "frames": 66,
+        "events": 3,
+        "partial_sequences_excluded": [],
+        "start": 33717,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V006_003",
+        "split": "train",
+        "frames": 73,
+        "events": 4,
+        "partial_sequences_excluded": [],
+        "start": 37836,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V006_004",
+        "split": "train",
+        "frames": 74,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 41954,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V006_005",
+        "split": "train",
+        "frames": 70,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 46073,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V006_006",
+        "split": "train",
+        "frames": 78,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 50191,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V006_007",
+        "split": "train",
+        "frames": 93,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 54310,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V006_008",
+        "split": "train",
+        "frames": 71,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 58428,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V006_009",
+        "split": "train",
+        "frames": 93,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 62547,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V006_010",
+        "split": "train",
+        "frames": 96,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 66665,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V006_011",
+        "split": "train",
+        "frames": 72,
+        "events": 4,
+        "partial_sequences_excluded": [],
+        "start": 70784,
+        "seconds": 8,
+        "excluded": true,
+        "unresolved_events": [
+          "V006_hit_00118"
+        ]
+      },
+      {
+        "id": "tenniset_V006_012",
+        "split": "train",
+        "frames": 68,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 74902,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V006_013",
+        "split": "train",
+        "frames": 77,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 79021,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V006_014",
+        "split": "train",
+        "frames": 90,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 83139,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V006_015",
+        "split": "train",
+        "frames": 92,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 87258,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V006_016",
+        "split": "train",
+        "frames": 86,
+        "events": 2,
+        "partial_sequences_excluded": [],
+        "start": 91376,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V006_017",
+        "split": "train",
+        "frames": 99,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 95495,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V006_018",
+        "split": "train",
+        "frames": 88,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 99613,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V006_019",
+        "split": "train",
+        "frames": 71,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 103732,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V006_020",
+        "split": "train",
+        "frames": 77,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 107850,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V006_021",
+        "split": "train",
+        "frames": 70,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 111969,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V006_022",
+        "split": "train",
+        "frames": 88,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 116087,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V006_023",
+        "split": "train",
+        "frames": 95,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 120206,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_000",
+        "split": "train",
+        "frames": 67,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 14412,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_001",
+        "split": "train",
+        "frames": 68,
+        "events": 4,
+        "partial_sequences_excluded": [],
+        "start": 19666,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_002",
+        "split": "train",
+        "frames": 94,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 24920,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_003",
+        "split": "train",
+        "frames": 88,
+        "events": 2,
+        "partial_sequences_excluded": [],
+        "start": 30175,
+        "seconds": 8,
+        "excluded": true,
+        "unresolved_events": [
+          "V007_hit_00050"
+        ]
+      },
+      {
+        "id": "tenniset_V007_004",
+        "split": "train",
+        "frames": 87,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 35429,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_005",
+        "split": "train",
+        "frames": 71,
+        "events": 4,
+        "partial_sequences_excluded": [],
+        "start": 40683,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_006",
+        "split": "train",
+        "frames": 100,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 45938,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_007",
+        "split": "train",
+        "frames": 83,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 51192,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_008",
+        "split": "train",
+        "frames": 86,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 56446,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_009",
+        "split": "train",
+        "frames": 97,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 61701,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_010",
+        "split": "train",
+        "frames": 67,
+        "events": 5,
+        "partial_sequences_excluded": [],
+        "start": 66955,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_011",
+        "split": "train",
+        "frames": 66,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 72209,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_012",
+        "split": "train",
+        "frames": 67,
+        "events": 2,
+        "partial_sequences_excluded": [],
+        "start": 77464,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_013",
+        "split": "train",
+        "frames": 67,
+        "events": 2,
+        "partial_sequences_excluded": [],
+        "start": 82718,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_014",
+        "split": "train",
+        "frames": 69,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 87972,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_015",
+        "split": "train",
+        "frames": 80,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 93227,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_016",
+        "split": "train",
+        "frames": 92,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 98481,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_017",
+        "split": "train",
+        "frames": 73,
+        "events": 1,
+        "partial_sequences_excluded": [],
+        "start": 103735,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_018",
+        "split": "train",
+        "frames": 80,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 108990,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_019",
+        "split": "train",
+        "frames": 73,
+        "events": 5,
+        "partial_sequences_excluded": [],
+        "start": 114244,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_020",
+        "split": "train",
+        "frames": 89,
+        "events": 2,
+        "partial_sequences_excluded": [],
+        "start": 119498,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_021",
+        "split": "train",
+        "frames": 80,
+        "events": 4,
+        "partial_sequences_excluded": [],
+        "start": 124753,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_022",
+        "split": "train",
+        "frames": 67,
+        "events": 2,
+        "partial_sequences_excluded": [],
+        "start": 130007,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V007_023",
+        "split": "train",
+        "frames": 92,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 135262,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_000",
+        "split": "train",
+        "frames": 67,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 1715,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_001",
+        "split": "train",
+        "frames": 69,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 5086,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_002",
+        "split": "train",
+        "frames": 78,
+        "events": 1,
+        "partial_sequences_excluded": [],
+        "start": 8457,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_003",
+        "split": "train",
+        "frames": 69,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 11828,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_004",
+        "split": "train",
+        "frames": 81,
+        "events": 2,
+        "partial_sequences_excluded": [],
+        "start": 15200,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_005",
+        "split": "train",
+        "frames": 97,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 18571,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_006",
+        "split": "train",
+        "frames": 73,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 21942,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_007",
+        "split": "train",
+        "frames": 86,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 25313,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_008",
+        "split": "train",
+        "frames": 93,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 28685,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_009",
+        "split": "train",
+        "frames": 85,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 32056,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_010",
+        "split": "train",
+        "frames": 70,
+        "events": 4,
+        "partial_sequences_excluded": [],
+        "start": 35427,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_011",
+        "split": "train",
+        "frames": 79,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 38798,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_012",
+        "split": "train",
+        "frames": 68,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 42170,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_013",
+        "split": "train",
+        "frames": 79,
+        "events": 1,
+        "partial_sequences_excluded": [],
+        "start": 45541,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_014",
+        "split": "train",
+        "frames": 76,
+        "events": 3,
+        "partial_sequences_excluded": [],
+        "start": 48912,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_015",
+        "split": "train",
+        "frames": 82,
+        "events": 2,
+        "partial_sequences_excluded": [],
+        "start": 52283,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_016",
+        "split": "train",
+        "frames": 100,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 55655,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_017",
+        "split": "train",
+        "frames": 84,
+        "events": 1,
+        "partial_sequences_excluded": [],
+        "start": 59026,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_018",
+        "split": "train",
+        "frames": 67,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 62397,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_019",
+        "split": "train",
+        "frames": 67,
+        "events": 2,
+        "partial_sequences_excluded": [],
+        "start": 65768,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_020",
+        "split": "train",
+        "frames": 86,
+        "events": 2,
+        "partial_sequences_excluded": [],
+        "start": 69140,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_021",
+        "split": "train",
+        "frames": 79,
+        "events": 1,
+        "partial_sequences_excluded": [],
+        "start": 72511,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_022",
+        "split": "train",
+        "frames": 86,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 75882,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V008_023",
+        "split": "train",
+        "frames": 100,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 79254,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_000",
+        "split": "val",
+        "frames": 67,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 5458,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_001",
+        "split": "val",
+        "frames": 100,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 22827,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_002",
+        "split": "val",
+        "frames": 89,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 40196,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_003",
+        "split": "val",
+        "frames": 84,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 57565,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_004",
+        "split": "val",
+        "frames": 100,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 74934,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_005",
+        "split": "val",
+        "frames": 77,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 92303,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_006",
+        "split": "val",
+        "frames": 91,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 109672,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_007",
+        "split": "val",
+        "frames": 83,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 127041,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_008",
+        "split": "val",
+        "frames": 98,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 144410,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_009",
+        "split": "val",
+        "frames": 83,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 161779,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_010",
+        "split": "val",
+        "frames": 70,
+        "events": 2,
+        "partial_sequences_excluded": [],
+        "start": 179148,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_011",
+        "split": "val",
+        "frames": 79,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 196517,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_012",
+        "split": "val",
+        "frames": 89,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 213887,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_013",
+        "split": "val",
+        "frames": 66,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 231256,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_014",
+        "split": "val",
+        "frames": 91,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 248625,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_015",
+        "split": "val",
+        "frames": 90,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 265994,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_016",
+        "split": "val",
+        "frames": 93,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 283363,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_017",
+        "split": "val",
+        "frames": 79,
+        "events": 2,
+        "partial_sequences_excluded": [],
+        "start": 300732,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_018",
+        "split": "val",
+        "frames": 77,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 318101,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_019",
+        "split": "val",
+        "frames": 86,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 335470,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_020",
+        "split": "val",
+        "frames": 97,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 352839,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_021",
+        "split": "val",
+        "frames": 79,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 370208,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_022",
+        "split": "val",
+        "frames": 93,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 387577,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V009_023",
+        "split": "val",
+        "frames": 100,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 404947,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_000",
+        "split": "test",
+        "frames": 67,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 12351,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_001",
+        "split": "test",
+        "frames": 81,
+        "events": 6,
+        "partial_sequences_excluded": [],
+        "start": 16475,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_002",
+        "split": "test",
+        "frames": 98,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 20599,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_003",
+        "split": "test",
+        "frames": 66,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 24723,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_004",
+        "split": "test",
+        "frames": 75,
+        "events": 3,
+        "partial_sequences_excluded": [],
+        "start": 28848,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_005",
+        "split": "test",
+        "frames": 67,
+        "events": 4,
+        "partial_sequences_excluded": [],
+        "start": 32972,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_006",
+        "split": "test",
+        "frames": 67,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 37096,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_007",
+        "split": "test",
+        "frames": 96,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 41221,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_008",
+        "split": "test",
+        "frames": 73,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 45345,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_009",
+        "split": "test",
+        "frames": 85,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 49469,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_010",
+        "split": "test",
+        "frames": 67,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 53594,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_011",
+        "split": "test",
+        "frames": 88,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 57718,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_012",
+        "split": "test",
+        "frames": 88,
+        "events": 2,
+        "partial_sequences_excluded": [],
+        "start": 61842,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_013",
+        "split": "test",
+        "frames": 76,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 65966,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_014",
+        "split": "test",
+        "frames": 69,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 70091,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_015",
+        "split": "test",
+        "frames": 98,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 74215,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_016",
+        "split": "test",
+        "frames": 72,
+        "events": 5,
+        "partial_sequences_excluded": [],
+        "start": 78339,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_017",
+        "split": "test",
+        "frames": 71,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 82464,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_018",
+        "split": "test",
+        "frames": 88,
+        "events": 1,
+        "partial_sequences_excluded": [],
+        "start": 86588,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_019",
+        "split": "test",
+        "frames": 91,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 90712,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_020",
+        "split": "test",
+        "frames": 80,
+        "events": 3,
+        "partial_sequences_excluded": [],
+        "start": 94837,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_021",
+        "split": "test",
+        "frames": 100,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 98961,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_022",
+        "split": "test",
+        "frames": 77,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 103085,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      },
+      {
+        "id": "tenniset_V010_023",
+        "split": "test",
+        "frames": 100,
+        "events": 0,
+        "partial_sequences_excluded": [],
+        "start": 107210,
+        "seconds": 8,
+        "excluded": false,
+        "unresolved_events": []
+      }
+    ],
+    "sampling": {
+      "min_fps": 10,
+      "max_fps": 20,
+      "delta": 0.035
+    }
+  },
+  "dataset_projection_report": {
+    "complete": true,
+    "records": 4468,
+    "mapped": 4468,
+    "mapped_actions": 3568,
+    "augmented_actions": 3568,
+    "collapsed_to_one_before_augmentation": 1044,
+    "unmappable_action_ids": [],
+    "excluded_clips": [
+      "tenniset_V006_011",
+      "tenniset_V007_003"
+    ],
+    "sampling": {
+      "min_fps": 10,
+      "max_fps": 20,
+      "delta": 0.035
+    },
+    "max_gap_seconds": 0.16,
+    "videos": {
+      "V006": {
+        "original": 123875,
+        "retained": 49495
+      },
+      "V007": {
+        "original": 136795,
+        "retained": 54663
+      },
+      "V008": {
+        "original": 80995,
+        "retained": 32140
+      },
+      "V009": {
+        "original": 406952,
+        "retained": 164040
+      },
+      "V010": {
+        "original": 109890,
+        "retained": 43559
+      }
+    },
+    "comparison_note": "Same match split and original clip intervals as the earlier pilot. Reused test is a regression evaluation."
+  },
+  "records": [
+    {
+      "clip": "tenniset_V006_000",
+      "split": "train",
+      "clip_hash": "0d36d3cf192f0878248f309f28e7ad9e44444c0cb69fec397e7679ac0190b662",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V006_001",
+      "split": "train",
+      "clip_hash": "73a388436135c5493058f79aa44bdd9830e32a2049fa53ece108f3acf880485f",
+      "truth": [
+        52,
+        53,
+        54
+      ]
+    },
+    {
+      "clip": "tenniset_V006_002",
+      "split": "train",
+      "clip_hash": "62565d0f92e60e794339de9901a57225193d853728c80f35f5b94eea5ba41674",
+      "truth": [
+        8,
+        9,
+        10,
+        22,
+        23,
+        24,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "clip": "tenniset_V006_003",
+      "split": "train",
+      "clip_hash": "c329d3d692d3afe639d5097cc5560ee9bd11ca98827c241d019494a5993fbd6e",
+      "truth": [
+        1,
+        2,
+        3,
+        11,
+        12,
+        13,
+        24,
+        25,
+        26,
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "clip": "tenniset_V006_004",
+      "split": "train",
+      "clip_hash": "65781099ce28c01bab971e3bdd6166b82851d4974d001c63bd0ee0ac2ddbdd17",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V006_005",
+      "split": "train",
+      "clip_hash": "dbb2a40cc64e9469bb9950c6385de8d8ba76b97a48c30426d5af9730d1e04839",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V006_006",
+      "split": "train",
+      "clip_hash": "f1279e9cf5eb7b3c1a05125334d174de34e50935a64eb166dfd27a8600054a60",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V006_007",
+      "split": "train",
+      "clip_hash": "c5d5d54e3cfee9d576b8f214b893505dcbc43a413c75fc188e4985f5309636e0",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V006_008",
+      "split": "train",
+      "clip_hash": "1316d01ac13a122593a29e0ca4afd5fa65792818b8d916ae38ab95c081b39970",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V006_009",
+      "split": "train",
+      "clip_hash": "ccb8511eb7e0c8b3e2d509dc9d217d9428d3f41af75bb1775a8500aee20d2187",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V006_010",
+      "split": "train",
+      "clip_hash": "b427bc3fcd2b922b1fd66de4cfd66939b26cc9aea5f15f815f7e4df5a303c108",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V006_012",
+      "split": "train",
+      "clip_hash": "671968f2cc4aa61bd08cf4363aced2889ad3781aa3aa360910c533ed5a26de31",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V006_013",
+      "split": "train",
+      "clip_hash": "06fc947caaae1be0295927a74cbc67fded92c50c9070cc4da27a6b537076668a",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V006_014",
+      "split": "train",
+      "clip_hash": "39521163b9d8e7fe139584be39ebc83f4978d65a70bf079e5d04839dd7905f61",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V006_015",
+      "split": "train",
+      "clip_hash": "d1c2c92d0fadb2696331bb74702c98c23738f59f5e6ba719947edc30fce32e1f",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V006_016",
+      "split": "train",
+      "clip_hash": "3ee18f6f3b413b532655bf8a31e625440418ebfd99f67a26b59822ec12ff21f3",
+      "truth": [
+        56,
+        57,
+        58,
+        70,
+        71,
+        72
+      ]
+    },
+    {
+      "clip": "tenniset_V006_017",
+      "split": "train",
+      "clip_hash": "2844217452b7d06067d9d6545c6d8ed130e2fa612e2f666884f6f111110c5601",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V006_018",
+      "split": "train",
+      "clip_hash": "10aab72256e8b23916805152e1b0f0ffdc5a620b27a3661e7971e5178b45ebd8",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V006_019",
+      "split": "train",
+      "clip_hash": "769c857386206f2c215286ed088f52726bd11abf2adaf648df0ddcc26e01bf06",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V006_020",
+      "split": "train",
+      "clip_hash": "6913001b32f16c75ec57d720c7ec7a4a427a8b4b44457dc7f3297b102c5e8447",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V006_021",
+      "split": "train",
+      "clip_hash": "262a2362f97e2f412b429016cb15590b7148397657590bf61a94a9d977f8bf91",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V006_022",
+      "split": "train",
+      "clip_hash": "3c28f33336472340e68365b5ec5401e8d34054b21422db3ec0470d8d94325c2a",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V006_023",
+      "split": "train",
+      "clip_hash": "633853257762126ad7075ef1237d67e20063c35fc87ef539625a5b555d440fb1",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V007_000",
+      "split": "train",
+      "clip_hash": "5fb1a2a1615d34461638fb4ca4c39098bebf6cf915042ea6ee856807207f132f",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V007_001",
+      "split": "train",
+      "clip_hash": "c5e172060d0025b7f15057589417a25e082701d4df7deb63b6734f11043c84d6",
+      "truth": [
+        9,
+        10,
+        11,
+        17,
+        18,
+        19,
+        27,
+        28,
+        29,
+        40,
+        41,
+        42
+      ]
+    },
+    {
+      "clip": "tenniset_V007_002",
+      "split": "train",
+      "clip_hash": "e28009200eb40013fbe53d8db057129236577ed37b5290c1dd0f98925708b58e",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V007_004",
+      "split": "train",
+      "clip_hash": "0d6b85d915308187cf7044ec55605745438dd21475f7d3ea5a7a94d7ed34b580",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V007_005",
+      "split": "train",
+      "clip_hash": "636d59cf485b37a67072ef8131cfc3c0bc3592a2003a6c63007e9ff317da292e",
+      "truth": [
+        21,
+        22,
+        23,
+        33,
+        34,
+        35,
+        41,
+        42,
+        43,
+        53,
+        54,
+        55
+      ]
+    },
+    {
+      "clip": "tenniset_V007_006",
+      "split": "train",
+      "clip_hash": "7db627f5f48c048b3707a41d959a6fad73a200c0b2c2b46298b5674c3acebe93",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V007_007",
+      "split": "train",
+      "clip_hash": "b59683e179a6882bd69a0eae477e630f3cae1daf2c4a071430b870bcfa6f4823",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V007_008",
+      "split": "train",
+      "clip_hash": "a63d044c21a6b444255c28bcb712e4aca515a9192785220b698f8f30d2754f83",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V007_009",
+      "split": "train",
+      "clip_hash": "83b1b452e48065fc97c1bfa70dc7dc3129000492418a88c1ee4699883b262cd5",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V007_010",
+      "split": "train",
+      "clip_hash": "74c6cc89444b544a7efba4837623fab696792a0b0dc36f12d4d6216ac4160d13",
+      "truth": [
+        18,
+        19,
+        20,
+        29,
+        30,
+        31,
+        38,
+        39,
+        40,
+        49,
+        50,
+        51,
+        60,
+        61,
+        62
+      ]
+    },
+    {
+      "clip": "tenniset_V007_011",
+      "split": "train",
+      "clip_hash": "4030b1149329a16b76d83ae1c9f22259734d7e9931a98aa05740061744c254aa",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V007_012",
+      "split": "train",
+      "clip_hash": "655be69b3f510509150abb67b10382dfbdf3277f4c34b83c82d500459e0c78d6",
+      "truth": [
+        51,
+        52,
+        53,
+        63,
+        64,
+        65
+      ]
+    },
+    {
+      "clip": "tenniset_V007_013",
+      "split": "train",
+      "clip_hash": "17db4f952de7140f7da421e1dbb08a93c71adfc819eb542a3a4e08930d51de14",
+      "truth": [
+        32,
+        33,
+        34,
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "clip": "tenniset_V007_014",
+      "split": "train",
+      "clip_hash": "09f0f63aa4891259b30ba3889ba78d787a0f88a13d2ea2b591257f79afab2493",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V007_015",
+      "split": "train",
+      "clip_hash": "3b6895b3261738533bc2e576f556654eca18867d7d305e59d92df7ddbfde2694",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V007_016",
+      "split": "train",
+      "clip_hash": "70b1eebda7989d10887cc9a89b0cd34522953756152976db3924192c02f1f1d4",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V007_017",
+      "split": "train",
+      "clip_hash": "ad1da4f02ec0d1e1877adef6e68ee5152cd089f7a7a89769fcb9670bcff40c10",
+      "truth": [
+        59,
+        60,
+        61
+      ]
+    },
+    {
+      "clip": "tenniset_V007_018",
+      "split": "train",
+      "clip_hash": "bb30defec089a603b7a196a5e666290c58a89791ec84fbcfed1802d470a86bd0",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V007_019",
+      "split": "train",
+      "clip_hash": "6e039b4a91172315a7516f10cb112a5d2d4d793072435965bc71f42df8a66265",
+      "truth": [
+        7,
+        8,
+        9,
+        17,
+        18,
+        19,
+        29,
+        30,
+        31,
+        41,
+        42,
+        43,
+        54,
+        55,
+        56
+      ]
+    },
+    {
+      "clip": "tenniset_V007_020",
+      "split": "train",
+      "clip_hash": "86dadee00d0358909e6e303181c57b3b74519875e9c59ec50527c060181df90a",
+      "truth": [
+        5,
+        6,
+        7,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "clip": "tenniset_V007_021",
+      "split": "train",
+      "clip_hash": "964503dfa3ab348a8b7beabd04629b427a90f6912d6c80baebaf2cd5869f0751",
+      "truth": [
+        3,
+        4,
+        5,
+        14,
+        15,
+        16,
+        29,
+        30,
+        31,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "clip": "tenniset_V007_022",
+      "split": "train",
+      "clip_hash": "54e45692f5b67b9e2e310bebfb8a59c2f35e03d44f92e0ac51c55b3d53f3eb1b",
+      "truth": [
+        48,
+        49,
+        50,
+        59,
+        60,
+        61
+      ]
+    },
+    {
+      "clip": "tenniset_V007_023",
+      "split": "train",
+      "clip_hash": "0c33137ddf370df5cc59d20f9fcd0525e6b33fdbae8d6e653ce70ec6f65e0519",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V008_000",
+      "split": "train",
+      "clip_hash": "24aaa2528c8e2d1b6bf3ef005b8c83818cae66a91381fe7a0f3dcdd9506c2b5e",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V008_001",
+      "split": "train",
+      "clip_hash": "20daf03f37f545f32f6691b81edc9cb478a66e28bd3a1e4152c76255a6b6c38f",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V008_002",
+      "split": "train",
+      "clip_hash": "e23071c201043feae4ab085d0a44a711203bf619bf527595421c1caf51b69974",
+      "truth": [
+        75,
+        76,
+        77
+      ]
+    },
+    {
+      "clip": "tenniset_V008_003",
+      "split": "train",
+      "clip_hash": "8e3377e2b389ea61a0ba3c86cb7d326a3cf42c6664387cdea037b94b5cddf8a6",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V008_004",
+      "split": "train",
+      "clip_hash": "f608ee89228db271943f4888a8cedbc43f41006818c83fe895882f0053bbea4e",
+      "truth": [
+        0,
+        1,
+        2,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "clip": "tenniset_V008_005",
+      "split": "train",
+      "clip_hash": "74d5cfb2a63fba27545e8a784437e0a5aa01d2ea00b58cab8eada0a354b79889",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V008_006",
+      "split": "train",
+      "clip_hash": "ab6c854772777b136713a2613273e9e8acfa3a49e064f1f7a6e7bc2bcadd6a02",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V008_007",
+      "split": "train",
+      "clip_hash": "48dc7a4aaf6c9409bc2a9ea62d44be2e130101e725d7b35ce57fdfdfa68a28ea",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V008_008",
+      "split": "train",
+      "clip_hash": "1a161c547cf606464f42fc19a9dcb98be96021452f8773fef105602ddeb21d2d",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V008_009",
+      "split": "train",
+      "clip_hash": "fc20a6da7c609969251453f4f4324255239494e713fcae4c892ba9ab679bc037",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V008_010",
+      "split": "train",
+      "clip_hash": "1833d4da5a6474f18d0a7c7eb6a1bd071f73d573075c61341ab0f7c78f97bb26",
+      "truth": [
+        12,
+        13,
+        14,
+        28,
+        29,
+        30,
+        38,
+        39,
+        40,
+        49,
+        50,
+        51
+      ]
+    },
+    {
+      "clip": "tenniset_V008_011",
+      "split": "train",
+      "clip_hash": "e6c0d010da8e6362196c234122c9731adc7d33b70684d9d364e9832ee19369b6",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V008_012",
+      "split": "train",
+      "clip_hash": "f31c29e681daeb44bca2017f47b6206dce1b27555b1425533bd5bd1fb2d3aab3",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V008_013",
+      "split": "train",
+      "clip_hash": "1b750727cb562d7ca790cfd6e3c3ba9160f2f3bc598b5864538824336facf1b7",
+      "truth": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "clip": "tenniset_V008_014",
+      "split": "train",
+      "clip_hash": "896922f22ca14af8c0b3a507c5499b3691b1ca75d10c333b7e4c1be5ea6e6a73",
+      "truth": [
+        1,
+        2,
+        3,
+        13,
+        14,
+        15,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "clip": "tenniset_V008_015",
+      "split": "train",
+      "clip_hash": "784519393200f045415047f8c598ffd059960c4674cd2a03223ec6b2374960b1",
+      "truth": [
+        0,
+        1,
+        2,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "clip": "tenniset_V008_016",
+      "split": "train",
+      "clip_hash": "cf638ca25931e2b1339cb935f64163cf107ebe0785d525532d96d14a29472d55",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V008_017",
+      "split": "train",
+      "clip_hash": "9a9a1a1f6fa6460ac61f70280eee5da27bfc38265a0d1f1d9bd51809d45eec1e",
+      "truth": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "clip": "tenniset_V008_018",
+      "split": "train",
+      "clip_hash": "641e9c3ccc3a0901677ff8b73f9c91a1d6b9b4968754b76060ef214144fe3c55",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V008_019",
+      "split": "train",
+      "clip_hash": "fbce45ed37622ec501b9b438b13330a155e3e1654292c48cc5d6290eb946b1e1",
+      "truth": [
+        28,
+        29,
+        30,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "clip": "tenniset_V008_020",
+      "split": "train",
+      "clip_hash": "1c5eedce18c2eae4d4e9fa3b39f87b8a4ba5ee9209f42bd099870d58341d005c",
+      "truth": [
+        7,
+        8,
+        9,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "clip": "tenniset_V008_021",
+      "split": "train",
+      "clip_hash": "4467ecf5375c666c11cb1ae16dd8c2bc8fe14a7803194bbc5b086d4bd5f98c25",
+      "truth": [
+        69,
+        70,
+        71
+      ]
+    },
+    {
+      "clip": "tenniset_V008_022",
+      "split": "train",
+      "clip_hash": "c5a51270de2413ca014a3157862d81b98bec86fdf8078261f16ec9c2be740f28",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V008_023",
+      "split": "train",
+      "clip_hash": "a3aad7994dcc8c5edd640670c4ec40a14573732f3ccf1495689ff88d47c31a06",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V009_000",
+      "split": "val",
+      "clip_hash": "a9641403379d1f64ffb238efcab679246fb301c2db8ebc324dc80cad870282fc",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V009_001",
+      "split": "val",
+      "clip_hash": "4491f530509a9643ecde2e87a355bc8effca24108f40f32682d14250292662fe",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V009_002",
+      "split": "val",
+      "clip_hash": "b1a4526145e01887cf4bfb1d68d8d1af246025c3bb64f5e79f8c4eca55abfe20",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V009_003",
+      "split": "val",
+      "clip_hash": "74737407023f1b005a4bcf859acb8241118afa1f330754d0a40306501f6ace63",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V009_004",
+      "split": "val",
+      "clip_hash": "ba5e9f78bd9150e0b0cae92825e8671b03463c90a9d065b3f170a8ed0cc2dad1",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V009_005",
+      "split": "val",
+      "clip_hash": "e3e58472a4b44e5519b7b38321cd8d112c34b5dbc4acb2589b7ce4b70cfdc691",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V009_006",
+      "split": "val",
+      "clip_hash": "6a9365b3f70df1f29a0b7e781817da46001d028b08349cd960cc2b05cab77e12",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V009_007",
+      "split": "val",
+      "clip_hash": "1617b8a5bcd3075e26a1d120e74e6b79b55b795ec3fb4a72477dd1386a14193d",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V009_008",
+      "split": "val",
+      "clip_hash": "a6884d0d004c6d1a17cf6823a440a9fe2c7fade9f74f1657c9b773894a20e17a",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V009_009",
+      "split": "val",
+      "clip_hash": "d68109a8a9ac3f6272a74537d5ebbe740cb078dccc560b01aca2fb9a16ee5e56",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V009_010",
+      "split": "val",
+      "clip_hash": "5f032e2399d9ced32fd08059d5c4e4bcacaea795dd4987e7679d027cbeac8d64",
+      "truth": [
+        22,
+        23,
+        24,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "clip": "tenniset_V009_011",
+      "split": "val",
+      "clip_hash": "203490f65e4f515d6cf47bcbfaae763b39e6a25f8d6793fb7533cec734685c6e",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V009_012",
+      "split": "val",
+      "clip_hash": "d0a6179950a84cca855008fdda835d86010a9a1261713e01d2991bb77a50fd30",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V009_013",
+      "split": "val",
+      "clip_hash": "e7c57a0db820abcd33739152382e022f88c13be064d639563cfa912b12c3e460",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V009_014",
+      "split": "val",
+      "clip_hash": "ba5729e462d3fd4d9108ef1b3cc9e45940510ec52c7cbd6f42511269eaeff664",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V009_015",
+      "split": "val",
+      "clip_hash": "bb3d96dbd327b6b6e28ee04b4b2c36d0ab4dd4e7745216bda05c43dcddb0c8a1",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V009_016",
+      "split": "val",
+      "clip_hash": "d343f098b265ea39b3df6a96cadf8214ebe9bbb8802ffe71c57b84486894e0ed",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V009_017",
+      "split": "val",
+      "clip_hash": "f8510be2ab9c16cdc0f054ecf0bd66d9c6df3c326953c39c5f1d4c8e06af8e8c",
+      "truth": [
+        3,
+        4,
+        5,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "clip": "tenniset_V009_018",
+      "split": "val",
+      "clip_hash": "9b3e439dde1d87bb71324a34aa8854270886da92e9dcd7d8997527ace123bfbe",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V009_019",
+      "split": "val",
+      "clip_hash": "7f0582f2a408768a35b170d09ccaf286fe803f231afbc2972b502f7168abb2d3",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V009_020",
+      "split": "val",
+      "clip_hash": "d555707854e8b516b60040d468c8dfbe1ed978217a433e706aa10f89d375c4c8",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V009_021",
+      "split": "val",
+      "clip_hash": "2e3396146c780cd0c9870266322bcfa1ab48177145d9c6f91399518e946504a6",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V009_022",
+      "split": "val",
+      "clip_hash": "26ed883bb9e596f35f6e41352521f15d614e3ae46d6d2831074b28ec3123f0dd",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V009_023",
+      "split": "val",
+      "clip_hash": "8b93b9ba7369b9c2efdb9a2c3ff4f557d08204f48cc6c78e48855c4d6d5cefe6",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V010_000",
+      "split": "test",
+      "clip_hash": "a0d1a458a44d3ffae031815cb70858d57f669f90d318344f6afff4c8900b58dc",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V010_001",
+      "split": "test",
+      "clip_hash": "3e4177a3d53f1bc3eadb43c232faf63aed8a81e569e134db7b52fe346285e8ad",
+      "truth": [
+        8,
+        9,
+        10,
+        21,
+        22,
+        23,
+        37,
+        38,
+        39,
+        49,
+        50,
+        51,
+        60,
+        61,
+        62,
+        73,
+        74,
+        75
+      ]
+    },
+    {
+      "clip": "tenniset_V010_002",
+      "split": "test",
+      "clip_hash": "3f1f4b828c6469022f0086ca39b1b16933a6c9d6519fe99190311c6dbd15c6b0",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V010_003",
+      "split": "test",
+      "clip_hash": "85635c48a8d8c4e9fdb9c5b2a5dbc7b8e6956578ecf20589bf20321e7944e59d",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V010_004",
+      "split": "test",
+      "clip_hash": "39707be4e257cb371ced389bc30e140e7f92ead06ec0d683bd260aa0cd0e6d20",
+      "truth": [
+        8,
+        9,
+        10,
+        22,
+        23,
+        24,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "clip": "tenniset_V010_005",
+      "split": "test",
+      "clip_hash": "25e26ac3e439d322e4775f49e23af43cc96b646cc7e411f31b76a78ca3ccc540",
+      "truth": [
+        9,
+        10,
+        11,
+        26,
+        27,
+        28,
+        38,
+        39,
+        40,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "clip": "tenniset_V010_006",
+      "split": "test",
+      "clip_hash": "45570cd2b76a690caafc2dc9925b4827e73e947dac7f71247641525c98b14e27",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V010_007",
+      "split": "test",
+      "clip_hash": "b8551ed8a9ad99dae14de29fa6286a5b5c1de1e536f80d193676b229d4326ad9",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V010_008",
+      "split": "test",
+      "clip_hash": "197a171609155a6c3acca0fe9f50bf5d4d4f827784fc4b5e9b2df5021ca6f12d",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V010_009",
+      "split": "test",
+      "clip_hash": "3a049ebfb0327826e2d56c80cf410683768555442e45b39bef86ac08d9a226f6",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V010_010",
+      "split": "test",
+      "clip_hash": "eb2d1a4ce1a4d28d617274f3807dd52de2d5f1a1814b532675575f08b3215292",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V010_011",
+      "split": "test",
+      "clip_hash": "f3e64d7e54df1466c6d6e55d7ec095a147b8933002c792cfa3048ea9dbfff433",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V010_012",
+      "split": "test",
+      "clip_hash": "8cbd801a89a6261e6bb8a63683cb99a8916f589293a4937d7736625ed6611abe",
+      "truth": [
+        1,
+        2,
+        3,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "clip": "tenniset_V010_013",
+      "split": "test",
+      "clip_hash": "e7bf9db0bd10a0945154e524d036cb9db8f0fb3e8283dcf0291b0a720748bc39",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V010_014",
+      "split": "test",
+      "clip_hash": "8923a54566276c9887f149565cf73ed95430d5aa47b1558b776617b6b4dab647",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V010_015",
+      "split": "test",
+      "clip_hash": "ab0633bea2fc2558fca176f737cfea4d726ce65460e293503fad66b136d58914",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V010_016",
+      "split": "test",
+      "clip_hash": "09ccd503d5508911c81442b4f3c59ac127ba48e47445bbc1efa0f2931073f1ac",
+      "truth": [
+        2,
+        3,
+        4,
+        14,
+        15,
+        16,
+        26,
+        27,
+        28,
+        39,
+        40,
+        41,
+        54,
+        55,
+        56
+      ]
+    },
+    {
+      "clip": "tenniset_V010_017",
+      "split": "test",
+      "clip_hash": "d0ab785895f105ca407c6ba19245bb47556b93ab04b85ad48f65c98a2d09cc1c",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V010_018",
+      "split": "test",
+      "clip_hash": "7b5b80494e0a405fab96c763425a36b7f379ddb393ed9a198eae3779aad7583f",
+      "truth": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "clip": "tenniset_V010_019",
+      "split": "test",
+      "clip_hash": "76a3c608596acf700a656c33b91bc95745057269eb5cb049ceb11b5405b7327e",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V010_020",
+      "split": "test",
+      "clip_hash": "e1935cadc7d52752d7a5e35bac65af39edba94140a18ce79a9491eed01b42278",
+      "truth": [
+        38,
+        39,
+        40,
+        46,
+        47,
+        48,
+        55,
+        56,
+        57
+      ]
+    },
+    {
+      "clip": "tenniset_V010_021",
+      "split": "test",
+      "clip_hash": "a3c87399296229e83f609dbed9d0320bd9ddcb6f923f4183bbb414702f9cd1f0",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V010_022",
+      "split": "test",
+      "clip_hash": "7470b265687114802372f71ca3cf49f9a9b4a84680b3cf7fd5df7a37f9b1fc54",
+      "truth": []
+    },
+    {
+      "clip": "tenniset_V010_023",
+      "split": "test",
+      "clip_hash": "ef470cf79a5c756b54752a8f4f30f9904450cbd555b909605dc76a350966c8a2",
+      "truth": []
+    }
+  ]
+}

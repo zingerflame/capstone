@@ -1,0 +1,975 @@
+{
+  "summary": {
+    "0": {
+      "matched": 0,
+      "predicted": 2,
+      "truth": 72,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "1": {
+      "matched": 0,
+      "predicted": 2,
+      "truth": 72,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "2": {
+      "matched": 0,
+      "predicted": 2,
+      "truth": 72,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "3": {
+      "matched": 0,
+      "predicted": 2,
+      "truth": 72,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "retained_fraction": 0.050515463917525774
+  },
+  "clips": [
+    {
+      "clip": "tenniset_V010_000",
+      "frames": 67,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_001",
+      "frames": 81,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 18
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 18
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 18
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 18
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_002",
+      "frames": 98,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_003",
+      "frames": 66,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_004",
+      "frames": 75,
+      "selected": 6,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 2,
+          "truth": 9
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 2,
+          "truth": 9
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 2,
+          "truth": 9
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 2,
+          "truth": 9
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_005",
+      "frames": 67,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 12
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 12
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 12
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 12
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_006",
+      "frames": 67,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_007",
+      "frames": 96,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_008",
+      "frames": 73,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_009",
+      "frames": 85,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_010",
+      "frames": 67,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_011",
+      "frames": 88,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_012",
+      "frames": 88,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 6
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 6
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 6
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 6
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_013",
+      "frames": 76,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_014",
+      "frames": 69,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_015",
+      "frames": 98,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_016",
+      "frames": 72,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 15
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 15
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 15
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 15
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_017",
+      "frames": 71,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_018",
+      "frames": 88,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 3
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 3
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 3
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 3
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_019",
+      "frames": 91,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_020",
+      "frames": 80,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 9
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 9
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 9
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 9
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_021",
+      "frames": 100,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_022",
+      "frames": 77,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    },
+    {
+      "clip": "tenniset_V010_023",
+      "frames": 100,
+      "selected": 4,
+      "metrics": {
+        "0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "matched": 0,
+          "predicted": 0,
+          "truth": 0
+        }
+      }
+    }
+  ]
+}

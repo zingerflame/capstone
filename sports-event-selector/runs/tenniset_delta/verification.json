@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "records": 4468,
+  "verified_unique_target_PNGs": 12727,
+  "pixel_correspondence_checked_training_targets": 264,
+  "checks": [
+    "original annotation preservation",
+    "global original/filtered/local index correspondence",
+    "mapping time and interval bounds",
+    "PNG SHA-256",
+    "training image matches target PNG pixels after JPEG encoding"
+  ]
+}
