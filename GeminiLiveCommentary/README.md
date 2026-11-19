@@ -7,10 +7,13 @@ Real-time AI sports commentary generated from video, powered by Google's Gemini 
 | File | Description |
 |---|---|
 | `LiveMain.py` | Main app. Streams frames from an uploaded video (or webcam/stream source) and generates continuous, context-aware play-by-play commentary at a fixed interval. Suppresses near-duplicate commentary via similarity checking. |
+| `LiveMainESPN.py` | `LiveMain.py` plus an **ESPN match data** mode: commentary from ESPN's live scores, stats and play-by-play instead of video frames, for nearly 70 leagues across many sports. See [README_ESPN.md](README_ESPN.md). |
 | `Demomain.py` | Demo app. Uploads a full video clip to Gemini and streams back three commentary variants in parallel (225 words, 150 words, and a 75-word French version). |
 | `test_live_api.py` | Standalone script to list available Gemini models and sanity-check basic streaming. |
+| `espn_multisport/` | ESPN data for every sport (event lists, scores, stats, play-by-play). Used by `LiveMainESPN.py`. |
+| `espn_matchinfo_api/` | Older soccer-only ESPN tools. `LiveMainESPN.py` uses them for soccer's extra stats. |
 
-Both `LiveMain.py` and `Demomain.py` launch their own Gradio interface.
+`LiveMain.py`, `LiveMainESPN.py` and `Demomain.py` each launch their own Gradio interface.
 
 ## Prerequisites
 
@@ -60,6 +63,23 @@ Opens a Gradio UI. Upload a video clip, click **Start Commentary**, and watch co
 
 - Runs with `share=True`, so a public `gradio.live` link is also printed to the console (expires after 72 hours). Anyone with that link can use the app and consume your API quota — don't share it publicly unless you mean to.
 - Logs are written per-run to `logs/run_<timestamp>.log`.
+
+### Multi-sport ESPN commentary app
+
+```bash
+python LiveMainESPN.py
+```
+
+Choose **ESPN match data**, pick a sport, click **List events**, paste an event id (or leave it blank for the first live game), then click **Start Commentary**. Key features:
+
+- **Works across sports:** soccer, NBA, NFL, MLB, NHL, rugby, golf, tennis, MMA, F1 and more, via a sport dropdown.
+- **Accurate:** names, scores and stats come from ESPN, not guessed from video.
+- **Efficient:** Gemini is only called when something new happens (a play, score, period or stat change).
+- **Replays:** finished games replay play by play, with adjustable speed and batch size, and an option for key/scoring plays only.
+- **Soccer extras:** passes, tackles and interceptions live, plus running stats during replays.
+- **Original mode kept:** the frame-sampling mode from `LiveMain.py` is still available.
+
+Full details, settings and limitations: [README_ESPN.md](README_ESPN.md).
 
 ### Multi-variant demo app
 
