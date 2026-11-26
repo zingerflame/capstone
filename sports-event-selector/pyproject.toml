@@ -22,6 +22,9 @@ sports-events = "sports_events.cli:main"
 [tool.setuptools.packages.find]
 where = ["src"]
 
+[tool.setuptools.package-data]
+"sports_events.vendor" = ["*_LICENSE.txt"]
+
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 testpaths = ["tests"]

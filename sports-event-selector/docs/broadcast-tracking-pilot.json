@@ -1,0 +1,99 @@
+{
+  "tracking": {
+    "video": "C:\\Users\\miala\\Documents\\Codex\\2026-10-24\\i-w\\outputs\\sports-event-selector\\data\\tenniset\\videos\\V010.mp4",
+    "source_sha256": "7f676048da3d43fa582cf9577a91ba69598552c858b77c948b5fee56e3db2517",
+    "frame_index_base": 0,
+    "source_fps": 25.0,
+    "start_frame": 16250,
+    "end_frame_exclusive": 17250,
+    "config": {
+      "width": 640,
+      "max_step_pixels": 0.7,
+      "max_drift_pixels": 2.0,
+      "min_stable_seconds": 0.6,
+      "detect_every": 5,
+      "confidence": 0.3,
+      "max_track_gap_seconds": 0.6,
+      "association_threshold": 0.78,
+      "association_margin": 0.08,
+      "scoreboard": [
+        0.16796875,
+        0.05277777777777778,
+        0.33046875,
+        0.1388888888888889
+      ]
+    },
+    "frames": 1000,
+    "stable_frames": 231,
+    "camera_states": {
+      "unknown": 101,
+      "stable": 259,
+      "moving": 640
+    },
+    "segments": [
+      {
+        "id": "shot_0000",
+        "start_frame": 16251,
+        "end_frame_exclusive": 16359
+      },
+      {
+        "id": "shot_0001",
+        "start_frame": 16623,
+        "end_frame_exclusive": 16639
+      },
+      {
+        "id": "shot_0002",
+        "start_frame": 17143,
+        "end_frame_exclusive": 17250
+      }
+    ],
+    "detector_calls": 48,
+    "tracks": 60,
+    "appearance_links": 14,
+    "elapsed_seconds": 31.67200000002049,
+    "vlm_calls": 0,
+    "models": {
+      "detector": "YOLOX-S COCO OpenCV ONNX",
+      "detector_sha256": "c5c2d13e59ae883e6af3b45daea64af4833a4951c92d116ec270d9ddbe998063",
+      "appearance": "OSNet x0.25 MSMT17 person-ReID + HSV",
+      "appearance_sha256": "cf55163d78fc44c62c82f85ab62d39f10438679b5abe8c698ae08cfa84aa6e18"
+    },
+    "limitations": [
+      "Camera stability is threshold-based, not guaranteed zero motion.",
+      "Held boxes can lag between detector samples; source frame and age are recorded.",
+      "Appearance links are candidates, not confirmed identities; names are not inferred from faces.",
+      "Small balls may be missed; residual motion candidates may include shadows or noise."
+    ]
+  },
+  "score_reading": {
+    "candidates": 13,
+    "max_calls": 8,
+    "new_calls": 0,
+    "selected_crops": 7,
+    "model": "gemini-3.1-flash-lite",
+    "selected_call_tokens": {
+      "prompt_token_count": 8708,
+      "candidates_token_count": 600,
+      "thoughts_token_count": 0
+    },
+    "selected_call_seconds": 9.342999999877065,
+    "note": "Token/time totals count selected cached calls once, not additional charges."
+  },
+  "score_reading_estimated_usd": 0.003077,
+  "cost_assumption": "USD per million: Gemini 3.1 Flash-Lite global input 0.25, output 1.50; selected 7 crop calls counted once, excludes development runs and event/commentary inference.",
+  "context_smoke_test": {
+    "windows": 6,
+    "unknown_names": 6,
+    "commentary_entries": 6,
+    "observed_score_in_both_stages": true,
+    "confirmed_name_bindings": 0,
+    "exact_event_accuracy": 0.0,
+    "interpretation": "Context plumbing works; named identity is deliberately withheld without verified bindings. No claim of improved event accuracy."
+  },
+  "visual_review": "Near-player white/green outfit is linked across all three stable segments. Far-player dark/red outfit is linked across the first two. Other links include staff and one detector false positive on bags; not a labeled accuracy benchmark.",
+  "artifacts": {
+    "run": "runs/broadcast_tracking_v4",
+    "video": "runs/broadcast_tracking_v4/annotated.mp4",
+    "association_sheet": "runs/broadcast_tracking_v4/association-review.jpg"
+  }
+}

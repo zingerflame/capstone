@@ -36,6 +36,8 @@ class Config:
     video: str='data/tenniset/videos/V010.mp4'
     clip_plan: str='data/tenniset_pilot/clips/preparation.json'
     chunk_seconds: int=300
+    context: str | None=None
+    context_only: bool=False
 
 
 class Calls:
@@ -105,7 +107,8 @@ def run_vlm(c):
     """Replay or resume the vision stage on the saved DL proposals, using its cache."""
     from .selector_vlm import evaluate as evaluate_vlm
     args=argparse.Namespace(dataset=c.dataset,output=c.vlm_run,model=c.vlm,
-                            project=c.project,location='us',limit=None,dry_run=False)
+                            project=c.project,location='us',limit=None,dry_run=False,
+                            context=c.context,context_only=c.context_only)
     evaluate_vlm(args)
     return read_json(Path(c.vlm_run)/'predictions.json')
 
@@ -149,7 +152,10 @@ def prepare(c):
         raise ValueError('This evaluation requires the 24 eight-second pilot clips')
     if any(a['end']>b['start'] for a,b in zip(clips,clips[1:])):raise ValueError('Overlapping test clips')
     cap=cv2.VideoCapture(c.video);fps=cap.get(cv2.CAP_PROP_FPS);duration=cap.get(cv2.CAP_PROP_FRAME_COUNT)/fps;cap.release()
-    protocol={'config':asdict(c),'clips':clips,'reference':references,'video_seconds':duration,'fps':fps,
+    config_record=asdict(c)
+    if not c.context:
+        config_record.pop('context');config_record.pop('context_only')
+    protocol={'config':config_record,'clips':clips,'reference':references,'video_seconds':duration,'fps':fps,
         'source_video_sha256':sha(c.video),'clip_plan_sha256':sha(c.clip_plan),'vlm_results_sha256':sha(Path(c.vlm_run)/'predictions.json'),
         'dataset_sha256':sha(Path(c.dataset)/'examples.json'),'reference_sha256':sha(c.reference),
         'scope':'Both systems receive only the same 24 DL-pilot test clips (192 seconds). No other match footage is sent.',
@@ -169,20 +175,34 @@ def prepare(c):
 
 
 def transcript(path,segments):
-    text='\n'.join(f"[{timecode(s['seconds'])} | frame {round(s['seconds']*25)}] {s['text']}" for s in segments)
+    text='\n'.join(f"[{timecode(s['seconds'])} | frame {s.get('source_frame',round(s['seconds']*25))}] {s['text']}" for s in segments)
     Path(path).write_text(text+'\n',encoding='utf-8')
 
 
 def run_pipeline(c):
     calls=Calls(c);examples=[e for e in read_json(Path(c.dataset)/'examples.json') if e['split']=='test']
     predictions=read_json(Path(c.vlm_run)/'predictions.json');history='';previous=[];segments=[];skipped=[]
+    from .broadcast_context import ContextIndex, COMMENTARY_CONTEXT_INSTRUCTION
+    context_index=ContextIndex(c.context) if c.context else None
+    if context_index:
+        covered=[e for e in examples if context_index.for_example(e) is not None]
+        if len(covered)!=len(examples) and not c.context_only:raise ValueError('Incomplete broadcast context; use context_only explicitly')
+        examples=covered
+        if any(predictions.get(e['id'],{}).get('context_sha256')!=context_index.hash for e in examples):
+            raise ValueError('Rerun VLM with the same context; legacy cached names cannot be reused')
     for e in sorted(examples,key=lambda e:(e['frames'][-1]['timestamp'],e['id'])):
         event=predictions[e['id']]['answer']
         if event is None or not valid_answer(event):skipped.append({'id':e['id'],'reason':'null or invalid event schema','raw':event});continue
         payload={'current_commentary':history,'prev_event':previous[-2:],'curr_event':event}
-        r=calls.generate(c.llm,json.dumps(payload),system=INSTRUCTION,stage='pipeline_llm',max_output=2048)
+        context=context_index.for_example(e) if context_index else None
+        if context:
+            payload['broadcast_context']={'context_sha256':context['context_sha256'],
+                'player_names':context['player_names'],'source_sha256':context['source_sha256']}
+            payload['current_score']=context['current_score']
+        r=calls.generate(c.llm,json.dumps(payload),system=INSTRUCTION+(COMMENTARY_CONTEXT_INSTRUCTION if context else ''),stage='pipeline_llm',max_output=2048)
         addition=r['text'].strip()
         segments.append({'id':e['id'],'clip_id':e['clip_id'],'seconds':e['frames'][-1]['timestamp'],
+                         'source_frame':e['frames'][-1]['source_frame'],
                          'center_seconds':e['center_seconds'],'text':addition,'event':event})
         history+=(' ' if history else '')+addition;previous.append(event)
         write_json(Path(c.run)/'pipeline.json',{'segments':segments,'skipped':skipped})
@@ -385,7 +405,10 @@ def usage_report(c):
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--stage',choices=['vlm','prepare','pipeline','baseline','evaluate','all'],default='all')
     p.add_argument('--run',default=Config.run);p.add_argument('--baseline',default=Config.baseline);p.add_argument('--judge',default=Config.judge)
-    a=p.parse_args();c=Config(run=a.run,baseline=a.baseline,judge=a.judge)
+    p.add_argument('--context');p.add_argument('--context-only',action='store_true');p.add_argument('--vlm-run',default=Config.vlm_run)
+    a=p.parse_args();c=Config(run=a.run,baseline=a.baseline,judge=a.judge,context=a.context,context_only=a.context_only,vlm_run=a.vlm_run)
+    if c.context and a.stage not in ('vlm','pipeline'):
+        p.error('Context comparison uses a different scope; run vlm/pipeline explicitly. Original benchmark remains frozen.')
     if a.stage=='vlm':run_vlm(c)
     if a.stage in ('prepare','all'):prepare(c)
     if a.stage in ('pipeline','all'):run_pipeline(c)

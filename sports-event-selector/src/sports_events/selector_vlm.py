@@ -116,9 +116,12 @@ def build(args):
     print(json.dumps(report,indent=2))
 
 
-def input_parts(e, prefix):
+def input_parts(e, prefix, context=None):
     parts = [{'text':PROMPT+f" Predicted center: {e['center_seconds']:.3f} seconds."}]
-    for r in e['players']:
+    if context is not None:
+        from .broadcast_context import CONTEXT_INSTRUCTION
+        parts.append({'text':CONTEXT_INSTRUCTION+'\nBroadcast context: '+json.dumps(context)})
+    for r in ([] if context is not None else e['players']):
         parts += [{'text':'player_information: '+json.dumps({'name':r['name']})},
                   {'fileData':{'mimeType':'image/jpeg','fileUri':prefix+'/'+r['path']}}]
     for i,f in enumerate(e['frames'],1):
@@ -184,6 +187,18 @@ def score(examples, predictions, truths):
 def evaluate(args):
     output=Path(args.output); dataset=Path(args.dataset)
     examples=[e for e in read_json(dataset/'examples.json') if e['split']=='test']
+    context_index=None;contexts={};excluded_context=0
+    if getattr(args,'context',None):
+        from .broadcast_context import ContextIndex
+        context_index=ContextIndex(args.context)
+        for e in examples:
+            value=context_index.for_example(e)
+            if value is not None:contexts[e['id']]=value
+        excluded_context=len(examples)-len(contexts)
+        if excluded_context and not getattr(args,'context_only',False):
+            raise ValueError('Context does not cover all test windows; supply --context-only for an explicit subset')
+        examples=[e for e in examples if e['id'] in contexts]
+        if not examples:raise ValueError('No test windows covered by context')
     if args.limit is not None:
         if args.limit<1:raise ValueError('limit must be positive')
         examples=examples[:args.limit]
@@ -193,7 +208,8 @@ def evaluate(args):
             if sha(dataset/item['path'])!=assets[item['path']]:raise ValueError('Changed image asset')
     if args.dry_run:
         report={'dry_run':True,'model':args.model,'windows':len(examples),
-                'images':sum(len(e['players'])+20 for e in examples),'api_calls':0}
+                'images':sum((0 if context_index else len(e['players']))+20 for e in examples),'api_calls':0,
+                'context_sha256':context_index.hash if context_index else None,'excluded_context_windows':excluded_context}
         write_json(output/'dry-run.json',report);print(json.dumps(report,indent=2));return
     if not args.project:raise ValueError('--project is required for Vertex inference')
     from google import genai
@@ -201,7 +217,7 @@ def evaluate(args):
     client=genai.Client(vertexai=True,project=args.project,location=args.location)
     predictions={}
     for e in examples:
-        raw=input_parts(e,'local:')
+        context=contexts.get(e['id']);raw=input_parts(e,'local:',context)
         signature=fingerprint({'model':args.model,'project':args.project,'location':args.location,
                                'parts':raw,'hashes':[assets[x['path']] for x in e['players']+e['frames']]})
         cache=output/'calls'/(signature+'.json')
@@ -222,13 +238,19 @@ def evaluate(args):
             except json.JSONDecodeError:answer={}
             result={'answer':answer,'raw_text':text,'model':args.model,'seconds':time.monotonic()-started,
                     'usage':response.usage_metadata.model_dump(mode='json') if response.usage_metadata else None}
+            if context is not None:
+                result['context_sha256']=context_index.hash
+                if isinstance(answer,dict) and answer.get('name') not in context['player_names']+['unknown']:
+                    result['identity_guard']={'rejected_name':answer.get('name'),'reason':'No confirmed visible track binding'}
+                    result['answer']={**answer,'name':'unknown'}
             write_json(cache,result)
         predictions[e['id']]=result
         write_json(output/'predictions.json',predictions)
         print(e['id'],flush=True)
     truths=[r for r in read_json(dataset/'truths.json') if r['split']=='test']
     report=score(examples,predictions,truths)
-    report.update({'model':args.model,'partial_run':args.limit is not None,
+    report.update({'model':args.model,'partial_run':args.limit is not None or bool(excluded_context),
+                   'context_sha256':context_index.hash if context_index else None,'excluded_context_windows':excluded_context,
                    'dataset_report_sha256':sha(dataset/'build-report.json')})
     write_json(output/'metrics.json',report);print(json.dumps(report,indent=2))
 
@@ -247,6 +269,8 @@ def main():
     e=sub.add_parser('evaluate');e.add_argument('--dataset',default='data/tenniset_selector_vlm')
     e.add_argument('--model',required=True);e.add_argument('--project');e.add_argument('--location',default='us-central1')
     e.add_argument('--output',required=True);e.add_argument('--limit',type=int);e.add_argument('--dry-run',action='store_true')
+    e.add_argument('--context',help='Frame-aligned broadcast_context context.json')
+    e.add_argument('--context-only',action='store_true',help='Explicitly restrict inference to context-covered test windows')
     args=p.parse_args()
     if args.command=='build':build(args)
     elif args.command=='render':render(args.dataset,args.gcs_prefix)
