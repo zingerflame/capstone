@@ -14,6 +14,7 @@ dev = ["pytest>=8"]
 golfdb = ["scipy>=1.12"]
 broadcasts = ["yt-dlp>=2026.10.26", "imageio-ffmpeg>=0.6"]
 diagrams = ["Pillow>=10"]
+vertex = ["google-genai>=1.0"]
 
 [project.scripts]
 sports-events = "sports_events.cli:main"

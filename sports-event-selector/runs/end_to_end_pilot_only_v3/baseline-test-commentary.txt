@@ -1,0 +1,185 @@
+[00:08:16.540 | frame 12414] Serena Williams prepares to serve.
+[00:08:17.540 | frame 12438] Serena Williams hits a serve.
+[00:08:18.540 | frame 12464] Victoria Azarenka returns the serve with a backhand.
+[00:08:19.540 | frame 12488] Serena Williams hits a forehand.
+[00:08:20.540 | frame 12514] Victoria Azarenka hits a backhand.
+[00:08:21.540 | frame 12538] Serena Williams hits a forehand.
+[00:10:59.800 | frame 16495] Serena Williams hits a forehand.
+[00:11:00.500 | frame 16512] Victoria Azarenka hits a backhand.
+[00:11:01.200 | frame 16530] Serena Williams hits a forehand.
+[00:11:02.000 | frame 16550] Victoria Azarenka hits a backhand.
+[00:11:02.700 | frame 16568] Serena Williams hits a forehand.
+[00:11:03.500 | frame 16588] Victoria Azarenka hits a backhand.
+[00:11:04.200 | frame 16605] Serena Williams hits a forehand.
+[00:11:05.000 | frame 16625] Victoria Azarenka hits a backhand.
+[00:11:05.700 | frame 16642] Serena Williams hits a forehand.
+[00:11:06.500 | frame 16662] Victoria Azarenka hits a backhand.
+[00:13:45.160 | frame 20629] Serena Williams hits a forehand.
+[00:13:46.060 | frame 20652] Victoria Azarenka hits a backhand.
+[00:13:46.960 | frame 20674] Serena Williams hits a forehand.
+[00:13:47.860 | frame 20696] Victoria Azarenka hits a backhand.
+[00:13:48.760 | frame 20719] Serena Williams hits a forehand.
+[00:13:49.660 | frame 20742] Victoria Azarenka hits a backhand.
+[00:13:50.560 | frame 20764] Serena Williams hits a forehand.
+[00:13:51.460 | frame 20786] Victoria Azarenka hits a backhand.
+[00:16:30.420 | frame 24760] Serena Williams hits a forehand.
+[00:16:30.920 | frame 24773] Victoria Azarenka hits a backhand.
+[00:16:31.420 | frame 24786] Serena Williams hits a forehand.
+[00:16:31.920 | frame 24798] Victoria Azarenka hits a backhand.
+[00:16:32.420 | frame 24810] Serena Williams hits a forehand.
+[00:16:32.920 | frame 24823] Victoria Azarenka hits a backhand.
+[00:16:33.420 | frame 24836] Serena Williams hits a forehand.
+[00:16:33.920 | frame 24848] Victoria Azarenka hits a backhand.
+[00:16:34.420 | frame 24860] Serena Williams hits a forehand.
+[00:16:34.920 | frame 24873] Victoria Azarenka hits a backhand.
+[00:16:35.420 | frame 24886] Serena Williams hits a forehand.
+[00:16:35.920 | frame 24898] Victoria Azarenka hits a backhand.
+[00:16:36.420 | frame 24910] Serena Williams hits a forehand.
+[00:19:14.420 | frame 28860] Victoria Azarenka hits a backhand.
+[00:19:15.120 | frame 28878] Serena Williams hits a forehand.
+[00:19:15.720 | frame 28893] Victoria Azarenka hits a backhand.
+[00:19:16.420 | frame 28910] Serena Williams hits a forehand.
+[00:19:17.120 | frame 28928] Victoria Azarenka hits a backhand.
+[00:19:17.820 | frame 28946] Serena Williams hits a forehand.
+[00:19:18.520 | frame 28963] Victoria Azarenka hits a backhand.
+[00:19:19.220 | frame 28980] Serena Williams hits a forehand.
+[00:19:19.920 | frame 28998] Victoria Azarenka hits a backhand.
+[00:19:20.620 | frame 29016] Serena Williams hits a forehand.
+[00:21:59.380 | frame 32984] Victoria Azarenka hits a backhand.
+[00:21:59.880 | frame 32997] Serena Williams hits a forehand.
+[00:22:00.380 | frame 33010] Victoria Azarenka hits a backhand.
+[00:22:00.880 | frame 33022] Serena Williams hits a forehand.
+[00:22:01.380 | frame 33034] Victoria Azarenka hits a backhand.
+[00:22:01.880 | frame 33047] Serena Williams hits a forehand.
+[00:22:02.380 | frame 33060] Victoria Azarenka hits a backhand.
+[00:22:02.880 | frame 33072] Serena Williams hits a forehand.
+[00:22:03.380 | frame 33084] Victoria Azarenka hits a backhand.
+[00:22:03.880 | frame 33097] Serena Williams hits a forehand.
+[00:22:04.380 | frame 33110] Victoria Azarenka hits a backhand.
+[00:22:04.880 | frame 33122] Serena Williams hits a forehand.
+[00:22:05.380 | frame 33134] Victoria Azarenka hits a backhand.
+[00:22:05.880 | frame 33147] Serena Williams hits a forehand.
+[00:22:06.380 | frame 33160] Victoria Azarenka hits a backhand.
+[00:24:50.340 | frame 37258] Victoria Azarenka drinks from a cup while sitting on the bench.
+[00:24:51.840 | frame 37296] Victoria Azarenka continues to sit on the bench.
+[00:27:29.340 | frame 41234] Victoria Azarenka stands on the court preparing to serve.
+[00:27:30.340 | frame 41258] Victoria Azarenka bounces the ball.
+[00:27:32.340 | frame 41308] Victoria Azarenka tosses the ball and hits a serve.
+[00:27:33.340 | frame 41334] Serena Williams returns the serve with a backhand.
+[00:27:34.340 | frame 41358] Victoria Azarenka hits a forehand.
+[00:27:35.340 | frame 41384] Serena Williams hits a forehand.
+[00:27:36.340 | frame 41408] Victoria Azarenka hits a backhand.
+[00:30:15.000 | frame 45375] Victoria Azarenka hits a forehand.
+[00:30:15.900 | frame 45398] Serena Williams hits a backhand.
+[00:30:16.800 | frame 45420] Victoria Azarenka hits a forehand.
+[00:30:17.900 | frame 45448] Serena Williams hits a backhand.
+[00:30:19.000 | frame 45475] Victoria Azarenka hits a forehand.
+[00:30:20.100 | frame 45502] Serena Williams hits a backhand.
+[00:30:21.200 | frame 45530] Victoria Azarenka hits a forehand.
+[00:32:59.260 | frame 49482] Serena Williams hits a backhand.
+[00:32:59.960 | frame 49499] Victoria Azarenka hits a forehand.
+[00:33:00.560 | frame 49514] Serena Williams hits a backhand.
+[00:33:01.260 | frame 49532] Victoria Azarenka hits a forehand.
+[00:33:01.960 | frame 49549] Serena Williams hits a backhand.
+[00:33:02.660 | frame 49566] Victoria Azarenka hits a forehand.
+[00:33:03.360 | frame 49584] Serena Williams hits a backhand.
+[00:33:04.060 | frame 49602] Victoria Azarenka hits a forehand.
+[00:33:04.760 | frame 49619] Serena Williams hits a backhand.
+[00:33:05.460 | frame 49636] Victoria Azarenka hits a forehand.
+[00:33:06.160 | frame 49654] Serena Williams hits a backhand.
+[00:35:51.760 | frame 53794] The screen displays the set one statistics for the match between Victoria Azarenka and Serena Williams.
+[00:38:33.920 | frame 57848] Serena Williams tosses the ball and hits a serve.
+[00:38:36.520 | frame 57913] Victoria Azarenka returns the serve with a backhand.
+[00:41:14.180 | frame 61854] Serena Williams hits a forehand.
+[00:41:14.880 | frame 61872] Victoria Azarenka hits a backhand.
+[00:41:15.480 | frame 61887] Serena Williams hits a forehand.
+[00:41:16.180 | frame 61904] Victoria Azarenka hits a backhand.
+[00:43:59.140 | frame 65978] Serena Williams hits a forehand.
+[00:43:59.840 | frame 65996] Victoria Azarenka hits a backhand.
+[00:44:00.740 | frame 66018] Serena Williams hits a forehand.
+[00:44:01.440 | frame 66036] Victoria Azarenka hits a backhand.
+[00:44:02.340 | frame 66058] Serena Williams hits a forehand.
+[00:44:03.040 | frame 66076] Victoria Azarenka hits a backhand.
+[00:44:03.940 | frame 66098] Serena Williams hits a forehand.
+[00:44:04.640 | frame 66116] Victoria Azarenka hits a backhand.
+[00:44:05.740 | frame 66144] Serena Williams hits a forehand.
+[00:44:06.440 | frame 66161] Victoria Azarenka hits a backhand.
+[00:46:50.140 | frame 70254] Serena Williams drinks from a water bottle while standing on the court.
+[00:46:51.440 | frame 70286] Serena Williams prepares to serve.
+[00:49:29.800 | frame 74245] Serena Williams tosses the ball and hits a serve.
+[00:49:30.400 | frame 74260] Victoria Azarenka returns the serve with a backhand.
+[00:49:30.800 | frame 74270] Serena Williams hits a forehand.
+[00:49:31.200 | frame 74280] Victoria Azarenka hits a backhand.
+[00:49:31.600 | frame 74290] Serena Williams hits a forehand.
+[00:49:32.000 | frame 74300] Victoria Azarenka hits a backhand.
+[00:49:32.400 | frame 74310] Serena Williams hits a forehand.
+[00:49:32.800 | frame 74320] Victoria Azarenka hits a backhand.
+[00:49:33.200 | frame 74330] Serena Williams hits a forehand.
+[00:49:33.600 | frame 74340] Victoria Azarenka hits a backhand.
+[00:49:34.000 | frame 74350] Serena Williams hits a forehand.
+[00:49:34.400 | frame 74360] Victoria Azarenka hits a backhand.
+[00:49:34.800 | frame 74370] Serena Williams hits a forehand.
+[00:49:35.200 | frame 74380] Victoria Azarenka hits a backhand.
+[00:49:35.600 | frame 74390] Serena Williams hits a forehand.
+[00:49:36.000 | frame 74400] Victoria Azarenka hits a backhand.
+[00:52:14.060 | frame 78352] Serena Williams hits a forehand.
+[00:52:14.560 | frame 78364] Victoria Azarenka hits a backhand.
+[00:52:15.060 | frame 78376] Serena Williams hits a forehand.
+[00:52:15.560 | frame 78389] Victoria Azarenka hits a backhand.
+[00:52:16.060 | frame 78402] Serena Williams hits a forehand.
+[00:52:16.560 | frame 78414] Victoria Azarenka hits a backhand.
+[00:52:17.060 | frame 78426] Serena Williams hits a forehand.
+[00:52:17.560 | frame 78439] Victoria Azarenka hits a backhand.
+[00:52:18.060 | frame 78452] Serena Williams hits a forehand.
+[00:52:18.560 | frame 78464] Victoria Azarenka hits a backhand.
+[00:52:19.060 | frame 78476] Serena Williams hits a forehand.
+[00:52:19.560 | frame 78489] Victoria Azarenka hits a backhand.
+[00:52:20.060 | frame 78502] Serena Williams hits a forehand.
+[00:52:20.560 | frame 78514] Victoria Azarenka hits a backhand.
+[00:52:21.060 | frame 78526] Serena Williams hits a forehand.
+[00:55:02.060 | frame 82552] Serena Williams wipes her face with a towel.
+[00:57:44.020 | frame 86600] Victoria Azarenka prepares to serve.
+[00:57:44.720 | frame 86618] Victoria Azarenka tosses the ball and hits a serve.
+[00:57:45.320 | frame 86633] Serena Williams returns the serve with a backhand.
+[00:57:45.920 | frame 86648] Victoria Azarenka hits a forehand.
+[00:57:46.620 | frame 86666] Serena Williams hits a backhand.
+[00:57:47.320 | frame 86683] Victoria Azarenka hits a forehand.
+[00:57:48.020 | frame 86700] Serena Williams hits a backhand.
+[00:57:48.720 | frame 86718] Victoria Azarenka hits a forehand.
+[00:57:49.420 | frame 86736] Serena Williams hits a backhand.
+[00:57:50.120 | frame 86753] Victoria Azarenka hits a forehand.
+[00:57:50.820 | frame 86770] Serena Williams hits a backhand.
+[01:00:29.680 | frame 90742] Victoria Azarenka hits a forehand.
+[01:00:30.080 | frame 90752] Serena Williams hits a backhand.
+[01:00:30.480 | frame 90762] Victoria Azarenka hits a forehand.
+[01:00:30.880 | frame 90772] Serena Williams hits a backhand.
+[01:00:31.280 | frame 90782] Victoria Azarenka hits a forehand.
+[01:00:31.680 | frame 90792] Serena Williams hits a backhand.
+[01:00:32.080 | frame 90802] Victoria Azarenka hits a forehand.
+[01:00:32.480 | frame 90812] Serena Williams hits a backhand.
+[01:00:32.880 | frame 90822] Victoria Azarenka hits a forehand.
+[01:00:33.280 | frame 90832] Serena Williams hits a backhand.
+[01:00:33.680 | frame 90842] Victoria Azarenka hits a forehand.
+[01:00:34.080 | frame 90852] Serena Williams hits a backhand.
+[01:00:34.480 | frame 90862] Victoria Azarenka hits a forehand.
+[01:00:34.880 | frame 90872] Serena Williams hits a backhand.
+[01:00:35.280 | frame 90882] Victoria Azarenka hits a forehand.
+[01:00:35.680 | frame 90892] Serena Williams hits a backhand.
+[01:00:36.080 | frame 90902] Victoria Azarenka hits a forehand.
+[01:00:36.480 | frame 90912] Serena Williams hits a backhand.
+[01:03:13.980 | frame 94850] Serena Williams hits a forehand.
+[01:03:14.680 | frame 94867] Victoria Azarenka hits a backhand.
+[01:03:15.280 | frame 94882] Serena Williams hits a forehand.
+[01:03:15.980 | frame 94900] Victoria Azarenka hits a backhand.
+[01:03:16.680 | frame 94917] Serena Williams hits a forehand.
+[01:03:17.380 | frame 94934] Victoria Azarenka hits a backhand.
+[01:03:18.080 | frame 94952] Serena Williams hits a forehand.
+[01:03:18.780 | frame 94970] Victoria Azarenka hits a backhand.
+[01:03:19.480 | frame 94987] Serena Williams hits a forehand.
+[01:03:20.180 | frame 95004] Victoria Azarenka hits a backhand.
+[01:03:20.880 | frame 95022] Serena Williams hits a forehand.
+[01:06:01.940 | frame 99048] Serena Williams prepares to serve.
+[01:06:03.640 | frame 99091] Serena Williams tosses the ball and hits a serve.
+[01:08:50.600 | frame 103265] Victoria Azarenka returns the serve with a backhand.
+[01:11:30.500 | frame 107262] Serena Williams and Victoria Azarenka shake hands at the net.
+[01:11:34.900 | frame 107372] Serena Williams celebrates her victory by pumping her fist.

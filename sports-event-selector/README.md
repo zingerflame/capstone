@@ -113,6 +113,24 @@ Exact global ranking and knowing which frames are N−1/N require end-of-stream.
 
 ## Third experiment and presentation
 
+The current TenniSet selector now learns event centers and returns 20 consecutive
+delta-filtered frames per event. See [center20 training, inference and results](docs/center20-model.md).
+
+For Vertex image tuning with twenty delta-filtered context frames and named player
+reference images, see [dataset export and upload instructions](docs/vertex-20-frame-dataset.md).
+
+For tuning data built from the **recall-focused selector's actual predictions**,
+see [selector-derived VLM datasets and tuned-model evaluation](docs/selector-vlm-dataset.md).
+The completed local export contains 78 training rows, 6 validation rows, and 34
+test windows (31 labeled). Run `python -m sports_events.selector_vlm --help`.
+
+For the downstream GPT/Gemini event-description and timestamped commentary pipeline,
+see [TenniSet commentary, usage and comparison](docs/tenniset-commentary.md).
+
+For the tuned VLM → tuned LLM comparison against direct video commentary on the
+same pilot clips, see [end-to-end evaluation](docs/end-to-end-commentary-evaluation.md)
+and the [executed notebook](notebooks/end_to_end_commentary_evaluation.ipynb).
+
 Six additional training runs compare pretrained appearance features, adjacent-feature motion cues, and fixed versus expanded selection budgets. On 28 seconds of newly reviewed test intervals, the validation-selected variant averages F1 **0.419 ± 0.053** across three seeds versus **0.200** for the prior checkpoint on the same footage. Retention increases from **12.1% to 21.3%**. These are approximate frame-anchor metrics on a tiny pilot, not full-match event accuracy.
 
 See [experiment design, results and reproduction](docs/third-experiment.md) and the [seven-slide speaking script](docs/seven-slide-script.md). Training still uses only 72 seconds. All 43 tests pass, and the pretrained inference command has been exercised without reading teacher labels.

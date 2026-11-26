@@ -1,0 +1,1301 @@
+{
+  "segments": [
+    {
+      "id": "baseline_000_000",
+      "seconds": 496.54,
+      "text": "Serena Williams prepares to serve.",
+      "chunk": 0,
+      "clip_id": "tenniset_V010_000"
+    },
+    {
+      "id": "baseline_000_001",
+      "seconds": 497.54,
+      "text": "Serena Williams hits a serve.",
+      "chunk": 0,
+      "clip_id": "tenniset_V010_000"
+    },
+    {
+      "id": "baseline_000_002",
+      "seconds": 498.54,
+      "text": "Victoria Azarenka returns the serve with a backhand.",
+      "chunk": 0,
+      "clip_id": "tenniset_V010_000"
+    },
+    {
+      "id": "baseline_000_003",
+      "seconds": 499.54,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 0,
+      "clip_id": "tenniset_V010_000"
+    },
+    {
+      "id": "baseline_000_004",
+      "seconds": 500.54,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 0,
+      "clip_id": "tenniset_V010_000"
+    },
+    {
+      "id": "baseline_000_005",
+      "seconds": 501.54,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 0,
+      "clip_id": "tenniset_V010_000"
+    },
+    {
+      "id": "baseline_001_000",
+      "seconds": 659.8,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 1,
+      "clip_id": "tenniset_V010_001"
+    },
+    {
+      "id": "baseline_001_001",
+      "seconds": 660.5,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 1,
+      "clip_id": "tenniset_V010_001"
+    },
+    {
+      "id": "baseline_001_002",
+      "seconds": 661.2,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 1,
+      "clip_id": "tenniset_V010_001"
+    },
+    {
+      "id": "baseline_001_003",
+      "seconds": 662.0,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 1,
+      "clip_id": "tenniset_V010_001"
+    },
+    {
+      "id": "baseline_001_004",
+      "seconds": 662.7,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 1,
+      "clip_id": "tenniset_V010_001"
+    },
+    {
+      "id": "baseline_001_005",
+      "seconds": 663.5,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 1,
+      "clip_id": "tenniset_V010_001"
+    },
+    {
+      "id": "baseline_001_006",
+      "seconds": 664.2,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 1,
+      "clip_id": "tenniset_V010_001"
+    },
+    {
+      "id": "baseline_001_007",
+      "seconds": 665.0,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 1,
+      "clip_id": "tenniset_V010_001"
+    },
+    {
+      "id": "baseline_001_008",
+      "seconds": 665.7,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 1,
+      "clip_id": "tenniset_V010_001"
+    },
+    {
+      "id": "baseline_001_009",
+      "seconds": 666.5,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 1,
+      "clip_id": "tenniset_V010_001"
+    },
+    {
+      "id": "baseline_002_000",
+      "seconds": 825.1600000000001,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 2,
+      "clip_id": "tenniset_V010_002"
+    },
+    {
+      "id": "baseline_002_001",
+      "seconds": 826.0600000000001,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 2,
+      "clip_id": "tenniset_V010_002"
+    },
+    {
+      "id": "baseline_002_002",
+      "seconds": 826.96,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 2,
+      "clip_id": "tenniset_V010_002"
+    },
+    {
+      "id": "baseline_002_003",
+      "seconds": 827.86,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 2,
+      "clip_id": "tenniset_V010_002"
+    },
+    {
+      "id": "baseline_002_004",
+      "seconds": 828.76,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 2,
+      "clip_id": "tenniset_V010_002"
+    },
+    {
+      "id": "baseline_002_005",
+      "seconds": 829.6600000000001,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 2,
+      "clip_id": "tenniset_V010_002"
+    },
+    {
+      "id": "baseline_002_006",
+      "seconds": 830.5600000000001,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 2,
+      "clip_id": "tenniset_V010_002"
+    },
+    {
+      "id": "baseline_002_007",
+      "seconds": 831.46,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 2,
+      "clip_id": "tenniset_V010_002"
+    },
+    {
+      "id": "baseline_003_000",
+      "seconds": 990.42,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 3,
+      "clip_id": "tenniset_V010_003"
+    },
+    {
+      "id": "baseline_003_001",
+      "seconds": 990.92,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 3,
+      "clip_id": "tenniset_V010_003"
+    },
+    {
+      "id": "baseline_003_002",
+      "seconds": 991.42,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 3,
+      "clip_id": "tenniset_V010_003"
+    },
+    {
+      "id": "baseline_003_003",
+      "seconds": 991.92,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 3,
+      "clip_id": "tenniset_V010_003"
+    },
+    {
+      "id": "baseline_003_004",
+      "seconds": 992.42,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 3,
+      "clip_id": "tenniset_V010_003"
+    },
+    {
+      "id": "baseline_003_005",
+      "seconds": 992.92,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 3,
+      "clip_id": "tenniset_V010_003"
+    },
+    {
+      "id": "baseline_003_006",
+      "seconds": 993.42,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 3,
+      "clip_id": "tenniset_V010_003"
+    },
+    {
+      "id": "baseline_003_007",
+      "seconds": 993.92,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 3,
+      "clip_id": "tenniset_V010_003"
+    },
+    {
+      "id": "baseline_003_008",
+      "seconds": 994.42,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 3,
+      "clip_id": "tenniset_V010_003"
+    },
+    {
+      "id": "baseline_003_009",
+      "seconds": 994.92,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 3,
+      "clip_id": "tenniset_V010_003"
+    },
+    {
+      "id": "baseline_003_010",
+      "seconds": 995.42,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 3,
+      "clip_id": "tenniset_V010_003"
+    },
+    {
+      "id": "baseline_003_011",
+      "seconds": 995.92,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 3,
+      "clip_id": "tenniset_V010_003"
+    },
+    {
+      "id": "baseline_003_012",
+      "seconds": 996.42,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 3,
+      "clip_id": "tenniset_V010_003"
+    },
+    {
+      "id": "baseline_004_000",
+      "seconds": 1154.42,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 4,
+      "clip_id": "tenniset_V010_004"
+    },
+    {
+      "id": "baseline_004_001",
+      "seconds": 1155.1200000000001,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 4,
+      "clip_id": "tenniset_V010_004"
+    },
+    {
+      "id": "baseline_004_002",
+      "seconds": 1155.72,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 4,
+      "clip_id": "tenniset_V010_004"
+    },
+    {
+      "id": "baseline_004_003",
+      "seconds": 1156.42,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 4,
+      "clip_id": "tenniset_V010_004"
+    },
+    {
+      "id": "baseline_004_004",
+      "seconds": 1157.1200000000001,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 4,
+      "clip_id": "tenniset_V010_004"
+    },
+    {
+      "id": "baseline_004_005",
+      "seconds": 1157.8200000000002,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 4,
+      "clip_id": "tenniset_V010_004"
+    },
+    {
+      "id": "baseline_004_006",
+      "seconds": 1158.52,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 4,
+      "clip_id": "tenniset_V010_004"
+    },
+    {
+      "id": "baseline_004_007",
+      "seconds": 1159.22,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 4,
+      "clip_id": "tenniset_V010_004"
+    },
+    {
+      "id": "baseline_004_008",
+      "seconds": 1159.92,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 4,
+      "clip_id": "tenniset_V010_004"
+    },
+    {
+      "id": "baseline_004_009",
+      "seconds": 1160.6200000000001,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 4,
+      "clip_id": "tenniset_V010_004"
+    },
+    {
+      "id": "baseline_005_000",
+      "seconds": 1319.38,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 5,
+      "clip_id": "tenniset_V010_005"
+    },
+    {
+      "id": "baseline_005_001",
+      "seconds": 1319.88,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 5,
+      "clip_id": "tenniset_V010_005"
+    },
+    {
+      "id": "baseline_005_002",
+      "seconds": 1320.38,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 5,
+      "clip_id": "tenniset_V010_005"
+    },
+    {
+      "id": "baseline_005_003",
+      "seconds": 1320.88,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 5,
+      "clip_id": "tenniset_V010_005"
+    },
+    {
+      "id": "baseline_005_004",
+      "seconds": 1321.38,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 5,
+      "clip_id": "tenniset_V010_005"
+    },
+    {
+      "id": "baseline_005_005",
+      "seconds": 1321.88,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 5,
+      "clip_id": "tenniset_V010_005"
+    },
+    {
+      "id": "baseline_005_006",
+      "seconds": 1322.38,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 5,
+      "clip_id": "tenniset_V010_005"
+    },
+    {
+      "id": "baseline_005_007",
+      "seconds": 1322.88,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 5,
+      "clip_id": "tenniset_V010_005"
+    },
+    {
+      "id": "baseline_005_008",
+      "seconds": 1323.38,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 5,
+      "clip_id": "tenniset_V010_005"
+    },
+    {
+      "id": "baseline_005_009",
+      "seconds": 1323.88,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 5,
+      "clip_id": "tenniset_V010_005"
+    },
+    {
+      "id": "baseline_005_010",
+      "seconds": 1324.38,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 5,
+      "clip_id": "tenniset_V010_005"
+    },
+    {
+      "id": "baseline_005_011",
+      "seconds": 1324.88,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 5,
+      "clip_id": "tenniset_V010_005"
+    },
+    {
+      "id": "baseline_005_012",
+      "seconds": 1325.38,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 5,
+      "clip_id": "tenniset_V010_005"
+    },
+    {
+      "id": "baseline_005_013",
+      "seconds": 1325.88,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 5,
+      "clip_id": "tenniset_V010_005"
+    },
+    {
+      "id": "baseline_005_014",
+      "seconds": 1326.38,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 5,
+      "clip_id": "tenniset_V010_005"
+    },
+    {
+      "id": "baseline_006_000",
+      "seconds": 1490.34,
+      "text": "Victoria Azarenka drinks from a cup while sitting on the bench.",
+      "chunk": 6,
+      "clip_id": "tenniset_V010_006"
+    },
+    {
+      "id": "baseline_006_001",
+      "seconds": 1491.84,
+      "text": "Victoria Azarenka continues to sit on the bench.",
+      "chunk": 6,
+      "clip_id": "tenniset_V010_006"
+    },
+    {
+      "id": "baseline_007_000",
+      "seconds": 1649.34,
+      "text": "Victoria Azarenka stands on the court preparing to serve.",
+      "chunk": 7,
+      "clip_id": "tenniset_V010_007"
+    },
+    {
+      "id": "baseline_007_001",
+      "seconds": 1650.34,
+      "text": "Victoria Azarenka bounces the ball.",
+      "chunk": 7,
+      "clip_id": "tenniset_V010_007"
+    },
+    {
+      "id": "baseline_007_002",
+      "seconds": 1652.34,
+      "text": "Victoria Azarenka tosses the ball and hits a serve.",
+      "chunk": 7,
+      "clip_id": "tenniset_V010_007"
+    },
+    {
+      "id": "baseline_007_003",
+      "seconds": 1653.34,
+      "text": "Serena Williams returns the serve with a backhand.",
+      "chunk": 7,
+      "clip_id": "tenniset_V010_007"
+    },
+    {
+      "id": "baseline_007_004",
+      "seconds": 1654.34,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 7,
+      "clip_id": "tenniset_V010_007"
+    },
+    {
+      "id": "baseline_007_005",
+      "seconds": 1655.34,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 7,
+      "clip_id": "tenniset_V010_007"
+    },
+    {
+      "id": "baseline_007_006",
+      "seconds": 1656.34,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 7,
+      "clip_id": "tenniset_V010_007"
+    },
+    {
+      "id": "baseline_008_000",
+      "seconds": 1815.0,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 8,
+      "clip_id": "tenniset_V010_008"
+    },
+    {
+      "id": "baseline_008_001",
+      "seconds": 1815.8999999999999,
+      "text": "Serena Williams hits a backhand.",
+      "chunk": 8,
+      "clip_id": "tenniset_V010_008"
+    },
+    {
+      "id": "baseline_008_002",
+      "seconds": 1816.8,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 8,
+      "clip_id": "tenniset_V010_008"
+    },
+    {
+      "id": "baseline_008_003",
+      "seconds": 1817.8999999999999,
+      "text": "Serena Williams hits a backhand.",
+      "chunk": 8,
+      "clip_id": "tenniset_V010_008"
+    },
+    {
+      "id": "baseline_008_004",
+      "seconds": 1819.0,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 8,
+      "clip_id": "tenniset_V010_008"
+    },
+    {
+      "id": "baseline_008_005",
+      "seconds": 1820.1,
+      "text": "Serena Williams hits a backhand.",
+      "chunk": 8,
+      "clip_id": "tenniset_V010_008"
+    },
+    {
+      "id": "baseline_008_006",
+      "seconds": 1821.2,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 8,
+      "clip_id": "tenniset_V010_008"
+    },
+    {
+      "id": "baseline_009_000",
+      "seconds": 1979.26,
+      "text": "Serena Williams hits a backhand.",
+      "chunk": 9,
+      "clip_id": "tenniset_V010_009"
+    },
+    {
+      "id": "baseline_009_001",
+      "seconds": 1979.96,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 9,
+      "clip_id": "tenniset_V010_009"
+    },
+    {
+      "id": "baseline_009_002",
+      "seconds": 1980.56,
+      "text": "Serena Williams hits a backhand.",
+      "chunk": 9,
+      "clip_id": "tenniset_V010_009"
+    },
+    {
+      "id": "baseline_009_003",
+      "seconds": 1981.26,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 9,
+      "clip_id": "tenniset_V010_009"
+    },
+    {
+      "id": "baseline_009_004",
+      "seconds": 1981.96,
+      "text": "Serena Williams hits a backhand.",
+      "chunk": 9,
+      "clip_id": "tenniset_V010_009"
+    },
+    {
+      "id": "baseline_009_005",
+      "seconds": 1982.66,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 9,
+      "clip_id": "tenniset_V010_009"
+    },
+    {
+      "id": "baseline_009_006",
+      "seconds": 1983.36,
+      "text": "Serena Williams hits a backhand.",
+      "chunk": 9,
+      "clip_id": "tenniset_V010_009"
+    },
+    {
+      "id": "baseline_009_007",
+      "seconds": 1984.06,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 9,
+      "clip_id": "tenniset_V010_009"
+    },
+    {
+      "id": "baseline_009_008",
+      "seconds": 1984.76,
+      "text": "Serena Williams hits a backhand.",
+      "chunk": 9,
+      "clip_id": "tenniset_V010_009"
+    },
+    {
+      "id": "baseline_009_009",
+      "seconds": 1985.46,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 9,
+      "clip_id": "tenniset_V010_009"
+    },
+    {
+      "id": "baseline_009_010",
+      "seconds": 1986.16,
+      "text": "Serena Williams hits a backhand.",
+      "chunk": 9,
+      "clip_id": "tenniset_V010_009"
+    },
+    {
+      "id": "baseline_010_000",
+      "seconds": 2151.76,
+      "text": "The screen displays the set one statistics for the match between Victoria Azarenka and Serena Williams.",
+      "chunk": 10,
+      "clip_id": "tenniset_V010_010"
+    },
+    {
+      "id": "baseline_011_000",
+      "seconds": 2313.9199999999996,
+      "text": "Serena Williams tosses the ball and hits a serve.",
+      "chunk": 11,
+      "clip_id": "tenniset_V010_011"
+    },
+    {
+      "id": "baseline_011_001",
+      "seconds": 2316.52,
+      "text": "Victoria Azarenka returns the serve with a backhand.",
+      "chunk": 11,
+      "clip_id": "tenniset_V010_011"
+    },
+    {
+      "id": "baseline_012_000",
+      "seconds": 2474.18,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 12,
+      "clip_id": "tenniset_V010_012"
+    },
+    {
+      "id": "baseline_012_001",
+      "seconds": 2474.8799999999997,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 12,
+      "clip_id": "tenniset_V010_012"
+    },
+    {
+      "id": "baseline_012_002",
+      "seconds": 2475.48,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 12,
+      "clip_id": "tenniset_V010_012"
+    },
+    {
+      "id": "baseline_012_003",
+      "seconds": 2476.18,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 12,
+      "clip_id": "tenniset_V010_012"
+    },
+    {
+      "id": "baseline_013_000",
+      "seconds": 2639.14,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 13,
+      "clip_id": "tenniset_V010_013"
+    },
+    {
+      "id": "baseline_013_001",
+      "seconds": 2639.8399999999997,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 13,
+      "clip_id": "tenniset_V010_013"
+    },
+    {
+      "id": "baseline_013_002",
+      "seconds": 2640.74,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 13,
+      "clip_id": "tenniset_V010_013"
+    },
+    {
+      "id": "baseline_013_003",
+      "seconds": 2641.44,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 13,
+      "clip_id": "tenniset_V010_013"
+    },
+    {
+      "id": "baseline_013_004",
+      "seconds": 2642.3399999999997,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 13,
+      "clip_id": "tenniset_V010_013"
+    },
+    {
+      "id": "baseline_013_005",
+      "seconds": 2643.04,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 13,
+      "clip_id": "tenniset_V010_013"
+    },
+    {
+      "id": "baseline_013_006",
+      "seconds": 2643.94,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 13,
+      "clip_id": "tenniset_V010_013"
+    },
+    {
+      "id": "baseline_013_007",
+      "seconds": 2644.64,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 13,
+      "clip_id": "tenniset_V010_013"
+    },
+    {
+      "id": "baseline_013_008",
+      "seconds": 2645.74,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 13,
+      "clip_id": "tenniset_V010_013"
+    },
+    {
+      "id": "baseline_013_009",
+      "seconds": 2646.44,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 13,
+      "clip_id": "tenniset_V010_013"
+    },
+    {
+      "id": "baseline_014_000",
+      "seconds": 2810.14,
+      "text": "Serena Williams drinks from a water bottle while standing on the court.",
+      "chunk": 14,
+      "clip_id": "tenniset_V010_014"
+    },
+    {
+      "id": "baseline_014_001",
+      "seconds": 2811.44,
+      "text": "Serena Williams prepares to serve.",
+      "chunk": 14,
+      "clip_id": "tenniset_V010_014"
+    },
+    {
+      "id": "baseline_015_000",
+      "seconds": 2969.7999999999997,
+      "text": "Serena Williams tosses the ball and hits a serve.",
+      "chunk": 15,
+      "clip_id": "tenniset_V010_015"
+    },
+    {
+      "id": "baseline_015_001",
+      "seconds": 2970.4,
+      "text": "Victoria Azarenka returns the serve with a backhand.",
+      "chunk": 15,
+      "clip_id": "tenniset_V010_015"
+    },
+    {
+      "id": "baseline_015_002",
+      "seconds": 2970.7999999999997,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 15,
+      "clip_id": "tenniset_V010_015"
+    },
+    {
+      "id": "baseline_015_003",
+      "seconds": 2971.2,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 15,
+      "clip_id": "tenniset_V010_015"
+    },
+    {
+      "id": "baseline_015_004",
+      "seconds": 2971.6,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 15,
+      "clip_id": "tenniset_V010_015"
+    },
+    {
+      "id": "baseline_015_005",
+      "seconds": 2972.0,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 15,
+      "clip_id": "tenniset_V010_015"
+    },
+    {
+      "id": "baseline_015_006",
+      "seconds": 2972.4,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 15,
+      "clip_id": "tenniset_V010_015"
+    },
+    {
+      "id": "baseline_015_007",
+      "seconds": 2972.7999999999997,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 15,
+      "clip_id": "tenniset_V010_015"
+    },
+    {
+      "id": "baseline_015_008",
+      "seconds": 2973.2,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 15,
+      "clip_id": "tenniset_V010_015"
+    },
+    {
+      "id": "baseline_015_009",
+      "seconds": 2973.6,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 15,
+      "clip_id": "tenniset_V010_015"
+    },
+    {
+      "id": "baseline_015_010",
+      "seconds": 2974.0,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 15,
+      "clip_id": "tenniset_V010_015"
+    },
+    {
+      "id": "baseline_015_011",
+      "seconds": 2974.4,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 15,
+      "clip_id": "tenniset_V010_015"
+    },
+    {
+      "id": "baseline_015_012",
+      "seconds": 2974.7999999999997,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 15,
+      "clip_id": "tenniset_V010_015"
+    },
+    {
+      "id": "baseline_015_013",
+      "seconds": 2975.2,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 15,
+      "clip_id": "tenniset_V010_015"
+    },
+    {
+      "id": "baseline_015_014",
+      "seconds": 2975.6,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 15,
+      "clip_id": "tenniset_V010_015"
+    },
+    {
+      "id": "baseline_015_015",
+      "seconds": 2976.0,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 15,
+      "clip_id": "tenniset_V010_015"
+    },
+    {
+      "id": "baseline_016_000",
+      "seconds": 3134.06,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 16,
+      "clip_id": "tenniset_V010_016"
+    },
+    {
+      "id": "baseline_016_001",
+      "seconds": 3134.56,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 16,
+      "clip_id": "tenniset_V010_016"
+    },
+    {
+      "id": "baseline_016_002",
+      "seconds": 3135.06,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 16,
+      "clip_id": "tenniset_V010_016"
+    },
+    {
+      "id": "baseline_016_003",
+      "seconds": 3135.56,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 16,
+      "clip_id": "tenniset_V010_016"
+    },
+    {
+      "id": "baseline_016_004",
+      "seconds": 3136.06,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 16,
+      "clip_id": "tenniset_V010_016"
+    },
+    {
+      "id": "baseline_016_005",
+      "seconds": 3136.56,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 16,
+      "clip_id": "tenniset_V010_016"
+    },
+    {
+      "id": "baseline_016_006",
+      "seconds": 3137.06,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 16,
+      "clip_id": "tenniset_V010_016"
+    },
+    {
+      "id": "baseline_016_007",
+      "seconds": 3137.56,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 16,
+      "clip_id": "tenniset_V010_016"
+    },
+    {
+      "id": "baseline_016_008",
+      "seconds": 3138.06,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 16,
+      "clip_id": "tenniset_V010_016"
+    },
+    {
+      "id": "baseline_016_009",
+      "seconds": 3138.56,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 16,
+      "clip_id": "tenniset_V010_016"
+    },
+    {
+      "id": "baseline_016_010",
+      "seconds": 3139.06,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 16,
+      "clip_id": "tenniset_V010_016"
+    },
+    {
+      "id": "baseline_016_011",
+      "seconds": 3139.56,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 16,
+      "clip_id": "tenniset_V010_016"
+    },
+    {
+      "id": "baseline_016_012",
+      "seconds": 3140.06,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 16,
+      "clip_id": "tenniset_V010_016"
+    },
+    {
+      "id": "baseline_016_013",
+      "seconds": 3140.56,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 16,
+      "clip_id": "tenniset_V010_016"
+    },
+    {
+      "id": "baseline_016_014",
+      "seconds": 3141.06,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 16,
+      "clip_id": "tenniset_V010_016"
+    },
+    {
+      "id": "baseline_017_000",
+      "seconds": 3302.06,
+      "text": "Serena Williams wipes her face with a towel.",
+      "chunk": 17,
+      "clip_id": "tenniset_V010_017"
+    },
+    {
+      "id": "baseline_018_000",
+      "seconds": 3464.02,
+      "text": "Victoria Azarenka prepares to serve.",
+      "chunk": 18,
+      "clip_id": "tenniset_V010_018"
+    },
+    {
+      "id": "baseline_018_001",
+      "seconds": 3464.72,
+      "text": "Victoria Azarenka tosses the ball and hits a serve.",
+      "chunk": 18,
+      "clip_id": "tenniset_V010_018"
+    },
+    {
+      "id": "baseline_018_002",
+      "seconds": 3465.32,
+      "text": "Serena Williams returns the serve with a backhand.",
+      "chunk": 18,
+      "clip_id": "tenniset_V010_018"
+    },
+    {
+      "id": "baseline_018_003",
+      "seconds": 3465.92,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 18,
+      "clip_id": "tenniset_V010_018"
+    },
+    {
+      "id": "baseline_018_004",
+      "seconds": 3466.62,
+      "text": "Serena Williams hits a backhand.",
+      "chunk": 18,
+      "clip_id": "tenniset_V010_018"
+    },
+    {
+      "id": "baseline_018_005",
+      "seconds": 3467.32,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 18,
+      "clip_id": "tenniset_V010_018"
+    },
+    {
+      "id": "baseline_018_006",
+      "seconds": 3468.02,
+      "text": "Serena Williams hits a backhand.",
+      "chunk": 18,
+      "clip_id": "tenniset_V010_018"
+    },
+    {
+      "id": "baseline_018_007",
+      "seconds": 3468.72,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 18,
+      "clip_id": "tenniset_V010_018"
+    },
+    {
+      "id": "baseline_018_008",
+      "seconds": 3469.42,
+      "text": "Serena Williams hits a backhand.",
+      "chunk": 18,
+      "clip_id": "tenniset_V010_018"
+    },
+    {
+      "id": "baseline_018_009",
+      "seconds": 3470.12,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 18,
+      "clip_id": "tenniset_V010_018"
+    },
+    {
+      "id": "baseline_018_010",
+      "seconds": 3470.82,
+      "text": "Serena Williams hits a backhand.",
+      "chunk": 18,
+      "clip_id": "tenniset_V010_018"
+    },
+    {
+      "id": "baseline_019_000",
+      "seconds": 3629.68,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 19,
+      "clip_id": "tenniset_V010_019"
+    },
+    {
+      "id": "baseline_019_001",
+      "seconds": 3630.08,
+      "text": "Serena Williams hits a backhand.",
+      "chunk": 19,
+      "clip_id": "tenniset_V010_019"
+    },
+    {
+      "id": "baseline_019_002",
+      "seconds": 3630.48,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 19,
+      "clip_id": "tenniset_V010_019"
+    },
+    {
+      "id": "baseline_019_003",
+      "seconds": 3630.88,
+      "text": "Serena Williams hits a backhand.",
+      "chunk": 19,
+      "clip_id": "tenniset_V010_019"
+    },
+    {
+      "id": "baseline_019_004",
+      "seconds": 3631.28,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 19,
+      "clip_id": "tenniset_V010_019"
+    },
+    {
+      "id": "baseline_019_005",
+      "seconds": 3631.68,
+      "text": "Serena Williams hits a backhand.",
+      "chunk": 19,
+      "clip_id": "tenniset_V010_019"
+    },
+    {
+      "id": "baseline_019_006",
+      "seconds": 3632.08,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 19,
+      "clip_id": "tenniset_V010_019"
+    },
+    {
+      "id": "baseline_019_007",
+      "seconds": 3632.48,
+      "text": "Serena Williams hits a backhand.",
+      "chunk": 19,
+      "clip_id": "tenniset_V010_019"
+    },
+    {
+      "id": "baseline_019_008",
+      "seconds": 3632.88,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 19,
+      "clip_id": "tenniset_V010_019"
+    },
+    {
+      "id": "baseline_019_009",
+      "seconds": 3633.28,
+      "text": "Serena Williams hits a backhand.",
+      "chunk": 19,
+      "clip_id": "tenniset_V010_019"
+    },
+    {
+      "id": "baseline_019_010",
+      "seconds": 3633.68,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 19,
+      "clip_id": "tenniset_V010_019"
+    },
+    {
+      "id": "baseline_019_011",
+      "seconds": 3634.08,
+      "text": "Serena Williams hits a backhand.",
+      "chunk": 19,
+      "clip_id": "tenniset_V010_019"
+    },
+    {
+      "id": "baseline_019_012",
+      "seconds": 3634.48,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 19,
+      "clip_id": "tenniset_V010_019"
+    },
+    {
+      "id": "baseline_019_013",
+      "seconds": 3634.88,
+      "text": "Serena Williams hits a backhand.",
+      "chunk": 19,
+      "clip_id": "tenniset_V010_019"
+    },
+    {
+      "id": "baseline_019_014",
+      "seconds": 3635.28,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 19,
+      "clip_id": "tenniset_V010_019"
+    },
+    {
+      "id": "baseline_019_015",
+      "seconds": 3635.68,
+      "text": "Serena Williams hits a backhand.",
+      "chunk": 19,
+      "clip_id": "tenniset_V010_019"
+    },
+    {
+      "id": "baseline_019_016",
+      "seconds": 3636.08,
+      "text": "Victoria Azarenka hits a forehand.",
+      "chunk": 19,
+      "clip_id": "tenniset_V010_019"
+    },
+    {
+      "id": "baseline_019_017",
+      "seconds": 3636.48,
+      "text": "Serena Williams hits a backhand.",
+      "chunk": 19,
+      "clip_id": "tenniset_V010_019"
+    },
+    {
+      "id": "baseline_020_000",
+      "seconds": 3793.98,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 20,
+      "clip_id": "tenniset_V010_020"
+    },
+    {
+      "id": "baseline_020_001",
+      "seconds": 3794.68,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 20,
+      "clip_id": "tenniset_V010_020"
+    },
+    {
+      "id": "baseline_020_002",
+      "seconds": 3795.28,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 20,
+      "clip_id": "tenniset_V010_020"
+    },
+    {
+      "id": "baseline_020_003",
+      "seconds": 3795.98,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 20,
+      "clip_id": "tenniset_V010_020"
+    },
+    {
+      "id": "baseline_020_004",
+      "seconds": 3796.68,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 20,
+      "clip_id": "tenniset_V010_020"
+    },
+    {
+      "id": "baseline_020_005",
+      "seconds": 3797.38,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 20,
+      "clip_id": "tenniset_V010_020"
+    },
+    {
+      "id": "baseline_020_006",
+      "seconds": 3798.08,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 20,
+      "clip_id": "tenniset_V010_020"
+    },
+    {
+      "id": "baseline_020_007",
+      "seconds": 3798.78,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 20,
+      "clip_id": "tenniset_V010_020"
+    },
+    {
+      "id": "baseline_020_008",
+      "seconds": 3799.48,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 20,
+      "clip_id": "tenniset_V010_020"
+    },
+    {
+      "id": "baseline_020_009",
+      "seconds": 3800.18,
+      "text": "Victoria Azarenka hits a backhand.",
+      "chunk": 20,
+      "clip_id": "tenniset_V010_020"
+    },
+    {
+      "id": "baseline_020_010",
+      "seconds": 3800.88,
+      "text": "Serena Williams hits a forehand.",
+      "chunk": 20,
+      "clip_id": "tenniset_V010_020"
+    },
+    {
+      "id": "baseline_021_000",
+      "seconds": 3961.94,
+      "text": "Serena Williams prepares to serve.",
+      "chunk": 21,
+      "clip_id": "tenniset_V010_021"
+    },
+    {
+      "id": "baseline_021_001",
+      "seconds": 3963.64,
+      "text": "Serena Williams tosses the ball and hits a serve.",
+      "chunk": 21,
+      "clip_id": "tenniset_V010_021"
+    },
+    {
+      "id": "baseline_022_000",
+      "seconds": 4130.599999999999,
+      "text": "Victoria Azarenka returns the serve with a backhand.",
+      "chunk": 22,
+      "clip_id": "tenniset_V010_022"
+    },
+    {
+      "id": "baseline_023_000",
+      "seconds": 4290.5,
+      "text": "Serena Williams and Victoria Azarenka shake hands at the net.",
+      "chunk": 23,
+      "clip_id": "tenniset_V010_023"
+    },
+    {
+      "id": "baseline_023_001",
+      "seconds": 4294.9,
+      "text": "Serena Williams celebrates her victory by pumping her fist.",
+      "chunk": 23,
+      "clip_id": "tenniset_V010_023"
+    }
+  ],
+  "chunks_completed": 24,
+  "chunks_total": 24
+}

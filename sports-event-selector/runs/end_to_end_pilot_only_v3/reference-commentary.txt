@@ -1,0 +1,24 @@
+[00:11:00.720 | frame 16518] Williams hits a topspin backhand.
+[00:11:01.920 | frame 16548] A topspin forehand from Azarenka.
+[00:11:03.280 | frame 16582] Williams plays a topspin forehand.
+[00:11:04.400 | frame 16610] Azarenka hits a topspin forehand.
+[00:11:05.760 | frame 16644] A topspin backhand from Williams.
+[00:11:07.040 | frame 16676] Azarenka plays a topspin backhand.
+[00:19:15.520 | frame 28888] Williams hits a topspin forehand.
+[00:19:17.600 | frame 28940] A slice forehand from Azarenka.
+[00:19:18.880 | frame 28972] Williams plays a topspin backhand.
+[00:22:01.200 | frame 33030] A slice forehand from Azarenka.
+[00:22:03.200 | frame 33080] Williams plays a topspin forehand.
+[00:22:03.960 | frame 33099] Azarenka hits a topspin backhand.
+[00:22:04.920 | frame 33123] A flat forehand from Williams.
+[00:41:15.000 | frame 61875] Williams hits a topspin forehand.
+[00:41:16.000 | frame 61900] A forehand from Azarenka.
+[00:52:14.560 | frame 78364] A topspin forehand from Williams.
+[00:52:16.120 | frame 78403] Azarenka plays a topspin forehand.
+[00:52:17.360 | frame 78434] Williams hits a topspin forehand.
+[00:52:19.160 | frame 78479] A topspin forehand from Azarenka.
+[00:52:20.480 | frame 78512] Williams plays a topspin backhand.
+[00:57:44.240 | frame 86606] Azarenka plays a topspin forehand.
+[01:03:17.800 | frame 94945] Azarenka serves into court.
+[01:03:18.320 | frame 94958] Williams plays a topspin backhand.
+[01:03:19.400 | frame 94985] Azarenka hits a topspin backhand.

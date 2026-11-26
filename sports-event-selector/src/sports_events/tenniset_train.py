@@ -146,14 +146,20 @@ def main():
     q=sub.add_parser('prepare',help='Legacy fixed-stride reproduction; use sports_events.tenniset_filtered for delta-filtered training');q.add_argument('--sequences',default='data/sequence-frames/sequences.json')
     q.add_argument('--output',default='data/tenniset_pilot/clips');q.add_argument('--clips-per-video',type=int,default=12)
     q.add_argument('--seconds',type=float,default=8);q.add_argument('--stride',type=int,default=2)
-    q=sub.add_parser('train');q.add_argument('--dataset',default='data/tenniset_pilot/clips')
-    q.add_argument('--output',default='runs/tenniset_pilot');q.add_argument('--epochs',type=int,default=20)
+    q=sub.add_parser('train');q.add_argument('--dataset',default='data/tenniset_delta/clips')
+    q.add_argument('--target-mode',choices=['center20','legacy_frames'],default='center20')
+    q.add_argument('--output',default='runs/tenniset_center20_recall');q.add_argument('--epochs',type=int,default=20)
+    q.add_argument('--profile',choices=['window_recall','center3'],default='window_recall')
     q.add_argument('--seed',type=int,default=17);q.add_argument('--threads',type=int,default=4)
-    q.add_argument('--weights',default='data/pretrained/resnet18-f37072fd.pth');q.add_argument('--cache',default='data/tenniset_features')
+    q.add_argument('--weights',default='data/pretrained/resnet18-f37072fd.pth');q.add_argument('--cache',default='data/tenniset_delta_features')
     a=p.parse_args()
     if a.command=='prepare':prepare(a.sequences,a.output,a.clips_per_video,a.seconds,a.stride)
     else:
-        torch.set_num_threads(a.threads);train(a.dataset,a.output,a.weights,a.cache,a.epochs,a.seed)
+        torch.set_num_threads(a.threads)
+        if a.target_mode=='center20':
+            from .center20 import train as train_centers
+            train_centers(a.dataset,a.output,a.weights,a.cache,a.epochs,a.seed,profile=a.profile)
+        else:train(a.dataset,a.output,a.weights,a.cache,a.epochs,a.seed)
 
 
 if __name__=='__main__':main()

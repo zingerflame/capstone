@@ -1,0 +1,472 @@
+{
+  "config": {
+    "run": "runs/end_to_end_pilot_only_v3",
+    "project": "gen-lang-client-0084130013",
+    "llm": "projects/214431161041/locations/us/endpoints/8459061921969078272",
+    "vlm": "projects/214431161041/locations/us/endpoints/4910225415601127424",
+    "baseline": "gemini-3.1-flash-lite",
+    "judge": "gemini-3.5-flash",
+    "embedding": "gemini-embedding-001",
+    "dataset": "data/tenniset_selector_vlm",
+    "vlm_run": "runs/vlm-tuned-5554697559152263168-v1",
+    "reference": "data/tenniset_commentary_append_only/ground-truth.jsonl",
+    "clips": "data/tenniset_delta/clips",
+    "video": "data/tenniset/videos/V010.mp4",
+    "clip_plan": "data/tenniset_pilot/clips/preparation.json",
+    "chunk_seconds": 300
+  },
+  "clips": [
+    {
+      "id": "tenniset_V010_000",
+      "start": 494.04,
+      "end": 502.04
+    },
+    {
+      "id": "tenniset_V010_001",
+      "start": 659.0,
+      "end": 667.0
+    },
+    {
+      "id": "tenniset_V010_002",
+      "start": 823.96,
+      "end": 831.96
+    },
+    {
+      "id": "tenniset_V010_003",
+      "start": 988.92,
+      "end": 996.92
+    },
+    {
+      "id": "tenniset_V010_004",
+      "start": 1153.92,
+      "end": 1161.92
+    },
+    {
+      "id": "tenniset_V010_005",
+      "start": 1318.88,
+      "end": 1326.88
+    },
+    {
+      "id": "tenniset_V010_006",
+      "start": 1483.84,
+      "end": 1491.84
+    },
+    {
+      "id": "tenniset_V010_007",
+      "start": 1648.84,
+      "end": 1656.84
+    },
+    {
+      "id": "tenniset_V010_008",
+      "start": 1813.8,
+      "end": 1821.8
+    },
+    {
+      "id": "tenniset_V010_009",
+      "start": 1978.76,
+      "end": 1986.76
+    },
+    {
+      "id": "tenniset_V010_010",
+      "start": 2143.76,
+      "end": 2151.76
+    },
+    {
+      "id": "tenniset_V010_011",
+      "start": 2308.72,
+      "end": 2316.72
+    },
+    {
+      "id": "tenniset_V010_012",
+      "start": 2473.68,
+      "end": 2481.68
+    },
+    {
+      "id": "tenniset_V010_013",
+      "start": 2638.64,
+      "end": 2646.64
+    },
+    {
+      "id": "tenniset_V010_014",
+      "start": 2803.64,
+      "end": 2811.64
+    },
+    {
+      "id": "tenniset_V010_015",
+      "start": 2968.6,
+      "end": 2976.6
+    },
+    {
+      "id": "tenniset_V010_016",
+      "start": 3133.56,
+      "end": 3141.56
+    },
+    {
+      "id": "tenniset_V010_017",
+      "start": 3298.56,
+      "end": 3306.56
+    },
+    {
+      "id": "tenniset_V010_018",
+      "start": 3463.52,
+      "end": 3471.52
+    },
+    {
+      "id": "tenniset_V010_019",
+      "start": 3628.48,
+      "end": 3636.48
+    },
+    {
+      "id": "tenniset_V010_020",
+      "start": 3793.48,
+      "end": 3801.48
+    },
+    {
+      "id": "tenniset_V010_021",
+      "start": 3958.44,
+      "end": 3966.44
+    },
+    {
+      "id": "tenniset_V010_022",
+      "start": 4123.4,
+      "end": 4131.4
+    },
+    {
+      "id": "tenniset_V010_023",
+      "start": 4288.4,
+      "end": 4296.4
+    }
+  ],
+  "reference": [
+    {
+      "id": "V010_hit_00006",
+      "clip_id": "tenniset_V010_001",
+      "seconds": 660.1,
+      "commit_seconds": 660.72,
+      "text": "Williams hits a topspin backhand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "backhand topspin",
+        "consequence": null
+      }
+    },
+    {
+      "id": "V010_hit_00007",
+      "clip_id": "tenniset_V010_001",
+      "seconds": 661.36,
+      "commit_seconds": 661.92,
+      "text": "A topspin forehand from Azarenka.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "hit",
+        "action_details": "forehand topspin",
+        "consequence": null
+      }
+    },
+    {
+      "id": "V010_hit_00008",
+      "clip_id": "tenniset_V010_001",
+      "seconds": 662.64,
+      "commit_seconds": 663.28,
+      "text": "Williams plays a topspin forehand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand topspin",
+        "consequence": null
+      }
+    },
+    {
+      "id": "V010_hit_00009",
+      "clip_id": "tenniset_V010_001",
+      "seconds": 663.88,
+      "commit_seconds": 664.4,
+      "text": "Azarenka hits a topspin forehand.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "hit",
+        "action_details": "forehand topspin",
+        "consequence": null
+      }
+    },
+    {
+      "id": "V010_hit_00010",
+      "clip_id": "tenniset_V010_001",
+      "seconds": 665.12,
+      "commit_seconds": 665.76,
+      "text": "A topspin backhand from Williams.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "backhand topspin",
+        "consequence": null
+      }
+    },
+    {
+      "id": "V010_hit_00011",
+      "clip_id": "tenniset_V010_001",
+      "seconds": 666.44,
+      "commit_seconds": 667.04,
+      "text": "Azarenka plays a topspin backhand.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "hit",
+        "action_details": "backhand topspin",
+        "consequence": null
+      }
+    },
+    {
+      "id": "V010_hit_00047",
+      "clip_id": "tenniset_V010_004",
+      "seconds": 1155.08,
+      "commit_seconds": 1155.52,
+      "text": "Williams hits a topspin forehand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand topspin",
+        "consequence": null
+      }
+    },
+    {
+      "id": "V010_hit_00048",
+      "clip_id": "tenniset_V010_004",
+      "seconds": 1156.62,
+      "commit_seconds": 1157.6,
+      "text": "A slice forehand from Azarenka.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "hit",
+        "action_details": "forehand slice",
+        "consequence": null
+      }
+    },
+    {
+      "id": "V010_hit_00049",
+      "clip_id": "tenniset_V010_004",
+      "seconds": 1158.3,
+      "commit_seconds": 1158.88,
+      "text": "Williams plays a topspin backhand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "backhand topspin",
+        "consequence": null
+      }
+    },
+    {
+      "id": "V010_hit_00069",
+      "clip_id": "tenniset_V010_005",
+      "seconds": 1320.22,
+      "commit_seconds": 1321.2,
+      "text": "A slice forehand from Azarenka.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "hit",
+        "action_details": "forehand slice",
+        "consequence": null
+      }
+    },
+    {
+      "id": "V010_hit_00070",
+      "clip_id": "tenniset_V010_005",
+      "seconds": 1322.24,
+      "commit_seconds": 1323.2,
+      "text": "Williams plays a topspin forehand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand topspin",
+        "consequence": null
+      }
+    },
+    {
+      "id": "V010_hit_00071",
+      "clip_id": "tenniset_V010_005",
+      "seconds": 1323.62,
+      "commit_seconds": 1323.96,
+      "text": "Azarenka hits a topspin backhand.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "hit",
+        "action_details": "backhand topspin",
+        "consequence": null
+      }
+    },
+    {
+      "id": "V010_hit_00072",
+      "clip_id": "tenniset_V010_005",
+      "seconds": 1324.46,
+      "commit_seconds": 1324.92,
+      "text": "A flat forehand from Williams.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand flat",
+        "consequence": null
+      }
+    },
+    {
+      "id": "V010_hit_00147",
+      "clip_id": "tenniset_V010_012",
+      "seconds": 2473.98,
+      "commit_seconds": 2475.0,
+      "text": "Williams hits a topspin forehand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand topspin",
+        "consequence": null
+      }
+    },
+    {
+      "id": "V010_hit_00148",
+      "clip_id": "tenniset_V010_012",
+      "seconds": 2475.52,
+      "commit_seconds": 2476.0,
+      "text": "A forehand from Azarenka.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "hit",
+        "action_details": "forehand",
+        "consequence": null
+      }
+    },
+    {
+      "id": "V010_hit_00197",
+      "clip_id": "tenniset_V010_016",
+      "seconds": 3133.98,
+      "commit_seconds": 3134.56,
+      "text": "A topspin forehand from Williams.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand topspin",
+        "consequence": null
+      }
+    },
+    {
+      "id": "V010_hit_00198",
+      "clip_id": "tenniset_V010_016",
+      "seconds": 3135.4,
+      "commit_seconds": 3136.12,
+      "text": "Azarenka plays a topspin forehand.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "hit",
+        "action_details": "forehand topspin",
+        "consequence": null
+      }
+    },
+    {
+      "id": "V010_hit_00199",
+      "clip_id": "tenniset_V010_016",
+      "seconds": 3136.78,
+      "commit_seconds": 3137.36,
+      "text": "Williams hits a topspin forehand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand topspin",
+        "consequence": null
+      }
+    },
+    {
+      "id": "V010_hit_00200",
+      "clip_id": "tenniset_V010_016",
+      "seconds": 3138.3,
+      "commit_seconds": 3139.16,
+      "text": "A topspin forehand from Azarenka.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "hit",
+        "action_details": "forehand topspin",
+        "consequence": null
+      }
+    },
+    {
+      "id": "V010_hit_00201",
+      "clip_id": "tenniset_V010_016",
+      "seconds": 3139.84,
+      "commit_seconds": 3140.48,
+      "text": "Williams plays a topspin backhand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "backhand topspin",
+        "consequence": null
+      }
+    },
+    {
+      "id": "V010_hit_00219",
+      "clip_id": "tenniset_V010_018",
+      "seconds": 3463.62,
+      "commit_seconds": 3464.24,
+      "text": "Azarenka plays a topspin forehand.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "hit",
+        "action_details": "forehand topspin",
+        "consequence": null
+      }
+    },
+    {
+      "id": "V010_serve_00105",
+      "clip_id": "tenniset_V010_020",
+      "seconds": 3796.94,
+      "commit_seconds": 3797.8,
+      "text": "Azarenka serves into court.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "serve",
+        "action_details": null,
+        "consequence": "in"
+      }
+    },
+    {
+      "id": "V010_hit_00249",
+      "clip_id": "tenniset_V010_020",
+      "seconds": 3797.9,
+      "commit_seconds": 3798.32,
+      "text": "Williams plays a topspin backhand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "backhand topspin",
+        "consequence": null
+      }
+    },
+    {
+      "id": "V010_hit_00250",
+      "clip_id": "tenniset_V010_020",
+      "seconds": 3798.9,
+      "commit_seconds": 3799.4,
+      "text": "Azarenka hits a topspin backhand.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "hit",
+        "action_details": "backhand topspin",
+        "consequence": null
+      }
+    }
+  ],
+  "video_seconds": 4395.6,
+  "fps": 25.0,
+  "source_video_sha256": "7f676048da3d43fa582cf9577a91ba69598552c858b77c948b5fee56e3db2517",
+  "clip_plan_sha256": "c28ee443192df310f7abbd3ed9096c37ea3af3f39b80de31583287ba4b8c79e7",
+  "vlm_results_sha256": "6731c0de8cf44fb40ae3c47ad7736f976abe735c4bd95bc9b73a41b60f32fee0",
+  "dataset_sha256": "14afb046f5f7e1bfc33f2d3c10a1a2ec4fde6fcd8492bc4991e41ba01d841a57",
+  "reference_sha256": "4cbfbaa836617d7423608f0fb99f68d02f32bcb38381ee7bae33911a7b0bd107",
+  "scope": "Both systems receive only the same 24 DL-pilot test clips (192 seconds). No other match footage is sent.",
+  "baseline_input": "Complete unfiltered eight-second pilot clips, rescaled to width 640, no audio. Model native video sampling applies.",
+  "caveats": [
+    "Reused development match; synthetic label-derived reference.",
+    "Baseline sees each complete eight-second clip; pipeline sees selected windows. Both are offline, not a streaming-latency test.",
+    "Single invalid VLM output is skipped, not repaired using labels.",
+    "No ground-truth events or commentary enter either generation path.",
+    "Judge sees sparse labels, not video; unsupported is not necessarily false."
+  ],
+  "baseline_selection": "Gemini 3.1 Flash-Lite: lowest current standard input/output unit pricing among available Gemini VLMs checked; 2.0/2.5 retired.",
+  "price_source": "https://cloud.google.com/model-garden/pricing"
+}

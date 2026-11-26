@@ -1,0 +1,447 @@
+{
+  "segments": [
+    {
+      "id": "tenniset_V010_001_000",
+      "clip_id": "tenniset_V010_001",
+      "seconds": 661.08,
+      "center_seconds": 660.1400000000001,
+      "text": "Azarenka hits a backhand groundstroke.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "hit",
+        "action_details": "backhand groundstroke",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_001_001",
+      "clip_id": "tenniset_V010_001",
+      "seconds": 661.5600000000002,
+      "center_seconds": 660.8,
+      "text": "Azarenka hits another backhand groundstroke.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "hit",
+        "action_details": "backhand groundstroke",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_001_002",
+      "clip_id": "tenniset_V010_001",
+      "seconds": 663.16,
+      "center_seconds": 662.28,
+      "text": "Azarenka hits a backhand groundstroke.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "hit",
+        "action_details": "backhand groundstroke",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_001_003",
+      "clip_id": "tenniset_V010_001",
+      "seconds": 663.88,
+      "center_seconds": 662.86,
+      "text": "Azarenka hits a forehand groundstroke in play.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "hit",
+        "action_details": "forehand groundstroke",
+        "consequence": "in play"
+      }
+    },
+    {
+      "id": "tenniset_V010_001_004",
+      "clip_id": "tenniset_V010_001",
+      "seconds": 666.0,
+      "center_seconds": 664.98,
+      "text": "Azarenka hits a backhand groundstroke.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "hit",
+        "action_details": "backhand groundstroke",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_001_005",
+      "clip_id": "tenniset_V010_001",
+      "seconds": 666.32,
+      "center_seconds": 665.46,
+      "text": "Azarenka hits a backhand.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "hit",
+        "action_details": "backhand",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_004_000",
+      "clip_id": "tenniset_V010_004",
+      "seconds": 1156.72,
+      "center_seconds": 1155.7,
+      "text": "Williams hits a forehand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_004_001",
+      "clip_id": "tenniset_V010_004",
+      "seconds": 1157.4,
+      "center_seconds": 1156.4,
+      "text": "Azarenka hits a forehand.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "hit",
+        "action_details": "forehand",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_004_002",
+      "clip_id": "tenniset_V010_004",
+      "seconds": 1158.84,
+      "center_seconds": 1157.7,
+      "text": "Williams hits a backhand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "backhand",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_004_003",
+      "clip_id": "tenniset_V010_004",
+      "seconds": 1159.56,
+      "center_seconds": 1158.42,
+      "text": "Williams hits a forehand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_004_004",
+      "clip_id": "tenniset_V010_004",
+      "seconds": 1160.16,
+      "center_seconds": 1159.02,
+      "text": "Williams hits a forehand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_005_000",
+      "clip_id": "tenniset_V010_005",
+      "seconds": 1321.6000000000001,
+      "center_seconds": 1320.46,
+      "text": "Williams hits a first serve.",
+      "event": {
+        "name": "Williams",
+        "action_base": "serve",
+        "action_details": "first serve",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_005_001",
+      "clip_id": "tenniset_V010_005",
+      "seconds": 1322.56,
+      "center_seconds": 1321.42,
+      "text": "Williams hits a forehand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_005_002",
+      "clip_id": "tenniset_V010_005",
+      "seconds": 1323.4,
+      "center_seconds": 1322.26,
+      "text": "Williams hits a forehand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_005_003",
+      "clip_id": "tenniset_V010_005",
+      "seconds": 1324.0,
+      "center_seconds": 1322.8600000000001,
+      "text": "Williams hits a forehand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_005_004",
+      "clip_id": "tenniset_V010_005",
+      "seconds": 1324.48,
+      "center_seconds": 1323.3400000000001,
+      "text": "Williams hits a forehand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_012_000",
+      "clip_id": "tenniset_V010_012",
+      "seconds": 2476.0,
+      "center_seconds": 2474.94,
+      "text": "Williams hits a forehand volley.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand volley",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_012_001",
+      "clip_id": "tenniset_V010_012",
+      "seconds": 2476.2400000000007,
+      "center_seconds": 2475.3,
+      "text": "Azarenka hits a backhand.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "hit",
+        "action_details": "backhand",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_012_003",
+      "clip_id": "tenniset_V010_012",
+      "seconds": 2477.16,
+      "center_seconds": 2476.12,
+      "text": "Azarenka hits a backhand groundstroke return.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "hit",
+        "action_details": "backhand groundstroke",
+        "consequence": "return"
+      }
+    },
+    {
+      "id": "tenniset_V010_013_000",
+      "clip_id": "tenniset_V010_013",
+      "seconds": 2643.28,
+      "center_seconds": 2642.1400000000003,
+      "text": "Azarenka is preparing to serve.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "serve",
+        "action_details": "preparing to serve",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_013_001",
+      "clip_id": "tenniset_V010_013",
+      "seconds": 2643.64,
+      "center_seconds": 2642.5,
+      "text": "Azarenka bounces the ball.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "serve",
+        "action_details": "ball bounce",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_013_002",
+      "clip_id": "tenniset_V010_013",
+      "seconds": 2644.12,
+      "center_seconds": 2642.98,
+      "text": "Azarenka bounces the ball before serving.",
+      "event": {
+        "name": "Azarenka",
+        "action_base": "hit",
+        "action_details": "bouncing the ball before serving",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_016_000",
+      "clip_id": "tenniset_V010_016",
+      "seconds": 3135.88,
+      "center_seconds": 3134.9,
+      "text": "Williams hits a forehand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_016_001",
+      "clip_id": "tenniset_V010_016",
+      "seconds": 3136.2400000000007,
+      "center_seconds": 3135.2200000000003,
+      "text": "Williams hits a forehand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_016_002",
+      "clip_id": "tenniset_V010_016",
+      "seconds": 3137.6800000000003,
+      "center_seconds": 3136.54,
+      "text": "Williams hits a forehand groundstroke.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand groundstroke",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_016_003",
+      "clip_id": "tenniset_V010_016",
+      "seconds": 3139.36,
+      "center_seconds": 3138.2200000000003,
+      "text": "Williams hits a forehand in play.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand",
+        "consequence": "in play"
+      }
+    },
+    {
+      "id": "tenniset_V010_016_004",
+      "clip_id": "tenniset_V010_016",
+      "seconds": 3139.6,
+      "center_seconds": 3138.58,
+      "text": "Williams hits a forehand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_020_000",
+      "clip_id": "tenniset_V010_020",
+      "seconds": 3798.32,
+      "center_seconds": 3797.1800000000003,
+      "text": "Williams hits a groundstroke.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "groundstroke",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_020_001",
+      "clip_id": "tenniset_V010_020",
+      "seconds": 3798.6800000000003,
+      "center_seconds": 3797.54,
+      "text": "Williams hits a first serve.",
+      "event": {
+        "name": "Williams",
+        "action_base": "serve",
+        "action_details": "first serve",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_020_002",
+      "clip_id": "tenniset_V010_020",
+      "seconds": 3799.04,
+      "center_seconds": 3797.9,
+      "text": "Williams hits a forehand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_020_003",
+      "clip_id": "tenniset_V010_020",
+      "seconds": 3799.52,
+      "center_seconds": 3798.38,
+      "text": "Williams hits a forehand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand",
+        "consequence": null
+      }
+    },
+    {
+      "id": "tenniset_V010_020_004",
+      "clip_id": "tenniset_V010_020",
+      "seconds": 3800.0,
+      "center_seconds": 3798.86,
+      "text": "Williams hits a forehand.",
+      "event": {
+        "name": "Williams",
+        "action_base": "hit",
+        "action_details": "forehand",
+        "consequence": "null"
+      }
+    },
+    {
+      "id": "tenniset_V010_020_005",
+      "clip_id": "tenniset_V010_020",
+      "seconds": 3800.92,
+      "center_seconds": 3799.82,
+      "text": "Williams hits a first serve ace.",
+      "event": {
+        "name": "Williams",
+        "action_base": "serve",
+        "action_details": "first serve",
+        "consequence": "ace"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "id": "tenniset_V010_012_002",
+      "reason": "null or invalid event schema",
+      "raw": [
+        {
+          "name": "Azarenka",
+          "action_base": "hit",
+          "action_details": "backhand",
+          "consequence": "return"
+        }
+      ]
+    }
+  ]
+}

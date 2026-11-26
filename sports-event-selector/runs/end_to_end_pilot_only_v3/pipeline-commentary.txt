@@ -1,0 +1,33 @@
+[00:11:01.080 | frame 16527] Azarenka hits a backhand groundstroke.
+[00:11:01.560 | frame 16539] Azarenka hits another backhand groundstroke.
+[00:11:03.160 | frame 16579] Azarenka hits a backhand groundstroke.
+[00:11:03.880 | frame 16597] Azarenka hits a forehand groundstroke in play.
+[00:11:06.000 | frame 16650] Azarenka hits a backhand groundstroke.
+[00:11:06.320 | frame 16658] Azarenka hits a backhand.
+[00:19:16.720 | frame 28918] Williams hits a forehand.
+[00:19:17.400 | frame 28935] Azarenka hits a forehand.
+[00:19:18.840 | frame 28971] Williams hits a backhand.
+[00:19:19.560 | frame 28989] Williams hits a forehand.
+[00:19:20.160 | frame 29004] Williams hits a forehand.
+[00:22:01.600 | frame 33040] Williams hits a first serve.
+[00:22:02.560 | frame 33064] Williams hits a forehand.
+[00:22:03.400 | frame 33085] Williams hits a forehand.
+[00:22:04.000 | frame 33100] Williams hits a forehand.
+[00:22:04.480 | frame 33112] Williams hits a forehand.
+[00:41:16.000 | frame 61900] Williams hits a forehand volley.
+[00:41:16.240 | frame 61906] Azarenka hits a backhand.
+[00:41:17.160 | frame 61929] Azarenka hits a backhand groundstroke return.
+[00:44:03.280 | frame 66082] Azarenka is preparing to serve.
+[00:44:03.640 | frame 66091] Azarenka bounces the ball.
+[00:44:04.120 | frame 66103] Azarenka bounces the ball before serving.
+[00:52:15.880 | frame 78397] Williams hits a forehand.
+[00:52:16.240 | frame 78406] Williams hits a forehand.
+[00:52:17.680 | frame 78442] Williams hits a forehand groundstroke.
+[00:52:19.360 | frame 78484] Williams hits a forehand in play.
+[00:52:19.600 | frame 78490] Williams hits a forehand.
+[01:03:18.320 | frame 94958] Williams hits a groundstroke.
+[01:03:18.680 | frame 94967] Williams hits a first serve.
+[01:03:19.040 | frame 94976] Williams hits a forehand.
+[01:03:19.520 | frame 94988] Williams hits a forehand.
+[01:03:20.000 | frame 95000] Williams hits a forehand.
+[01:03:20.920 | frame 95023] Williams hits a first serve ace.

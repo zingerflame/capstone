@@ -91,6 +91,9 @@ def load_head(checkpoint):
 
 
 def predict_features(model,state,features,clip):
+    if state.get('output_mode')=='center20':
+        from .center20 import predict
+        return predict(model,state,features,clip)
     with torch.no_grad():logits,_,_=feature_logits(model,features)
     result=decode(logits.sigmoid().numpy(),len(features),budget_for(len(features),state['budget_rate'],
                   state['budget_factor']),state['threshold'],state['consensus'])
@@ -102,6 +105,8 @@ def predict_features(model,state,features,clip):
 
 def evaluate(records,checkpoint,output):
     model,state=load_head(checkpoint);rows=[]
+    if state.get('output_mode')=='center20':
+        raise ValueError('Use center20 center evaluation; legacy frame metrics are not appropriate')
     for _,clip,truth,features in records:
         if clip['split']!='test':continue
         result=predict_features(model,state,features,clip)

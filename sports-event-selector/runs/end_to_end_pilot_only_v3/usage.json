@@ -1,0 +1,38 @@
+{
+  "stages": {
+    "pipeline_llm": {
+      "calls": 33,
+      "input_tokens": 11541,
+      "output_tokens": 243,
+      "thinking_tokens": 0,
+      "seconds": 254.4529999999795,
+      "estimated_usd": 0.0053620874999999995
+    },
+    "judge": {
+      "calls": 48,
+      "input_tokens": 35441,
+      "output_tokens": 14458,
+      "thinking_tokens": 57391,
+      "seconds": 312.28000000014435,
+      "estimated_usd": 0.6998025
+    },
+    "full_video": {
+      "calls": 24,
+      "input_tokens": 86984,
+      "output_tokens": 4254,
+      "thinking_tokens": 0,
+      "seconds": 43.26699999999255,
+      "estimated_usd": 0.028127
+    },
+    "reused_vlm": {
+      "calls": 34,
+      "input_tokens": 842258,
+      "output_tokens": 1392,
+      "thinking_tokens": 0,
+      "seconds": 202.42500000016298,
+      "estimated_usd": 0.350876625
+    }
+  },
+  "note": "Includes reused VLM costs once for pipeline accounting; not recharged in this run. Embedding, preflight, storage and local compute costs excluded. Both paths cover the same 192 seconds of pilot clips.",
+  "pricing_source": "https://cloud.google.com/model-garden/pricing"
+}

@@ -1,0 +1,56 @@
+{
+  "metrics": {
+    "pipeline": {
+      "semantic_soft_recall": 0.8947320555565171,
+      "semantic_soft_precision": 0.8610605213296414,
+      "semantic_soft_f1": 0.8775734222252478,
+      "exact_duplicate_fraction": 0.3333333333333333,
+      "temporal_tolerance_seconds": 3.0,
+      "reference_events": 24,
+      "predicted_segments": 33,
+      "mean_clip_rouge_l": 0.37844501655120266,
+      "judge_weighted_event_recall": 0.21875,
+      "judge_full_event_recall": 0.0,
+      "judge_weighted_precision": 0.1590909090909091,
+      "judge_contradiction_fraction": 0.2878787878787879,
+      "judge_unsupported_fraction": 0.3939393939393939,
+      "judge_mean_fluency": 3.857142857142857,
+      "judge_mean_coherence": 2.9285714285714284,
+      "judge_wins_labeled_clips": 8,
+      "judge_labeled_passes": 14
+    },
+    "baseline": {
+      "semantic_soft_recall": 0.9255029396263975,
+      "semantic_soft_precision": 0.3500915960988227,
+      "semantic_soft_f1": 0.5080153485350992,
+      "exact_duplicate_fraction": 0.6864864864864865,
+      "temporal_tolerance_seconds": 3.0,
+      "reference_events": 24,
+      "predicted_segments": 185,
+      "mean_clip_rouge_l": 0.31508163366932335,
+      "judge_weighted_event_recall": 0.22916666666666666,
+      "judge_full_event_recall": 0.0,
+      "judge_weighted_precision": 0.02972972972972973,
+      "judge_contradiction_fraction": 0.08378378378378379,
+      "judge_unsupported_fraction": 0.8567567567567568,
+      "judge_mean_fluency": 4.208333333333333,
+      "judge_mean_coherence": 3.5208333333333335,
+      "judge_wins_labeled_clips": 6,
+      "judge_labeled_passes": 14
+    }
+  },
+  "judge_model": "gemini-3.5-flash",
+  "embedding_model": "gemini-embedding-001",
+  "judge_order_agreement": 0.5833333333333334,
+  "test_clips": 24,
+  "reference_events": 24,
+  "baseline_full_segments": 185,
+  "scope": "Both systems receive only the same 24 DL-pilot test clips (192 seconds). No other match footage is sent.",
+  "caveats": [
+    "Reused development match; synthetic label-derived reference.",
+    "Baseline sees each complete eight-second clip; pipeline sees selected windows. Both are offline, not a streaming-latency test.",
+    "Single invalid VLM output is skipped, not repaired using labels.",
+    "No ground-truth events or commentary enter either generation path.",
+    "Judge sees sparse labels, not video; unsupported is not necessarily false."
+  ]
+}

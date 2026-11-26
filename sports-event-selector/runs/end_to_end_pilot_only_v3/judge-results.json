@@ -1,0 +1,2057 @@
+[
+  {
+    "clip_id": "tenniset_V010_000",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate A is empty, resulting in null fluency and coherence. Candidate B provides a detailed sequence of play, but since the reference is empty, none of the events can be verified, making them all unsupported. A tie is declared as there is no reference content to evaluate accuracy."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_000_000",
+              "baseline_000_001",
+              "baseline_000_002",
+              "baseline_000_003",
+              "baseline_000_004",
+              "baseline_000_005"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "Candidate B is fluent and coherent, describing a standard tennis rally. However, because the reference is empty, all of its statements are unsupported by the ground truth."
+          },
+          "winner": "tie"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_000_000",
+              "baseline_000_001",
+              "baseline_000_002",
+              "baseline_000_003",
+              "baseline_000_004",
+              "baseline_000_005"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "The reference is empty, so no matches can be made. Candidate A provides a fluent and coherent description of the play, though it remains unverified."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate B is empty."
+          },
+          "winner": "A"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_001",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00009",
+                "candidate_id": "tenniset_V010_001_003",
+                "credit": 0.5
+              },
+              {
+                "reference_id": "V010_hit_00011",
+                "candidate_id": "tenniset_V010_001_004",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [
+              "tenniset_V010_001_000",
+              "tenniset_V010_001_001",
+              "tenniset_V010_001_002"
+            ],
+            "unsupported_ids": [
+              "tenniset_V010_001_005"
+            ],
+            "fluency": 4,
+            "coherence": 3,
+            "reason": "Candidate A correctly identifies two of Azarenka's shots (one forehand, one backhand) with partial credit due to missing spin details. It only focuses on Azarenka, resulting in some contradictions when it misidentifies her forehands as backhands, but it remains relatively coherent."
+          },
+          "B": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00008",
+                "candidate_id": "baseline_001_004",
+                "credit": 0.5
+              },
+              {
+                "reference_id": "V010_hit_00011",
+                "candidate_id": "baseline_001_009",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [
+              "baseline_001_000",
+              "baseline_001_001",
+              "baseline_001_003",
+              "baseline_001_005",
+              "baseline_001_006",
+              "baseline_001_008"
+            ],
+            "unsupported_ids": [
+              "baseline_001_002",
+              "baseline_001_007"
+            ],
+            "fluency": 3,
+            "coherence": 2,
+            "reason": "Candidate B attempts to generate a rapid, alternating sequence of shots every 0.7-0.8 seconds. This results in a high number of contradictions because the actual rally does not match this rigid pattern. It only gets two partial matches and has many incorrect shot types."
+          },
+          "winner": "A"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00008",
+                "candidate_id": "baseline_001_004",
+                "credit": 0.5
+              },
+              {
+                "reference_id": "V010_hit_00011",
+                "candidate_id": "baseline_001_009",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [
+              "baseline_001_000",
+              "baseline_001_001",
+              "baseline_001_003",
+              "baseline_001_005",
+              "baseline_001_006",
+              "baseline_001_008"
+            ],
+            "unsupported_ids": [
+              "baseline_001_002",
+              "baseline_001_007"
+            ],
+            "fluency": 5,
+            "coherence": 3,
+            "reason": "Candidate A matches two events with partial credit (missing spin detail), but contains a high number of contradictions due to rapid, incorrect alternating shot predictions."
+          },
+          "B": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00009",
+                "candidate_id": "tenniset_V010_001_003",
+                "credit": 0.5
+              },
+              {
+                "reference_id": "V010_hit_00011",
+                "candidate_id": "tenniset_V010_001_004",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [
+              "tenniset_V010_001_000",
+              "tenniset_V010_001_001"
+            ],
+            "unsupported_ids": [
+              "tenniset_V010_001_002",
+              "tenniset_V010_001_005"
+            ],
+            "fluency": 4,
+            "coherence": 3,
+            "reason": "Candidate B matches two events with partial credit (missing spin detail). It only tracks Azarenka, but has significantly fewer contradictions than Candidate A."
+          },
+          "winner": "B"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_002",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate A is empty, which matches the empty reference."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_002_000",
+              "baseline_002_001",
+              "baseline_002_002",
+              "baseline_002_003",
+              "baseline_002_004",
+              "baseline_002_005",
+              "baseline_002_006",
+              "baseline_002_007"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "Candidate B provides a detailed description of a rally, but since the reference is empty, these actions cannot be verified and are marked as unsupported."
+          },
+          "winner": "tie"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_002_000",
+              "baseline_002_001",
+              "baseline_002_002",
+              "baseline_002_003",
+              "baseline_002_004",
+              "baseline_002_005",
+              "baseline_002_006",
+              "baseline_002_007"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "The reference is empty. Candidate A generates multiple unsupported shot descriptions, whereas Candidate B correctly remains silent."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate B is empty, which is appropriate since there are no reference events annotated for this clip."
+          },
+          "winner": "B"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_003",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate A is empty, which correctly matches the empty reference."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_003_000",
+              "baseline_003_001",
+              "baseline_003_002",
+              "baseline_003_003",
+              "baseline_003_004",
+              "baseline_003_005",
+              "baseline_003_006",
+              "baseline_003_007",
+              "baseline_003_008",
+              "baseline_003_009",
+              "baseline_003_010",
+              "baseline_003_011",
+              "baseline_003_012"
+            ],
+            "fluency": 5,
+            "coherence": 1,
+            "reason": "Candidate B contains numerous unsupported statements, depicting an unrealistically rapid sequence of shots (every 0.5 seconds) which are not present in the reference."
+          },
+          "winner": "A"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_003_000",
+              "baseline_003_001",
+              "baseline_003_002",
+              "baseline_003_003",
+              "baseline_003_004",
+              "baseline_003_005",
+              "baseline_003_006",
+              "baseline_003_007",
+              "baseline_003_008",
+              "baseline_003_009",
+              "baseline_003_010",
+              "baseline_003_011",
+              "baseline_003_012"
+            ],
+            "fluency": 1,
+            "coherence": 1,
+            "reason": "Candidate A is extremely repetitive, generating physically impossible events (shots every 0.5 seconds) which are completely unsupported by the empty reference."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate B is empty, which correctly avoids generating any unsupported or hallucinated commentary when there are no reference events."
+          },
+          "winner": "B"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_004",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00047",
+                "candidate_id": "tenniset_V010_004_000",
+                "credit": 0.5
+              },
+              {
+                "reference_id": "V010_hit_00048",
+                "candidate_id": "tenniset_V010_004_001",
+                "credit": 0.5
+              },
+              {
+                "reference_id": "V010_hit_00049",
+                "candidate_id": "tenniset_V010_004_002",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "tenniset_V010_004_003",
+              "tenniset_V010_004_004"
+            ],
+            "fluency": 5,
+            "coherence": 4,
+            "reason": "Candidate A successfully matches all three reference events with partial credit (missing spin details). It has a couple of unsupported statements at the end but no contradictions."
+          },
+          "B": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00047",
+                "candidate_id": "baseline_004_001",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [
+              "baseline_004_004",
+              "baseline_004_005"
+            ],
+            "unsupported_ids": [
+              "baseline_004_000",
+              "baseline_004_002",
+              "baseline_004_003",
+              "baseline_004_006",
+              "baseline_004_007",
+              "baseline_004_008",
+              "baseline_004_009"
+            ],
+            "fluency": 5,
+            "coherence": 2,
+            "reason": "Candidate B suffers from rapid-fire hallucinated events (alternating players every 0.7 seconds). It only correctly matches one event, contradicts two others by stating the wrong side (backhand instead of forehand and vice versa), and has numerous unsupported statements."
+          },
+          "winner": "A"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00047",
+                "candidate_id": "baseline_004_001",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [
+              "baseline_004_004",
+              "baseline_004_005"
+            ],
+            "unsupported_ids": [
+              "baseline_004_000",
+              "baseline_004_002",
+              "baseline_004_003",
+              "baseline_004_006",
+              "baseline_004_007",
+              "baseline_004_008",
+              "baseline_004_009"
+            ],
+            "fluency": 3,
+            "coherence": 1,
+            "reason": "Candidate A has a rapid-fire sequence of hits every 0.7 seconds, which is highly unrealistic. It only correctly matches one reference event, while contradicting the other two by stating the wrong shot type (backhand instead of forehand, and vice versa)."
+          },
+          "B": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00047",
+                "candidate_id": "tenniset_V010_004_000",
+                "credit": 0.5
+              },
+              {
+                "reference_id": "V010_hit_00048",
+                "candidate_id": "tenniset_V010_004_001",
+                "credit": 0.5
+              },
+              {
+                "reference_id": "V010_hit_00049",
+                "candidate_id": "tenniset_V010_004_002",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "tenniset_V010_004_003",
+              "tenniset_V010_004_004"
+            ],
+            "fluency": 4,
+            "coherence": 3,
+            "reason": "Candidate B successfully matches all three reference events with the correct player and shot type (missing only the spin details, resulting in partial credit). It has no contradictions."
+          },
+          "winner": "B"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_005",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00070",
+                "candidate_id": "tenniset_V010_005_001",
+                "credit": 0.5
+              },
+              {
+                "reference_id": "V010_hit_00072",
+                "candidate_id": "tenniset_V010_005_004",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [
+              "tenniset_V010_005_000",
+              "tenniset_V010_005_002"
+            ],
+            "unsupported_ids": [
+              "tenniset_V010_005_003"
+            ],
+            "fluency": 4,
+            "coherence": 3,
+            "reason": "Candidate A successfully matches two of the reference events with partial credit (missing spin details). It contains a couple of contradictions, such as calling a shot in the middle of a rally a 'first serve' and misidentifying the player on another shot."
+          },
+          "B": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00070",
+                "candidate_id": "baseline_005_005",
+                "credit": 0.5
+              },
+              {
+                "reference_id": "V010_hit_00071",
+                "candidate_id": "baseline_005_008",
+                "credit": 0.5
+              },
+              {
+                "reference_id": "V010_hit_00072",
+                "candidate_id": "baseline_005_011",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [
+              "baseline_005_002"
+            ],
+            "unsupported_ids": [
+              "baseline_005_000",
+              "baseline_005_001",
+              "baseline_005_003",
+              "baseline_005_004",
+              "baseline_005_006",
+              "baseline_005_007",
+              "baseline_005_009",
+              "baseline_005_010",
+              "baseline_005_012",
+              "baseline_005_013",
+              "baseline_005_014"
+            ],
+            "fluency": 2,
+            "coherence": 1,
+            "reason": "Candidate B uses an extreme 'shotgun' approach, spamming alternating player shots every 0.5 seconds. While this technically matches three reference events with partial credit, it results in a massive number of unsupported/hallucinated statements and extremely poor, robotic fluency and coherence."
+          },
+          "winner": "A"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00070",
+                "candidate_id": "baseline_005_007",
+                "credit": 0.5
+              },
+              {
+                "reference_id": "V010_hit_00071",
+                "candidate_id": "baseline_005_008",
+                "credit": 0.5
+              },
+              {
+                "reference_id": "V010_hit_00072",
+                "candidate_id": "baseline_005_011",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [
+              "baseline_005_002"
+            ],
+            "unsupported_ids": [
+              "baseline_005_000",
+              "baseline_005_001",
+              "baseline_005_003",
+              "baseline_005_004",
+              "baseline_005_005",
+              "baseline_005_006",
+              "baseline_005_009",
+              "baseline_005_010",
+              "baseline_005_012",
+              "baseline_005_013",
+              "baseline_005_014"
+            ],
+            "fluency": 1,
+            "coherence": 1,
+            "reason": "Candidate A is extremely robotic and repetitive, alternating players and strokes every 0.5 seconds. However, it manages to cover three of the reference events with partial credit (missing spin details) and has only one clear contradiction (wrong stroke side for Azarenka at 1320.38)."
+          },
+          "B": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00070",
+                "candidate_id": "tenniset_V010_005_001",
+                "credit": 0.5
+              },
+              {
+                "reference_id": "V010_hit_00072",
+                "candidate_id": "tenniset_V010_005_004",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [
+              "tenniset_V010_005_000",
+              "tenniset_V010_005_002"
+            ],
+            "unsupported_ids": [
+              "tenniset_V010_005_003"
+            ],
+            "fluency": 2,
+            "coherence": 2,
+            "reason": "Candidate B is also highly repetitive, attributing almost all actions to Williams. It correctly matches two events with partial credit, but contains two contradictions: calling a rally hit a serve (s000) and misattributing Azarenka's backhand to Williams (s002)."
+          },
+          "winner": "A"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_006",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate A is empty, which is appropriate given the empty reference. No events are verified."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_006_000",
+              "baseline_006_001"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "Candidate B provides descriptions of Victoria Azarenka sitting on the bench, but these cannot be verified as the reference is empty."
+          },
+          "winner": "tie"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_006_000",
+              "baseline_006_001"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "The reference is empty. Candidate A provides a fluent and coherent description of the scene, which contains unsupported but not contradicted details. Candidate B is empty."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate B is empty."
+          },
+          "winner": "A"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_007",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate A is empty, which matches the empty reference."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_007_000",
+              "baseline_007_001",
+              "baseline_007_002",
+              "baseline_007_003",
+              "baseline_007_004",
+              "baseline_007_005",
+              "baseline_007_006"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "Candidate B provides a detailed sequence of play, but since the reference is empty, these actions are unsupported."
+          },
+          "winner": "tie"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_007_000",
+              "baseline_007_001",
+              "baseline_007_002",
+              "baseline_007_003",
+              "baseline_007_004",
+              "baseline_007_005",
+              "baseline_007_006"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "The reference is empty, so no matches can be verified. Candidate A provides a highly fluent and coherent description of a tennis rally, though all details remain unsupported by the empty reference."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate B is completely empty."
+          },
+          "winner": "A"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_008",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate A is empty, so there are no matches, contradictions, or unsupported statements."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_008_000",
+              "baseline_008_001",
+              "baseline_008_002",
+              "baseline_008_003",
+              "baseline_008_004",
+              "baseline_008_005",
+              "baseline_008_006"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "Candidate B provides a detailed description of a rally, but since the reference is empty, all of its statements are classified as unsupported."
+          },
+          "winner": "tie"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_008_000",
+              "baseline_008_001",
+              "baseline_008_002",
+              "baseline_008_003",
+              "baseline_008_004",
+              "baseline_008_005",
+              "baseline_008_006"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "The reference is empty, so no matches can be made. Candidate A provides a fluent and coherent description of the rally, but these details cannot be verified against the empty reference. Candidate B is completely empty."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate B is empty, resulting in null fluency and coherence."
+          },
+          "winner": "tie"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_009",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate A is empty, which correctly reflects the empty reference."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_009_000",
+              "baseline_009_001",
+              "baseline_009_002",
+              "baseline_009_003",
+              "baseline_009_004",
+              "baseline_009_005",
+              "baseline_009_006",
+              "baseline_009_007",
+              "baseline_009_008",
+              "baseline_009_009",
+              "baseline_009_010"
+            ],
+            "fluency": 5,
+            "coherence": 3,
+            "reason": "Candidate B contains numerous repetitive and unsupported statements since the reference is empty."
+          },
+          "winner": "A"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_009_000",
+              "baseline_009_001",
+              "baseline_009_002",
+              "baseline_009_003",
+              "baseline_009_004",
+              "baseline_009_005",
+              "baseline_009_006",
+              "baseline_009_007",
+              "baseline_009_008",
+              "baseline_009_009",
+              "baseline_009_010"
+            ],
+            "fluency": 3,
+            "coherence": 2,
+            "reason": "Candidate A generates a highly repetitive and robotic sequence of events that are completely unsupported by the empty reference. Candidate B correctly remains silent."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate B is empty, which is appropriate given the empty reference."
+          },
+          "winner": "B"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_010",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate A is empty."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_010_000"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "Candidate B provides a fluent and coherent description of the screen statistics, which is unsupported due to the empty reference but not contradictory."
+          },
+          "winner": "B"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_010_000"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "The reference is empty. Candidate A provides a fluent description of the screen displaying statistics, which is unsupported by the empty reference but not contradictory. Candidate B is empty.",
+            "score": 0.0
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate B is empty.",
+            "score": 0.0
+          },
+          "winner": "tie"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_011",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate A is empty, and since the reference is also empty, there are no events to match or evaluate."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_011_000",
+              "baseline_011_001"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "Candidate B provides fluent and coherent commentary, but because the reference is empty, these details cannot be verified and are classified as unsupported."
+          },
+          "winner": "tie"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_011_000",
+              "baseline_011_001"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "Candidate A provides a fluent and coherent description of a serve and return, but since the reference is empty, these events cannot be verified and are marked as unsupported."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate B is empty."
+          },
+          "winner": "tie"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_012",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00147",
+                "candidate_id": "tenniset_V010_012_000",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [
+              "tenniset_V010_012_001",
+              "tenniset_V010_012_003"
+            ],
+            "unsupported_ids": [],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "Candidate A correctly identifies Williams hitting a forehand, but incorrectly describes it as a volley (reference is a topspin forehand). It also incorrectly describes Azarenka's forehand as a backhand in two subsequent segments."
+          },
+          "B": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00147",
+                "candidate_id": "baseline_012_000",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [
+              "baseline_012_001",
+              "baseline_012_003"
+            ],
+            "unsupported_ids": [
+              "baseline_012_002"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "Candidate B correctly identifies Williams' forehand with very accurate timing. However, it incorrectly describes Azarenka's forehand as a backhand in two segments, and has an extra unsupported segment for Williams."
+          },
+          "winner": "B"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00147",
+                "candidate_id": "baseline_012_000",
+                "credit": 0.5
+              },
+              {
+                "reference_id": "V010_hit_00148",
+                "candidate_id": "baseline_012_001",
+                "credit": 0.0
+              }
+            ],
+            "contradictory_ids": [
+              "baseline_012_001"
+            ],
+            "unsupported_ids": [
+              "baseline_012_002",
+              "baseline_012_003"
+            ],
+            "fluency": 4,
+            "coherence": 3,
+            "reason": "Candidate A correctly identifies the first shot by Williams as a forehand, missing only the 'topspin' detail (0.5 credit). It incorrectly identifies the second shot by Azarenka as a backhand instead of a forehand, which is a contradiction."
+          },
+          "B": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00147",
+                "candidate_id": "tenniset_V010_012_000",
+                "credit": 0.0
+              },
+              {
+                "reference_id": "V010_hit_00148",
+                "candidate_id": "tenniset_V010_012_001",
+                "credit": 0.0
+              }
+            ],
+            "contradictory_ids": [
+              "tenniset_V010_012_000",
+              "tenniset_V010_012_001"
+            ],
+            "unsupported_ids": [
+              "tenniset_V010_012_003"
+            ],
+            "fluency": 4,
+            "coherence": 3,
+            "reason": "Candidate B has contradictions for both events: it calls Williams' topspin forehand a 'forehand volley' and Azarenka's forehand a 'backhand'."
+          },
+          "winner": "A"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_013",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "tenniset_V010_013_000",
+              "tenniset_V010_013_001",
+              "tenniset_V010_013_002"
+            ],
+            "fluency": 5,
+            "coherence": 4,
+            "reason": "The reference is empty, so no matches can be made. Candidate A provides a coherent description of a player preparing to serve, though it is somewhat repetitive."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_013_000",
+              "baseline_013_001",
+              "baseline_013_002",
+              "baseline_013_003",
+              "baseline_013_004",
+              "baseline_013_005",
+              "baseline_013_006",
+              "baseline_013_007",
+              "baseline_013_008",
+              "baseline_013_009"
+            ],
+            "fluency": 5,
+            "coherence": 2,
+            "reason": "The reference is empty, so no matches can be made. Candidate B describes an unrealistically rapid sequence of shots (every 0.7-0.9 seconds), which is highly incoherent for a tennis rally."
+          },
+          "winner": "tie"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_013_000",
+              "baseline_013_001",
+              "baseline_013_002",
+              "baseline_013_003",
+              "baseline_013_004",
+              "baseline_013_005",
+              "baseline_013_006",
+              "baseline_013_007",
+              "baseline_013_008",
+              "baseline_013_009"
+            ],
+            "fluency": 5,
+            "coherence": 1,
+            "reason": "Candidate A describes an impossible sequence of 10 shots within 7 seconds (less than 1 second per shot), which is physically unrealistic for a tennis rally, leading to very poor coherence. Since the reference is empty, no matches can be made."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "tenniset_V010_013_000",
+              "tenniset_V010_013_001",
+              "tenniset_V010_013_002"
+            ],
+            "fluency": 5,
+            "coherence": 4,
+            "reason": "Candidate B describes a realistic sequence of preparing to serve and bouncing the ball. Since the reference is empty, no matches can be made."
+          },
+          "winner": "B"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_014",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate A is empty, resulting in null fluency and coherence. Candidate B contains descriptions that cannot be verified due to the empty reference, but they are fluent and coherent."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_014_000",
+              "baseline_014_001"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "Candidate B provides fluent and coherent descriptions, but they are classified as unsupported because the reference is empty."
+          },
+          "winner": "tie"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_014_000",
+              "baseline_014_001"
+            ],
+            "fluency": 5,
+            "coherence": 4,
+            "reason": "The reference is empty, so Candidate A's statements cannot be verified and are marked as unsupported, though they are fluent and coherent."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate B is empty."
+          },
+          "winner": "tie"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_015",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate A is empty, which matches the empty reference."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_015_000",
+              "baseline_015_001",
+              "baseline_015_002",
+              "baseline_015_003",
+              "baseline_015_004",
+              "baseline_015_005",
+              "baseline_015_006",
+              "baseline_015_007",
+              "baseline_015_008",
+              "baseline_015_009",
+              "baseline_015_010",
+              "baseline_015_011",
+              "baseline_015_012",
+              "baseline_015_013",
+              "baseline_015_014",
+              "baseline_015_015"
+            ],
+            "fluency": 5,
+            "coherence": 4,
+            "reason": "Candidate B provides a highly detailed commentary, but since the reference is empty, all of its statements are unsupported."
+          },
+          "winner": "tie"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_015_000",
+              "baseline_015_001",
+              "baseline_015_002",
+              "baseline_015_003",
+              "baseline_015_004",
+              "baseline_015_005",
+              "baseline_015_006",
+              "baseline_015_007",
+              "baseline_015_008",
+              "baseline_015_009",
+              "baseline_015_010",
+              "baseline_015_011",
+              "baseline_015_012",
+              "baseline_015_013",
+              "baseline_015_014",
+              "baseline_015_015"
+            ],
+            "fluency": 5,
+            "coherence": 4,
+            "reason": "The reference is empty, so all of Candidate A's detailed descriptions of the rally are unsupported by the ground truth."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate B is empty, which correctly aligns with the empty reference."
+          },
+          "winner": "B"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_016",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00197",
+                "candidate_id": "tenniset_V010_016_000",
+                "credit": 0.5
+              },
+              {
+                "reference_id": "V010_hit_00199",
+                "candidate_id": "tenniset_V010_016_001",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [
+              "tenniset_V010_016_003",
+              "tenniset_V010_016_004"
+            ],
+            "unsupported_ids": [
+              "tenniset_V010_016_002"
+            ],
+            "fluency": 3,
+            "coherence": 2,
+            "reason": "Candidate A correctly identifies two of Williams' forehands, though it misses the spin detail. It incorrectly identifies her backhand at the end of the clip as a forehand, leading to contradictions. However, it is much more coherent than Candidate B."
+          },
+          "B": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00197",
+                "candidate_id": "baseline_016_000",
+                "credit": 0.5
+              },
+              {
+                "reference_id": "V010_hit_00199",
+                "candidate_id": "baseline_016_006",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [
+              "baseline_016_003",
+              "baseline_016_009",
+              "baseline_016_012"
+            ],
+            "unsupported_ids": [
+              "baseline_016_001",
+              "baseline_016_002",
+              "baseline_016_004",
+              "baseline_016_005",
+              "baseline_016_007",
+              "baseline_016_008",
+              "baseline_016_010",
+              "baseline_016_011",
+              "baseline_016_013",
+              "baseline_016_014"
+            ],
+            "fluency": 1,
+            "coherence": 1,
+            "reason": "Candidate B spams predictions every 0.5 seconds, resulting in an extremely high number of unsupported and contradictory statements, making it completely unreadable."
+          },
+          "winner": "A"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00197",
+                "candidate_id": "baseline_016_000",
+                "credit": 0.5
+              },
+              {
+                "reference_id": "V010_hit_00199",
+                "candidate_id": "baseline_016_006",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [
+              "baseline_016_003",
+              "baseline_016_009",
+              "baseline_016_012"
+            ],
+            "unsupported_ids": [
+              "baseline_016_001",
+              "baseline_016_002",
+              "baseline_016_004",
+              "baseline_016_005",
+              "baseline_016_007",
+              "baseline_016_008",
+              "baseline_016_010",
+              "baseline_016_011",
+              "baseline_016_013",
+              "baseline_016_014"
+            ],
+            "fluency": 1,
+            "coherence": 1,
+            "reason": "Candidate A is extremely repetitive, generating a commentary line every 0.5 seconds. It contains numerous unsupported statements and three explicit contradictions regarding the stroke type (backhand vs forehand)."
+          },
+          "B": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00197",
+                "candidate_id": "tenniset_V010_016_000",
+                "credit": 0.5
+              },
+              {
+                "reference_id": "V010_hit_00199",
+                "candidate_id": "tenniset_V010_016_001",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [
+              "tenniset_V010_016_004"
+            ],
+            "unsupported_ids": [
+              "tenniset_V010_016_002",
+              "tenniset_V010_016_003"
+            ],
+            "fluency": 2,
+            "coherence": 1,
+            "reason": "Candidate B is also repetitive and only attributes actions to Williams, but it has far fewer unsupported statements and only one contradiction compared to A."
+          },
+          "winner": "B"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_017",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate A is empty, which is appropriate given the empty reference, but yields null for fluency and coherence."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_017_000"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "Candidate B provides a fluent and coherent description, but it cannot be verified or matched as the reference is empty."
+          },
+          "winner": "tie"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_017_000"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "The reference is empty, so Candidate A's comment is unsupported, though it is fluent and coherent."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate B is empty."
+          },
+          "winner": "tie"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_018",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate A is empty and provides no coverage."
+          },
+          "B": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00219",
+                "candidate_id": "baseline_018_003",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_018_000",
+              "baseline_018_001",
+              "baseline_018_002",
+              "baseline_018_004",
+              "baseline_018_005",
+              "baseline_018_006",
+              "baseline_018_007",
+              "baseline_018_008",
+              "baseline_018_009",
+              "baseline_018_010"
+            ],
+            "fluency": 5,
+            "coherence": 3,
+            "reason": "Candidate B matches the reference event with Azarenka's forehand at s003 within the 3-second window, receiving partial credit (0.5) due to the missing topspin detail. It contains a large number of unsupported hallucinated strokes, but is preferred over the empty candidate due to providing some factual coverage."
+          },
+          "winner": "B"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00219",
+                "candidate_id": "baseline_018_003",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [
+              "baseline_018_000",
+              "baseline_018_001"
+            ],
+            "unsupported_ids": [
+              "baseline_018_002",
+              "baseline_018_004",
+              "baseline_018_005",
+              "baseline_018_006",
+              "baseline_018_007",
+              "baseline_018_008",
+              "baseline_018_009",
+              "baseline_018_010"
+            ],
+            "fluency": 5,
+            "coherence": 3,
+            "reason": "Candidate A matches the reference forehand with s003 (0.5 credit due to missing spin detail). However, it contains contradictory statements (s000, s001) claiming a serve occurred right after the forehand. Candidate B is empty."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate B is empty and contains no commentary."
+          },
+          "winner": "A"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_019",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate A is empty, which is appropriate given the empty reference."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_019_000",
+              "baseline_019_001",
+              "baseline_019_002",
+              "baseline_019_003",
+              "baseline_019_004",
+              "baseline_019_005",
+              "baseline_019_006",
+              "baseline_019_007",
+              "baseline_019_008",
+              "baseline_019_009",
+              "baseline_019_010",
+              "baseline_019_011",
+              "baseline_019_012",
+              "baseline_019_013",
+              "baseline_019_014",
+              "baseline_019_015",
+              "baseline_019_016",
+              "baseline_019_017"
+            ],
+            "fluency": 1,
+            "coherence": 1,
+            "reason": "Candidate B is extremely repetitive and unrealistic, generating rapid-fire shots every 0.4 seconds, none of which are supported by the reference."
+          },
+          "winner": "A"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_019_000",
+              "baseline_019_001",
+              "baseline_019_002",
+              "baseline_019_003",
+              "baseline_019_004",
+              "baseline_019_005",
+              "baseline_019_006",
+              "baseline_019_007",
+              "baseline_019_008",
+              "baseline_019_009",
+              "baseline_019_010",
+              "baseline_019_011",
+              "baseline_019_012",
+              "baseline_019_013",
+              "baseline_019_014",
+              "baseline_019_015",
+              "baseline_019_016",
+              "baseline_019_017"
+            ],
+            "fluency": 1,
+            "coherence": 1,
+            "reason": "The reference is empty. Candidate A contains an extremely repetitive, robotic, and unrealistic sequence of shots occurring every 0.4 seconds, which is highly disfluent and entirely unsupported."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate B is empty, which correctly reflects the lack of annotated events in the reference."
+          },
+          "winner": "B"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_020",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00249",
+                "candidate_id": "tenniset_V010_020_000",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [
+              "tenniset_V010_020_002"
+            ],
+            "unsupported_ids": [
+              "tenniset_V010_020_001",
+              "tenniset_V010_020_003",
+              "tenniset_V010_020_004",
+              "tenniset_V010_020_005"
+            ],
+            "fluency": 4,
+            "coherence": 3,
+            "reason": "Candidate A correctly identifies Williams hitting a groundstroke (matching the backhand topspin reference) with partial credit. It has one contradiction where it attributes Azarenka's backhand to Williams as a forehand. It also hallucinates Williams serving and hitting an ace."
+          },
+          "B": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00250",
+                "candidate_id": "baseline_020_007",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [
+              "baseline_020_006"
+            ],
+            "unsupported_ids": [
+              "baseline_020_000",
+              "baseline_020_001",
+              "baseline_020_002",
+              "baseline_020_003",
+              "baseline_020_004",
+              "baseline_020_005",
+              "baseline_020_008",
+              "baseline_020_009",
+              "baseline_020_010"
+            ],
+            "fluency": 3,
+            "coherence": 2,
+            "reason": "Candidate B is extremely spammy, generating a hit every 0.7 seconds which is physically impossible in tennis. It manages to match one backhand by Azarenka with partial credit, but has a contradiction on Williams's backhand (calling it a forehand) and a massive amount of unsupported rapid-fire commentary."
+          },
+          "winner": "A"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00250",
+                "candidate_id": "baseline_020_007",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [
+              "baseline_020_006"
+            ],
+            "unsupported_ids": [
+              "baseline_020_000",
+              "baseline_020_001",
+              "baseline_020_002",
+              "baseline_020_003",
+              "baseline_020_004",
+              "baseline_020_005",
+              "baseline_020_008",
+              "baseline_020_009",
+              "baseline_020_010"
+            ],
+            "fluency": 3,
+            "coherence": 2,
+            "reason": "Candidate A correctly alternates players in a rally format, though it spams events at an unrealistic frequency (every 0.7 seconds). It matches one reference event with partial credit (missing spin detail) and has one contradiction (claiming a forehand when the reference is a backhand)."
+          },
+          "B": {
+            "matches": [
+              {
+                "reference_id": "V010_hit_00249",
+                "candidate_id": "tenniset_V010_020_000",
+                "credit": 0.5
+              }
+            ],
+            "contradictory_ids": [
+              "tenniset_V010_020_001",
+              "tenniset_V010_020_002"
+            ],
+            "unsupported_ids": [
+              "tenniset_V010_020_003",
+              "tenniset_V010_020_004",
+              "tenniset_V010_020_005"
+            ],
+            "fluency": 3,
+            "coherence": 1,
+            "reason": "Candidate B spams events at an unrealistic frequency and attributes every single action to Williams, completely failing to capture the alternating nature of the rally. It has multiple contradictions, including claiming Williams served during Azarenka's service game."
+          },
+          "winner": "A"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_021",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate A is empty, which matches the empty reference."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_021_000",
+              "baseline_021_001"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "Candidate B contains descriptions of Serena Williams serving, which are unsupported by the empty reference but not verified false."
+          },
+          "winner": "tie"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_021_000",
+              "baseline_021_001"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "The reference is empty, so Candidate A's commentary is unsupported but contains no contradictions. The text is fluent and coherent."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate B is empty."
+          },
+          "winner": "tie"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_022",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate A is empty."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_022_000"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "Candidate B contains a fluent statement, but it cannot be verified as the reference is empty."
+          },
+          "winner": "tie"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_022_000"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "The reference is empty, so no matches can be verified. Candidate A provides a grammatically correct and coherent description, but it remains unsupported by the empty reference."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate B is empty."
+          },
+          "winner": "tie"
+        }
+      }
+    ]
+  },
+  {
+    "clip_id": "tenniset_V010_023",
+    "passes": [
+      {
+        "assignment": {
+          "A": "pipeline",
+          "B": "baseline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate A is empty, which matches the empty reference."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_023_000",
+              "baseline_023_001"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "Candidate B provides fluent descriptions of the players shaking hands and celebrating, but these cannot be verified as the reference is empty."
+          },
+          "winner": "tie"
+        }
+      },
+      {
+        "assignment": {
+          "A": "baseline",
+          "B": "pipeline"
+        },
+        "result": {
+          "A": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [
+              "baseline_023_000",
+              "baseline_023_001"
+            ],
+            "fluency": 5,
+            "coherence": 5,
+            "reason": "The reference is empty, so no matches can be established. Candidate A provides fluent and coherent descriptions of the action, which are classified as unsupported due to the lack of reference labels."
+          },
+          "B": {
+            "matches": [],
+            "contradictory_ids": [],
+            "unsupported_ids": [],
+            "fluency": null,
+            "coherence": null,
+            "reason": "Candidate B is empty."
+          },
+          "winner": "A"
+        }
+      }
+    ]
+  }
+]
