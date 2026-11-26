@@ -1,0 +1,25 @@
+2026-11-26 10:57:41,711 [INFO] Log file created: logs/run_20261126_105741.log
+2026-11-26 10:57:41,718 [INFO] Model: gemini-3.5-flash-lite | Commentary interval: 5s
+2026-11-26 10:57:41,804 [INFO] Launching Gradio demo
+2026-11-26 10:57:41,931 [INFO] HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-11-26 10:57:41,980 [INFO] HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-11-26 10:57:42,250 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-11-26 10:57:42,851 [INFO] HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-11-26 10:57:43,180 [INFO] HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-11-26 10:57:43,443 [INFO] HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2026-11-26 10:57:44,610 [INFO] HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-11-26 11:17:23,661 [ERROR] Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\jzhang\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-11-26 11:18:41,108 [INFO] Timestamp 'Q3 1:45' (game clock): 4 plays up to 3rd Quarter 1:47
+2026-11-26 11:18:41,166 [INFO] AFC is enabled with max remote calls: 10.
+2026-11-26 11:18:41,171 [WARNING] Direct use of automatic function calling (AFC) in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream. Similarly, direct use of AFC in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message.
+2026-11-26 11:18:42,566 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-11-26 11:18:42,664 [INFO] ESPN round: first token in 1.55s
+2026-11-26 11:18:42,696 [INFO] ESPN round: streaming done in 1.59s
+2026-11-26 11:20:15,895 [INFO] Gradio demo exited

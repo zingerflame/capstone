@@ -1,0 +1,9 @@
+2026-11-26 11:00:54,637 [INFO] Log file created: logs/run_20261126_110054.log
+2026-11-26 11:00:54,645 [INFO] Model: gemini-3.5-flash-lite | Commentary interval: 5s
+2026-11-26 11:00:55,524 [INFO] Timestamp '30' (game clock): 2 plays up to 25'
+2026-11-26 11:00:55,869 [INFO] Timestamp '60' (game clock): 2 plays up to 59'
+2026-11-26 11:00:56,192 [INFO] Timestamp 'HT' (game clock): 4 plays up to 37'
+2026-11-26 11:00:56,534 [INFO] Timestamp '89' (game clock): 2 plays up to 77'
+2026-11-26 11:00:56,846 [INFO] Timestamp '10:50 AM' (real time Thu Nov 26, 10:50 AM): 2 plays up to 59'
+2026-11-26 11:00:57,141 [INFO] Timestamp '11:59 PM' (real time Thu Nov 26, 11:59 PM): 2 plays up to 77'
+2026-11-26 11:00:57,995 [INFO] Timestamp '70' (game clock): 4 plays up to 70'

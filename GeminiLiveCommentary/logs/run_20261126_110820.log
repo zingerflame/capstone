@@ -1,0 +1,11 @@
+2026-11-26 11:08:20,118 [INFO] Log file created: logs/run_20261126_110820.log
+2026-11-26 11:08:20,118 [INFO] Model: gemini-3.5-flash-lite | Commentary interval: 5s
+2026-11-26 11:08:20,645 [INFO] Soccer running stats: no full commentary for this match, counting key events instead
+2026-11-26 11:08:20,645 [INFO] Timestamp '13' (game clock): 1 plays up to 12'
+2026-11-26 11:08:21,054 [INFO] Soccer running stats: no full commentary for this match, counting key events instead
+2026-11-26 11:08:21,058 [INFO] Timestamp '40' (game clock): 4 plays up to 37'
+2026-11-26 11:08:21,436 [INFO] Soccer running stats: no full commentary for this match, counting key events instead
+2026-11-26 11:08:21,437 [INFO] Timestamp '69' (game clock): 3 plays up to 68'
+2026-11-26 11:08:21,798 [INFO] Soccer running stats: no full commentary for this match, counting key events instead
+2026-11-26 11:08:21,800 [INFO] Timestamp 'FT' (game clock): 4 plays up to 79'
+2026-11-26 11:08:22,283 [INFO] Timestamp '67' (game clock): 4 plays up to 67'

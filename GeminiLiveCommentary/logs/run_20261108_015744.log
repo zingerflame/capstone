@@ -1,0 +1,10 @@
+2026-11-08 01:57:44,100 [INFO] Log file created: logs/run_20261108_015744.log
+2026-11-08 01:57:44,100 [INFO] Model: gemini-3.5-flash-lite | Commentary interval: 5s
+2026-11-08 01:57:44,441 [INFO] Starting live commentary. Mode: ESPN match data | Video: None | Sport: soccer | Event: 401892139
+2026-11-08 01:57:44,442 [INFO] ESPN commentary thread started (attach frame: False)
+2026-11-08 01:57:52,577 [INFO] ESPN poll 1: fetched in 0.13s (45'+4')
+2026-11-08 01:58:00,698 [INFO] ESPN poll 2: fetched in 0.11s (45'+4')
+2026-11-08 01:58:00,699 [INFO] ESPN poll 2: nothing new (45'+4') — skipping Gemini
+2026-11-08 01:58:08,917 [INFO] ESPN poll 3: fetched in 0.21s (45'+4')
+2026-11-08 01:58:08,917 [INFO] ESPN poll 3: nothing new (45'+4') — skipping Gemini
+2026-11-08 01:58:16,925 [INFO] ESPN loop ended after 3 polls, 2 Gemini calls

@@ -1,0 +1,48 @@
+2026-10-25 11:05:55,935 [INFO] Log file created: logs/run_20261025_110555.log
+2026-10-25 11:05:55,936 [INFO] Model: gemini-3.5-flash-lite | Commentary interval: 5s
+2026-10-25 11:05:55,936 [INFO] Launching Gradio demo
+2026-10-25 11:05:56,306 [INFO] HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-10-25 11:05:56,340 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-10-25 11:05:57,137 [INFO] HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-10-25 11:05:57,389 [INFO] HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-10-25 11:05:57,702 [INFO] HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2026-10-25 11:06:00,195 [INFO] HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-10-25 11:06:50,192 [INFO] Starting live commentary. Mode: ESPN match data | Video: None | Event: 401878765
+2026-10-25 11:06:50,208 [INFO] ESPN commentary thread started (attach frame: False)
+2026-10-25 11:06:50,316 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-25 11:06:50,317 [WARNING] Direct use of automatic function calling (AFC) in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream. Similarly, direct use of AFC in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message.
+2026-10-25 11:06:51,042 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-10-25 11:06:51,188 [INFO] ESPN round: first token in 0.99s
+2026-10-25 11:06:51,290 [INFO] ESPN round: streaming done in 1.10s
+2026-10-25 11:07:05,444 [INFO] ESPN poll 1: fetched in 0.14s (47')
+2026-10-25 11:07:05,445 [INFO] ESPN poll 1: no new events at 47' — skipping Gemini
+2026-10-25 11:07:19,683 [INFO] ESPN poll 2: fetched in 0.23s (48')
+2026-10-25 11:07:19,683 [INFO] ESPN poll 2: no new events at 48' — skipping Gemini
+2026-10-25 11:07:33,828 [INFO] ESPN poll 3: fetched in 0.13s (48')
+2026-10-25 11:07:33,828 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-25 11:07:34,591 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-10-25 11:07:34,593 [INFO] ESPN round: first token in 0.76s
+2026-10-25 11:07:34,803 [INFO] ESPN round: streaming done in 0.98s
+2026-10-25 11:07:48,931 [INFO] ESPN poll 4: fetched in 0.12s (48')
+2026-10-25 11:07:48,934 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-25 11:07:49,447 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-10-25 11:07:49,450 [INFO] ESPN round: first token in 0.52s
+2026-10-25 11:07:49,767 [INFO] ESPN round: streaming done in 0.83s
+2026-10-25 11:08:03,972 [INFO] ESPN poll 5: fetched in 0.20s (48')
+2026-10-25 11:08:03,973 [INFO] ESPN poll 5: no new events at 48' — skipping Gemini
+2026-10-25 11:08:18,149 [INFO] ESPN poll 6: fetched in 0.16s (48')
+2026-10-25 11:08:18,149 [INFO] ESPN poll 6: no new events at 48' — skipping Gemini
+2026-10-25 11:08:32,307 [INFO] ESPN poll 7: fetched in 0.14s (49')
+2026-10-25 11:08:32,309 [INFO] ESPN poll 7: no new events at 49' — skipping Gemini
+2026-10-25 11:08:46,441 [INFO] ESPN poll 8: fetched in 0.13s (49')
+2026-10-25 11:08:46,442 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-25 11:08:49,413 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-10-25 11:08:49,416 [INFO] ESPN round: first token in 2.97s
+2026-10-25 11:08:49,707 [INFO] ESPN round: streaming done in 3.26s
+2026-10-25 11:09:03,954 [INFO] ESPN poll 9: fetched in 0.24s (49')
+2026-10-25 11:09:03,957 [INFO] ESPN poll 9: no new events at 49' — skipping Gemini
+2026-10-25 11:09:18,080 [INFO] ESPN poll 10: fetched in 0.12s (50')
+2026-10-25 11:09:18,081 [INFO] ESPN poll 10: no new events at 50' — skipping Gemini
+2026-10-25 11:09:21,463 [INFO] Stop requested by user
+2026-10-25 11:09:21,463 [INFO] is_running set to False — threads will exit on next cycle
+2026-10-25 11:09:32,087 [INFO] ESPN loop ended after 10 polls, 4 Gemini calls

@@ -1,0 +1,73 @@
+2026-11-15 11:03:14,884 [INFO] Log file created: logs/run_20261115_110314.log
+2026-11-15 11:03:14,885 [INFO] Model: gemini-3.5-flash-lite | Commentary interval: 5s
+2026-11-15 11:03:14,885 [INFO] Launching Gradio demo
+2026-11-15 11:03:15,060 [INFO] HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-11-15 11:03:15,197 [INFO] HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-11-15 11:03:15,374 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-11-15 11:03:15,839 [INFO] HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-11-15 11:03:16,121 [INFO] HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-11-15 11:03:16,442 [INFO] HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2026-11-15 11:03:17,743 [INFO] HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-11-15 11:08:19,768 [INFO] Starting live commentary. Mode: ESPN match data | Video: None | Sport: college-baseball | Event: 401874453
+2026-11-15 11:08:19,786 [INFO] ESPN replay: 590 plays in 169 updates at 4.0s each
+2026-11-15 11:08:19,790 [INFO] ESPN commentary thread started (attach frame: False)
+2026-11-15 11:08:20,043 [INFO] AFC is enabled with max remote calls: 10.
+2026-11-15 11:08:20,081 [WARNING] Direct use of automatic function calling (AFC) in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream. Similarly, direct use of AFC in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message.
+2026-11-15 11:08:20,963 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-11-15 11:08:21,198 [INFO] ESPN round: first token in 1.41s
+2026-11-15 11:08:21,277 [INFO] ESPN round: streaming done in 1.49s
+2026-11-15 11:08:23,797 [INFO] AFC is enabled with max remote calls: 10.
+2026-11-15 11:08:24,368 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-11-15 11:08:24,372 [INFO] ESPN round: first token in 0.58s
+2026-11-15 11:08:24,711 [INFO] ESPN round: streaming done in 0.91s
+2026-11-15 11:08:27,807 [INFO] AFC is enabled with max remote calls: 10.
+2026-11-15 11:08:28,214 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-11-15 11:08:28,217 [INFO] ESPN round: first token in 0.41s
+2026-11-15 11:08:28,432 [INFO] ESPN round: streaming done in 0.63s
+2026-11-15 11:08:31,825 [INFO] AFC is enabled with max remote calls: 10.
+2026-11-15 11:08:32,635 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-11-15 11:08:32,645 [INFO] ESPN round: first token in 0.82s
+2026-11-15 11:08:32,769 [INFO] ESPN round: streaming done in 0.95s
+2026-11-15 11:08:35,828 [INFO] AFC is enabled with max remote calls: 10.
+2026-11-15 11:08:36,297 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-11-15 11:08:36,298 [INFO] ESPN round: first token in 0.47s
+2026-11-15 11:08:36,606 [INFO] ESPN round: streaming done in 0.78s
+2026-11-15 11:08:39,840 [INFO] AFC is enabled with max remote calls: 10.
+2026-11-15 11:08:40,531 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-11-15 11:08:40,535 [INFO] ESPN round: first token in 0.70s
+2026-11-15 11:08:40,732 [INFO] ESPN round: streaming done in 0.89s
+2026-11-15 11:08:43,854 [INFO] AFC is enabled with max remote calls: 10.
+2026-11-15 11:08:44,336 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-11-15 11:08:44,338 [INFO] ESPN round: first token in 0.48s
+2026-11-15 11:08:44,459 [INFO] ESPN round: streaming done in 0.61s
+2026-11-15 11:08:47,859 [INFO] AFC is enabled with max remote calls: 10.
+2026-11-15 11:08:48,593 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-11-15 11:08:48,597 [INFO] ESPN round: first token in 0.74s
+2026-11-15 11:08:48,830 [INFO] ESPN round: streaming done in 0.97s
+2026-11-15 11:08:51,865 [INFO] AFC is enabled with max remote calls: 10.
+2026-11-15 11:08:52,539 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-11-15 11:08:52,540 [INFO] ESPN round: first token in 0.67s
+2026-11-15 11:08:52,666 [INFO] ESPN round: streaming done in 0.80s
+2026-11-15 11:08:55,874 [INFO] AFC is enabled with max remote calls: 10.
+2026-11-15 11:08:56,378 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-11-15 11:08:56,380 [INFO] ESPN round: first token in 0.51s
+2026-11-15 11:08:56,617 [INFO] ESPN round: streaming done in 0.74s
+2026-11-15 11:08:59,876 [INFO] AFC is enabled with max remote calls: 10.
+2026-11-15 11:09:00,500 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-11-15 11:09:00,506 [INFO] ESPN round: first token in 0.63s
+2026-11-15 11:09:00,778 [INFO] ESPN round: streaming done in 0.90s
+2026-11-15 11:09:03,886 [INFO] AFC is enabled with max remote calls: 10.
+2026-11-15 11:09:04,521 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-11-15 11:09:04,527 [INFO] ESPN round: first token in 0.64s
+2026-11-15 11:09:04,549 [INFO] ESPN round: streaming done in 0.66s
+2026-11-15 11:09:07,900 [INFO] AFC is enabled with max remote calls: 10.
+2026-11-15 11:09:08,421 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-11-15 11:09:08,424 [INFO] ESPN round: first token in 0.52s
+2026-11-15 11:09:08,671 [INFO] ESPN round: streaming done in 0.77s
+2026-11-15 11:09:11,911 [INFO] AFC is enabled with max remote calls: 10.
+2026-11-15 11:09:11,997 [INFO] Stop requested by user
+2026-11-15 11:09:11,999 [INFO] is_running set to False — threads will exit on next cycle
+2026-11-15 11:09:12,289 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-11-15 11:09:12,294 [INFO] ESPN round interrupted
+2026-11-15 11:09:12,295 [INFO] ESPN round: streaming done in 0.38s
+2026-11-15 11:09:15,925 [INFO] ESPN replay finished

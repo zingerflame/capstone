@@ -1,0 +1,34 @@
+2026-11-08 01:52:54,233 [INFO] Log file created: logs/run_20261108_015254.log
+2026-11-08 01:52:54,233 [INFO] Model: gemini-3.5-flash-lite | Commentary interval: 5s
+2026-11-08 01:52:54,416 [INFO] ESPN replay: 127 plays in 32 updates at 0s each
+2026-11-08 01:52:54,417 [INFO] ESPN replay finished
+2026-11-08 01:52:54,519 [INFO] ESPN replay: 24 plays in 7 updates at 0s each
+2026-11-08 01:52:54,520 [INFO] ESPN replay finished
+2026-11-08 01:52:54,705 [INFO] ESPN replay: 463 plays in 135 updates at 0s each
+2026-11-08 01:52:54,708 [INFO] ESPN replay finished
+2026-11-08 01:52:54,883 [INFO] ESPN replay: 9 plays in 9 updates at 0s each
+2026-11-08 01:52:54,884 [INFO] ESPN replay finished
+2026-11-08 01:52:55,084 [INFO] ESPN replay: 446 plays in 122 updates at 0s each
+2026-11-08 01:52:55,086 [INFO] ESPN replay finished
+2026-11-08 01:52:55,194 [INFO] ESPN replay: 7 plays in 7 updates at 0s each
+2026-11-08 01:52:55,194 [INFO] ESPN replay finished
+2026-11-08 01:53:10,628 [INFO] ESPN poll 1: fetched in 0.17s (None)
+2026-11-08 01:53:10,628 [INFO] ESPN poll 1: nothing new (None) — skipping Gemini
+2026-11-08 01:53:25,764 [INFO] ESPN poll 2: fetched in 0.12s (None)
+2026-11-08 01:53:25,764 [INFO] ESPN poll 2: nothing new (None) — skipping Gemini
+2026-11-08 01:53:40,950 [INFO] ESPN poll 3: fetched in 0.17s (None)
+2026-11-08 01:53:40,950 [INFO] ESPN poll 3: nothing new (None) — skipping Gemini
+2026-11-08 01:53:56,180 [INFO] ESPN poll 4: fetched in 0.22s (None)
+2026-11-08 01:53:56,180 [INFO] ESPN poll 4: nothing new (None) — skipping Gemini
+2026-11-08 01:54:11,329 [INFO] ESPN poll 5: fetched in 0.14s (None)
+2026-11-08 01:54:11,329 [INFO] ESPN poll 5: nothing new (None) — skipping Gemini
+2026-11-08 01:54:26,472 [INFO] ESPN poll 6: fetched in 0.13s (None)
+2026-11-08 01:54:26,472 [INFO] ESPN poll 6: nothing new (None) — skipping Gemini
+2026-11-08 01:54:41,611 [INFO] ESPN poll 7: fetched in 0.14s (None)
+2026-11-08 01:54:41,611 [INFO] ESPN poll 7: nothing new (None) — skipping Gemini
+2026-11-08 01:54:56,747 [INFO] ESPN poll 8: fetched in 0.12s (None)
+2026-11-08 01:54:56,747 [INFO] ESPN poll 8: nothing new (None) — skipping Gemini
+2026-11-08 01:55:11,885 [INFO] ESPN poll 9: fetched in 0.13s (None)
+2026-11-08 01:55:11,885 [INFO] ESPN poll 9: nothing new (None) — skipping Gemini
+2026-11-08 01:55:27,029 [INFO] ESPN poll 10: fetched in 0.14s (None)
+2026-11-08 01:55:27,029 [INFO] ESPN poll 10: nothing new (None) — skipping Gemini

@@ -1,0 +1,120 @@
+2026-10-24 17:32:43,995 [INFO] Log file created: logs/run_20261024_173243.log
+2026-10-24 17:32:43,996 [INFO] Model: gemini-3.5-flash-lite | Commentary interval: 5s
+2026-10-24 17:32:43,996 [INFO] Launching Gradio demo
+2026-10-24 17:32:44,214 [INFO] HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-10-24 17:32:44,401 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-10-24 17:32:44,886 [INFO] HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-10-24 17:32:44,977 [INFO] HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-10-24 17:32:45,292 [INFO] HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2026-10-24 17:32:47,204 [INFO] HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-10-24 17:33:02,846 [INFO] Starting live commentary. Source: C:\Users\jzhang\AppData\Local\Temp\gradio\0225dcbf26780d5a5598fc1810be2b02796517933511fa02dd52d7865c335b07\warriors_vs_rockets_2025wcr1_mute_1080p (2).mp4
+2026-10-24 17:33:02,850 [INFO] Opening video source: C:\Users\jzhang\AppData\Local\Temp\gradio\0225dcbf26780d5a5598fc1810be2b02796517933511fa02dd52d7865c335b07\warriors_vs_rockets_2025wcr1_mute_1080p (2).mp4
+2026-10-24 17:33:02,850 [INFO] Capture thread started
+2026-10-24 17:33:02,861 [INFO] Commentary loop started. Context window: 30s (6 entries max)
+2026-10-24 17:33:02,861 [INFO] Commentary thread started
+2026-10-24 17:33:04,021 [INFO] Video file detected. FPS: 59.9, Total frames: 1979, looping enabled
+2026-10-24 17:33:07,874 [INFO] --- Commentary round 1 ---
+2026-10-24 17:33:08,041 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-24 17:33:08,051 [WARNING] Direct use of automatic function calling (AFC) in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream. Similarly, direct use of AFC in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message.
+2026-10-24 17:33:09,622 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-10-24 17:33:09,790 [INFO] Round 1: first token in 1.82s
+2026-10-24 17:33:09,807 [INFO] Round 1: streaming done in 1.84s
+2026-10-24 17:33:09,822 [INFO] Round 1: displayed (159 chars, similarity 0.00)
+2026-10-24 17:33:12,989 [INFO] --- Commentary round 2 ---
+2026-10-24 17:33:13,028 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-24 17:33:14,212 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-10-24 17:33:14,221 [INFO] Round 2: first token in 1.19s
+2026-10-24 17:33:14,400 [INFO] Round 2: streaming done in 1.37s
+2026-10-24 17:33:14,402 [INFO] Round 2: displayed (209 chars, similarity 0.02)
+2026-10-24 17:33:18,037 [INFO] --- Commentary round 3 ---
+2026-10-24 17:33:18,047 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-24 17:33:19,332 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-10-24 17:33:19,335 [INFO] Round 3: first token in 1.29s
+2026-10-24 17:33:19,490 [INFO] Round 3: streaming done in 1.44s
+2026-10-24 17:33:19,492 [INFO] Round 3: displayed (172 chars, similarity 0.10)
+2026-10-24 17:33:23,060 [INFO] --- Commentary round 4 ---
+2026-10-24 17:33:23,074 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-24 17:33:24,391 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-10-24 17:33:24,392 [INFO] Round 4: first token in 1.32s
+2026-10-24 17:33:24,626 [INFO] Round 4: streaming done in 1.55s
+2026-10-24 17:33:24,627 [INFO] Round 4: displayed (264 chars, similarity 0.03)
+2026-10-24 17:33:28,086 [INFO] --- Commentary round 5 ---
+2026-10-24 17:33:28,097 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-24 17:33:30,315 [INFO] Frames captured so far: 599
+2026-10-24 17:33:33,104 [INFO] --- Commentary round 6 ---
+2026-10-24 17:33:33,118 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-24 17:33:38,100 [WARNING] Round 5: writer timed out waiting for chunks
+2026-10-24 17:33:38,131 [INFO] --- Commentary round 7 ---
+2026-10-24 17:33:38,149 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-24 17:33:40,017 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-10-24 17:33:40,018 [INFO] Round 7: first token in 1.87s
+2026-10-24 17:33:40,138 [INFO] Round 7: streaming done in 1.99s
+2026-10-24 17:33:43,161 [INFO] --- Commentary round 8 ---
+2026-10-24 17:33:43,178 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-24 17:33:43,847 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-10-24 17:33:43,851 [INFO] Round 5: first token in 15.75s
+2026-10-24 17:33:44,101 [INFO] Round 5: streaming done in 16.00s
+2026-10-24 17:33:48,103 [WARNING] Round 6: writer timed out waiting for chunks
+2026-10-24 17:33:48,107 [INFO] Round 7: displayed (161 chars, similarity 0.27)
+2026-10-24 17:33:48,181 [INFO] --- Commentary round 9 ---
+2026-10-24 17:33:48,195 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-24 17:33:50,458 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-10-24 17:33:50,460 [INFO] Round 9: first token in 2.27s
+2026-10-24 17:33:50,602 [INFO] Round 9: streaming done in 2.41s
+2026-10-24 17:33:53,209 [INFO] --- Commentary round 10 ---
+2026-10-24 17:33:53,223 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-24 17:33:53,626 [INFO] Frames captured so far: 1198
+2026-10-24 17:33:55,591 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-10-24 17:33:55,598 [INFO] Round 6: first token in 22.48s
+2026-10-24 17:33:55,806 [INFO] Round 6: streaming done in 22.69s
+2026-10-24 17:33:58,120 [WARNING] Round 8: writer timed out waiting for chunks
+2026-10-24 17:33:58,124 [INFO] Round 9: displayed (182 chars, similarity 0.30)
+2026-10-24 17:33:58,231 [INFO] --- Commentary round 11 ---
+2026-10-24 17:33:58,243 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-24 17:34:02,855 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-10-24 17:34:02,857 [INFO] Round 11: first token in 4.62s
+2026-10-24 17:34:03,251 [INFO] --- Commentary round 12 ---
+2026-10-24 17:34:03,266 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-24 17:34:03,507 [INFO] Round 11: streaming done in 5.27s
+2026-10-24 17:34:05,554 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-10-24 17:34:05,555 [INFO] Round 12: first token in 2.29s
+2026-10-24 17:34:05,778 [INFO] Round 12: streaming done in 2.51s
+2026-10-24 17:34:08,135 [WARNING] Round 10: writer timed out waiting for chunks
+2026-10-24 17:34:08,137 [INFO] Round 11: displayed (262 chars, similarity 0.04)
+2026-10-24 17:34:08,139 [INFO] Round 12: displayed (200 chars, similarity 0.03)
+2026-10-24 17:34:08,274 [INFO] --- Commentary round 13 ---
+2026-10-24 17:34:08,281 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-24 17:34:11,098 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-10-24 17:34:11,099 [INFO] Round 13: first token in 2.82s
+2026-10-24 17:34:11,263 [INFO] Round 13: streaming done in 2.98s
+2026-10-24 17:34:11,265 [INFO] Round 13: displayed (97 chars, similarity 0.33)
+2026-10-24 17:34:13,292 [INFO] --- Commentary round 14 ---
+2026-10-24 17:34:13,309 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-24 17:34:14,985 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-10-24 17:34:14,987 [INFO] Round 8: first token in 31.81s
+2026-10-24 17:34:15,099 [INFO] Round 8: streaming done in 31.92s
+2026-10-24 17:34:15,115 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-10-24 17:34:15,117 [INFO] Round 14: first token in 1.81s
+2026-10-24 17:34:15,291 [INFO] Round 14: streaming done in 1.98s
+2026-10-24 17:34:15,295 [INFO] Round 14: displayed (196 chars, similarity 0.33)
+2026-10-24 17:34:16,522 [INFO] Frames captured so far: 1797
+2026-10-24 17:34:16,528 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-10-24 17:34:16,530 [INFO] Round 10: first token in 23.31s
+2026-10-24 17:34:16,724 [INFO] Round 10: streaming done in 23.50s
+2026-10-24 17:34:18,314 [INFO] --- Commentary round 15 ---
+2026-10-24 17:34:18,330 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-24 17:34:23,341 [INFO] --- Commentary round 16 ---
+2026-10-24 17:34:23,467 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-24 17:34:24,096 [INFO] End of video clip reached — stopping all threads
+2026-10-24 17:34:24,255 [INFO] Video capture stopped. Total frames captured: 1979
+2026-10-24 17:34:28,349 [WARNING] Round 15: writer timed out waiting for chunks
+2026-10-24 17:34:28,472 [INFO] Commentary loop ended after 16 rounds
+2026-10-24 17:34:35,293 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-10-24 17:34:35,295 [INFO] Round 15: interrupted
+2026-10-24 17:34:35,295 [INFO] Round 15: streaming done in 16.97s
+2026-10-24 17:34:38,364 [WARNING] Round 16: writer timed out waiting for chunks
+2026-10-24 17:34:38,365 [INFO] Writer loop exited
+2026-10-24 17:34:59,460 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-10-24 17:34:59,462 [INFO] Round 16: interrupted
+2026-10-24 17:34:59,464 [INFO] Round 16: streaming done in 36.00s
+2026-10-24 17:43:31,512 [INFO] Gradio demo exited
