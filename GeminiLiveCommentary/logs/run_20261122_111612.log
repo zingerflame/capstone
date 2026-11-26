@@ -1,0 +1,14 @@
+2026-11-22 11:16:12,908 [INFO] Log file created: logs/run_20261122_111612.log
+2026-11-22 11:16:12,908 [INFO] Model: gemini-3.5-flash-lite | Commentary interval: 5s
+2026-11-22 11:16:12,920 [INFO] Launching Gradio demo
+2026-11-22 11:16:13,108 [INFO] HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-11-22 11:16:13,324 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-11-22 11:16:13,365 [INFO] Gradio demo exited
+2026-11-22 11:16:14,849 [INFO] Timestamp 'HT' (game clock): 2 plays up to 45'+3'
+2026-11-22 11:16:15,038 [INFO] Timestamp '46' (game clock): 3 plays up to 45'
+2026-11-22 11:16:15,484 [INFO] Timestamp 'Q3 5:12' (game clock): 4 plays up to 3rd Quarter 5:20
+2026-11-22 11:16:15,864 [INFO] Timestamp '10:15 PM ET' (real time Sat Jan 25, 10:15 PM): 2 plays up to 3rd Quarter 2:41
+2026-11-22 11:16:16,585 [INFO] Starting live commentary. Mode: ESPN match data | Video: None | Sport: nba | Event: 401705210
+2026-11-22 11:16:16,588 [INFO] ESPN replay: 112 plays in 9 updates at 0.0s each
+2026-11-22 11:16:16,588 [INFO] ESPN commentary thread started (attach frame: False)
+2026-11-22 11:16:16,588 [INFO] ESPN replay finished

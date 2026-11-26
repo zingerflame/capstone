@@ -2,3 +2,5 @@ gradio==6.28.0
 opencv-python==4.11.0.86
 google-genai==2.24.0
 python-dotenv==1.0.1
+python-dateutil>=2.8  # already installed with gradio; LiveMainESPN.py reads dates/times with it
+tzdata  # time zones (ET, PT, ...) on Windows, which has no built-in zone database

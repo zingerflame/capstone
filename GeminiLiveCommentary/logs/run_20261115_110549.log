@@ -1,0 +1,11 @@
+2026-11-15 11:05:49,316 [INFO] Log file created: logs/run_20261115_110549.log
+2026-11-15 11:05:49,317 [INFO] Model: gemini-3.5-flash-lite | Commentary interval: 5s
+2026-11-15 11:05:49,549 [INFO] Starting live commentary. Mode: ESPN match data | Video: None | Sport: nfl | Event: 401873053
+2026-11-15 11:05:49,552 [INFO] ESPN commentary thread started (attach frame: False)
+2026-11-15 11:06:04,699 [INFO] ESPN poll 1: fetched in 0.13s (0:08 - 2nd Quarter)
+2026-11-15 11:06:04,699 [INFO] ESPN poll 1: nothing new (0:08 - 2nd Quarter) — skipping Gemini
+2026-11-15 11:06:19,823 [INFO] ESPN poll 2: fetched in 0.12s (0:08 - 2nd Quarter)
+2026-11-15 11:06:19,839 [INFO] ESPN poll 2: nothing new (0:08 - 2nd Quarter) — skipping Gemini
+2026-11-15 11:06:35,017 [INFO] ESPN poll 3: fetched in 0.16s (0:08 - 2nd Quarter)
+2026-11-15 11:06:50,171 [INFO] ESPN poll 4: fetched in 0.14s (Halftime)
+2026-11-15 11:07:05,185 [INFO] ESPN loop ended after 4 polls, 3 Gemini calls

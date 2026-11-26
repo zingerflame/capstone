@@ -1,0 +1,42 @@
+2026-11-22 11:14:20,378 [INFO] Log file created: logs/run_20261122_111420.log
+2026-11-22 11:14:20,378 [INFO] Model: gemini-3.5-flash-lite | Commentary interval: 5s
+2026-11-22 11:14:20,514 [INFO] Launching Gradio demo
+2026-11-22 11:14:20,634 [INFO] HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-11-22 11:14:20,743 [INFO] HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-11-22 11:14:21,148 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-11-22 11:14:21,158 [INFO] Gradio demo exited
+2026-11-22 11:14:23,713 [INFO] Timestamp '16' (game clock): 4 plays up to 16'
+2026-11-22 11:14:23,954 [INFO] Timestamp '45+2' (game clock): 1 plays up to 45'+2'
+2026-11-22 11:14:24,308 [INFO] Timestamp 'HT' (game clock): 3 plays up to 45'
+2026-11-22 11:14:24,526 [INFO] Timestamp '67'' (game clock): 4 plays up to 67'
+2026-11-22 11:14:24,820 [INFO] Timestamp 'FT' (game clock): 3 plays up to 
+2026-11-22 11:14:25,048 [INFO] Timestamp '6:45 PM UTC' (real time Sun Nov 01, 01:45 PM): 3 plays up to 
+2026-11-22 11:14:25,250 [INFO] Timestamp '2026-11-01 17:05Z' (real time Sun Nov 01, 12:05 PM): 2 plays up to 34'
+2026-11-22 11:14:25,515 [INFO] Timestamp 'Q3 5:12' (game clock): 2 plays up to 3rd Quarter 5:20
+2026-11-22 11:14:25,713 [INFO] Timestamp '3rd 5:12' (game clock): 2 plays up to 3rd Quarter 5:20
+2026-11-22 11:14:26,010 [INFO] Timestamp 'Q4 38.9' (game clock): 1 plays up to 4th Quarter 38.9
+2026-11-22 11:14:26,259 [INFO] Timestamp 'Q2' (game clock): 3 plays up to 2nd Quarter 0.0
+2026-11-22 11:14:26,480 [INFO] Timestamp 'HT' (game clock): 3 plays up to 2nd Quarter 0.0
+2026-11-22 11:14:26,715 [INFO] Timestamp 'Q1 11:20' (game clock): 2 plays up to Q1 11:20
+2026-11-22 11:14:26,944 [INFO] Timestamp 'Q3' (game clock): 4 plays up to Q3 0:00
+2026-11-22 11:14:27,256 [INFO] Timestamp 'top 5' (game clock): 3 plays up to 5th Inning
+2026-11-22 11:14:27,526 [INFO] Timestamp 'bottom 2nd' (game clock): 4 plays up to 2nd Inning
+2026-11-22 11:14:27,743 [INFO] Timestamp '9th inning' (game clock): 4 plays up to 9th Inning
+2026-11-22 11:14:27,998 [INFO] Timestamp '1st 3:13' (game clock): 1 plays up to 1st 3:13
+2026-11-22 11:14:28,232 [INFO] Timestamp 'P3 19:00' (game clock): 4 plays up to 3rd 18:57
+2026-11-22 11:14:28,445 [INFO] Timestamp 'Q9 1:00 nonsense words' (game clock): 2 plays up to 4th Quarter 0.0
+2026-11-22 11:14:28,961 [INFO] Timestamp '1' (game clock): 3 plays up to 1st Quarter 0.0
+2026-11-22 11:14:29,126 [ERROR] Timestamp lookup failed: no live 'nba' games right now. Enter an event id, or find a game by name and date.
+Traceback (most recent call last):
+  File "LiveMainESPN.py", line 1101, in commentary_at_time
+    event_id = resolve_event_id(sport_key, event_id, query, date, start_time)
+  File "LiveMainESPN.py", line 934, in resolve_event_id
+    raise RuntimeError(f"no live '{sport_key}' games right now. Enter an event id, "
+RuntimeError: no live 'nba' games right now. Enter an event id, or find a game by name and date.
+2026-11-22 11:14:29,638 [ERROR] Timestamp lookup failed: Event 401850979 not found for 'pga'. Try 'list --sport pga --date YYYYMMDD' to find it.
+Traceback (most recent call last):
+  File "LiveMainESPN.py", line 1102, in commentary_at_time
+    snap, raw = espn_call(espn.get_snapshot_and_raw, sport_key, event_id)
+  File "LiveMainESPN.py", line 379, in espn_call
+    raise RuntimeError(str(e)) from None
+RuntimeError: Event 401850979 not found for 'pga'. Try 'list --sport pga --date YYYYMMDD' to find it.

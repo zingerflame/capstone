@@ -1,0 +1,27 @@
+2026-11-26 11:02:34,937 [INFO] Log file created: logs/run_20261126_110234.log
+2026-11-26 11:02:34,937 [INFO] Model: gemini-3.5-flash-lite | Commentary interval: 5s
+2026-11-26 11:02:35,797 [INFO] Soccer running stats: no full commentary for this match, leaving them out
+2026-11-26 11:02:35,797 [INFO] Timestamp '69' (game clock): 3 plays up to 68'
+2026-11-26 11:02:36,196 [INFO] Soccer running stats: no full commentary for this match, leaving them out
+2026-11-26 11:02:36,196 [INFO] Timestamp '71' (game clock): 4 plays up to 70'
+2026-11-26 11:02:36,694 [INFO] Soccer running stats: no full commentary for this match, leaving them out
+2026-11-26 11:02:36,695 [INFO] Timestamp '89' (game clock): 2 plays up to 77'
+2026-11-26 11:02:37,089 [INFO] Timestamp '16' (game clock): 4 plays up to 16'
+2026-11-26 11:02:37,545 [INFO] Timestamp 'FT' (game clock): 3 plays up to 
+2026-11-26 11:02:38,044 [INFO] Timestamp 'FT' (game clock): 3 plays up to 
+2026-11-26 11:02:38,385 [INFO] Starting live commentary. Mode: ESPN match data | Video: None | Sport: epl | Event: 401879246
+2026-11-26 11:02:38,393 [INFO] ESPN replay: 127 plays in 32 updates at 0.0s each with running stats
+2026-11-26 11:02:38,393 [INFO] ESPN commentary thread started (attach frame: False)
+2026-11-26 11:02:38,393 [INFO] ESPN replay finished
+2026-11-26 11:02:38,885 [INFO] Starting live commentary. Mode: ESPN match data | Video: None | Sport: epl | Event: 401879240
+2026-11-26 11:02:38,888 [INFO] ESPN replay: 129 plays in 35 updates at 0.0s each with running stats
+2026-11-26 11:02:38,888 [INFO] ESPN commentary thread started (attach frame: False)
+2026-11-26 11:02:38,895 [INFO] ESPN replay finished
+2026-11-26 11:02:39,513 [INFO] Starting live commentary. Mode: ESPN match data | Video: None | Sport: nba | Event: 401909938
+2026-11-26 11:02:39,513 [INFO] ESPN replay: 463 plays in 117 updates at 0.0s each
+2026-11-26 11:02:39,513 [INFO] ESPN commentary thread started (attach frame: False)
+2026-11-26 11:02:39,519 [INFO] ESPN replay finished
+2026-11-26 11:02:40,217 [INFO] Starting live commentary. Mode: ESPN match data | Video: None | Sport: nhl | Event: 401892662
+2026-11-26 11:02:40,217 [INFO] ESPN replay: 333 plays in 87 updates at 0.0s each
+2026-11-26 11:02:40,219 [INFO] ESPN commentary thread started (attach frame: False)
+2026-11-26 11:02:40,221 [INFO] ESPN replay finished

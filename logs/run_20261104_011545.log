@@ -1,0 +1,41 @@
+2026-11-04 01:15:45,658 [INFO] Log file created: logs/run_20261104_011545.log
+2026-11-04 01:15:45,659 [INFO] Model: gemini-3.5-flash-lite | Commentary interval: 5s
+2026-11-04 01:15:45,660 [INFO] Launching Gradio demo
+2026-11-04 01:15:45,839 [INFO] HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-11-04 01:15:45,881 [INFO] HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-11-04 01:15:46,087 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-11-04 01:15:46,223 [INFO] HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-11-04 01:15:46,361 [INFO] HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-11-04 01:15:46,663 [INFO] HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2026-11-04 01:15:48,137 [INFO] HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-11-04 01:16:31,762 [INFO] Starting live commentary. Mode: ESPN match data | Video: None | Event: 401915385
+2026-11-04 01:16:31,766 [INFO] ESPN replay: 96 minutes at 4.0s per minute
+2026-11-04 01:16:31,766 [INFO] ESPN commentary thread started (attach frame: False)
+2026-11-04 01:16:31,820 [INFO] AFC is enabled with max remote calls: 10.
+2026-11-04 01:16:31,821 [WARNING] Direct use of automatic function calling (AFC) in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream. Similarly, direct use of AFC in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message.
+2026-11-04 01:16:32,882 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-11-04 01:16:32,992 [INFO] ESPN round: first token in 1.23s
+2026-11-04 01:16:33,060 [INFO] ESPN round: streaming done in 1.29s
+2026-11-04 01:16:35,770 [INFO] AFC is enabled with max remote calls: 10.
+2026-11-04 01:16:36,390 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-11-04 01:16:36,392 [INFO] ESPN round: first token in 0.62s
+2026-11-04 01:16:36,678 [INFO] ESPN round: streaming done in 0.91s
+2026-11-04 01:16:39,772 [INFO] AFC is enabled with max remote calls: 10.
+2026-11-04 01:16:40,604 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-11-04 01:16:40,612 [INFO] ESPN round: first token in 0.84s
+2026-11-04 01:16:40,771 [INFO] ESPN round: streaming done in 1.00s
+2026-11-04 01:16:43,785 [INFO] AFC is enabled with max remote calls: 10.
+2026-11-04 01:16:44,317 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-11-04 01:16:44,318 [INFO] ESPN round: first token in 0.53s
+2026-11-04 01:16:44,444 [INFO] ESPN round: streaming done in 0.66s
+2026-11-04 01:16:47,787 [INFO] AFC is enabled with max remote calls: 10.
+2026-11-04 01:16:48,515 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-11-04 01:16:48,516 [INFO] ESPN round: first token in 0.73s
+2026-11-04 01:16:48,684 [INFO] ESPN round: streaming done in 0.90s
+2026-11-04 01:16:51,790 [INFO] AFC is enabled with max remote calls: 10.
+2026-11-04 01:16:52,292 [INFO] Stop requested by user
+2026-11-04 01:16:52,293 [INFO] is_running set to False — threads will exit on next cycle
+2026-11-04 01:16:52,547 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-11-04 01:16:52,549 [INFO] ESPN round interrupted
+2026-11-04 01:16:52,549 [INFO] ESPN round: streaming done in 0.76s
+2026-11-04 01:16:55,803 [INFO] ESPN replay finished

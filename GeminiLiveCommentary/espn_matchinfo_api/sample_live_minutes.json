@@ -1,0 +1,267 @@
+{
+  "match": {
+    "event_id": "401882847",
+    "league": "Spanish LALIGA",
+    "kickoff_utc": "2026-10-11T14:15Z",
+    "home": {
+      "name": "Real Sociedad",
+      "abbr": "RSO"
+    },
+    "away": {
+      "name": "Deportivo",
+      "abbr": "DEP"
+    },
+    "status": "First Half",
+    "state": "in",
+    "clock": "32'",
+    "final_score": {
+      "RSO": 1,
+      "DEP": 0
+    }
+  },
+  "mode": "live",
+  "minutes": [
+    {
+      "minute": "29'",
+      "period": 1,
+      "status": "First Half",
+      "fetched_at": "2026-10-11T14:45:59Z",
+      "score": {
+        "RSO": 0,
+        "DEP": 0
+      },
+      "stats": {
+        "RSO": {
+          "goals": 0,
+          "shots": 2,
+          "shots_on_target": 0,
+          "corners": 1,
+          "fouls": 2,
+          "offsides": 1,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "possession_pct": 52.6,
+          "passes": 166,
+          "accurate_passes": 143,
+          "saves": 1,
+          "tackles": 3,
+          "interceptions": 4
+        },
+        "DEP": {
+          "goals": 0,
+          "shots": 4,
+          "shots_on_target": 1,
+          "corners": 0,
+          "fouls": 5,
+          "offsides": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "possession_pct": 47.4,
+          "passes": 152,
+          "accurate_passes": 121,
+          "saves": 0,
+          "tackles": 6,
+          "interceptions": 6
+        }
+      },
+      "this_minute": {
+        "deltas": {},
+        "events": [
+          "Arsen Zakharyan (Real Sociedad) wins a free kick in the attacking half.",
+          "Foul by José María Giménez (Deportivo de A Coruña).",
+          "Attempt missed. Jon Martín (Real Sociedad) header from the centre of the box is too high. Assisted by Luka Sucic with a cross following a set piece situation.",
+          "Offside, Real Sociedad. Pablo Marín is caught offside.",
+          "Corner, Real Sociedad. Conceded by Diego Villares."
+        ]
+      }
+    },
+    {
+      "minute": "30'",
+      "period": 1,
+      "status": "First Half",
+      "fetched_at": "2026-10-11T14:46:59Z",
+      "score": {
+        "RSO": 1,
+        "DEP": 0
+      },
+      "stats": {
+        "RSO": {
+          "goals": 1,
+          "shots": 3,
+          "shots_on_target": 1,
+          "corners": 2,
+          "fouls": 2,
+          "offsides": 1,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "possession_pct": 52.7,
+          "passes": 168,
+          "accurate_passes": 146,
+          "saves": 1,
+          "tackles": 4,
+          "interceptions": 4
+        },
+        "DEP": {
+          "goals": 0,
+          "shots": 4,
+          "shots_on_target": 1,
+          "corners": 0,
+          "fouls": 5,
+          "offsides": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "possession_pct": 47.3,
+          "passes": 155,
+          "accurate_passes": 124,
+          "saves": 0,
+          "tackles": 6,
+          "interceptions": 6
+        }
+      },
+      "this_minute": {
+        "deltas": {
+          "RSO": {
+            "goals": 1,
+            "shots": 1,
+            "shots_on_target": 1,
+            "corners": 1,
+            "possession_pct": 0.1,
+            "passes": 2,
+            "accurate_passes": 3,
+            "tackles": 1
+          },
+          "DEP": {
+            "possession_pct": -0.1,
+            "passes": 3,
+            "accurate_passes": 3
+          }
+        },
+        "events": [
+          "Goal! Real Sociedad 1, Deportivo de A Coruña 0. Jon Martín (Real Sociedad) header from the centre of the box following a corner."
+        ]
+      }
+    },
+    {
+      "minute": "31'",
+      "period": 1,
+      "status": "In Progress",
+      "fetched_at": "2026-10-11T14:47:59Z",
+      "score": {
+        "RSO": 1,
+        "DEP": 0
+      },
+      "stats": {
+        "RSO": {
+          "goals": 1,
+          "shots": 3,
+          "shots_on_target": 1,
+          "corners": 2,
+          "fouls": 2,
+          "offsides": 1,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "possession_pct": 52.6,
+          "passes": 168,
+          "accurate_passes": 146,
+          "saves": 1,
+          "tackles": 4,
+          "interceptions": 4
+        },
+        "DEP": {
+          "goals": 0,
+          "shots": 4,
+          "shots_on_target": 1,
+          "corners": 0,
+          "fouls": 5,
+          "offsides": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "possession_pct": 47.4,
+          "passes": 156,
+          "accurate_passes": 125,
+          "saves": 0,
+          "tackles": 6,
+          "interceptions": 6
+        }
+      },
+      "this_minute": {
+        "deltas": {
+          "RSO": {
+            "possession_pct": -0.1
+          },
+          "DEP": {
+            "possession_pct": 0.1,
+            "passes": 1,
+            "accurate_passes": 1
+          }
+        },
+        "events": []
+      }
+    },
+    {
+      "minute": "32'",
+      "period": 1,
+      "status": "First Half",
+      "fetched_at": "2026-10-11T14:49:00Z",
+      "score": {
+        "RSO": 1,
+        "DEP": 0
+      },
+      "stats": {
+        "RSO": {
+          "goals": 1,
+          "shots": 4,
+          "shots_on_target": 1,
+          "corners": 3,
+          "fouls": 2,
+          "offsides": 1,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "possession_pct": 53.1,
+          "passes": 173,
+          "accurate_passes": 151,
+          "saves": 1,
+          "tackles": 4,
+          "interceptions": 4
+        },
+        "DEP": {
+          "goals": 0,
+          "shots": 4,
+          "shots_on_target": 1,
+          "corners": 0,
+          "fouls": 5,
+          "offsides": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "possession_pct": 46.9,
+          "passes": 159,
+          "accurate_passes": 127,
+          "saves": 0,
+          "tackles": 7,
+          "interceptions": 6
+        }
+      },
+      "this_minute": {
+        "deltas": {
+          "RSO": {
+            "shots": 1,
+            "corners": 1,
+            "possession_pct": 0.5,
+            "passes": 5,
+            "accurate_passes": 5
+          },
+          "DEP": {
+            "possession_pct": -0.5,
+            "passes": 3,
+            "accurate_passes": 2,
+            "tackles": 1
+          }
+        },
+        "events": [
+          "Corner, Real Sociedad. Conceded by Ximo Navarro.",
+          "Attempt missed. Yangel Herrera (Real Sociedad) right footed shot from a difficult angle on the right following a corner."
+        ]
+      }
+    }
+  ]
+}

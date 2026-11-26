@@ -1,0 +1,19 @@
+2026-11-08 01:55:57,434 [INFO] Log file created: logs/run_20261108_015557.log
+2026-11-08 01:55:57,434 [INFO] Model: gemini-3.5-flash-lite | Commentary interval: 5s
+2026-11-08 01:55:57,581 [INFO] ESPN replay: 127 plays in 32 updates at 0s each
+2026-11-08 01:55:57,582 [INFO] ESPN replay finished
+2026-11-08 01:55:57,707 [INFO] ESPN replay: 24 plays in 7 updates at 0s each
+2026-11-08 01:55:57,707 [INFO] ESPN replay finished
+2026-11-08 01:55:57,824 [INFO] ESPN replay: 463 plays in 135 updates at 0s each
+2026-11-08 01:55:57,828 [INFO] ESPN replay finished
+2026-11-08 01:55:57,974 [INFO] ESPN replay: 9 plays in 9 updates at 0s each
+2026-11-08 01:55:58,005 [INFO] ESPN replay finished
+2026-11-08 01:55:58,468 [INFO] ESPN replay: 446 plays in 122 updates at 0s each
+2026-11-08 01:55:58,471 [INFO] ESPN replay finished
+2026-11-08 01:55:58,591 [INFO] ESPN replay: 7 plays in 7 updates at 0s each
+2026-11-08 01:55:58,592 [INFO] ESPN replay finished
+2026-11-08 01:56:03,981 [INFO] ESPN poll 1: fetched in 0.14s (None)
+2026-11-08 01:56:03,982 [INFO] ESPN poll 1: nothing new (None) — skipping Gemini
+2026-11-08 01:56:09,136 [INFO] ESPN poll 2: fetched in 0.15s (None)
+2026-11-08 01:56:09,136 [INFO] ESPN poll 2: nothing new (None) — skipping Gemini
+2026-11-08 01:56:14,146 [INFO] ESPN loop ended after 2 polls, 1 Gemini calls

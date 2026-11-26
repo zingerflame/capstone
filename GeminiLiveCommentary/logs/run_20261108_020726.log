@@ -1,0 +1,43 @@
+2026-11-08 02:07:26,759 [INFO] Log file created: logs/run_20261108_020726.log
+2026-11-08 02:07:26,759 [INFO] Model: gemini-3.5-flash-lite | Commentary interval: 5s
+2026-11-08 02:07:26,759 [INFO] Launching Gradio demo
+2026-11-08 02:07:26,965 [INFO] HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-11-08 02:07:27,179 [INFO] Gradio demo exited
+2026-11-08 02:07:27,197 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-11-08 02:07:27,317 [INFO] Starting live commentary. Mode: ESPN match data | Video: None | Sport: epl | Event: 401879246
+2026-11-08 02:07:27,324 [INFO] ESPN commentary thread started (attach frame: False)
+2026-11-08 02:07:27,327 [INFO] ESPN replay: 127 plays in 32 updates at 0.0s each with running stats
+2026-11-08 02:07:27,329 [INFO] ESPN replay finished
+2026-11-08 02:07:27,471 [INFO] Starting live commentary. Mode: ESPN match data | Video: None | Sport: epl | Event: 401879246
+2026-11-08 02:07:27,474 [INFO] ESPN replay: 24 plays in 7 updates at 0.0s each with running stats
+2026-11-08 02:07:27,474 [INFO] ESPN replay finished
+2026-11-08 02:07:27,474 [INFO] ESPN commentary thread started (attach frame: False)
+2026-11-08 02:07:27,564 [INFO] Starting live commentary. Mode: ESPN match data | Video: None | Sport: nba | Event: 401909938
+2026-11-08 02:07:27,566 [INFO] ESPN replay: 463 plays in 117 updates at 0.0s each
+2026-11-08 02:07:27,566 [INFO] ESPN commentary thread started (attach frame: False)
+2026-11-08 02:07:27,569 [INFO] ESPN replay finished
+2026-11-08 02:07:27,659 [INFO] Starting live commentary. Mode: ESPN match data | Video: None | Sport: nba | Event: 401909938
+2026-11-08 02:07:27,661 [INFO] ESPN replay: 463 plays in 33 updates at 0.0s each
+2026-11-08 02:07:27,661 [INFO] ESPN commentary thread started (attach frame: False)
+2026-11-08 02:07:27,663 [INFO] ESPN replay finished
+2026-11-08 02:07:27,787 [INFO] Starting live commentary. Mode: ESPN match data | Video: None | Sport: nba | Event: 401909938
+2026-11-08 02:07:27,788 [INFO] ESPN replay: 106 plays in 28 updates at 0.0s each
+2026-11-08 02:07:27,790 [INFO] ESPN replay finished
+2026-11-08 02:07:27,790 [INFO] ESPN commentary thread started (attach frame: False)
+2026-11-08 02:07:27,898 [INFO] Starting live commentary. Mode: ESPN match data | Video: None | Sport: nfl | Event: 401873037
+2026-11-08 02:07:27,900 [INFO] ESPN replay: 166 plays in 48 updates at 0.0s each
+2026-11-08 02:07:27,901 [INFO] ESPN replay finished
+2026-11-08 02:07:27,901 [INFO] ESPN commentary thread started (attach frame: False)
+2026-11-08 02:07:28,022 [INFO] Starting live commentary. Mode: ESPN match data | Video: None | Sport: mlb | Event: 401908046
+2026-11-08 02:07:28,023 [INFO] ESPN replay: 446 plays in 44 updates at 0.0s each
+2026-11-08 02:07:28,024 [INFO] ESPN commentary thread started (attach frame: False)
+2026-11-08 02:07:28,024 [INFO] ESPN replay finished
+2026-11-08 02:07:28,118 [INFO] Starting live commentary. Mode: ESPN match data | Video: None | Sport: nhl | Event: 401892662
+2026-11-08 02:07:28,119 [INFO] ESPN replay: 333 plays in 87 updates at 0.0s each
+2026-11-08 02:07:28,120 [INFO] ESPN replay finished
+2026-11-08 02:07:28,120 [INFO] ESPN commentary thread started (attach frame: False)
+2026-11-08 02:07:28,319 [INFO] Starting live commentary. Mode: ESPN match data | Video: None | Sport: soccer | Event: 401892139
+2026-11-08 02:07:28,320 [INFO] ESPN commentary thread started (attach frame: False)
+2026-11-08 02:07:33,511 [INFO] ESPN poll 1: fetched in 0.19s (HT)
+2026-11-08 02:07:33,512 [INFO] ESPN poll 1: nothing new (HT) — skipping Gemini
+2026-11-08 02:07:38,527 [INFO] ESPN loop ended after 1 polls, 1 Gemini calls
